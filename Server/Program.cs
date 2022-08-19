@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mockup_BrawlStars_Server
+namespace Server
 {
     class Program
     {
