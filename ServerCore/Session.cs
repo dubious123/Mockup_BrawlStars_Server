@@ -6,7 +6,33 @@ using System.Threading.Tasks;
 
 namespace ServerCore
 {
-    class Session
-    {
-    }
+	public class Session
+	{
+		public void RegisterSend()
+		{
+
+		}
+
+		public void Send()
+		{
+
+		}
+
+		void OnSendCompleted()
+		{
+
+		}
+
+		void RegisterRecv()
+		{
+
+		}
+
+		void OnRecvCompleted()
+		{
+
+		}
+
+
+	}
 }
