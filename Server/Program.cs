@@ -2,6 +2,7 @@
 using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 using static ServerCore.Utils.Tools;
 
 namespace Server
@@ -14,7 +15,7 @@ namespace Server
 			listener.StartListen(GetNewEndPoint(7777));
 			//_listener.Init(endPoint, () => { return SessionManager.Instance.Generate(); });
 			Console.WriteLine("Listening...");
-
+			Thread.Sleep(-1);
 
 		}
 	}
