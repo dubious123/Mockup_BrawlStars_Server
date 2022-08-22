@@ -1,4 +1,5 @@
 ﻿using ServerCore;
+using ServerCore.Managers;
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -11,9 +12,8 @@ namespace Server
 	{
 		static void Main(string[] args)
 		{
-			Listener listener = new Listener();
+			Listener listener = new Listener(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 			listener.StartListen(GetNewEndPoint(7777));
-			//_listener.Init(endPoint, () => { return SessionManager.Instance.Generate(); });
 			Console.WriteLine("Listening...");
 			Thread.Sleep(-1);
 

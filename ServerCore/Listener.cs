@@ -5,12 +5,18 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using ServerCore.Managers;
 
 namespace ServerCore
 {
 	public class Listener
 	{
 		Socket _socket;
+		readonly Func<Socket, Session> _sessionFactory;
+		public Listener(Func<Socket, Session> func)
+		{
+			_sessionFactory += func;
+		}
 		public void StartListen(IPEndPoint endPoint)
 		{
 			_socket = new(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
@@ -27,7 +33,6 @@ namespace ServerCore
 		void RegisterAccept(SocketAsyncEventArgs args)
 		{
 			args.AcceptSocket = null;
-
 			if (_socket.AcceptAsync(args) == false)
 			{
 				OnAcceptCompleted(args);
@@ -36,7 +41,7 @@ namespace ServerCore
 		void OnAcceptCompleted(SocketAsyncEventArgs args)
 		{
 			if (args.SocketError != SocketError.Success) throw new Exception();
-			Console.WriteLine("hi");
+			_sessionFactory.Invoke(args.AcceptSocket).OnConnected();
 			RegisterAccept(args);
 		}
 	}
