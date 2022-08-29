@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using static ServerCore.Utils.Tools;
 using ServerCore;
 using ServerCore.Managers;
+using System.IO;
 
 namespace TestClient
 {
@@ -14,6 +15,8 @@ namespace TestClient
 			Connector connector = new Connector(socket => SessionMgr.GenerateSession<ServerSession>(socket));
 			connector.StartConnect(GetNewEndPoint(7777));
 			Console.WriteLine("Connecting...");
+
+
 			Thread.Sleep(-1);
 		}
 	}

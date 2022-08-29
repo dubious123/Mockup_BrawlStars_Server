@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerCore.Managers
+namespace ServerCore.Utils
 {
-    class PacketMgr
-    {
-    }
+	public static class Enums
+	{
+		public enum PacketId
+		{
+			S_Chat,
+			C_Chat
+		}
+	}
 }
