@@ -15,10 +15,7 @@ namespace Server
 			Listener listener = new Listener(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 			listener.StartListen(GetNewEndPoint(7777));
 			Console.WriteLine("Listening...");
-
-
 			Thread.Sleep(-1);
-
 		}
 	}
 }

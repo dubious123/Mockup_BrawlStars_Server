@@ -1,25 +1,29 @@
-﻿using ServerCore;
-using ServerCore.Packets;
+﻿using Google.Protobuf;
+using ServerCore;
 using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using static ServerCore.Utils.Enums;
 
 namespace TestClient
 {
 	public static class PacketHandler
 	{
-		static ConcurrentDictionary<ushort, Action<BasePacket, Session>> _handlerDict;
+		static ConcurrentDictionary<PacketId, Action<IMessage>> _handlerDict;
 		static PacketHandler()
 		{
-			_handlerDict = new ConcurrentDictionary<ushort, Action<BasePacket, Session>>();
-			_handlerDict.TryAdd((ushort)PacketId.S_Chat, (p, s) => Console.WriteLine("Handle S_Chat"));
+			_handlerDict = new ConcurrentDictionary<PacketId, Action<IMessage>>();
+			_handlerDict.TryAdd(PacketId.S_Chat, packet => Console.WriteLine("Handle S_Chat"));
 		}
 
-		public static void HandlePacket<T, P>(T packet, P session) where T : BasePacket where P : Session
+		public static void HandlePackets(List<PacketContext> packets)
 		{
-			if (_handlerDict.TryGetValue(packet.Id, out Action<BasePacket, Session> action) == false)
-				throw new Exception();
-			action.Invoke(packet, session);
+			foreach (var packet in packets)
+			{
+				if (_handlerDict.TryGetValue(packet.Id, out Action<IMessage> action) == false)
+					throw new Exception();
+				action.Invoke(packet.Message);
+			}
 		}
 	}
 }

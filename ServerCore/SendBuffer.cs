@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Sockets;
 using Google.Protobuf;
 using static ServerCore.Utils.Enums;
 
@@ -20,10 +21,17 @@ namespace ServerCore
 			var size = (ushort)msg.CalculateSize();
 			if (_limit - _writePos - 4 - size < 0) return false;
 			Array.Copy(BitConverter.GetBytes((ushort)id), 0, _buffer, _writePos, 2);
-			Array.Copy(BitConverter.GetBytes(size), 0, _buffer, _writePos + 2, 2);
+			_writePos += 2;
+			Array.Copy(BitConverter.GetBytes(size), 0, _buffer, _writePos, 2);
+			_writePos += 2;
 			msg.WriteTo(new ArraySegment<byte>(_buffer, _writePos, size));
-			_writePos += size + 4;
+			_writePos += size;
 			return true;
+		}
+		public void SetBuffer(SocketAsyncEventArgs args)
+		{
+			args.SetBuffer(_buffer, 0, _writePos);
+			_writePos = 0;
 		}
 		public ArraySegment<byte> Flush()
 		{

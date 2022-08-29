@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Threading;
-using System.Net.Sockets;
 using static ServerCore.Utils.Tools;
 using ServerCore;
 using ServerCore.Managers;
-using System.IO;
 
 namespace TestClient
 {
@@ -16,8 +14,7 @@ namespace TestClient
 			connector.StartConnect(GetNewEndPoint(7777));
 			Console.WriteLine("Connecting...");
 
-
-			Thread.Sleep(-1);
+			Thread.Sleep(Timeout.Infinite);
 		}
 	}
 }

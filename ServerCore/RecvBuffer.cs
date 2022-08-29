@@ -12,7 +12,6 @@ namespace ServerCore
 		readonly object _lock;
 		int _readPos;
 		int _writePos;
-		int _limit;
 		public RecvBuffer(ushort size)
 		{
 			_buffer = new byte[size];
@@ -28,9 +27,9 @@ namespace ServerCore
 			_readPos += size;
 			return result;
 		}
-		public List<IMessage> ReadAll()
+		public List<PacketContext> ReadAll()
 		{
-			var packets = new List<IMessage>();
+			var packets = new List<PacketContext>();
 			while (CanRead())
 			{
 				ushort id = BitConverter.ToUInt16(_buffer, _readPos);
@@ -44,6 +43,7 @@ namespace ServerCore
 			}
 			return packets;
 		}
+		public ArraySegment<byte> GetWriteBuffer() => new ArraySegment<byte>(_buffer, _writePos, _buffer.Length - _writePos);
 		public void OnWrite(int size) => _writePos += size;
 		public void Clear()
 		{

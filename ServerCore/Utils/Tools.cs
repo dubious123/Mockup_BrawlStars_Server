@@ -10,7 +10,7 @@ namespace ServerCore.Utils
 			IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
 			foreach (var ip in ipHost.AddressList)
 			{
-				if (ip.AddressFamily == AddressFamily.InterNetwork) return ip;
+				if (ip.AddressFamily == AddressFamily.InterNetworkV6) return ip;
 			}
 			return null;
 		}
