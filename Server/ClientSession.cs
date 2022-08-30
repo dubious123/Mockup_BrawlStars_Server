@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using ServerCore;
+using ServerCore.Packets;
 
 namespace Server
 {
@@ -22,10 +23,17 @@ namespace Server
 		protected override void OnRecvCompleted(SocketAsyncEventArgs args)
 		{
 			base.OnRecvCompleted(args);
-			PacketHandler.HandlePackets(_recvBuffer.ReadAll());
+			while (_recvBuffer.CanRead())
+			{
+				PacketHandler.HandlePacket(_recvBuffer.ReadPacket());
+
+			}
 			RegisterRecv();
 		}
 
-
+		public override bool RegisterSend(BasePacket packet)
+		{
+			return _sendBuffer.WritePacket(packet);
+		}
 	}
 }

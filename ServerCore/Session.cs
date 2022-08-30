@@ -1,11 +1,11 @@
-﻿using Google.Protobuf;
+﻿using ServerCore.Packets;
 using System;
 using System.Net.Sockets;
 using static ServerCore.Utils.Enums;
 
 namespace ServerCore
 {
-	public class Session
+	public abstract class Session
 	{
 		public int _id;
 		protected Socket _socket;
@@ -24,10 +24,7 @@ namespace ServerCore
 		{
 			RegisterRecv();
 		}
-		public bool RegisterSend(IMessage packet, PacketId id)
-		{
-			return _sendBuffer.Write(packet, id);
-		}
+		public abstract bool RegisterSend(BasePacket packet);
 
 		public void Send()
 		{

@@ -1,32 +1,28 @@
 ﻿using System;
 using System.Net.Sockets;
-using Google.Protobuf;
-using static ServerCore.Utils.Enums;
+using System.Text.Json;
+using ServerCore.Packets;
+using System.Buffers;
 
 namespace ServerCore
 {
-	public class SendBuffer
+	public class SendBuffer : IBufferWriter<byte>
 	{
 		readonly byte[] _buffer;
 		readonly int _limit;
 		int _writePos;
+		ArraySegment<byte> _writeSegment => new ArraySegment<byte>(_buffer, _writePos, _limit - _writePos);
 		public SendBuffer(ushort size)
 		{
 			_buffer = new byte[size];
 			_writePos = 0;
 			_limit = _buffer.Length;
 		}
-		public bool Write(IMessage msg, PacketId id)
+		public ArraySegment<byte> Write(ushort size)
 		{
-			var size = (ushort)msg.CalculateSize();
-			if (_limit - _writePos - 4 - size < 0) return false;
-			Array.Copy(BitConverter.GetBytes((ushort)id), 0, _buffer, _writePos, 2);
-			_writePos += 2;
-			Array.Copy(BitConverter.GetBytes(size), 0, _buffer, _writePos, 2);
-			_writePos += 2;
-			msg.WriteTo(new ArraySegment<byte>(_buffer, _writePos, size));
+			var segment = new ArraySegment<byte>(_buffer, _writePos, size);
 			_writePos += size;
-			return true;
+			return segment;
 		}
 		public void SetBuffer(SocketAsyncEventArgs args)
 		{
@@ -38,6 +34,23 @@ namespace ServerCore
 			var result = new ArraySegment<byte>(_buffer, 0, _writePos);
 			_writePos = 0;
 			return result;
+		}
+
+		public void Advance(int count)
+		{
+			_writePos += count;
+			if (_writePos > _limit)
+				throw new Exception();
+		}
+
+		public Memory<byte> GetMemory(int sizeHint = 0)
+		{
+			return _writeSegment;
+		}
+
+		public Span<byte> GetSpan(int sizeHint = 0)
+		{
+			return _writeSegment;
 		}
 	}
 }

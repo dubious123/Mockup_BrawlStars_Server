@@ -1,5 +1,5 @@
-﻿using Google.Protobuf;
-using ServerCore;
+﻿using ServerCore;
+using ServerCore.Packets;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -9,20 +9,20 @@ namespace TestClient
 {
 	public static class PacketHandler
 	{
-		static ConcurrentDictionary<PacketId, Action<IMessage>> _handlerDict;
+		static ConcurrentDictionary<PacketId, Action<BasePacket>> _handlerDict;
 		static PacketHandler()
 		{
-			_handlerDict = new ConcurrentDictionary<PacketId, Action<IMessage>>();
+			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket>>();
 			_handlerDict.TryAdd(PacketId.S_Chat, packet => Console.WriteLine("Handle S_Chat"));
 		}
 
-		public static void HandlePackets(List<PacketContext> packets)
+		public static void HandlePackets(List<BasePacket> packets)
 		{
 			foreach (var packet in packets)
 			{
-				if (_handlerDict.TryGetValue(packet.Id, out Action<IMessage> action) == false)
+				if (_handlerDict.TryGetValue((PacketId)packet.Id, out Action<BasePacket> action) == false)
 					throw new Exception();
-				action.Invoke(packet.Message);
+				action.Invoke(packet);
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Google.Protobuf;
 using ServerCore.Managers;
+using ServerCore.Packets;
 
 namespace ServerCore
 {
@@ -27,21 +27,11 @@ namespace ServerCore
 			_readPos += size;
 			return result;
 		}
-		public List<PacketContext> ReadAll()
+		public ArraySegment<byte> Read(int count)
 		{
-			var packets = new List<PacketContext>();
-			while (CanRead())
-			{
-				ushort id = BitConverter.ToUInt16(_buffer, _readPos);
-				_readPos += 2;
-				ushort size = BitConverter.ToUInt16(_buffer, _readPos);
-				_readPos += 2;
-				//Todo
-				if (_writePos - _readPos - size < 0) return null;
-				packets.Add(PacketParser.Parse(id, new ArraySegment<byte>(_buffer, _readPos, size)));
-				_readPos += size;
-			}
-			return packets;
+			var segment = new ArraySegment<byte>(_buffer, _readPos, count);
+			_readPos += count;
+			return segment;
 		}
 		public ArraySegment<byte> GetWriteBuffer() => new ArraySegment<byte>(_buffer, _writePos, _buffer.Length - _writePos);
 		public void OnWrite(int size) => _writePos += size;

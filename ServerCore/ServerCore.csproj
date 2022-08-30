@@ -5,12 +5,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Packets\Client\" />
-		<Folder Include="Packets\Server\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="Google.Protobuf" Version="3.21.5" />
+	  <PackageReference Include="protobuf-net" Version="3.1.17" />
 	</ItemGroup>
 
 </Project>
