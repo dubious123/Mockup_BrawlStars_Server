@@ -8,7 +8,7 @@ namespace ServerCore.Packets
 {
 	public class BasePacket
 	{
-		public ushort Id { get; set; }
+		public ushort Id;
 
 		public BasePacket()
 		{

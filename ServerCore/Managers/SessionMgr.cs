@@ -41,5 +41,17 @@ namespace ServerCore.Managers
 			_sessionDict.TryGetValue(id, out Session session);
 			return session;
 		}
+		public static void Close(int id)
+		{
+			Remove(id)?.Close();
+		}
+		public static void CloseAll()
+		{
+			foreach (var session in _sessionDict.Values)
+			{
+				session.Close();
+				Remove(session.Id);
+			}
+		}
 	}
 }

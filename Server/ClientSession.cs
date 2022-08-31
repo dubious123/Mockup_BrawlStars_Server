@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using ServerCore;
+using ServerCore.Managers;
 using ServerCore.Packets;
 
 namespace Server
@@ -23,6 +24,11 @@ namespace Server
 		protected override void OnRecvCompleted(SocketAsyncEventArgs args)
 		{
 			base.OnRecvCompleted(args);
+			if (args.BytesTransferred == 0)
+			{
+				SessionMgr.Close(Id);
+				return;
+			}
 			while (_recvBuffer.CanRead())
 			{
 				PacketHandler.HandlePacket(_recvBuffer.ReadPacket());

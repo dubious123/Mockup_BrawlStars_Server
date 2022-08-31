@@ -4,7 +4,6 @@ using ServerCore.Packets.Client;
 using ServerCore.Packets.Server;
 using System;
 using System.Collections.Concurrent;
-using System.Text;
 using System.Text.Json;
 using static ServerCore.Utils.Enums;
 
@@ -13,11 +12,13 @@ namespace Server
 	public static class PacketParser
 	{
 		static readonly ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>> _readDict;
+		static readonly JsonSerializerOptions _options;
 		static PacketParser()
 		{
+			_options = new JsonSerializerOptions { IncludeFields = true };
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
-			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr));
-			_readDict.TryAdd((ushort)PacketId.C_Chat, arr => JsonSerializer.Deserialize<C_Chat>(arr));
+			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_Chat, arr => JsonSerializer.Deserialize<C_Chat>(arr, _options));
 		}
 		public static BasePacket ReadPacket(this RecvBuffer buffer)
 		{
