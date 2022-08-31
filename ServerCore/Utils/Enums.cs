@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace ServerCore.Utils
 {
 	public static class Enums
 	{
 		public enum PacketId
 		{
+			C_Chat,
+			C_EnterGame,
+			C_EnterLobby,
 			S_Chat,
-			C_Chat
 		}
 	}
 }

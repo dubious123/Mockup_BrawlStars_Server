@@ -1,7 +1,5 @@
-﻿using ServerCore;
+using ServerCore;
 using ServerCore.Packets;
-using ServerCore.Packets.Client;
-using ServerCore.Packets.Server;
 using System;
 using System.Collections.Concurrent;
 using System.Text.Json;
@@ -17,8 +15,10 @@ namespace Server
 		{
 			_options = new JsonSerializerOptions { IncludeFields = true };
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
-			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_Chat, arr => JsonSerializer.Deserialize<C_Chat>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
 		}
 		public static BasePacket ReadPacket(this RecvBuffer buffer)
 		{
