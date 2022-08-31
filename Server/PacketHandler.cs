@@ -9,37 +9,40 @@ namespace Server
 {
 	public static class PacketHandler
 	{
-		static ConcurrentDictionary<PacketId, Action<BasePacket>> _handlerDict;
+		static ConcurrentDictionary<PacketId, Action<BasePacket, Session>> _handlerDict;
 		static PacketHandler()
 		{
-			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket>>();
-			_handlerDict.TryAdd(PacketId.C_Chat, packet => C_ChatHandle(packet));
-			_handlerDict.TryAdd(PacketId.C_EnterGame, packet => C_EnterGameHandle(packet));
-			_handlerDict.TryAdd(PacketId.C_EnterLobby, packet => C_EnterLobbyHandle(packet));
+			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket, Session>>();
+			_handlerDict.TryAdd(PacketId.C_Chat, (packet, session) => C_ChatHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 		}
 
-		public static void HandlePacket(BasePacket packet)
+		public static void HandlePacket(BasePacket packet, Session session)
 		{
 			if (packet == null) return;
-			if (_handlerDict.TryGetValue((PacketId)packet.Id, out Action<BasePacket> action) == false)
+			if (_handlerDict.TryGetValue((PacketId)packet.Id, out Action<BasePacket, Session> action) == false)
 				throw new Exception();
-			action.Invoke(packet);
+			action.Invoke(packet, session);
 		}
 
-		private static void C_ChatHandle(BasePacket packet)
+
+		private static void C_ChatHandle(BasePacket packet, Session session)
 		{
 			packet = packet as C_Chat;
-			Console.WriteLine("Handle C_Chat");
 		}
 
-		private static void C_EnterGameHandle(BasePacket packet)
+		private static void C_EnterGameHandle(BasePacket packet, Session session)
 		{
 			packet = packet as C_EnterGame;
 		}
 
-		private static void C_EnterLobbyHandle(BasePacket packet)
+		private static void C_EnterLobbyHandle(BasePacket packet, Session session)
 		{
 			packet = packet as C_EnterLobby;
+
+			session.RegisterSend(new S_EnterLobby());
+			session.Send();
 		}
 	}
 }

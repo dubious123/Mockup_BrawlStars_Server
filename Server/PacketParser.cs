@@ -19,6 +19,7 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
 		}
 		public static BasePacket ReadPacket(this RecvBuffer buffer)
 		{
@@ -44,7 +45,7 @@ namespace Server
 				{
 					JsonSerializer.Serialize(writer, packet);
 					writer.Flush();
-					BitConverter.TryWriteBytes(sizeSegment, writer.BytesCommitted);
+					BitConverter.TryWriteBytes(sizeSegment, (ushort)writer.BytesCommitted);
 				}
 				return true;
 			}

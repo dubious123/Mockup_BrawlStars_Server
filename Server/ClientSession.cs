@@ -31,7 +31,7 @@ namespace Server
 			}
 			while (_recvBuffer.CanRead())
 			{
-				PacketHandler.HandlePacket(_recvBuffer.ReadPacket());
+				PacketHandler.HandlePacket(_recvBuffer.ReadPacket(), this);
 
 			}
 			RegisterRecv();

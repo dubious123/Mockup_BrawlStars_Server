@@ -8,6 +8,7 @@ namespace ServerCore.Utils
 			C_EnterGame,
 			C_EnterLobby,
 			S_Chat,
+			S_EnterLobby,
 		}
 	}
 }
