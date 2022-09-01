@@ -11,5 +11,19 @@ namespace ServerCore.Utils
 			S_EnterLobby = 0x1001,
 			S_EnterGame = 0x1002,
 		}
+		public enum GameType
+		{
+			Team3vs3,
+		}
+		public enum GameState
+		{
+			Waiting,
+			Started,
+			Ended
+		}
+		public enum CharacterType
+		{
+			Dog,
+		}
 	}
 }

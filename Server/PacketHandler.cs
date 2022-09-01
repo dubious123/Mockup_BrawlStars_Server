@@ -4,6 +4,7 @@ using static ServerCore.Utils.Enums;
 using ServerCore;
 using System.Collections.Generic;
 using ServerCore.Packets;
+using Server.Utils;
 
 namespace Server
 {
@@ -43,6 +44,9 @@ namespace Server
 		private static void C_EnterGameHandle(BasePacket packet, Session session)
 		{
 			var req = packet as C_EnterGame;
+
+			var room = GameMgr.FindWaitingGame();
+			room.EnterGame(new Player { CharType = (CharacterType)req.CharacterType, Id = 1 });
 
 			session.RegisterSend(new S_EnterGame(true));
 			session.Send();
