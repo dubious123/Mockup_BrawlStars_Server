@@ -16,10 +16,11 @@ namespace Server
 			_options = new JsonSerializerOptions { IncludeFields = true };
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
 			_readDict.TryAdd((ushort)PacketId.C_Chat, arr => JsonSerializer.Deserialize<C_Chat>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
 		}
 		public static BasePacket ReadPacket(this RecvBuffer buffer)
 		{
@@ -43,7 +44,8 @@ namespace Server
 				var sizeSegment = buffer.Write(2);
 				using (var writer = new Utf8JsonWriter(buffer))
 				{
-					JsonSerializer.Serialize(writer, packet);
+					JsonSerializer.Serialize(writer, packet, packet.GetType(), _options);
+					Console.WriteLine(JsonSerializer.Serialize(packet, packet.GetType(), _options));
 					writer.Flush();
 					BitConverter.TryWriteBytes(sizeSegment, (ushort)writer.BytesCommitted);
 				}

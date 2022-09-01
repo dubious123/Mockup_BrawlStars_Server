@@ -14,8 +14,8 @@ namespace Server
 		{
 			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket, Session>>();
 			_handlerDict.TryAdd(PacketId.C_Chat, (packet, session) => C_ChatHandle(packet, session));
-			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
 		}
 
 		public static void HandlePacket(BasePacket packet, Session session)
@@ -29,20 +29,25 @@ namespace Server
 
 		private static void C_ChatHandle(BasePacket packet, Session session)
 		{
-			packet = packet as C_Chat;
-		}
-
-		private static void C_EnterGameHandle(BasePacket packet, Session session)
-		{
-			packet = packet as C_EnterGame;
+			var req = packet as C_Chat;
 		}
 
 		private static void C_EnterLobbyHandle(BasePacket packet, Session session)
 		{
-			packet = packet as C_EnterLobby;
+			var req = packet as C_EnterLobby;
 
 			session.RegisterSend(new S_EnterLobby());
 			session.Send();
 		}
+
+		private static void C_EnterGameHandle(BasePacket packet, Session session)
+		{
+			var req = packet as C_EnterGame;
+
+			session.RegisterSend(new S_EnterGame(true));
+			session.Send();
+		}
+
+
 	}
 }

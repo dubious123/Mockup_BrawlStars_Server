@@ -4,11 +4,12 @@ namespace ServerCore.Utils
 	{
 		public enum PacketId
 		{
-			C_Chat,
-			C_EnterGame,
-			C_EnterLobby,
-			S_Chat,
-			S_EnterLobby,
+			C_Chat = 0x0000,
+			C_EnterLobby = 0x0001,
+			C_EnterGame = 0x0002,
+			S_Chat = 0x1000,
+			S_EnterLobby = 0x1001,
+			S_EnterGame = 0x1002,
 		}
 	}
 }
