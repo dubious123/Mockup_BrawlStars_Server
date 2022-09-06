@@ -2,9 +2,12 @@ using System;
 using System.Collections.Concurrent;
 using static ServerCore.Utils.Enums;
 using ServerCore;
-using System.Collections.Generic;
 using ServerCore.Packets;
 using Server.Utils;
+using Microsoft.EntityFrameworkCore;
+using Server.DB;
+using System.Linq;
+using static Server.Utils.Enums;
 
 namespace Server
 {
@@ -14,7 +17,8 @@ namespace Server
 		static PacketHandler()
 		{
 			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket, Session>>();
-			_handlerDict.TryAdd(PacketId.C_Chat, (packet, session) => C_ChatHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_Init, (packet, session) => C_InitHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_Login, (packet, session) => C_LoginHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
 		}
@@ -28,9 +32,29 @@ namespace Server
 		}
 
 
-		private static void C_ChatHandle(BasePacket packet, Session session)
+		private static void C_InitHandle(BasePacket packet, Session session)
 		{
-			var req = packet as C_Chat;
+			var req = packet as C_Init;
+			session.RegisterSend(new S_Init());
+			session.Send();
+		}
+
+		private static void C_LoginHandle(BasePacket packet, Session session)
+		{
+			var req = packet as C_Login;
+			using GameDBContext db = new();
+			var userId = db.Users
+				.Where(u => u.LoginId == req.loginId && u.LoginPw == req.loginPw)
+				.Select(u => u.UserId)
+				.FirstOrDefault();
+			if (userId != 0)
+			{
+				session.RegisterSend(new S_Login { result = true, userId = userId });
+				session.Send();
+				return;
+			}
+			session.RegisterSend(new S_Login { result = false });
+			session.Send();
 		}
 
 		private static void C_EnterLobbyHandle(BasePacket packet, Session session)
@@ -46,11 +70,15 @@ namespace Server
 			var req = packet as C_EnterGame;
 
 			var room = GameMgr.FindWaitingGame();
-			room.EnterGame(new Player { CharType = (CharacterType)req.CharacterType, Id = 1 });
+			room.EnterGame(new Player { CharType = (CharacterType)req.CharacterType, PlayerId = 1 });
 
 			session.RegisterSend(new S_EnterGame(true));
 			session.Send();
 		}
+
+
+
+
 
 
 	}

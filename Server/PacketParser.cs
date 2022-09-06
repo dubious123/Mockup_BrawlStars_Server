@@ -15,10 +15,12 @@ namespace Server
 		{
 			_options = new JsonSerializerOptions { IncludeFields = true };
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
-			_readDict.TryAdd((ushort)PacketId.C_Chat, arr => JsonSerializer.Deserialize<C_Chat>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_Init, arr => JsonSerializer.Deserialize<C_Init>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_Login, arr => JsonSerializer.Deserialize<C_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_Chat, arr => JsonSerializer.Deserialize<S_Chat>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_Init, arr => JsonSerializer.Deserialize<S_Init>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
 		}

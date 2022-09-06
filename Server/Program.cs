@@ -1,11 +1,8 @@
-﻿using ServerCore;
+﻿using Server.DB;
+using ServerCore;
 using ServerCore.Managers;
 using ServerCore.Packets;
 using System;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Text.Json;
 using System.Threading;
 using static ServerCore.Utils.Tools;
 
@@ -15,6 +12,7 @@ namespace Server
 	{
 		static void Main(string[] args)
 		{
+			GameDBContext.Init(false);
 			Listener listener = new Listener(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 			var endPoint = GetNewEndPoint(7777);
 			listener.StartListen(endPoint);

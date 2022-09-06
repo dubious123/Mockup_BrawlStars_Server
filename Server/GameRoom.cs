@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static ServerCore.Utils.Enums;
+﻿using System.Collections.Concurrent;
+using static Server.Utils.Enums;
 
 namespace Server
 {
@@ -23,7 +18,7 @@ namespace Server
 		}
 		public void Enter(Player player)
 		{
-			_playerDict.TryAdd(player.Id, player);
+			_playerDict.TryAdd(player.PlayerId, player);
 		}
 	}
 }
