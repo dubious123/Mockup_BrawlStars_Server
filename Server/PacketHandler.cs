@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Concurrent;
-using static ServerCore.Utils.Enums;
 using ServerCore;
 using ServerCore.Packets;
-using Server.Utils;
 using Microsoft.EntityFrameworkCore;
 using Server.DB;
 using System.Linq;
-using static Server.Utils.Enums;
+using Server.Game.Managers;
+using static ServerCore.Utils.Enums;
 
 namespace Server
 {
@@ -21,6 +20,7 @@ namespace Server
 			_handlerDict.TryAdd(PacketId.C_Login, (packet, session) => C_LoginHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_BroadcastPlayerState, (packet, session) => C_BroadcastPlayerStateHandle(packet, session));
 		}
 
 		public static void HandlePacket(BasePacket packet, Session session)
@@ -44,6 +44,7 @@ namespace Server
 			var req = packet as C_Login;
 			using GameDBContext db = new();
 			var userId = db.Users
+				.AsNoTracking()
 				.Where(u => u.LoginId == req.loginId && u.LoginPw == req.loginPw)
 				.Select(u => u.UserId)
 				.FirstOrDefault();
@@ -68,18 +69,39 @@ namespace Server
 		private static void C_EnterGameHandle(BasePacket packet, Session session)
 		{
 			var req = packet as C_EnterGame;
+			using GameDBContext db = new();
+			var res = db.Users
+				.AsNoTracking()
+				.Any(i => i.UserId == req.UserId);
+			if (res == false)
+			{
+				session.RegisterSend(new S_EnterGame(false, 0));
+				session.Send();
+				return;
+			}
+			var roomId = GameMgr.EnterGame(PlayerMgr.GetOrAddPlayer(req.UserId));
 
-			var room = GameMgr.FindWaitingGame();
-			room.EnterGame(new Player { CharType = (CharacterType)req.CharacterType, PlayerId = 1 });
-
-			session.RegisterSend(new S_EnterGame(true));
+			session.RegisterSend(new S_EnterGame(true, roomId));
 			session.Send();
 		}
 
+		private static void C_BroadcastPlayerStateHandle(BasePacket packet, Session session)
+		{
+			var req = packet as C_BroadcastPlayerState;
+			using GameDBContext db = new();
+			var player = PlayerMgr.GetPlayer(req.UserId);
 
+			if (player == null)
+			{
+				session.RegisterSend(new S_BroadcastGameState(false));
+				session.Send();
+				return;
+			}
+			bool res = MapMgr.GetMapData(player.CurrentGame.MapId).CanGo(new System.Numerics.Vector2(req.PosX, req.PosY));
 
-
-
-
+			session.RegisterSend(new S_BroadcastGameState(res));
+			session.Send();
+			return;
+		}
 	}
 }

@@ -16,6 +16,7 @@
 
 	<ItemGroup>
 	  <Folder Include="DB\Configure\" />
+	  <Folder Include="Data\" />
 	</ItemGroup>
 
 </Project>

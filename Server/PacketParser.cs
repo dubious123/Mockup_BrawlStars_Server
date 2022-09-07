@@ -19,10 +19,12 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.C_Login, arr => JsonSerializer.Deserialize<C_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_BroadcastPlayerState, arr => JsonSerializer.Deserialize<C_BroadcastPlayerState>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Init, arr => JsonSerializer.Deserialize<S_Init>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastGameState, arr => JsonSerializer.Deserialize<S_BroadcastGameState>(arr, _options));
 		}
 		public static BasePacket ReadPacket(this RecvBuffer buffer)
 		{

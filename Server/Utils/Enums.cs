@@ -22,5 +22,10 @@ namespace Server.Utils
 		{
 			Dog,
 		}
+		public enum TileType
+		{
+			Emtpy,
+			Wall
+		}
 	}
 }

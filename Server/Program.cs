@@ -12,8 +12,13 @@ namespace Server
 	{
 		static void Main(string[] args)
 		{
+			#region Init
 			GameDBContext.Init(false);
-			Listener listener = new Listener(socket => SessionMgr.GenerateSession<ClientSession>(socket));
+			GameMgr.Init();
+			MapMgr.Init();
+			#endregion
+
+			Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 			var endPoint = GetNewEndPoint(7777);
 			listener.StartListen(endPoint);
 			Console.WriteLine($"Listening to {endPoint}");
