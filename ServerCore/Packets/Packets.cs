@@ -1,4 +1,6 @@
 
+using System.Numerics;
+
 namespace ServerCore.Packets
 {
 	public class BasePacket
@@ -48,11 +50,13 @@ namespace ServerCore.Packets
 	}
 	public class C_BroadcastPlayerState : GamePacket
 	{
-		public C_BroadcastPlayerState(int userId)
+		public C_BroadcastPlayerState(int userId, short teamId)
 		{
 			Id = 0x0004;
 			UserId = userId;
+			TeamId = teamId;
 		}
+		public short TeamId;
 		public float PosX;
 		public float PosY;
 		public float LookDirX;
@@ -85,23 +89,40 @@ namespace ServerCore.Packets
 	}
 	public class S_EnterGame : BasePacket
 	{
-		public S_EnterGame(bool result, int roomId)
+		public S_EnterGame(bool result, int roomId, short teamId)
 		{
 			Id = 0x1003;
 			Result = result;
 			RoomId = roomId;
+			PlayerPosArr = new Vector2[6];
+			PlayerLookDirArr = new Vector2[6];
+			TeamId = teamId;
 		}
+		Vector2[] PlayerPosArr;
+		Vector2[] PlayerLookDirArr;
 		public bool Result;
 		public int RoomId;
+		public short TeamId;
 	}
 	public class S_BroadcastGameState : BasePacket
 	{
-		public S_BroadcastGameState(bool result)
+		public S_BroadcastGameState(int roomId, ushort playerCount)
 		{
 			Id = 0x1004;
-			Result = result;
+			PlayerPosArr = new Vector2[6];
+			PlayerLookDirArr = new Vector2[6];
+			CharacterTypeArr = new ushort[6];
+			RoomId = roomId;
+			PlayerCount = playerCount;
 		}
-		public bool Result;
+		public int RoomId;
+		public Vector2[] PlayerPosArr;
+		public Vector2[] PlayerLookDirArr;
+		public ushort[] CharacterTypeArr;
+
+		public ushort PlayerCount;
+
+
 	}
 
 }

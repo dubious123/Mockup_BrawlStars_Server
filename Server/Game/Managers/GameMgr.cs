@@ -18,13 +18,19 @@ namespace Server
 		}
 		public static void Init()
 		{
-
+			Program.Update += () => _instance.Update();
 		}
-
+		public void Update()
+		{
+			foreach (var room in _roomDict.Values)
+			{
+				room.Broadcast();
+			}
+		}
 		public static GameRoom CreateGame()
 		{
 			var id = Interlocked.Increment(ref _roomCount);
-			var room = new GameRoom(id, GameType.Team3vs3, 0);
+			var room = new GameRoom(id, 0);
 			_instance._roomDict.TryAdd(id, room);
 			return room;
 		}
@@ -33,7 +39,7 @@ namespace Server
 		{
 			_instance._roomDict.TryRemove(id, out var room);
 		}
-		public static int EnterGame(Player player)
+		public static short EnterGame(Player player)
 		{
 			return FindWaitingGame().Enter(player);
 		}

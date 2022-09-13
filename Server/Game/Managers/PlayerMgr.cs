@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ServerCore;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,13 +16,13 @@ namespace Server.Game.Managers
 		{
 			_playerDict = new();
 		}
-		public static Player GetOrAddPlayer(int userId)
+		public static Player GetOrAddPlayer(int userId, ClientSession session)
 		{
 			if (_intstance._playerDict.TryGetValue(userId, out var player) == true)
 			{
 				return player;
 			}
-			player = new Player(userId);
+			player = new Player(userId, session);
 			_intstance._playerDict.TryAdd(userId, player);
 			return player;
 		}

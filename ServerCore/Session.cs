@@ -12,7 +12,7 @@ namespace ServerCore
 		protected RecvBuffer _recvBuffer = new(32768);
 		protected SocketAsyncEventArgs _sendArgs = new();
 		protected SocketAsyncEventArgs _recvArgs = new();
-		public void Init(int id, Socket socket)
+		public virtual void Init(int id, Socket socket)
 		{
 			Id = id;
 			_socket = socket;

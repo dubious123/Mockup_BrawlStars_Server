@@ -8,6 +8,8 @@ namespace Server.Utils
 {
 	public static class Define
 	{
-
+		public const string PacketHandlerQueueName = "PacketHandler Thread";
+		public const string PacketSendQueueName = "Packet Send Thread";
+		public const string PacketGameQueueName = "Packet Game Thread";
 	}
 }

@@ -36,7 +36,6 @@ namespace Server
 		{
 			var req = packet as C_Init;
 			session.RegisterSend(new S_Init());
-			session.Send();
 		}
 
 		private static void C_LoginHandle(BasePacket packet, Session session)
@@ -55,7 +54,6 @@ namespace Server
 				return;
 			}
 			session.RegisterSend(new S_Login { result = false });
-			session.Send();
 		}
 
 		private static void C_EnterLobbyHandle(BasePacket packet, Session session)
@@ -63,7 +61,6 @@ namespace Server
 			var req = packet as C_EnterLobby;
 
 			session.RegisterSend(new S_EnterLobby());
-			session.Send();
 		}
 
 		private static void C_EnterGameHandle(BasePacket packet, Session session)
@@ -75,14 +72,12 @@ namespace Server
 				.Any(i => i.UserId == req.UserId);
 			if (res == false)
 			{
-				session.RegisterSend(new S_EnterGame(false, 0));
-				session.Send();
-				return;
+				throw new Exception();
 			}
-			var roomId = GameMgr.EnterGame(PlayerMgr.GetOrAddPlayer(req.UserId));
+			var player = PlayerMgr.GetOrAddPlayer(req.UserId, (ClientSession)session);
+			var teamId = GameMgr.EnterGame(player);
 
-			session.RegisterSend(new S_EnterGame(true, roomId));
-			session.Send();
+			session.RegisterSend(new S_EnterGame(true, player.UserId, teamId));
 		}
 
 		private static void C_BroadcastPlayerStateHandle(BasePacket packet, Session session)
@@ -91,16 +86,12 @@ namespace Server
 			using GameDBContext db = new();
 			var player = PlayerMgr.GetPlayer(req.UserId);
 
-			if (player == null)
+
+			if (player == null || player.CurrentGame == null)
 			{
-				session.RegisterSend(new S_BroadcastGameState(false));
-				session.Send();
 				return;
 			}
-			bool res = MapMgr.GetMapData(player.CurrentGame.MapId).CanGo(new System.Numerics.Vector2(req.PosX, req.PosY));
-
-			session.RegisterSend(new S_BroadcastGameState(res));
-			session.Send();
+			player.CurrentGame.Move(player.UserId, req.TeamId, player.Position, player.LookDir);
 			return;
 		}
 	}
