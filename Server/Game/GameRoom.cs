@@ -47,7 +47,7 @@ namespace Server
 		}
 		public bool Move(int userId, int teamId, Vector2 movePos, Vector2 lookDir)
 		{
-			if (teamId < 0 && 6 <= teamId || _map.CanGo(movePos) == false) return false;
+			if (teamId < 0 || 6 <= teamId || (_map.CanGo(movePos) == false)) return false;
 			if (_players[teamId].UserId != userId) return false;
 			Player player = _players[teamId];
 			if ((player.Position - movePos).Length() > _moveLimit) return false;

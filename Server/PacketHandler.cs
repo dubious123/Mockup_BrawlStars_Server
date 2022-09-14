@@ -7,6 +7,10 @@ using Server.DB;
 using System.Linq;
 using Server.Game.Managers;
 using static ServerCore.Utils.Enums;
+using System.Threading;
+using Server.Log;
+using static Server.Utils.Enums;
+using System.Diagnostics;
 
 namespace Server
 {
@@ -27,7 +31,10 @@ namespace Server
 		{
 			if (packet == null) return;
 			if (_handlerDict.TryGetValue((PacketId)packet.Id, out Action<BasePacket, Session> action) == false)
+			{
+				LogMgr.Log($"Invalid Packet {packet}", TraceEventType.Error, TraceSourceType.Console, TraceSourceType.PacketHandler);
 				throw new Exception();
+			}
 			action.Invoke(packet, session);
 		}
 

@@ -1,8 +1,10 @@
+using Server.Log;
 using ServerCore;
 using ServerCore.Packets;
 using System;
 using System.Collections.Concurrent;
 using System.Text.Json;
+using static Server.Utils.Enums;
 using static ServerCore.Utils.Enums;
 
 namespace Server
@@ -49,7 +51,7 @@ namespace Server
 				using (var writer = new Utf8JsonWriter(buffer))
 				{
 					JsonSerializer.Serialize(writer, packet, packet.GetType(), _options);
-					Console.WriteLine(JsonSerializer.Serialize(packet, packet.GetType(), _options));
+					LogMgr.Log($"Packet Serialized {JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.Packet);
 					writer.Flush();
 					BitConverter.TryWriteBytes(sizeSegment, (ushort)writer.BytesCommitted);
 				}

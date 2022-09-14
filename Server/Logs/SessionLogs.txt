@@ -1,0 +1,62 @@
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_Init
+    DateTime=2022-09-14T10:10:48.1970594Z
+Session Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:14033 completed
+    DateTime=2022-09-14T10:10:48.1972966Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_Login
+    DateTime=2022-09-14T10:10:54.1093102Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_EnterGame
+    DateTime=2022-09-14T10:10:55.7045970Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.4059808Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.6509182Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.9044590Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.1623327Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.4116110Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.6628905Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.9136443Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.1669760Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.4216902Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.6743285Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.9292873Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.1825771Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.4363268Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.6898458Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.9431054Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.1938205Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.4453082Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.6957457Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.9506198Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.2113937Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.4658117Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.7176203Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.9752551Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.2286984Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.4793196Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.7322874Z
+Session Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.9880467Z

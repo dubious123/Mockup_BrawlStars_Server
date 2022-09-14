@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 using Server.DB.Entities;
 using System;
+using Server.Log;
+using static Server.Utils.Enums;
 
 namespace Server.DB
 {
@@ -28,7 +30,7 @@ namespace Server.DB
 			}
 			db.Database.EnsureDeleted();
 			db.Database.EnsureCreated();
-			Console.WriteLine("reset completed");
+			LogMgr.Log("DB reset completed", TraceSourceType.Console);
 			return;
 
 

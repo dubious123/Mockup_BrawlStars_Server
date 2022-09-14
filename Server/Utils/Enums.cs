@@ -27,5 +27,15 @@ namespace Server.Utils
 			Emtpy,
 			Wall
 		}
+
+		public enum TraceSourceType
+		{
+			Packet,
+			Network,
+			Session,
+			PacketHandler,
+			Console,
+			Error,
+		}
 	}
 }

@@ -15,8 +15,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="DB\Configure\" />
-	  <Folder Include="Data\" />
+		<Folder Include="DB\Configure\" />
+		<Folder Include="Data\" />
 	</ItemGroup>
 
 </Project>

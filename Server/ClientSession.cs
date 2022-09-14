@@ -4,10 +4,12 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using Server.Log;
 using Server.Utils;
 using ServerCore;
 using ServerCore.Managers;
 using ServerCore.Packets;
+using static Server.Utils.Enums;
 
 namespace Server
 {
@@ -26,7 +28,7 @@ namespace Server
 		public override void OnConnected()
 		{
 			base.OnConnected();
-			Console.WriteLine($"[server] connecting to {_socket.RemoteEndPoint} completed");
+			LogMgr.Log($"[server] connecting to {_socket.RemoteEndPoint} completed", TraceSourceType.Session, TraceSourceType.Network);
 		}
 		protected override void OnSendCompleted(SocketAsyncEventArgs args)
 		{
@@ -44,6 +46,7 @@ namespace Server
 			while (_recvBuffer.CanRead())
 			{
 				var packet = _recvBuffer.ReadPacket();
+				LogMgr.Log($"From session [{Id}] Read packet {packet}", TraceSourceType.Packet, TraceSourceType.Session);
 				_handlerQueue.Push(() =>
 				 PacketHandler.HandlePacket(packet, this));
 			}

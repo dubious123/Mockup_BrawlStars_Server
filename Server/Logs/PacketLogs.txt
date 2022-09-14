@@ -1,0 +1,124 @@
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_Init
+    DateTime=2022-09-14T10:10:48.1970507Z
+Packets Information: 0 : Packet Serialized {"Id":4096}
+    DateTime=2022-09-14T10:10:48.2138826Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_Login
+    DateTime=2022-09-14T10:10:54.1093032Z
+Packets Information: 0 : Packet Serialized {"result":true,"userId":4,"Id":4097}
+    DateTime=2022-09-14T10:10:54.7914784Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_EnterGame
+    DateTime=2022-09-14T10:10:55.7045914Z
+Packets Information: 0 : Packet Serialized {"Result":true,"RoomId":4,"TeamId":0,"Id":4099}
+    DateTime=2022-09-14T10:10:55.7740669Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:55.9636170Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:56.2360469Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.4059762Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:56.5014417Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.6509103Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:56.7672463Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:56.9044533Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:57.0326027Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.1623245Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:57.2984672Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.4116023Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:57.5635825Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.6628788Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:57.8290576Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:57.9136404Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:58.0949310Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.1669696Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:58.3604510Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.4216863Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:58.6259612Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.6743243Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:58.8917176Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:58.9292819Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:59.1573885Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.1825596Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:59.4230127Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.4363238Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:59.6885622Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.6898427Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:10:59.9430985Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:10:59.9541088Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.1938117Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:00.2198513Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.4453042Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:00.4859775Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.6957421Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:00.7509742Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:00.9506052Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:01.0171249Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.2113863Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:01.2830035Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.4658070Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:01.5484086Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.7176157Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:01.8135945Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:01.9752505Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:02.0794521Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.2286933Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:02.3452042Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.4793159Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:02.6105250Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.7322769Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:02.8762321Z
+Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
+    DateTime=2022-09-14T10:11:02.9880423Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:03.1420594Z
+Packets Information: 0 : Packet Serialized {"RoomId":1,"PlayerPosArr":[{"X":4,"Y":9},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"PlayerLookDirArr":[{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0},{"X":0,"Y":0}],"CharacterTypeArr":[0,0,0,0,0,0],"PlayerCount":1,"Id":4100}
+    DateTime=2022-09-14T10:11:03.4076334Z
