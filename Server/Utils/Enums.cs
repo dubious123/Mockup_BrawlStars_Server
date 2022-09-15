@@ -36,6 +36,8 @@ namespace Server.Utils
 			PacketHandler,
 			Console,
 			Error,
+			PacketSend,
+			PacketRecv,
 		}
 	}
 }

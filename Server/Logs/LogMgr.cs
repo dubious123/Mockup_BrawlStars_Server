@@ -20,7 +20,7 @@ namespace Server.Log
 		{
 			_dirPath = Directory.GetCurrentDirectory() + "/../../../Logs";
 			Directory.CreateDirectory(_dirPath);
-			_tsArr = new TraceSource[6];
+			_tsArr = new TraceSource[8];
 			_tsArr[0] = BuildNewTraceSource(Define.Ts_Packet)
 					.AddTextWriterListener(string.Empty, "PacketLogs.txt", TraceOptions.DateTime);
 			_tsArr[1] = BuildNewTraceSource(Define.Ts_Network)
@@ -34,6 +34,13 @@ namespace Server.Log
 			_tsArr[5] = BuildNewTraceSource(Define.Ts_Error)
 					.AddTextWriterListener(string.Empty, "Errors.txt", TraceOptions.DateTime | TraceOptions.Callstack)
 					.AddConsoleListener(TraceOptions.DateTime | TraceOptions.Callstack);
+			var listener = _tsArr[0].Listeners[0];
+			_tsArr[6] = BuildNewTraceSource(Define.Ts_PacketSend)
+					.AddTextWriterListener(string.Empty, "SendLog.txt", TraceOptions.DateTime)
+					.AddListener(listener);
+			_tsArr[7] = BuildNewTraceSource(Define.Ts_PacketRecv)
+					.AddTextWriterListener(string.Empty, "RecvLog.txt", TraceOptions.DateTime)
+					.AddListener(listener);
 			Program.Update += () =>
 			{
 				foreach (var ts in _tsArr)
@@ -86,10 +93,15 @@ namespace Server.Log
 		{
 			var path = Path.Combine(_dirPath, dirPath);
 			Directory.CreateDirectory(path);
-			FileStream stream = new(Path.Combine(path, fileName), FileMode.OpenOrCreate, FileAccess.Write);
+			FileStream stream = new(Path.Combine(path, fileName), FileMode.Create, FileAccess.Write);
 			TextWriterTraceListener listener = new(stream);
 			listener.Name = ts.Name;
 			listener.TraceOutputOptions = options;
+			ts.Listeners.Add(listener);
+			return ts;
+		}
+		public static TraceSource AddListenter(TraceSource ts, TraceListener listener)
+		{
 			ts.Listeners.Add(listener);
 			return ts;
 		}

@@ -14,5 +14,10 @@ namespace Server.Utils
 		{
 			return LogMgr.AddTextWriterListener(ts, dirPath, fileName, options);
 		}
+		public static TraceSource AddListener(this TraceSource ts, TraceListener listener)
+		{
+
+			return LogMgr.AddListenter(ts, listener);
+		}
 	}
 }

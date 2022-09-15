@@ -21,6 +21,8 @@ namespace Server.Utils
 		public const string Ts_Handler = "Handler";
 		public const string Ts_Console = "Console";
 		public const string Ts_Error = "Error";
+		public const string Ts_PacketSend = "Send";
+		public const string Ts_PacketRecv = "Recv";
 
 
 		#endregion

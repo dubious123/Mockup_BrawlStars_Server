@@ -11,6 +11,7 @@ namespace Server.Game
 	public class Player
 	{
 		public int UserId { get; init; }
+		public short TeamId { get; set; }
 		public Vector2 Position { get; set; }
 		public Vector2 LookDir { get; set; }
 		public ClientSession Session { get; init; }

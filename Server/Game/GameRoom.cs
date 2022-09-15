@@ -4,6 +4,7 @@ using System.Numerics;
 using Server.Utils;
 using System.Collections.Generic;
 using ServerCore.Packets;
+using System.Threading;
 
 namespace Server
 {
@@ -42,37 +43,60 @@ namespace Server
 				_players[_playerCount] = player;
 				player.Position = _map.SpawnPosArr[_playerCount];
 				player.CurrentGame = this;
+				player.Session.OnClosed.AddListener("GameRoomExit", () =>
+				{
+					Exit(player);
+					player.Session.OnClosed.RemoveListener("GameRoomExit");
+				});
+				player.TeamId = _playerCount;
 				return _playerCount++;
 			}
 		}
-		public bool Move(int userId, int teamId, Vector2 movePos, Vector2 lookDir)
+		public bool Move(Player player, Vector2 movePos, Vector2 lookDir)
 		{
-			if (teamId < 0 || 6 <= teamId || (_map.CanGo(movePos) == false)) return false;
-			if (_players[teamId].UserId != userId) return false;
-			Player player = _players[teamId];
-			if ((player.Position - movePos).Length() > _moveLimit) return false;
-			player.Position = movePos;
-			player.LookDir = lookDir;
-			return true;
+			lock (_lock)
+			{
+				if (_map.CanGo(movePos) == false) return false;
+				if (_players[player.TeamId] != player) return false;
+				if ((player.Position - movePos).Length() > _moveLimit) return false;
+				player.Position = movePos;
+				player.LookDir = lookDir;
+				return true;
+			}
 		}
 		public void Broadcast()
 		{
 			lock (_lock)
 			{
 				if (_playerCount <= 0) return;
-				S_BroadcastGameState packet = new S_BroadcastGameState(this.Id, (ushort)_playerCount);
-				for (int i = 0; i < _playerCount; i++)
+				S_BroadcastGameState packet = new(this.Id, (ushort)_playerCount);
+				for (int i = 0; i < 6; i++)
 				{
 					var player = _players[i];
+					if (player is null) continue;
 					packet.PlayerPosArr[i] = player.Position;
 					packet.PlayerLookDirArr[i] = player.LookDir;
 					packet.CharacterTypeArr[i] = (ushort)player.CharacterType;
 				}
-				for (int i = 0; i < _playerCount; i++)
+				for (int i = 0; i < 6; i++)
 				{
 					var player = _players[i];
+					if (player is null) continue;
 					player.Session.RegisterSend(packet);
 				}
+			}
+		}
+
+		void Exit(Player player)
+		{
+			lock (_lock)
+			{
+				if (_players[player.TeamId] != player)
+				{
+					System.Console.WriteLine("ERRRRRRRRRRRRRRRRRRRRRRRRrrrrrrrrrrrrrrr");
+				}
+				_players[player.TeamId] = null;
+				_playerCount--;
 			}
 		}
 	}

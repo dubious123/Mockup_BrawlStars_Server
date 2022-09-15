@@ -25,7 +25,7 @@ namespace ServerCore
 		}
 		public abstract bool RegisterSend(BasePacket packet);
 
-		public void Send()
+		public virtual void Send()
 		{
 			_sendArgs.SetBuffer(_sendBuffer.Flush());
 			if (_socket.SendAsync(_sendArgs) == false)

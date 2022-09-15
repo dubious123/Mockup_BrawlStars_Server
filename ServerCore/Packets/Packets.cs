@@ -50,11 +50,10 @@ namespace ServerCore.Packets
 	}
 	public class C_BroadcastPlayerState : GamePacket
 	{
-		public C_BroadcastPlayerState(int userId, short teamId)
+		public C_BroadcastPlayerState(int userId)
 		{
 			Id = 0x0004;
 			UserId = userId;
-			TeamId = teamId;
 		}
 		public short TeamId;
 		public float PosX;

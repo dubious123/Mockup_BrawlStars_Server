@@ -1,4 +1,6 @@
 Network Information: 0 : Listening to [fe80::9d3d:afe9:3ee8:96a7%7]:7777
-    DateTime=2022-09-14T10:10:34.1697423Z
-Network Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:14033 completed
-    DateTime=2022-09-14T10:10:48.1973000Z
+    DateTime=2022-09-15T14:43:30.4089785Z
+Network Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:2366 completed
+    DateTime=2022-09-15T14:43:52.4236220Z
+Network Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:2369 completed
+    DateTime=2022-09-15T14:44:00.3133883Z
