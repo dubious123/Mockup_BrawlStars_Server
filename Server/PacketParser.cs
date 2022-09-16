@@ -1,4 +1,5 @@
 using Server.Log;
+using Server.Utils.JsonConverters;
 using ServerCore;
 using ServerCore.Packets;
 using System;
@@ -17,9 +18,20 @@ namespace Server
 		static PacketParser()
 		{
 #if DEBUG
-			_options = new JsonSerializerOptions { IncludeFields = true, WriteIndented = true };
+			_options = new JsonSerializerOptions
+			{
+				IncludeFields = true,
+				WriteIndented = true,
+			};
 #else
-			_options = new JsonSerializerOptions { IncludeFields = true };
+			_options = new JsonSerializerOptions 
+			{ 
+				IncludeFields = true,
+				Converters =
+				{
+					new Vector2Converter(),
+				}
+			};
 #endif
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
 			_readDict.TryAdd((ushort)PacketId.C_Init, arr => JsonSerializer.Deserialize<C_Init>(arr, _options));
