@@ -16,7 +16,7 @@ namespace Server.Game
 		public Vector2 LookDir { get; set; } = new Vector2(0, 1);
 		public ClientSession Session { get; init; }
 		public GameRoom CurrentGame;
-		public Enums.CharacterType CharacterType { get; set; } = 0;
+		public Enums.CharacterType CharacterType { get; set; } = Enums.CharacterType.Dog;
 
 		public Player(int userId, ClientSession session)
 		{

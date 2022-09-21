@@ -13,7 +13,7 @@ namespace Server
 	public class Program
 	{
 		public static Action Update { get; set; }
-		const long WaitTick = 250;
+		const long WaitTick = 150;
 		static void Main(string[] args)
 		{
 			#region Init

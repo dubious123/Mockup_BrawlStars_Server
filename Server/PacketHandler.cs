@@ -93,7 +93,6 @@ namespace Server
 			{
 				return;
 			}
-
 			player.CurrentGame.Move(player, new Vector2(req.PosX, req.PosY), new Vector2(req.LookDirX, req.LookDirY));
 			return;
 		}

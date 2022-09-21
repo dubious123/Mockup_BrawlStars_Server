@@ -27,6 +27,10 @@ namespace Server
 			{
 				IncludeFields = true,
 				WriteIndented = true,
+				Converters =
+				{
+					new Vector2Converter(),
+				}
 			};
 #else
 			_options = new JsonSerializerOptions

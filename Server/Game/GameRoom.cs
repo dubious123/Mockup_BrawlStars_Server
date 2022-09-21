@@ -5,6 +5,7 @@ using Server.Utils;
 using System.Collections.Generic;
 using System.Threading;
 using ServerCore;
+using System.Diagnostics;
 
 namespace Server
 {
@@ -19,7 +20,7 @@ namespace Server
 
 		short _playerCount;
 		readonly object _lock = new();
-		readonly float _moveLimit = 1f;
+		readonly float _moveLimit = 1.5f;
 		readonly JobQueue _gameQueue;
 		readonly JobQueue _sendQueue;
 		public GameRoom(int id, ushort mapId)

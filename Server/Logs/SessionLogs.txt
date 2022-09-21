@@ -1,14 +1,28 @@
-Session Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:10732 completed
-    DateTime=2022-09-21T21:11:04.5262837Z
+Session Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12182 completed
+    DateTime=2022-09-21T23:56:09.3831606Z
+Session Information: 0 : [server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12185 completed
+    DateTime=2022-09-21T23:56:19.9005300Z
 Session Information: 0 : Session [1] close started
-    DateTime=2022-09-21T21:11:25.9607476Z
+    DateTime=2022-09-21T23:57:22.7027614Z
 Session Information: 0 : Session [1] shut down started
-    DateTime=2022-09-21T21:11:26.0464575Z
+    DateTime=2022-09-21T23:57:22.7038693Z
 Session Information: 0 : Session [1] shut down completed
-    DateTime=2022-09-21T21:11:26.1320108Z
+    DateTime=2022-09-21T23:57:22.7041930Z
 Session Information: 0 : Session [1] disconnect started
-    DateTime=2022-09-21T21:11:26.2654982Z
+    DateTime=2022-09-21T23:57:22.7043725Z
 Session Information: 0 : Session [1] disconnect completed
-    DateTime=2022-09-21T21:11:26.3276872Z
+    DateTime=2022-09-21T23:57:22.7050693Z
 Session Information: 0 : Session [1] close completed
-    DateTime=2022-09-21T21:11:26.4317563Z
+    DateTime=2022-09-21T23:57:22.7061944Z
+Session Information: 0 : Session [2] close started
+    DateTime=2022-09-21T23:57:29.6196426Z
+Session Information: 0 : Session [2] shut down started
+    DateTime=2022-09-21T23:57:29.6201916Z
+Session Information: 0 : Session [2] shut down completed
+    DateTime=2022-09-21T23:57:29.6206182Z
+Session Information: 0 : Session [2] disconnect started
+    DateTime=2022-09-21T23:57:29.6207319Z
+Session Information: 0 : Session [2] disconnect completed
+    DateTime=2022-09-21T23:57:29.6208350Z
+Session Information: 0 : Session [2] close completed
+    DateTime=2022-09-21T23:57:29.6209954Z
