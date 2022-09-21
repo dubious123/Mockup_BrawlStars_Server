@@ -6,8 +6,12 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Text.Json;
+using System.Threading;
 using static Server.Utils.Enums;
 using static ServerCore.Utils.Enums;
+using System.Text;
+using System.Collections.Generic;
+using Server.Utils;
 
 namespace Server
 {
@@ -15,8 +19,10 @@ namespace Server
 	{
 		static readonly ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>> _readDict;
 		static readonly JsonSerializerOptions _options;
+		static JobQueue _packetHandlerQueue;
 		static PacketParser()
 		{
+			_packetHandlerQueue = JobMgr.GetQueue(Define.PacketHandlerQueueName);
 #if DEBUG
 			_options = new JsonSerializerOptions
 			{
@@ -24,8 +30,8 @@ namespace Server
 				WriteIndented = true,
 			};
 #else
-			_options = new JsonSerializerOptions 
-			{ 
+			_options = new JsonSerializerOptions
+			{
 				IncludeFields = true,
 				Converters =
 				{
@@ -45,24 +51,77 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastGameState, arr => JsonSerializer.Deserialize<S_BroadcastGameState>(arr, _options));
 		}
-		public static BasePacket ReadPacket(this RecvBuffer buffer)
+		//		public static BasePacket ReadPacket(this RecvBuffer buffer)
+		//		{
+		//			try
+		//			{
+		//				var id = BitConverter.ToUInt16(buffer.Read(2));
+		//				var size = BitConverter.ToUInt16(buffer.Read(2));
+		//				_readDict.TryGetValue(id, out Func<ArraySegment<byte>, BasePacket> func);
+		//#if DEBUG
+		//				var arr = buffer.Read(size);
+		//				string json = Encoding.UTF8.GetString(arr);
+		//				LogMgr.Log($"size : {size}" + json, TraceSourceType.PacketRecv);
+		//				var packet = func.Invoke(arr);
+		//				LogMgr.Log($"received packet {JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.PacketRecv);
+		//				return packet;
+		//#else
+		//				return func.Invoke(buffer.Read(size));
+		//#endif
+		//			}
+		//			catch (System.Exception ex)
+		//			{
+		//				Console.WriteLine(ex);
+		//				throw new Exception();
+		//			}
+		//		}
+		public static IEnumerator<float> ReadPacket(this RecvBuffer buffer, ClientSession session)
 		{
-			try
+			while (true)
 			{
-				var id = BitConverter.ToUInt16(buffer.Read(2));
-				var size = BitConverter.ToUInt16(buffer.Read(2));
+				while (buffer.CanRead() == false)
+				{
+					yield return 0f;
+				}
+				//string str = string.Empty;
+				//var a = buffer.Read(2);
+
+				//str += BitConverter.ToString(a.Array, a.Offset, a.Count);
+
+				//ushort id = BitConverter.ToUInt16(a);
+				ushort id = BitConverter.ToUInt16(buffer.Read(2));
+
+
+				//a = buffer.Read(2);
+
+				//str += BitConverter.ToString(a.Array, a.Offset, a.Count);
+
+				//ushort size = BitConverter.ToUInt16(a);
+				ushort size = BitConverter.ToUInt16(buffer.Read(2));
+				//Console.WriteLine($"Packet size : {size}");
+				//Debug.Assert(size < 200);
+
+				while (buffer.CanRead(size) == false)
+				{
+					yield return 0f;
+				}
+				//Todo handle invalid id
 				_readDict.TryGetValue(id, out Func<ArraySegment<byte>, BasePacket> func);
 #if DEBUG
-				var packet = func.Invoke(buffer.Read(size));
+				var arr = buffer.Read(size);
+
+				//str += BitConverter.ToString(arr.Array, arr.Offset, arr.Count);
+
+				//LogMgr.Log(str, TraceSourceType.Network);
+
+				string json = Encoding.UTF8.GetString(arr);
+				//LogMgr.Log($"size : {size}" + json, TraceSourceType.PacketRecv);
+				var packet = func.Invoke(arr);
 				LogMgr.Log($"received packet {JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.PacketRecv);
-				return packet;
+				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #else
-				return func.Invoke(buffer.Read(size));
+				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(func.Invoke(buffer.Read(size)), session));
 #endif
-			}
-			catch (System.Exception)
-			{
-				throw;
 			}
 		}
 		public static bool WritePacket(this SendBuffer buffer, BasePacket packet)

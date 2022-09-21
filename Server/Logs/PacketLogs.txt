@@ -1,42 +1,36 @@
 Recv Information: 0 : received packet {
   "Id": 0
 }
-    DateTime=2022-09-16T12:01:54.7881910Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_Init
-    DateTime=2022-09-16T12:01:54.7882196Z
+    DateTime=2022-09-21T16:48:14.3952798Z
 Send Information: 0 : Sending Packet {
   "Id": 4096
 }
-    DateTime=2022-09-16T12:01:54.8153173Z
+    DateTime=2022-09-21T16:48:14.4052779Z
 Recv Information: 0 : received packet {
   "loginId": "jonghun1",
   "loginPw": "0827",
   "Id": 1
 }
-    DateTime=2022-09-16T12:01:58.0899429Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_Login
-    DateTime=2022-09-16T12:01:58.0899577Z
+    DateTime=2022-09-21T16:48:21.4187315Z
 Send Information: 0 : Sending Packet {
   "result": true,
   "userId": 4,
   "Id": 4097
 }
-    DateTime=2022-09-16T12:01:58.8426036Z
+    DateTime=2022-09-21T16:48:22.1530412Z
 Recv Information: 0 : received packet {
   "CharacterType": 0,
   "UserId": 4,
   "Id": 3
 }
-    DateTime=2022-09-16T12:01:59.5956830Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_EnterGame
-    DateTime=2022-09-16T12:01:59.5957127Z
+    DateTime=2022-09-21T16:48:23.5238303Z
 Send Information: 0 : Sending Packet {
   "Result": true,
   "RoomId": 4,
   "TeamId": 0,
   "Id": 4099
 }
-    DateTime=2022-09-16T12:01:59.6567941Z
+    DateTime=2022-09-21T16:48:23.5950592Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -68,7 +62,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -102,7 +96,7 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:01:59.7757536Z
+    DateTime=2022-09-21T16:48:23.7711572Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -134,7 +128,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -167,8 +161,20 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:24.0220473Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.5,
+  "PosY": -10.5,
+  "LookDirX": 0.02739396,
+  "LookDirY": -0.9996247,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.0378763Z
+    DateTime=2022-09-21T16:48:24.2513110Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -200,7 +206,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -233,12 +239,96 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:24.2875544Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.2876773Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.2877062Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.2877194Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.2877304Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.2877504Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897048,
+  "PosY": -10.499946,
+  "LookDirX": -0.99783635,
+  "LookDirY": 0.06574672,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.4910876Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.3033826Z
+    DateTime=2022-09-21T16:48:24.5375118Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4677219,
-  "PosY": -10.555758,
+  "PosX": 3.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -246,27 +336,23 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.3085735Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:00.3085996Z
+    DateTime=2022-09-21T16:48:24.5375246Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4482577,
-  "PosY": -10.490394,
-  "LookDirX": 1.0653079E-38,
-  "LookDirY": 1.001021E-38,
+  "PosX": -2.4922001,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.3207877Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:00.3208438Z
+    DateTime=2022-09-21T16:48:24.5375418Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -0.2771098,
-  "PosY": -10.641636,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -274,23 +360,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.5731072Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:00.5732100Z
+    DateTime=2022-09-21T16:48:24.5375624Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.2827413,
-  "PosY": -10.465139,
-  "LookDirX": 1.0744914E-38,
-  "LookDirY": 1.0653069E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.5733197Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:00.5733248Z
+    DateTime=2022-09-21T16:48:24.5375674Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -322,7 +404,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -355,12 +437,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:24.5535280Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.489534,
+  "PosY": -10.499946,
+  "LookDirX": -0.61512697,
+  "LookDirY": 0.78842807,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.7875216Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.8034685Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.8035166Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4898076,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:24.8035333Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.5785753Z
+    DateTime=2022-09-21T16:48:24.8035445Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.54945797,
-  "PosY": -10.716213,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -368,9 +510,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.8019816Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:00.8020534Z
+    DateTime=2022-09-21T16:48:24.8035562Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -402,7 +542,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -435,12 +575,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:24.8190100Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.489446,
+  "PosY": -10.499946,
+  "LookDirX": -0.5390743,
+  "LookDirY": 0.8422582,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.0065431Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.0535242Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.0536603Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:00.8347670Z
+    DateTime=2022-09-21T16:48:25.0537336Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.97280115,
-  "PosY": -10.7558565,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -448,23 +636,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.0527867Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.0528003Z
+    DateTime=2022-09-21T16:48:25.0537544Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -7.4575195,
-  "PosY": -10.938297,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.0768492Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.0768737Z
+    DateTime=2022-09-21T16:48:25.0537670Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -496,7 +680,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -529,12 +713,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:25.0845736Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.091061,
+  "PosY": -10.500324,
+  "LookDirX": -0.24497482,
+  "LookDirY": 0.96952945,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.2875232Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.3190049Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.3190661Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.1006234Z
+    DateTime=2022-09-21T16:48:25.3190912Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -542,23 +774,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.3102531Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.3102779Z
+    DateTime=2022-09-21T16:48:25.3190987Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -8.86985,
-  "PosY": -11.061494,
-  "LookDirX": 5.96941E-39,
-  "LookDirY": 1.1112256E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.3337226Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.3337356Z
+    DateTime=2022-09-21T16:48:25.3191102Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -590,7 +818,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -623,12 +851,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:25.3500008Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.370303,
+  "PosY": -10.050907,
+  "LookDirX": -0.25586802,
+  "LookDirY": 0.96671176,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.5535141Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.6002815Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:25.6003064Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.3658858Z
+    DateTime=2022-09-21T16:48:25.6003574Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -636,23 +912,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.5598775Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.5598974Z
+    DateTime=2022-09-21T16:48:25.6003885Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -10.282179,
-  "PosY": -11.18469,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.5890706Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.5890837Z
+    DateTime=2022-09-21T16:48:25.6004987Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -684,7 +956,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -717,12 +989,24 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:25.6160973Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.370378,
+  "PosY": -8.508516,
+  "LookDirX": -0.22082534,
+  "LookDirY": 0.9753133,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.6314734Z
+    DateTime=2022-09-21T16:48:25.8035203Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -730,93 +1014,35 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.8229520Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.8229620Z
+    DateTime=2022-09-21T16:48:25.8500915Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -11.585867,
-  "PosY": -11.29841,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.8453412Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:01.8453694Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
+    DateTime=2022-09-21T16:48:25.8501091Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:01.8970834Z
+    DateTime=2022-09-21T16:48:25.8501257Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -824,23 +1050,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.0783318Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.0783636Z
+    DateTime=2022-09-21T16:48:25.8501705Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -12.998196,
-  "PosY": -11.421607,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.0960961Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.0961091Z
+    DateTime=2022-09-21T16:48:25.8501786Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -872,7 +1094,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -905,12 +1127,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:25.8814992Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.370378,
+  "PosY": -6.907644,
+  "LookDirX": -0.22141644,
+  "LookDirY": 0.9751793,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.0691423Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.1160977Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.1161518Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.1631317Z
+    DateTime=2022-09-21T16:48:26.1161636Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -918,23 +1188,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.3307996Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.3308106Z
+    DateTime=2022-09-21T16:48:26.1161785Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -14.301884,
-  "PosY": -11.535327,
-  "LookDirX": 5.96941E-39,
-  "LookDirY": 1.1112256E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.3469221Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.3469333Z
+    DateTime=2022-09-21T16:48:26.1161863Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -966,7 +1232,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -999,12 +1265,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:26.1470329Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.370378,
+  "PosY": -5.4138875,
+  "LookDirX": -0.23416638,
+  "LookDirY": 0.97219646,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.3189901Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.3660408Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.3660556Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.4286778Z
+    DateTime=2022-09-21T16:48:26.3660652Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1012,23 +1326,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.5832896Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.5833069Z
+    DateTime=2022-09-21T16:48:26.3661043Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -15.714212,
-  "PosY": -11.658524,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.6002294Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.6002539Z
+    DateTime=2022-09-21T16:48:26.3661107Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1060,7 +1370,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1093,12 +1403,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:26.4125136Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.370378,
+  "PosY": -3.8795178,
+  "LookDirX": -0.23537202,
+  "LookDirY": 0.9719053,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.5690881Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.6161030Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.6161264Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.6943638Z
+    DateTime=2022-09-21T16:48:26.6161394Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1106,23 +1464,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.8438934Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.8439524Z
+    DateTime=2022-09-21T16:48:26.6161537Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -17.126541,
-  "PosY": -11.78172,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.8535110Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:02.8535344Z
+    DateTime=2022-09-21T16:48:26.6161659Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1154,7 +1508,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1187,12 +1541,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:26.6784838Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.3101835,
+  "PosY": -2.804874,
+  "LookDirX": -0.25382122,
+  "LookDirY": 0.9672512,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.8191206Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.8659818Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:26.8659984Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:02.9598309Z
+    DateTime=2022-09-21T16:48:26.8660255Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1200,23 +1602,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.1019797Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.1020061Z
+    DateTime=2022-09-21T16:48:26.8660394Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -18.53887,
-  "PosY": -11.904917,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.1116880Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.1117007Z
+    DateTime=2022-09-21T16:48:26.8660491Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1248,7 +1646,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1281,12 +1679,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:26.9439757Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": -1.1132842,
+  "LookDirX": -0.0006643746,
+  "LookDirY": 0.99999976,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.1161437Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.1625190Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.1625311Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.2255732Z
+    DateTime=2022-09-21T16:48:27.1625403Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1294,23 +1740,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.3547696Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.3547815Z
+    DateTime=2022-09-21T16:48:27.1625490Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -19.842558,
-  "PosY": -12.018637,
-  "LookDirX": 5.96941E-39,
-  "LookDirY": 1.1112256E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.3613249Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.3613334Z
+    DateTime=2022-09-21T16:48:27.1625596Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1342,7 +1784,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1375,12 +1817,24 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:27.2095754Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 0.41476688,
+  "LookDirX": 0.044308335,
+  "LookDirY": 0.9990179,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.4908177Z
+    DateTime=2022-09-21T16:48:27.3660239Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1388,28 +1842,60 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.6063670Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.6063778Z
+    DateTime=2022-09-21T16:48:27.4124885Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -21.254887,
-  "PosY": -12.141833,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.6165687Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.6165770Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
+    DateTime=2022-09-21T16:48:27.4125003Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.4125233Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.4125325Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.4125390Z
+Send Information: 0 : Sending Packet {
+  "RoomId": 1,
+  "PlayerPosArr": [
+    {
+      "X": 4,
       "Y": 9
     },
     {
@@ -1436,7 +1922,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1469,12 +1955,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:27.4750463Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 1.9439815,
+  "LookDirX": 0.04969378,
+  "LookDirY": 0.9987645,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.6161400Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.6625010Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.6625131Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.7567207Z
+    DateTime=2022-09-21T16:48:27.6625270Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1482,23 +2016,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.8657000Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.8657284Z
+    DateTime=2022-09-21T16:48:27.6625489Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -22.667215,
-  "PosY": -12.26503,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:03.8757376Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:03.8757535Z
+    DateTime=2022-09-21T16:48:27.6625555Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1530,7 +2060,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1563,12 +2093,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:27.7411327Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 3.6107426,
+  "LookDirX": 0.049637545,
+  "LookDirY": 0.9987673,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.8969857Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.9284758Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:27.9284991Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.0229577Z
+    DateTime=2022-09-21T16:48:27.9285083Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1576,23 +2154,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.1215083Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:04.1215194Z
+    DateTime=2022-09-21T16:48:27.9285172Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -24.079544,
-  "PosY": -12.3882265,
-  "LookDirX": 7.622402E-39,
-  "LookDirY": 1.0561252E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.1292316Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:04.1292379Z
+    DateTime=2022-09-21T16:48:27.9285238Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1624,7 +2198,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1657,12 +2231,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:28.0064865Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 5.1605496,
+  "LookDirX": 0.04666216,
+  "LookDirY": 0.99891067,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.1624930Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.2094918Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.2095014Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.2877410Z
+    DateTime=2022-09-21T16:48:28.2095072Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1670,23 +2292,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.3749572Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:04.3749630Z
+    DateTime=2022-09-21T16:48:28.2095279Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -25.383232,
-  "PosY": -12.501946,
-  "LookDirX": 5.96941E-39,
-  "LookDirY": 1.1112256E-38,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.3810365Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:04.3810430Z
+    DateTime=2022-09-21T16:48:28.2095321Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1718,7 +2336,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1751,8 +2369,80 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:28.2720535Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 6.6943183,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.4124716Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.4440040Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.4440207Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.4440301Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.4440390Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.5535458Z
+    DateTime=2022-09-21T16:48:28.4440562Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1784,7 +2474,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1817,12 +2507,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:28.5375088Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 8.402047,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.6939866Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.7409858Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.7410212Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.7410563Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.8192306Z
+    DateTime=2022-09-21T16:48:28.7410668Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1830,9 +2580,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:04.8902350Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:04.8902416Z
+    DateTime=2022-09-21T16:48:28.7410738Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1864,7 +2612,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1897,12 +2645,24 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:28.8035021Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 9.905564,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.0846225Z
+    DateTime=2022-09-21T16:48:28.9440006Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1910,18 +2670,64 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.1415805Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:05.1415912Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
+    DateTime=2022-09-21T16:48:28.9911982Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.9912182Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.9912303Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.9912506Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:28.9912673Z
+Send Information: 0 : Sending Packet {
+  "RoomId": 1,
+  "PlayerPosArr": [
+    {
+      "X": 4,
+      "Y": 9
+    },
+    {
+      "X": 0,
       "Y": 0
     },
     {
@@ -1944,7 +2750,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -1977,12 +2783,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:29.0689877Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 11.536407,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.2094744Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.2564768Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.2564881Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.3503068Z
+    DateTime=2022-09-21T16:48:29.2565088Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -1990,9 +2844,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.3942813Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:05.3942991Z
+    DateTime=2022-09-21T16:48:29.2565176Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.2565239Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2024,7 +2888,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2057,12 +2921,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:29.3346332Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 12.513157,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.4910052Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.5064911Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.5065039Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4897554,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.5065130Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.6163990Z
+    DateTime=2022-09-21T16:48:29.5065370Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.035493,
-  "PosY": -10.762282,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2070,9 +2994,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.6463636Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:05.6463731Z
+    DateTime=2022-09-21T16:48:29.5065436Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2104,7 +3026,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2137,12 +3059,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:29.6000041Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -4.301347,
+  "PosY": 12.509275,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.7874928Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.8500919Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.8501161Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4896662,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:29.8501240Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.8822190Z
+    DateTime=2022-09-21T16:48:29.8501311Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0364372,
-  "PosY": -11.103879,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2150,9 +3132,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:05.9024638Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:05.9024806Z
+    DateTime=2022-09-21T16:48:29.8501362Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2184,7 +3164,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2217,12 +3197,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:29.8662225Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -3.8288028,
+  "PosY": 12.5,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.0535096Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.1000294Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.1000451Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.4895694,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.1472311Z
+    DateTime=2022-09-21T16:48:30.1000557Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2230,13 +3258,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.1544788Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:06.1544882Z
+    DateTime=2022-09-21T16:48:30.1000882Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2244,9 +3270,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.4091450Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:06.4091595Z
+    DateTime=2022-09-21T16:48:30.1000962Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2278,7 +3302,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2311,12 +3335,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:30.1314976Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.2460284,
+  "PosY": 12.5,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.3190898Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.3661069Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.3661559Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.3661669Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.4128932Z
+    DateTime=2022-09-21T16:48:30.3661802Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2324,9 +3408,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.6637386Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:06.6637445Z
+    DateTime=2022-09-21T16:48:30.3661879Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2358,7 +3440,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2392,11 +3474,71 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:02:06.6791144Z
+    DateTime=2022-09-21T16:48:30.3970020Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": -0.7068851,
+  "PosY": 12.5,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.5689694Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.6159908Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.6160025Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.6160337Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.6160428Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2404,9 +3546,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.9174949Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:06.9175005Z
+    DateTime=2022-09-21T16:48:30.6160494Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2438,7 +3578,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2471,12 +3611,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:30.6625156Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.3228489,
+  "PosY": 12.5,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.8345175Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.8816497Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.8816695Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:30.8816786Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:06.9446235Z
+    DateTime=2022-09-21T16:48:30.8816873Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2484,9 +3684,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.1724470Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:07.1724554Z
+    DateTime=2022-09-21T16:48:30.8816971Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2518,7 +3716,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2551,12 +3749,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:30.9286948Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.3226277,
+  "PosY": 11.4729,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.0844715Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.1470424Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.1470584Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.1470964Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.50022006,
+  "PosY": 10.490849,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.2102314Z
+    DateTime=2022-09-21T16:48:31.1471092Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2564,9 +3822,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.4301570Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:07.4301661Z
+    DateTime=2022-09-21T16:48:31.1471170Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2598,7 +3854,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2631,12 +3887,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:31.1940737Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.04431979,
+  "PosY": 10.479739,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.3500664Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.3969759Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.3969847Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.3969902Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.8254632,
+  "PosY": 9.867349,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.4751918Z
+    DateTime=2022-09-21T16:48:31.3970071Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2644,9 +3960,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.6814634Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:07.6814723Z
+    DateTime=2022-09-21T16:48:31.3970114Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2678,7 +3992,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2711,12 +4025,36 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:31.4596220Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -0.052745998,
+  "PosY": 8.756325,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.6469880Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.7410282Z
+    DateTime=2022-09-21T16:48:31.6940405Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2724,9 +4062,43 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:07.9363300Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:07.9363437Z
+    DateTime=2022-09-21T16:48:31.6941098Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.6941342Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.9416792,
+  "PosY": 9.808488,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.6941471Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.6941541Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2758,7 +4130,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2791,12 +4163,48 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:31.7250040Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -0.052745998,
+  "PosY": 7.8605356,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.9285149Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.9910766Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.0068580Z
+    DateTime=2022-09-21T16:48:31.9910939Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": -2.48948,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2804,9 +4212,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.1912852Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:08.1912951Z
+    DateTime=2022-09-21T16:48:31.9911014Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2838,7 +4244,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2872,11 +4278,11 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:02:08.2726986Z
+    DateTime=2022-09-21T16:48:31.9911335Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 0.9416792,
+  "PosY": 9.808488,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2884,20 +4290,42 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.4476625Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:08.4476760Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
+    DateTime=2022-09-21T16:48:31.9912091Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:31.9912140Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -0.052745998,
+  "PosY": 9.45661,
+  "LookDirX": 0.046566747,
+  "LookDirY": 0.9989152,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.1939699Z
+Send Information: 0 : Sending Packet {
+  "RoomId": 1,
+  "PlayerPosArr": [
+    {
+      "X": 4,
+      "Y": 9
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
     {
       "X": 0,
       "Y": 0
@@ -2918,7 +4346,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -2951,12 +4379,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:32.2565431Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.2566808Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.2567083Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.2567150Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.9416792,
+  "PosY": 9.808488,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.5385166Z
+    DateTime=2022-09-21T16:48:32.2567202Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2964,9 +4440,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.7061682Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:08.7061741Z
+    DateTime=2022-09-21T16:48:32.2567279Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.84242815,
+  "PosY": 10.739777,
+  "LookDirX": 0.8598406,
+  "LookDirY": 0.51056254,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.4910253Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2998,7 +4484,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -3031,22 +4517,80 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:32.5219676Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.5376596Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.5376822Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.5377415Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2604375,
+  "PosY": 9.75937,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.8033770Z
+    DateTime=2022-09-21T16:48:32.5377499Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.5377647Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": 0.50654894,
+  "LookDirY": -0.8622112,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:08.9579103Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:08.9579184Z
+    DateTime=2022-09-21T16:48:32.7565506Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3078,7 +4622,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -3111,12 +4655,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:32.7875123Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.8190028Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.8190158Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:32.8190246Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.0691363Z
+    DateTime=2022-09-21T16:48:32.8190328Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3124,9 +4716,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.2167289Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:09.2167348Z
+    DateTime=2022-09-21T16:48:32.8190455Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.31137368,
+  "LookDirY": -0.9502876,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.0220680Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3158,7 +4760,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -3191,22 +4793,80 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:33.0535039Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.0689770Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.0690066Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.0690200Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.3354255Z
+    DateTime=2022-09-21T16:48:33.0690302Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.0690407Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.31401387,
+  "LookDirY": -0.9494184,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.4717351Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:09.4717434Z
+    DateTime=2022-09-21T16:48:33.3035474Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3238,7 +4898,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -3271,12 +4931,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:33.3189792Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.3499737Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.3499848Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.3499936Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.6001969Z
+    DateTime=2022-09-21T16:48:33.3500129Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3284,9 +4992,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.7243496Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:09.7243551Z
+    DateTime=2022-09-21T16:48:33.3500204Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.32080445,
+  "LookDirY": -0.94714546,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.5844747Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3318,7 +5036,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -3352,11 +5070,11 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:02:09.8658539Z
+    DateTime=2022-09-21T16:48:33.5844853Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 0.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3364,3453 +5082,23 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:09.9796956Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:09.9797124Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:10.1316505Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:10.2504901Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:10.2504964Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:10.3973750Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:10.5038310Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:10.5038378Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:10.6628735Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:10.7556699Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:10.7556748Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:10.9285169Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:11.0139007Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:11.0139057Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:11.1938775Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:11.2709647Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:11.2709707Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:11.4595929Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:11.5267715Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:11.5267846Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:11.7253422Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:11.7786996Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:11.7787176Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:11.9908046Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:12.0410264Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:12.0410379Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:12.2566496Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:12.2947184Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:12.2947298Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:12.5229736Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:12.5515164Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:12.5515223Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:12.7879080Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:12.8087715Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:12.8087840Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:13.0537408Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:13.0668495Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:13.0668653Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:13.3188832Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:13.3188909Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:13.3191307Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:13.5723437Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:13.5723496Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:13.5845688Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:13.8246653Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:13.8246768Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:13.8504660Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:14.0845145Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:14.0845211Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:14.1158748Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:14.3392180Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:14.3392361Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:14.3818930Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:14.5970232Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:14.5970292Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:14.6472036Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:14.8471808Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:14.8471860Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:14.9128990Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:15.0987299Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:15.0987407Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:15.1785735Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:15.3512789Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:15.3512846Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:15.4442740Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:15.6055251Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:15.6055458Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:15.7099426Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:15.8579284Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:15.8579362Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:15.9759104Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:16.1083246Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:16.1083306Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:16.2411799Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:16.3662585Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:16.3662762Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:16.5064960Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:16.6186290Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:16.6186358Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:16.7721579Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:16.8704863Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:16.8704939Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:17.0384165Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:17.1208841Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:17.1208911Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:17.3034791Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:17.3898311Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:17.3898413Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:17.5691232Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:17.6444899Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:17.6444985Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:17.8352275Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:17.8987050Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:17.8987174Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:18.1001436Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:18.1473170Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:18.1473232Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:18.3659920Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:18.4107217Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:18.4107286Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:18.6324675Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:18.6611442Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:18.6611589Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:18.8975557Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:18.9178513Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:18.9178701Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:19.1634571Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:19.1711681Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:19.1711745Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:19.4291006Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:19.4334677Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:19.4334734Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:19.6901618Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:19.6901719Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:19.6947664Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:19.9434685Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:19.9434742Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:19.9597048Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:20.2252004Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:20.2821555Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:20.2821608Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:20.4917046Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:20.5371903Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:20.5371965Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:20.7565771Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:20.8053890Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:20.8053968Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
-}
-    DateTime=2022-09-16T12:02:21.0221748Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-16T12:02:21.0683010Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:21.0683063Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
+    DateTime=2022-09-21T16:48:33.6318420Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.2885963Z
+    DateTime=2022-09-21T16:48:33.6319080Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": -2.48948,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -6818,79 +5106,23 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.3274730Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:21.3274792Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
+    DateTime=2022-09-21T16:48:33.6319219Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.5539353Z
+    DateTime=2022-09-21T16:48:33.6319297Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -6898,9 +5130,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.5860452Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:21.5860570Z
+    DateTime=2022-09-21T16:48:33.6319366Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -6932,7 +5162,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -6965,12 +5195,24 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:33.8499940Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.33524913,
+  "LookDirY": -0.94212955,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.8191850Z
+    DateTime=2022-09-21T16:48:33.8659907Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 0.5,
+  "PosY": -10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -6978,79 +5220,47 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:21.8584913Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:21.8585021Z
-Send Information: 0 : Sending Packet {
-  "RoomId": 1,
-  "PlayerPosArr": [
-    {
-      "X": 4,
-      "Y": 9
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "PlayerLookDirArr": [
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    },
-    {
-      "X": 0,
-      "Y": 0
-    }
-  ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "PlayerCount": 1,
-  "Id": 4100
+    DateTime=2022-09-21T16:48:33.9286467Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.9286770Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:33.9286906Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.0846103Z
+    DateTime=2022-09-21T16:48:33.9287457Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7058,9 +5268,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.1343439Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:22.1343495Z
+    DateTime=2022-09-21T16:48:33.9287543Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7092,7 +5300,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7125,12 +5333,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:34.1159881Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.33982354,
+  "LookDirY": -0.94048923,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.1470471Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.1940105Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.1940233Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.1940323Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.3501797Z
+    DateTime=2022-09-21T16:48:34.1940433Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7138,9 +5406,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.4133799Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:22.4133891Z
+    DateTime=2022-09-21T16:48:34.1940535Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7172,7 +5438,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7205,12 +5471,48 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:34.3815164Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.7280636,
+  "PosY": 10.750631,
+  "LookDirX": -0.33982354,
+  "LookDirY": -0.94048923,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.4126661Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.4594554Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.6166274Z
+    DateTime=2022-09-21T16:48:34.4594653Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": -2.48948,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7218,9 +5520,31 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.6930516Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:22.6930581Z
+    DateTime=2022-09-21T16:48:34.4594880Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.4595004Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.4595073Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7252,7 +5576,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7285,12 +5609,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:34.6471601Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.5888296,
+  "PosY": 10.750631,
+  "LookDirX": -0.30774555,
+  "LookDirY": -0.9514687,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.6784905Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.7411503Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.7411727Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.7411867Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603972,
+  "PosY": 9.758087,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.8821935Z
+    DateTime=2022-09-21T16:48:34.7412043Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7298,9 +5682,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:22.9982884Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:22.9982945Z
+    DateTime=2022-09-21T16:48:34.7412562Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7332,7 +5714,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7365,12 +5747,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:34.9125381Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5346352,
+  "PosY": 10.753245,
+  "LookDirX": -0.4173135,
+  "LookDirY": -0.90876263,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:34.9439876Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.0064646Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.0064829Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.0064893Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.1476356Z
+    DateTime=2022-09-21T16:48:35.0064961Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7378,9 +5820,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.2500916Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:23.2501044Z
+    DateTime=2022-09-21T16:48:35.0065005Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7412,7 +5852,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7445,12 +5885,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:35.1786303Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.0980351,
+  "PosY": 10.753245,
+  "LookDirX": -0.9752289,
+  "LookDirY": -0.22119805,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.2249889Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.2874749Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.2875188Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.2875310Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.4128043Z
+    DateTime=2022-09-21T16:48:35.2875488Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7458,9 +5958,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.5163544Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:23.5163596Z
+    DateTime=2022-09-21T16:48:35.2875555Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7492,7 +5990,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7525,12 +6023,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:35.4440544Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.9817113,
+  "LookDirY": -0.19037569,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.4910447Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.5534697Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.5534951Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.5535062Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.6782660Z
+    DateTime=2022-09-21T16:48:35.5535178Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7538,9 +6096,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.7946693Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:23.7946826Z
+    DateTime=2022-09-21T16:48:35.5535266Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7572,7 +6128,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7605,12 +6161,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:35.7094784Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.9817113,
+  "LookDirY": -0.19037569,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.7876691Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.8499797Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.8499956Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:35.8500186Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:23.9442851Z
+    DateTime=2022-09-21T16:48:35.8500322Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7618,9 +6234,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.0514550Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:24.0514603Z
+    DateTime=2022-09-21T16:48:35.8500420Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7652,7 +6266,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7685,12 +6299,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:35.9750106Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.98214835,
+  "LookDirY": -0.18810815,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.0536844Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.1159858Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.1159972Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.2097575Z
+    DateTime=2022-09-21T16:48:36.1160060Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7698,9 +6360,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.3031957Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:24.3032031Z
+    DateTime=2022-09-21T16:48:36.1160161Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.1160325Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7732,7 +6404,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7765,12 +6437,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:36.2409819Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.98919594,
+  "LookDirY": -0.14659972,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.3190139Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.3969901Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.3970023Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.3970254Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.4756277Z
+    DateTime=2022-09-21T16:48:36.3970372Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7778,9 +6510,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.5845013Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:24.5845081Z
+    DateTime=2022-09-21T16:48:36.3970440Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7812,7 +6542,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7845,12 +6575,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:36.5065811Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.9910914,
+  "LookDirY": -0.13318384,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.5999955Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.6469838Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.6469964Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.6470044Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.7409263Z
+    DateTime=2022-09-21T16:48:36.6470263Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7858,9 +6648,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:24.8619607Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:24.8619748Z
+    DateTime=2022-09-21T16:48:36.6470326Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7892,7 +6680,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -7925,12 +6713,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:36.7720861Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.9910914,
+  "LookDirY": -0.13318384,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.8969912Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.9440156Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.9440498Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:36.9440570Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.0072227Z
+    DateTime=2022-09-21T16:48:36.9440671Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -7938,9 +6786,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.1423303Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:25.1423375Z
+    DateTime=2022-09-21T16:48:36.9440717Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -7972,7 +6818,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8005,12 +6851,60 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:37.0375466Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 10.753245,
+  "LookDirX": -0.99085677,
+  "LookDirY": -0.13491794,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.1625288Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.2249688Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.2249773Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.2730342Z
+    DateTime=2022-09-21T16:48:37.2249835Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8018,9 +6912,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.4100644Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:25.4100710Z
+    DateTime=2022-09-21T16:48:37.2250015Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.2250062Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8052,7 +6956,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8085,12 +6989,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:37.3036806Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 9.2289295,
+  "LookDirX": 0.6457158,
+  "LookDirY": 0.7635779,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.4284900Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.4909816Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.4910051Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.4910139Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.5381516Z
+    DateTime=2022-09-21T16:48:37.4910226Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8098,9 +7062,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.6666975Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:25.6667043Z
+    DateTime=2022-09-21T16:48:37.4910357Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8132,7 +7094,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8165,12 +7127,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:37.5691228Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -1.4179405,
+  "PosY": 7.4604406,
+  "LookDirX": 0.90261525,
+  "LookDirY": 0.4304482,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.7095234Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.7719593Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.7719673Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.7719813Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.8035089Z
+    DateTime=2022-09-21T16:48:37.7719880Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8178,9 +7200,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:25.9493272Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:25.9493330Z
+    DateTime=2022-09-21T16:48:37.7719922Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8212,7 +7232,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8245,12 +7265,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:37.8345487Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.3860617,
+  "PosY": 6.205901,
+  "LookDirX": 0.91031104,
+  "LookDirY": 0.41392493,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:37.9910166Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.0536040Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.0536219Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.0536323Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.0691202Z
+    DateTime=2022-09-21T16:48:38.0536492Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8258,9 +7338,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.2347640Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:26.2347708Z
+    DateTime=2022-09-21T16:48:38.0536641Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8292,7 +7370,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8325,12 +7403,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:38.1001293Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -3.5397587,
+  "PosY": 5.045048,
+  "LookDirX": 0.81929606,
+  "LookDirY": 0.57337064,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.2719869Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.3344777Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.3344886Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.3345135Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.3350509Z
+    DateTime=2022-09-21T16:48:38.3345240Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8338,9 +7476,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.5193467Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:26.5193525Z
+    DateTime=2022-09-21T16:48:38.3345298Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8372,7 +7508,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8406,21 +7542,19 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:02:26.6008773Z
+    DateTime=2022-09-21T16:48:38.3659945Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
-  "LookDirX": 0,
-  "LookDirY": 0,
+  "PosX": -5.009216,
+  "PosY": 5.037834,
+  "LookDirX": 0.81929606,
+  "LookDirY": 0.57337064,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.8064070Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:26.8064127Z
+    DateTime=2022-09-21T16:48:38.5535411Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8452,7 +7586,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8485,12 +7619,132 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:38.6902816Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.6939712Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.6939801Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.6939861Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.6940028Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.6940079Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.009346,
+  "PosY": 5.037834,
+  "LookDirX": 0.81929606,
+  "LookDirY": 0.57337064,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.8189829Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.8659809Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.8660129Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:38.8660251Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:26.8660925Z
+    DateTime=2022-09-21T16:48:38.8660329Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8498,9 +7752,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:27.0751158Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:27.0751223Z
+    DateTime=2022-09-21T16:48:38.8660388Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8532,7 +7784,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8565,12 +7817,72 @@ Send Information: 0 : Sending Packet {
   ],
   "PlayerCount": 1,
   "Id": 4100
+}
+    DateTime=2022-09-21T16:48:38.9439733Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -5.009346,
+  "PosY": 5.037834,
+  "LookDirX": 0.81929606,
+  "LookDirY": 0.57337064,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:39.0846687Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 0.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:39.1626374Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 3.5,
+  "PosY": -10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:39.1626499Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": -2.48948,
+  "PosY": 10.5,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
+}
+    DateTime=2022-09-21T16:48:39.1626588Z
+Recv Information: 0 : received packet {
+  "TeamId": 0,
+  "PosX": 1.2603755,
+  "PosY": 9.755473,
+  "LookDirX": 0,
+  "LookDirY": 0,
+  "RoomId": 0,
+  "CharacterType": 0,
+  "UserId": 4,
+  "Id": 4
 }
-    DateTime=2022-09-16T12:02:27.1323354Z
+    DateTime=2022-09-21T16:48:39.1626853Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.0371183,
-  "PosY": -11.151665,
+  "PosX": 3.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -8578,9 +7890,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-16T12:02:27.3246551Z
-Packets Information: 0 : From session [1] Read packet ServerCore.Packets.C_BroadcastPlayerState
-    DateTime=2022-09-16T12:02:27.3246619Z
+    DateTime=2022-09-21T16:48:39.1626919Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -8612,7 +7922,7 @@ Send Information: 0 : Sending Packet {
   "PlayerLookDirArr": [
     {
       "X": 0,
-      "Y": 0
+      "Y": 1
     },
     {
       "X": 0,
@@ -8646,4 +7956,4 @@ Send Information: 0 : Sending Packet {
   "PlayerCount": 1,
   "Id": 4100
 }
-    DateTime=2022-09-16T12:02:27.3979526Z
+    DateTime=2022-09-21T16:48:39.2095035Z

@@ -57,7 +57,6 @@ namespace Server
 			if (userId != 0)
 			{
 				session.RegisterSend(new S_Login { result = true, userId = userId });
-				session.Send();
 				return;
 			}
 			session.RegisterSend(new S_Login { result = false });

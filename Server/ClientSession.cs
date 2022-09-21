@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Sockets;
 using Server.Game;
@@ -9,6 +10,8 @@ using ServerCore;
 using ServerCore.Managers;
 using ServerCore.Packets;
 using static Server.Utils.Enums;
+using System.Collections.Concurrent;
+using System.Threading;
 
 namespace Server
 {
@@ -16,21 +19,27 @@ namespace Server
 	{
 		public JEvent OnClosed = new();
 		JobQueue _sendQueue;
-		JobQueue _handlerQueue;
-		bool _sendRegistered;
+		JobQueue _parserQueue;
+		ConcurrentQueue<BasePacket> _sendingPacketQueue;
+		IEnumerator<float> _coPacketParserHandler;
+		int _sendRegistered;
+		public bool ParsingPacket;
+
 		public override void Init(int id, Socket socket)
 		{
 			base.Init(id, socket);
-			_sendRegistered = false;
+			_sendingPacketQueue = new();
+			_sendRegistered = 0;
 			_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
-			_handlerQueue = JobMgr.GetQueue(Define.PacketHandlerQueueName);
+			_parserQueue = JobMgr.GetQueue(Define.PacketParserQueueName);
+			_coPacketParserHandler = _recvBuffer.ReadPacket(this);
 		}
 		public override void OnConnected()
 		{
 			base.OnConnected();
 			LogMgr.Log($"[server] connecting to {_socket.RemoteEndPoint} completed", TraceSourceType.Session, TraceSourceType.Network);
 		}
-		public override void Send()
+		protected override void Send()
 		{
 			try
 			{
@@ -67,7 +76,19 @@ namespace Server
 		protected override void OnSendCompleted(SocketAsyncEventArgs args)
 		{
 			base.OnSendCompleted(args);
-			_sendRegistered = false;
+			if (_sendingPacketQueue.IsEmpty)
+			{
+				_sendRegistered = 0;
+				return;
+			}
+			_sendQueue.Push(() =>
+			{
+				while (_sendingPacketQueue.TryDequeue(out BasePacket item))
+				{
+					_sendBuffer.WritePacket(item);
+				}
+				_sendQueue.Push(() => Send());
+			});
 		}
 		protected override void OnRecvCompleted(SocketAsyncEventArgs args)
 		{
@@ -77,23 +98,26 @@ namespace Server
 				SessionMgr.Close(Id);
 				return;
 			}
-			while (_recvBuffer.CanRead())
+			_parserQueue.Push(() =>
 			{
-				var packet = _recvBuffer.ReadPacket();
-				LogMgr.Log($"From session [{Id}] Read packet {packet}", TraceSourceType.Packet, TraceSourceType.Session);
-				_handlerQueue.Push(() =>
-				 PacketHandler.HandlePacket(packet, this));
-			}
-			RegisterRecv();
+				_coPacketParserHandler.MoveNext();
+				//todo
+				//만약 한 악성 클라이언트가 엄청 빠르게 많이 보내면 queue가 해당 클라이언트의 패킷만 처리하면서 막힐 수 있다.
+				RegisterRecv();
+			});
 		}
 
 		public override bool RegisterSend(BasePacket packet)
 		{
-			var result = _sendBuffer.WritePacket(packet);
-			if (_sendRegistered == false)
+			var result = true;
+			_sendingPacketQueue.Enqueue(packet);
+			if (Interlocked.CompareExchange(ref _sendRegistered, 1, 0) == 0)
 			{
+				while (_sendingPacketQueue.TryDequeue(out BasePacket item))
+				{
+					result &= _sendBuffer.WritePacket(item);
+				}
 				_sendQueue.Push(() => Send());
-				_sendRegistered = true;
 			}
 			return result;
 		}

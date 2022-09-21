@@ -10,6 +10,7 @@ namespace Server.Utils
 	{
 		#region JobQueue name
 		public const string PacketHandlerQueueName = "PacketHandler Thread";
+		public const string PacketParserQueueName = "PacketParser Thread";
 		public const string PacketSendQueueName = "Packet Send Thread";
 		public const string PacketGameQueueName = "Packet Game Thread";
 		#endregion

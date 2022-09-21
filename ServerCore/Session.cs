@@ -1,6 +1,7 @@
 ﻿using ServerCore.Packets;
 using System;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace ServerCore
 {
@@ -8,10 +9,11 @@ namespace ServerCore
 	{
 		public int Id;
 		protected Socket _socket;
-		protected SendBuffer _sendBuffer = new(4048);
+		protected SendBuffer _sendBuffer = new(32768);
 		protected RecvBuffer _recvBuffer = new(32768);
 		protected SocketAsyncEventArgs _sendArgs = new();
 		protected SocketAsyncEventArgs _recvArgs = new();
+		protected int _sending = 0;
 		public virtual void Init(int id, Socket socket)
 		{
 			Id = id;
@@ -25,8 +27,9 @@ namespace ServerCore
 		}
 		public abstract bool RegisterSend(BasePacket packet);
 
-		public virtual void Send()
+		protected virtual void Send()
 		{
+			if (Interlocked.CompareExchange(ref _sending, 1, 0) == 1) return;
 			_sendArgs.SetBuffer(_sendBuffer.Flush());
 			if (_socket.SendAsync(_sendArgs) == false)
 				OnSendCompleted(_sendArgs);
@@ -39,6 +42,7 @@ namespace ServerCore
 		}
 		protected virtual void OnSendCompleted(SocketAsyncEventArgs args)
 		{
+			_sending = 0;
 			if (args.SocketError != SocketError.Success)
 				throw new Exception();
 		}

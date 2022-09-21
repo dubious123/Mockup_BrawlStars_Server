@@ -13,7 +13,7 @@ namespace Server.Game
 		public int UserId { get; init; }
 		public short TeamId { get; set; }
 		public Vector2 Position { get; set; }
-		public Vector2 LookDir { get; set; }
+		public Vector2 LookDir { get; set; } = new Vector2(0, 1);
 		public ClientSession Session { get; init; }
 		public GameRoom CurrentGame;
 		public Enums.CharacterType CharacterType { get; set; } = 0;
