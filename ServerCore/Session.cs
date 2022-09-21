@@ -1,5 +1,4 @@
-﻿using ServerCore.Packets;
-using System;
+﻿using System;
 using System.Net.Sockets;
 using System.Threading;
 

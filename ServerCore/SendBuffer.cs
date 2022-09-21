@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Net.Sockets;
 using System.Text.Json;
-using ServerCore.Packets;
 using System.Buffers;
 
 namespace ServerCore

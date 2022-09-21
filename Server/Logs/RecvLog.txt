@@ -1,31 +1,31 @@
 Recv Information: 0 : received packet {
   "Id": 0
 }
-    DateTime=2022-09-21T16:48:14.3952798Z
+    DateTime=2022-09-21T21:11:04.9147667Z
 Recv Information: 0 : received packet {
   "loginId": "jonghun1",
   "loginPw": "0827",
   "Id": 1
 }
-    DateTime=2022-09-21T16:48:21.4187315Z
+    DateTime=2022-09-21T21:11:07.7617743Z
 Recv Information: 0 : received packet {
-  "CharacterType": 0,
+  "CharacterType": 1,
   "UserId": 4,
   "Id": 3
 }
-    DateTime=2022-09-21T16:48:23.5238303Z
+    DateTime=2022-09-21T21:11:09.8696407Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": -2.5,
   "PosY": -10.5,
-  "LookDirX": 0.02739396,
-  "LookDirY": -0.9996247,
+  "LookDirX": -0.07199324,
+  "LookDirY": -0.9974051,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2513110Z
+    DateTime=2022-09-21T21:11:12.4313804Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -37,7 +37,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2876773Z
+    DateTime=2022-09-21T21:11:12.4596160Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -49,7 +49,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2877062Z
+    DateTime=2022-09-21T21:11:12.4748371Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": -2.5,
@@ -61,7 +61,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2877194Z
+    DateTime=2022-09-21T21:11:12.4748663Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -73,7 +73,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2877304Z
+    DateTime=2022-09-21T21:11:12.4748795Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -85,19 +85,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.2877504Z
+    DateTime=2022-09-21T21:11:12.4748935Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897048,
+  "PosX": -2.489705,
   "PosY": -10.499946,
-  "LookDirX": -0.99783635,
-  "LookDirY": 0.06574672,
+  "LookDirX": -0.07199324,
+  "LookDirY": -0.9974051,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.4910876Z
+    DateTime=2022-09-21T21:11:12.6786414Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -109,7 +109,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.5375118Z
+    DateTime=2022-09-21T21:11:12.7092334Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -121,10 +121,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.5375246Z
+    DateTime=2022-09-21T21:11:12.7247264Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4922001,
+  "PosX": -2.4899817,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -133,7 +133,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.5375418Z
+    DateTime=2022-09-21T21:11:12.7247470Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -145,7 +145,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.5375624Z
+    DateTime=2022-09-21T21:11:12.7247602Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -157,19 +157,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.5375674Z
+    DateTime=2022-09-21T21:11:12.7247777Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.489534,
+  "PosX": -2.4895427,
   "PosY": -10.499946,
-  "LookDirX": -0.61512697,
-  "LookDirY": 0.78842807,
+  "LookDirX": -0.8881772,
+  "LookDirY": 0.4595011,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.7875216Z
+    DateTime=2022-09-21T21:11:12.9282965Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -181,7 +181,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.8034685Z
+    DateTime=2022-09-21T21:11:12.9594962Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -193,10 +193,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.8035166Z
+    DateTime=2022-09-21T21:11:12.9750524Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4898076,
+  "PosX": -2.4897926,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -205,7 +205,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.8035333Z
+    DateTime=2022-09-21T21:11:12.9750996Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -217,7 +217,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.8035445Z
+    DateTime=2022-09-21T21:11:12.9751176Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -229,19 +229,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:24.8035562Z
+    DateTime=2022-09-21T21:11:12.9751272Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.489446,
+  "PosX": -2.4894505,
   "PosY": -10.499946,
-  "LookDirX": -0.5390743,
-  "LookDirY": 0.8422582,
+  "LookDirX": 0.3906618,
+  "LookDirY": 0.92053425,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0065431Z
+    DateTime=2022-09-21T21:11:13.1782094Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -253,7 +253,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0535242Z
+    DateTime=2022-09-21T21:11:13.2095411Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -265,10 +265,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0536603Z
+    DateTime=2022-09-21T21:11:13.2250161Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -277,7 +277,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0537336Z
+    DateTime=2022-09-21T21:11:13.2250337Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -289,7 +289,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0537544Z
+    DateTime=2022-09-21T21:11:13.2250434Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -301,19 +301,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.0537670Z
+    DateTime=2022-09-21T21:11:13.2250510Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.091061,
-  "PosY": -10.500324,
-  "LookDirX": -0.24497482,
-  "LookDirY": 0.96952945,
+  "PosX": -2.4893591,
+  "PosY": -9.300694,
+  "LookDirX": 0.46169934,
+  "LookDirY": 0.8870365,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.2875232Z
+    DateTime=2022-09-21T21:11:13.4435086Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -325,7 +325,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.3190049Z
+    DateTime=2022-09-21T21:11:13.4594603Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -337,10 +337,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.3190661Z
+    DateTime=2022-09-21T21:11:13.4749355Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -349,7 +349,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.3190912Z
+    DateTime=2022-09-21T21:11:13.4749582Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -361,7 +361,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.3190987Z
+    DateTime=2022-09-21T21:11:13.4749764Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -373,19 +373,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.3191102Z
+    DateTime=2022-09-21T21:11:13.4749871Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.370303,
-  "PosY": -10.050907,
-  "LookDirX": -0.25586802,
-  "LookDirY": 0.96671176,
+  "PosX": -2.4893262,
+  "PosY": -7.7605596,
+  "LookDirX": 0.5409872,
+  "LookDirY": 0.8410308,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.5535141Z
+    DateTime=2022-09-21T21:11:13.6935901Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -397,7 +397,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.6002815Z
+    DateTime=2022-09-21T21:11:13.7250390Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -409,10 +409,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.6003064Z
+    DateTime=2022-09-21T21:11:13.7411210Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -421,7 +421,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.6003574Z
+    DateTime=2022-09-21T21:11:13.7411309Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -433,7 +433,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.6003885Z
+    DateTime=2022-09-21T21:11:13.7411394Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -445,19 +445,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.6004987Z
+    DateTime=2022-09-21T21:11:13.7411458Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.370378,
-  "PosY": -8.508516,
-  "LookDirX": -0.22082534,
-  "LookDirY": 0.9753133,
+  "PosX": -2.7071912,
+  "PosY": -6.343137,
+  "LookDirX": 0.2758575,
+  "LookDirY": 0.96119857,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8035203Z
+    DateTime=2022-09-21T21:11:13.9436912Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -469,7 +469,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8500915Z
+    DateTime=2022-09-21T21:11:13.9750766Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -481,10 +481,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8501091Z
+    DateTime=2022-09-21T21:11:13.9906240Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -493,7 +493,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8501257Z
+    DateTime=2022-09-21T21:11:13.9906392Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -505,7 +505,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8501705Z
+    DateTime=2022-09-21T21:11:13.9906480Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -517,19 +517,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:25.8501786Z
+    DateTime=2022-09-21T21:11:13.9906676Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.370378,
-  "PosY": -6.907644,
-  "LookDirX": -0.22141644,
-  "LookDirY": 0.9751793,
+  "PosX": -3.7691336,
+  "PosY": -5.2796392,
+  "LookDirX": 0.0073108934,
+  "LookDirY": 0.9999733,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.0691423Z
+    DateTime=2022-09-21T21:11:14.1937467Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -541,7 +541,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.1160977Z
+    DateTime=2022-09-21T21:11:14.2248113Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -553,10 +553,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.1161518Z
+    DateTime=2022-09-21T21:11:14.2405261Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -565,7 +565,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.1161636Z
+    DateTime=2022-09-21T21:11:14.2405537Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -577,7 +577,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.1161785Z
+    DateTime=2022-09-21T21:11:14.2405626Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -589,19 +589,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.1161863Z
+    DateTime=2022-09-21T21:11:14.2405694Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.370378,
-  "PosY": -5.4138875,
-  "LookDirX": -0.23416638,
-  "LookDirY": 0.97219646,
+  "PosX": -3.831194,
+  "PosY": -3.7738314,
+  "LookDirX": -0.004123938,
+  "LookDirY": 0.9999915,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3189901Z
+    DateTime=2022-09-21T21:11:14.4598579Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -613,7 +613,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3660408Z
+    DateTime=2022-09-21T21:11:14.4749887Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -625,10 +625,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3660556Z
+    DateTime=2022-09-21T21:11:14.5164994Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -637,7 +637,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3660652Z
+    DateTime=2022-09-21T21:11:14.5165415Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -649,7 +649,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3661043Z
+    DateTime=2022-09-21T21:11:14.5165777Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -661,19 +661,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.3661107Z
+    DateTime=2022-09-21T21:11:14.5166037Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.370378,
-  "PosY": -3.8795178,
-  "LookDirX": -0.23537202,
-  "LookDirY": 0.9719053,
+  "PosX": -3.831194,
+  "PosY": -2.2701392,
+  "LookDirX": -0.004089312,
+  "LookDirY": 0.99999166,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.5690881Z
+    DateTime=2022-09-21T21:11:14.7092898Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -685,7 +685,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.6161030Z
+    DateTime=2022-09-21T21:11:14.7247871Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -697,10 +697,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.6161264Z
+    DateTime=2022-09-21T21:11:14.7403032Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -709,7 +709,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.6161394Z
+    DateTime=2022-09-21T21:11:14.7403271Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -721,7 +721,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.6161537Z
+    DateTime=2022-09-21T21:11:14.7403359Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -733,19 +733,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.6161659Z
+    DateTime=2022-09-21T21:11:14.7403426Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.3101835,
-  "PosY": -2.804874,
-  "LookDirX": -0.25382122,
-  "LookDirY": 0.9672512,
+  "PosX": -3.831194,
+  "PosY": -0.7609601,
+  "LookDirX": -0.0040915967,
+  "LookDirY": 0.99999166,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8191206Z
+    DateTime=2022-09-21T21:11:14.9602062Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -757,7 +757,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8659818Z
+    DateTime=2022-09-21T21:11:14.9747780Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -769,10 +769,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8659984Z
+    DateTime=2022-09-21T21:11:14.9905255Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -781,7 +781,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8660255Z
+    DateTime=2022-09-21T21:11:14.9905390Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -793,7 +793,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8660394Z
+    DateTime=2022-09-21T21:11:14.9905474Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -805,19 +805,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:26.8660491Z
+    DateTime=2022-09-21T21:11:14.9905542Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": -1.1132842,
-  "LookDirX": -0.0006643746,
-  "LookDirY": 0.99999976,
+  "PosX": -3.831194,
+  "PosY": 0.75389916,
+  "LookDirX": -0.004089816,
+  "LookDirY": 0.99999166,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1161437Z
+    DateTime=2022-09-21T21:11:15.2091144Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -829,7 +829,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1625190Z
+    DateTime=2022-09-21T21:11:15.2404330Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -841,10 +841,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1625311Z
+    DateTime=2022-09-21T21:11:15.2559570Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -853,7 +853,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1625403Z
+    DateTime=2022-09-21T21:11:15.2559683Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -865,7 +865,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1625490Z
+    DateTime=2022-09-21T21:11:15.2559888Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -877,19 +877,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.1625596Z
+    DateTime=2022-09-21T21:11:15.2559956Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 0.41476688,
-  "LookDirX": 0.044308335,
-  "LookDirY": 0.9990179,
+  "PosX": -3.831194,
+  "PosY": 2.2892044,
+  "LookDirX": -0.0040916847,
+  "LookDirY": 0.99999166,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.3660239Z
+    DateTime=2022-09-21T21:11:15.4593837Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -901,7 +901,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.4124885Z
+    DateTime=2022-09-21T21:11:15.4910896Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -913,10 +913,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.4125003Z
+    DateTime=2022-09-21T21:11:15.5061631Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -925,7 +925,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.4125233Z
+    DateTime=2022-09-21T21:11:15.5062553Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -937,7 +937,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.4125325Z
+    DateTime=2022-09-21T21:11:15.5062746Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -949,19 +949,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.4125390Z
+    DateTime=2022-09-21T21:11:15.5062890Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 1.9439815,
-  "LookDirX": 0.04969378,
-  "LookDirY": 0.9987645,
+  "PosX": -3.831194,
+  "PosY": 3.7930703,
+  "LookDirX": -0.004090128,
+  "LookDirY": 0.99999166,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6161400Z
+    DateTime=2022-09-21T21:11:15.7092767Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -973,7 +973,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6625010Z
+    DateTime=2022-09-21T21:11:15.7402808Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -985,10 +985,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6625131Z
+    DateTime=2022-09-21T21:11:15.7561182Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -997,7 +997,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6625270Z
+    DateTime=2022-09-21T21:11:15.7561303Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1009,7 +1009,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6625489Z
+    DateTime=2022-09-21T21:11:15.7561389Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1021,19 +1021,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.6625555Z
+    DateTime=2022-09-21T21:11:15.7561561Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 3.6107426,
-  "LookDirX": 0.049637545,
-  "LookDirY": 0.9987673,
+  "PosX": -3.7825599,
+  "PosY": 5.268889,
+  "LookDirX": 0.12832999,
+  "LookDirY": 0.9917315,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.8969857Z
+    DateTime=2022-09-21T21:11:15.9592416Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1045,7 +1045,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.9284758Z
+    DateTime=2022-09-21T21:11:15.9907393Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1057,10 +1057,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.9284991Z
+    DateTime=2022-09-21T21:11:16.0062987Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1069,7 +1069,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.9285083Z
+    DateTime=2022-09-21T21:11:16.0063237Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1081,7 +1081,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.9285172Z
+    DateTime=2022-09-21T21:11:16.0063329Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1093,19 +1093,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:27.9285238Z
+    DateTime=2022-09-21T21:11:16.0063396Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 5.1605496,
-  "LookDirX": 0.04666216,
-  "LookDirY": 0.99891067,
+  "PosX": -2.2882526,
+  "PosY": 5.332496,
+  "LookDirX": 0.57255256,
+  "LookDirY": 0.8198681,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.1624930Z
+    DateTime=2022-09-21T21:11:16.2154607Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1117,7 +1117,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.2094918Z
+    DateTime=2022-09-21T21:11:16.2560504Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1129,10 +1129,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.2095014Z
+    DateTime=2022-09-21T21:11:16.2718692Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1141,7 +1141,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.2095072Z
+    DateTime=2022-09-21T21:11:16.2718825Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1153,7 +1153,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.2095279Z
+    DateTime=2022-09-21T21:11:16.2718913Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1165,19 +1165,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.2095321Z
+    DateTime=2022-09-21T21:11:16.2719076Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 6.6943183,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": -0.75518364,
+  "PosY": 5.3324924,
+  "LookDirX": 0.71390146,
+  "LookDirY": 0.7002462,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4124716Z
+    DateTime=2022-09-21T21:11:16.4749185Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1189,7 +1189,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4440040Z
+    DateTime=2022-09-21T21:11:16.5063499Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1201,10 +1201,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4440207Z
+    DateTime=2022-09-21T21:11:16.5215579Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1213,7 +1213,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4440301Z
+    DateTime=2022-09-21T21:11:16.5215767Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1225,7 +1225,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4440390Z
+    DateTime=2022-09-21T21:11:16.5216037Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1237,19 +1237,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.4440562Z
+    DateTime=2022-09-21T21:11:16.5216214Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 8.402047,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 0.75713795,
+  "PosY": 5.3324924,
+  "LookDirX": 0.89276636,
+  "LookDirY": 0.45052004,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.6939866Z
+    DateTime=2022-09-21T21:11:16.7247792Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1261,7 +1261,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.7409858Z
+    DateTime=2022-09-21T21:11:16.7560304Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1273,10 +1273,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.7410212Z
+    DateTime=2022-09-21T21:11:16.7715204Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1285,7 +1285,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.7410563Z
+    DateTime=2022-09-21T21:11:16.7715335Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1297,7 +1297,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.7410668Z
+    DateTime=2022-09-21T21:11:16.7715417Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1309,19 +1309,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.7410738Z
+    DateTime=2022-09-21T21:11:16.7715482Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 9.905564,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 2.2936735,
+  "PosY": 5.3324924,
+  "LookDirX": 0.84458536,
+  "LookDirY": -0.53542095,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9440006Z
+    DateTime=2022-09-21T21:11:17.0031737Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1333,7 +1333,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9911982Z
+    DateTime=2022-09-21T21:11:17.0067409Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1345,10 +1345,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9912182Z
+    DateTime=2022-09-21T21:11:17.0215615Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1357,7 +1357,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9912303Z
+    DateTime=2022-09-21T21:11:17.0215748Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1369,7 +1369,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9912506Z
+    DateTime=2022-09-21T21:11:17.0215938Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1381,19 +1381,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:28.9912673Z
+    DateTime=2022-09-21T21:11:17.0216012Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 11.536407,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 3.781712,
+  "PosY": 5.3325014,
+  "LookDirX": 0.24859492,
+  "LookDirY": -0.96860754,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2094744Z
+    DateTime=2022-09-21T21:11:17.2405588Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1405,7 +1405,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2564768Z
+    DateTime=2022-09-21T21:11:17.2717685Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1417,10 +1417,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2564881Z
+    DateTime=2022-09-21T21:11:17.2876395Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1429,7 +1429,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2565088Z
+    DateTime=2022-09-21T21:11:17.2876580Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1441,7 +1441,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2565176Z
+    DateTime=2022-09-21T21:11:17.2876667Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1453,19 +1453,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.2565239Z
+    DateTime=2022-09-21T21:11:17.2876737Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 12.513157,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": 4.547812,
+  "LookDirX": -0.036603644,
+  "LookDirY": -0.99932986,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.4910052Z
+    DateTime=2022-09-21T21:11:17.4904401Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1477,7 +1477,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.5064911Z
+    DateTime=2022-09-21T21:11:17.5217680Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1489,10 +1489,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.5065039Z
+    DateTime=2022-09-21T21:11:17.5374277Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4897554,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1501,7 +1501,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.5065130Z
+    DateTime=2022-09-21T21:11:17.5374373Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1513,7 +1513,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.5065370Z
+    DateTime=2022-09-21T21:11:17.5374434Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1525,19 +1525,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.5065436Z
+    DateTime=2022-09-21T21:11:17.5374626Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -4.301347,
-  "PosY": 12.509275,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": 3.0475888,
+  "LookDirX": -0.05433112,
+  "LookDirY": -0.99852294,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.7874928Z
+    DateTime=2022-09-21T21:11:17.7470956Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1549,7 +1549,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.8500919Z
+    DateTime=2022-09-21T21:11:17.7721668Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1561,10 +1561,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.8501161Z
+    DateTime=2022-09-21T21:11:17.7874045Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4896662,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1573,7 +1573,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.8501240Z
+    DateTime=2022-09-21T21:11:17.7874262Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1585,7 +1585,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.8501311Z
+    DateTime=2022-09-21T21:11:17.7874332Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1597,19 +1597,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:29.8501362Z
+    DateTime=2022-09-21T21:11:17.7874399Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -3.8288028,
-  "PosY": 12.5,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": 1.5007787,
+  "LookDirX": -0.05434894,
+  "LookDirY": -0.99852204,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.0535096Z
+    DateTime=2022-09-21T21:11:18.0061427Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1621,7 +1621,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.1000294Z
+    DateTime=2022-09-21T21:11:18.0215401Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1633,10 +1633,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.1000451Z
+    DateTime=2022-09-21T21:11:18.0373804Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.4895694,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1645,7 +1645,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.1000557Z
+    DateTime=2022-09-21T21:11:18.0373915Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1657,7 +1657,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.1000882Z
+    DateTime=2022-09-21T21:11:18.0373976Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1669,19 +1669,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.1000962Z
+    DateTime=2022-09-21T21:11:18.0374033Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.2460284,
-  "PosY": 12.5,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": -0.033642165,
+  "LookDirX": -0.054369126,
+  "LookDirY": -0.998521,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3190898Z
+    DateTime=2022-09-21T21:11:18.2477645Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1693,7 +1693,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3661069Z
+    DateTime=2022-09-21T21:11:18.2718500Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1705,10 +1705,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3661559Z
+    DateTime=2022-09-21T21:11:18.2874321Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1717,7 +1717,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3661669Z
+    DateTime=2022-09-21T21:11:18.2874589Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1729,7 +1729,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3661802Z
+    DateTime=2022-09-21T21:11:18.2875300Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1741,19 +1741,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.3661879Z
+    DateTime=2022-09-21T21:11:18.2875513Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -0.7068851,
-  "PosY": 12.5,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": -1.535819,
+  "LookDirX": -0.054391652,
+  "LookDirY": -0.9985197,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.5689694Z
+    DateTime=2022-09-21T21:11:18.5069472Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1765,7 +1765,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.6159908Z
+    DateTime=2022-09-21T21:11:18.5372579Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1777,10 +1777,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.6160025Z
+    DateTime=2022-09-21T21:11:18.5528507Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1789,7 +1789,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.6160337Z
+    DateTime=2022-09-21T21:11:18.5531374Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1801,7 +1801,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.6160428Z
+    DateTime=2022-09-21T21:11:18.5531597Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1813,19 +1813,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.6160494Z
+    DateTime=2022-09-21T21:11:18.5531674Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.3228489,
-  "PosY": 12.5,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.6362624,
+  "PosY": -3.0625443,
+  "LookDirX": -0.054450203,
+  "LookDirY": -0.9985165,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8345175Z
+    DateTime=2022-09-21T21:11:18.7561365Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1837,7 +1837,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8816497Z
+    DateTime=2022-09-21T21:11:18.7880942Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1849,10 +1849,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8816695Z
+    DateTime=2022-09-21T21:11:18.8031993Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1861,7 +1861,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8816786Z
+    DateTime=2022-09-21T21:11:18.8032112Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1873,7 +1873,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8816873Z
+    DateTime=2022-09-21T21:11:18.8032177Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1885,19 +1885,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:30.8816971Z
+    DateTime=2022-09-21T21:11:18.8032435Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.3226277,
-  "PosY": 11.4729,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 4.4841857,
+  "PosY": -4.5090194,
+  "LookDirX": -0.32899854,
+  "LookDirY": -0.9443304,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.0844715Z
+    DateTime=2022-09-21T21:11:19.0059559Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -1909,7 +1909,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.1470424Z
+    DateTime=2022-09-21T21:11:19.0376282Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -1921,10 +1921,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.1470584Z
+    DateTime=2022-09-21T21:11:19.0528207Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -1933,83 +1933,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.1470964Z
+    DateTime=2022-09-21T21:11:19.0528425Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.50022006,
-  "PosY": 10.490849,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.1471092Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 3.5,
-  "PosY": 10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.1471170Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 0.04431979,
-  "PosY": 10.479739,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.3500664Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
   "PosX": 0.5,
-  "PosY": -10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.3969759Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 3.5,
-  "PosY": -10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.3969847Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": -2.48948,
   "PosY": 10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.3969902Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 0.8254632,
-  "PosY": 9.867349,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2017,7 +1945,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.3970071Z
+    DateTime=2022-09-21T21:11:19.0528504Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2029,19 +1957,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.3970114Z
+    DateTime=2022-09-21T21:11:19.0528569Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -0.052745998,
-  "PosY": 8.756325,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 3.3968863,
+  "PosY": -5.5963516,
+  "LookDirX": -0.7858263,
+  "LookDirY": -0.6184472,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.6469880Z
+    DateTime=2022-09-21T21:11:19.3655045Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2053,35 +1981,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.6940405Z
+    DateTime=2022-09-21T21:11:19.3810282Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
   "PosY": -10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.6941098Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": -2.48948,
-  "PosY": 10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.6941342Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 0.9416792,
-  "PosY": 9.808488,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2089,71 +1993,23 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.6941471Z
+    DateTime=2022-09-21T21:11:19.3810392Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 3.5,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.6941541Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": -0.052745998,
-  "PosY": 7.8605356,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.9285149Z
+    DateTime=2022-09-21T21:11:19.3810479Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
-  "PosY": -10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.9910766Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 3.5,
-  "PosY": -10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.9910939Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": -2.48948,
   "PosY": 10.5,
-  "LookDirX": 0,
-  "LookDirY": 0,
-  "RoomId": 0,
-  "CharacterType": 0,
-  "UserId": 4,
-  "Id": 4
-}
-    DateTime=2022-09-21T16:48:31.9911014Z
-Recv Information: 0 : received packet {
-  "TeamId": 0,
-  "PosX": 0.9416792,
-  "PosY": 9.808488,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2161,7 +2017,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.9912091Z
+    DateTime=2022-09-21T21:11:19.3810552Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2173,19 +2029,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:31.9912140Z
+    DateTime=2022-09-21T21:11:19.3810661Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -0.052745998,
-  "PosY": 9.45661,
-  "LookDirX": 0.046566747,
-  "LookDirY": 0.9989152,
+  "PosX": 2.1424508,
+  "PosY": -6.214012,
+  "LookDirX": -0.82415235,
+  "LookDirY": -0.5663681,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.1939699Z
+    DateTime=2022-09-21T21:11:19.5219233Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2197,7 +2053,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.2566808Z
+    DateTime=2022-09-21T21:11:19.5532268Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2209,10 +2065,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.2567083Z
+    DateTime=2022-09-21T21:11:19.5688768Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2221,11 +2077,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.2567150Z
+    DateTime=2022-09-21T21:11:19.5689008Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.9416792,
-  "PosY": 9.808488,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2233,7 +2089,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.2567202Z
+    DateTime=2022-09-21T21:11:19.5689083Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2245,19 +2101,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.2567279Z
+    DateTime=2022-09-21T21:11:19.5689143Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.84242815,
-  "PosY": 10.739777,
-  "LookDirX": 0.8598406,
-  "LookDirY": 0.51056254,
+  "PosX": 0.6213333,
+  "PosY": -6.214032,
+  "LookDirX": -0.9783168,
+  "LookDirY": -0.20711435,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.4910253Z
+    DateTime=2022-09-21T21:11:19.7716215Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2269,7 +2125,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.5376596Z
+    DateTime=2022-09-21T21:11:19.8118767Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2281,10 +2137,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.5376822Z
+    DateTime=2022-09-21T21:11:19.8188037Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2293,11 +2149,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.5377415Z
+    DateTime=2022-09-21T21:11:19.8188163Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2604375,
-  "PosY": 9.75937,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2305,7 +2161,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.5377499Z
+    DateTime=2022-09-21T21:11:19.8188244Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2317,19 +2173,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.5377647Z
+    DateTime=2022-09-21T21:11:19.8188312Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": 0.50654894,
-  "LookDirY": -0.8622112,
+  "PosX": -0.8882902,
+  "PosY": -6.214032,
+  "LookDirX": -0.97889894,
+  "LookDirY": -0.20434497,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.7565506Z
+    DateTime=2022-09-21T21:11:20.0219366Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2341,7 +2197,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.8190028Z
+    DateTime=2022-09-21T21:11:20.0532160Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2353,10 +2209,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.8190158Z
+    DateTime=2022-09-21T21:11:20.0688133Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2365,11 +2221,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.8190246Z
+    DateTime=2022-09-21T21:11:20.0688264Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2377,7 +2233,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.8190328Z
+    DateTime=2022-09-21T21:11:20.0688442Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2389,19 +2245,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:32.8190455Z
+    DateTime=2022-09-21T21:11:20.0688517Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.31137368,
-  "LookDirY": -0.9502876,
+  "PosX": -2.4024663,
+  "PosY": -6.21394,
+  "LookDirX": -0.9681784,
+  "LookDirY": 0.250261,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0220680Z
+    DateTime=2022-09-21T21:11:20.2876855Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2413,7 +2269,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0689770Z
+    DateTime=2022-09-21T21:11:20.3187517Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2425,10 +2281,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0690066Z
+    DateTime=2022-09-21T21:11:20.3343107Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2437,11 +2293,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0690200Z
+    DateTime=2022-09-21T21:11:20.3343242Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2449,7 +2305,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0690302Z
+    DateTime=2022-09-21T21:11:20.3343323Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2461,19 +2317,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.0690407Z
+    DateTime=2022-09-21T21:11:20.3343391Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.31401387,
-  "LookDirY": -0.9494184,
+  "PosX": -3.3604398,
+  "PosY": -5.3788495,
+  "LookDirX": -0.5926892,
+  "LookDirY": 0.80543125,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3035474Z
+    DateTime=2022-09-21T21:11:20.5374164Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2485,7 +2341,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3499737Z
+    DateTime=2022-09-21T21:11:20.5687678Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2497,10 +2353,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3499848Z
+    DateTime=2022-09-21T21:11:20.5842233Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2509,11 +2365,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3499936Z
+    DateTime=2022-09-21T21:11:20.5842338Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2521,7 +2377,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3500129Z
+    DateTime=2022-09-21T21:11:20.5842429Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2533,19 +2389,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.3500204Z
+    DateTime=2022-09-21T21:11:20.5842615Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.32080445,
-  "LookDirY": -0.94714546,
+  "PosX": -3.36044,
+  "PosY": -3.860777,
+  "LookDirX": -0.2633181,
+  "LookDirY": 0.9647091,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.5844747Z
+    DateTime=2022-09-21T21:11:20.7875582Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2557,7 +2413,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.6318420Z
+    DateTime=2022-09-21T21:11:20.8342709Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2569,10 +2425,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.6319080Z
+    DateTime=2022-09-21T21:11:20.8497645Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2581,11 +2437,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.6319219Z
+    DateTime=2022-09-21T21:11:20.8497953Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2593,7 +2449,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.6319297Z
+    DateTime=2022-09-21T21:11:20.8498048Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2605,19 +2461,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.6319366Z
+    DateTime=2022-09-21T21:11:20.8498117Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.33524913,
-  "LookDirY": -0.94212955,
+  "PosX": -3.36044,
+  "PosY": -2.320371,
+  "LookDirX": -0.25006297,
+  "LookDirY": 0.9682296,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.8659907Z
+    DateTime=2022-09-21T21:11:21.0529353Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2629,7 +2485,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.9286467Z
+    DateTime=2022-09-21T21:11:21.0844665Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2641,10 +2497,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.9286770Z
+    DateTime=2022-09-21T21:11:21.1000267Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2653,11 +2509,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.9286906Z
+    DateTime=2022-09-21T21:11:21.1000421Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2665,7 +2521,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.9287457Z
+    DateTime=2022-09-21T21:11:21.1000528Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2677,19 +2533,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:33.9287543Z
+    DateTime=2022-09-21T21:11:21.1000599Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.33982354,
-  "LookDirY": -0.94048923,
+  "PosX": -3.4999466,
+  "PosY": -0.8396803,
+  "LookDirX": -0.24999532,
+  "LookDirY": 0.96824706,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1470471Z
+    DateTime=2022-09-21T21:11:21.3159159Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2701,7 +2557,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1940105Z
+    DateTime=2022-09-21T21:11:21.3343371Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2713,10 +2569,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1940233Z
+    DateTime=2022-09-21T21:11:21.3499438Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2725,11 +2581,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1940323Z
+    DateTime=2022-09-21T21:11:21.3499604Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2737,7 +2593,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1940433Z
+    DateTime=2022-09-21T21:11:21.3500035Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2749,19 +2605,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.1940535Z
+    DateTime=2022-09-21T21:11:21.3500116Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.7280636,
-  "PosY": 10.750631,
-  "LookDirX": -0.33982354,
-  "LookDirY": -0.94048923,
+  "PosX": -3.5,
+  "PosY": 0.69099164,
+  "LookDirX": -0.25006488,
+  "LookDirY": 0.96822906,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4126661Z
+    DateTime=2022-09-21T21:11:21.5531256Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2773,7 +2629,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4594554Z
+    DateTime=2022-09-21T21:11:21.5840847Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2785,10 +2641,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4594653Z
+    DateTime=2022-09-21T21:11:21.6001826Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2797,11 +2653,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4594880Z
+    DateTime=2022-09-21T21:11:21.6001966Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2809,7 +2665,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4595004Z
+    DateTime=2022-09-21T21:11:21.6002057Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2821,19 +2677,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.4595073Z
+    DateTime=2022-09-21T21:11:21.6002126Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.5888296,
-  "PosY": 10.750631,
-  "LookDirX": -0.30774555,
-  "LookDirY": -0.9514687,
+  "PosX": -3.5,
+  "PosY": 2.2114995,
+  "LookDirX": -0.25034115,
+  "LookDirY": 0.9681577,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.6784905Z
+    DateTime=2022-09-21T21:11:21.8081023Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2845,7 +2701,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.7411503Z
+    DateTime=2022-09-21T21:11:21.8344220Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2857,10 +2713,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.7411727Z
+    DateTime=2022-09-21T21:11:21.8499845Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2869,11 +2725,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.7411867Z
+    DateTime=2022-09-21T21:11:21.8500024Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603972,
-  "PosY": 9.758087,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2881,7 +2737,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.7412043Z
+    DateTime=2022-09-21T21:11:21.8500119Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2893,19 +2749,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.7412562Z
+    DateTime=2022-09-21T21:11:21.8500438Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 0.5346352,
-  "PosY": 10.753245,
-  "LookDirX": -0.4173135,
-  "LookDirY": -0.90876263,
+  "PosX": -3.5,
+  "PosY": 3.7210026,
+  "LookDirX": -0.2500333,
+  "LookDirY": 0.9682373,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:34.9439876Z
+    DateTime=2022-09-21T21:11:22.0684661Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2917,7 +2773,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.0064646Z
+    DateTime=2022-09-21T21:11:22.0841329Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2929,10 +2785,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.0064829Z
+    DateTime=2022-09-21T21:11:22.0996371Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -2941,11 +2797,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.0064893Z
+    DateTime=2022-09-21T21:11:22.0996566Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -2953,7 +2809,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.0064961Z
+    DateTime=2022-09-21T21:11:22.0996662Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -2965,19 +2821,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.0065005Z
+    DateTime=2022-09-21T21:11:22.0996729Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.0980351,
-  "PosY": 10.753245,
-  "LookDirX": -0.9752289,
-  "LookDirY": -0.22119805,
+  "PosX": -3.5,
+  "PosY": 5.2483506,
+  "LookDirX": -0.24986698,
+  "LookDirY": 0.9682802,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2249889Z
+    DateTime=2022-09-21T21:11:22.3188082Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -2989,7 +2845,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2874749Z
+    DateTime=2022-09-21T21:11:22.3506451Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3001,10 +2857,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2875188Z
+    DateTime=2022-09-21T21:11:22.3657091Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3013,11 +2869,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2875310Z
+    DateTime=2022-09-21T21:11:22.3657236Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3025,7 +2881,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2875488Z
+    DateTime=2022-09-21T21:11:22.3657353Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3037,19 +2893,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.2875555Z
+    DateTime=2022-09-21T21:11:22.3657582Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.9817113,
-  "LookDirY": -0.19037569,
+  "PosX": -3.5,
+  "PosY": 6.761487,
+  "LookDirX": 0.9307578,
+  "LookDirY": 0.3656363,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.4910447Z
+    DateTime=2022-09-21T21:11:22.5687849Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3061,7 +2917,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.5534697Z
+    DateTime=2022-09-21T21:11:22.6001155Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3073,10 +2929,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.5534951Z
+    DateTime=2022-09-21T21:11:22.6155541Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3085,11 +2941,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.5535062Z
+    DateTime=2022-09-21T21:11:22.6155642Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3097,7 +2953,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.5535178Z
+    DateTime=2022-09-21T21:11:22.6155870Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3109,19 +2965,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.5535266Z
+    DateTime=2022-09-21T21:11:22.6155936Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.9817113,
-  "LookDirY": -0.19037569,
+  "PosX": -2.2820532,
+  "PosY": 7.2828794,
+  "LookDirX": 0.9941234,
+  "LookDirY": 0.1082529,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.7876691Z
+    DateTime=2022-09-21T21:11:22.8187120Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3133,7 +2989,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.8499797Z
+    DateTime=2022-09-21T21:11:22.8498701Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3145,10 +3001,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.8499956Z
+    DateTime=2022-09-21T21:11:22.8658637Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3157,11 +3013,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.8500186Z
+    DateTime=2022-09-21T21:11:22.8658795Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3169,7 +3025,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.8500322Z
+    DateTime=2022-09-21T21:11:22.8658902Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3181,19 +3037,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:35.8500420Z
+    DateTime=2022-09-21T21:11:22.8658971Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.98214835,
-  "LookDirY": -0.18810815,
+  "PosX": -0.77673715,
+  "PosY": 7.2835255,
+  "LookDirX": 0.9975642,
+  "LookDirY": 0.06975416,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.0536844Z
+    DateTime=2022-09-21T21:11:23.0688548Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3205,7 +3061,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.1159858Z
+    DateTime=2022-09-21T21:11:23.0999892Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3217,10 +3073,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.1159972Z
+    DateTime=2022-09-21T21:11:23.1156030Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3229,11 +3085,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.1160060Z
+    DateTime=2022-09-21T21:11:23.1156262Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3241,7 +3097,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.1160161Z
+    DateTime=2022-09-21T21:11:23.1156459Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3253,19 +3109,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.1160325Z
+    DateTime=2022-09-21T21:11:23.1156541Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.98919594,
-  "LookDirY": -0.14659972,
+  "PosX": 0.74993706,
+  "PosY": 7.2835255,
+  "LookDirX": 0.99999815,
+  "LookDirY": -0.0019091303,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3190139Z
+    DateTime=2022-09-21T21:11:23.3342764Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3277,7 +3133,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3969901Z
+    DateTime=2022-09-21T21:11:23.3577722Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3289,10 +3145,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3970023Z
+    DateTime=2022-09-21T21:11:23.3655164Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3301,11 +3157,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3970254Z
+    DateTime=2022-09-21T21:11:23.3655303Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3313,7 +3169,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3970372Z
+    DateTime=2022-09-21T21:11:23.3655368Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3325,19 +3181,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.3970440Z
+    DateTime=2022-09-21T21:11:23.3655458Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.9910914,
-  "LookDirY": -0.13318384,
+  "PosX": 2.2734456,
+  "PosY": 7.2835255,
+  "LookDirX": 0.9518616,
+  "LookDirY": -0.30652788,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.5999955Z
+    DateTime=2022-09-21T21:11:23.5987863Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3349,7 +3205,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.6469838Z
+    DateTime=2022-09-21T21:11:23.6156938Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3361,10 +3217,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.6469964Z
+    DateTime=2022-09-21T21:11:23.6310749Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3373,11 +3229,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.6470044Z
+    DateTime=2022-09-21T21:11:23.6310844Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3385,7 +3241,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.6470263Z
+    DateTime=2022-09-21T21:11:23.6310904Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3397,19 +3253,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.6470326Z
+    DateTime=2022-09-21T21:11:23.6311075Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.9910914,
-  "LookDirY": -0.13318384,
+  "PosX": 3.6586654,
+  "PosY": 6.970755,
+  "LookDirX": 0.7331735,
+  "LookDirY": -0.68004155,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.8969912Z
+    DateTime=2022-09-21T21:11:23.8379745Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3421,7 +3277,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.9440156Z
+    DateTime=2022-09-21T21:11:23.8655707Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3433,10 +3289,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.9440498Z
+    DateTime=2022-09-21T21:11:23.9242797Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3445,11 +3301,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.9440570Z
+    DateTime=2022-09-21T21:11:23.9243088Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3457,7 +3313,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.9440671Z
+    DateTime=2022-09-21T21:11:23.9243159Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3469,19 +3325,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:36.9440717Z
+    DateTime=2022-09-21T21:11:23.9243218Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 10.753245,
-  "LookDirX": -0.99085677,
-  "LookDirY": -0.13491794,
+  "PosX": 3.8600655,
+  "PosY": 5.514745,
+  "LookDirX": 0.2513992,
+  "LookDirY": -0.9678835,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.1625288Z
+    DateTime=2022-09-21T21:11:24.1001517Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3493,7 +3349,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.2249688Z
+    DateTime=2022-09-21T21:11:24.1156826Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3505,10 +3361,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.2249773Z
+    DateTime=2022-09-21T21:11:24.1311906Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3517,11 +3373,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.2249835Z
+    DateTime=2022-09-21T21:11:24.1313091Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3529,7 +3385,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.2250015Z
+    DateTime=2022-09-21T21:11:24.1313285Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3541,19 +3397,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.2250062Z
+    DateTime=2022-09-21T21:11:24.1313363Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 9.2289295,
-  "LookDirX": 0.6457158,
-  "LookDirY": 0.7635779,
+  "PosX": 3.8600655,
+  "PosY": 3.9712145,
+  "LookDirX": 0.15419145,
+  "LookDirY": -0.988041,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4284900Z
+    DateTime=2022-09-21T21:11:24.3496936Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3565,7 +3421,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4909816Z
+    DateTime=2022-09-21T21:11:24.4057352Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3577,10 +3433,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4910051Z
+    DateTime=2022-09-21T21:11:24.4125052Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3589,11 +3445,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4910139Z
+    DateTime=2022-09-21T21:11:24.4125181Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3601,7 +3457,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4910226Z
+    DateTime=2022-09-21T21:11:24.4125387Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3613,19 +3469,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.4910357Z
+    DateTime=2022-09-21T21:11:24.4125468Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -1.4179405,
-  "PosY": 7.4604406,
-  "LookDirX": 0.90261525,
-  "LookDirY": 0.4304482,
+  "PosX": 3.8600655,
+  "PosY": 2.440189,
+  "LookDirX": 0.15465783,
+  "LookDirY": -0.98796815,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7095234Z
+    DateTime=2022-09-21T21:11:24.6309438Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3637,7 +3493,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7719593Z
+    DateTime=2022-09-21T21:11:24.6310136Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3649,10 +3505,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7719673Z
+    DateTime=2022-09-21T21:11:24.6310323Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3661,11 +3517,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7719813Z
+    DateTime=2022-09-21T21:11:24.6310416Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3673,7 +3529,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7719880Z
+    DateTime=2022-09-21T21:11:24.6310628Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3685,19 +3541,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.7719922Z
+    DateTime=2022-09-21T21:11:24.6310753Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.3860617,
-  "PosY": 6.205901,
-  "LookDirX": 0.91031104,
-  "LookDirY": 0.41392493,
+  "PosX": 3.8600655,
+  "PosY": 1.4932749,
+  "LookDirX": 0.9048177,
+  "LookDirY": 0.42579916,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:37.9910166Z
+    DateTime=2022-09-21T21:11:24.8654874Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3709,7 +3565,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.0536040Z
+    DateTime=2022-09-21T21:11:24.8814217Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3721,10 +3577,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.0536219Z
+    DateTime=2022-09-21T21:11:24.8973689Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3733,11 +3589,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.0536323Z
+    DateTime=2022-09-21T21:11:24.8973795Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3745,7 +3601,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.0536492Z
+    DateTime=2022-09-21T21:11:24.8974300Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3757,19 +3613,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.0536641Z
+    DateTime=2022-09-21T21:11:24.8974373Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -3.5397587,
-  "PosY": 5.045048,
-  "LookDirX": 0.81929606,
-  "LookDirY": 0.57337064,
+  "PosX": 3.8600655,
+  "PosY": 1.4932749,
+  "LookDirX": 0.9048177,
+  "LookDirY": 0.42579916,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.2719869Z
+    DateTime=2022-09-21T21:11:25.1153286Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3781,7 +3637,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.3344777Z
+    DateTime=2022-09-21T21:11:25.1468878Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3793,10 +3649,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.3344886Z
+    DateTime=2022-09-21T21:11:25.1625383Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3805,11 +3661,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.3345135Z
+    DateTime=2022-09-21T21:11:25.1625596Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3817,7 +3673,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.3345240Z
+    DateTime=2022-09-21T21:11:25.1625677Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3829,19 +3685,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.3345298Z
+    DateTime=2022-09-21T21:11:25.1625740Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.009216,
-  "PosY": 5.037834,
-  "LookDirX": 0.81929606,
-  "LookDirY": 0.57337064,
+  "PosX": 3.8600655,
+  "PosY": 1.4932749,
+  "LookDirX": 0.9048177,
+  "LookDirY": 0.42579916,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.5535411Z
+    DateTime=2022-09-21T21:11:25.4002859Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3853,7 +3709,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.6939712Z
+    DateTime=2022-09-21T21:11:25.4134962Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3865,10 +3721,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.6939801Z
+    DateTime=2022-09-21T21:11:25.4135089Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3877,11 +3733,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.6939861Z
+    DateTime=2022-09-21T21:11:25.4135182Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3889,7 +3745,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.6940028Z
+    DateTime=2022-09-21T21:11:25.4135266Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3901,19 +3757,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.6940079Z
+    DateTime=2022-09-21T21:11:25.4135433Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.009346,
-  "PosY": 5.037834,
-  "LookDirX": 0.81929606,
-  "LookDirY": 0.57337064,
+  "PosX": 3.8600655,
+  "PosY": 1.4932749,
+  "LookDirX": 0.9048177,
+  "LookDirY": 0.42579916,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8189829Z
+    DateTime=2022-09-21T21:11:25.6357917Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3925,7 +3781,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8659809Z
+    DateTime=2022-09-21T21:11:25.6466917Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3937,10 +3793,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8660129Z
+    DateTime=2022-09-21T21:11:25.6629588Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -3949,11 +3805,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8660251Z
+    DateTime=2022-09-21T21:11:25.6629853Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -3961,7 +3817,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8660329Z
+    DateTime=2022-09-21T21:11:25.6629942Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -3973,19 +3829,19 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:38.8660388Z
+    DateTime=2022-09-21T21:11:25.6630012Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -5.009346,
-  "PosY": 5.037834,
-  "LookDirX": 0.81929606,
-  "LookDirY": 0.57337064,
+  "PosX": 3.8600655,
+  "PosY": 1.4932749,
+  "LookDirX": 0.9048177,
+  "LookDirY": 0.42579916,
   "RoomId": 0,
   "CharacterType": 0,
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.0846687Z
+    DateTime=2022-09-21T21:11:25.8809766Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 0.5,
@@ -3997,7 +3853,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.1626374Z
+    DateTime=2022-09-21T21:11:25.8967514Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -4009,10 +3865,10 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.1626499Z
+    DateTime=2022-09-21T21:11:25.9124481Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": -2.48948,
+  "PosX": -2.4897628,
   "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
@@ -4021,11 +3877,11 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.1626588Z
+    DateTime=2022-09-21T21:11:25.9124614Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
-  "PosX": 1.2603755,
-  "PosY": 9.755473,
+  "PosX": 0.5,
+  "PosY": 10.5,
   "LookDirX": 0,
   "LookDirY": 0,
   "RoomId": 0,
@@ -4033,7 +3889,7 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.1626853Z
+    DateTime=2022-09-21T21:11:25.9124699Z
 Recv Information: 0 : received packet {
   "TeamId": 0,
   "PosX": 3.5,
@@ -4045,4 +3901,4 @@ Recv Information: 0 : received packet {
   "UserId": 4,
   "Id": 4
 }
-    DateTime=2022-09-21T16:48:39.1626919Z
+    DateTime=2022-09-21T21:11:25.9124768Z

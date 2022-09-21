@@ -13,7 +13,8 @@ namespace ServerCore.Utils
 			S_Login = 0x1001,
 			S_EnterLobby = 0x1002,
 			S_EnterGame = 0x1003,
-			S_BroadcastGameState = 0x1004,
+			S_BroadcastEnterGame = 0x1004,
+			S_BroadcastGameState = 0x1005,
 		}
 
 	}

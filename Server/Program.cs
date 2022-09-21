@@ -2,7 +2,6 @@
 using Server.Log;
 using ServerCore;
 using ServerCore.Managers;
-using ServerCore.Packets;
 using System;
 using System.Threading;
 using static Server.Utils.Enums;

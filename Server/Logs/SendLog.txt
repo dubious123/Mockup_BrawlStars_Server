@@ -1,20 +1,38 @@
 Send Information: 0 : Sending Packet {
   "Id": 4096
 }
-    DateTime=2022-09-21T16:48:14.4052779Z
+    DateTime=2022-09-21T21:11:04.9344994Z
 Send Information: 0 : Sending Packet {
   "result": true,
   "userId": 4,
   "Id": 4097
 }
-    DateTime=2022-09-21T16:48:22.1530412Z
+    DateTime=2022-09-21T21:11:09.2165348Z
 Send Information: 0 : Sending Packet {
-  "Result": true,
-  "RoomId": 4,
   "TeamId": 0,
+  "PlayerInfoArr": [
+    {
+      "CharacterType": 0
+    },
+    {
+      "CharacterType": 0
+    },
+    {
+      "CharacterType": 0
+    },
+    {
+      "CharacterType": 0
+    },
+    {
+      "CharacterType": 0
+    },
+    {
+      "CharacterType": 0
+    }
+  ],
   "Id": 4099
 }
-    DateTime=2022-09-21T16:48:23.5950592Z
+    DateTime=2022-09-21T21:11:09.9491206Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -69,18 +87,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:23.7711572Z
+    DateTime=2022-09-21T21:11:10.0671693Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -135,18 +145,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:24.0220473Z
+    DateTime=2022-09-21T21:11:10.3190429Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -201,18 +203,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:24.2875544Z
+    DateTime=2022-09-21T21:11:10.5841784Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -267,18 +261,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:24.5535280Z
+    DateTime=2022-09-21T21:11:10.8499937Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -333,18 +319,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:24.8190100Z
+    DateTime=2022-09-21T21:11:11.1162174Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -399,18 +377,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:25.0845736Z
+    DateTime=2022-09-21T21:11:11.3814715Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -465,18 +435,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:25.3500008Z
+    DateTime=2022-09-21T21:11:11.6468839Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -531,18 +493,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:25.6160973Z
+    DateTime=2022-09-21T21:11:11.9131889Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -597,18 +551,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:25.8814992Z
+    DateTime=2022-09-21T21:11:12.1780074Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -663,18 +609,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:26.1470329Z
+    DateTime=2022-09-21T21:11:12.4436452Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -729,18 +667,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:26.4125136Z
+    DateTime=2022-09-21T21:11:12.7092184Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -795,18 +725,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:26.6784838Z
+    DateTime=2022-09-21T21:11:12.9750895Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -861,18 +783,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:26.9439757Z
+    DateTime=2022-09-21T21:11:13.2404399Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -927,18 +841,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:27.2095754Z
+    DateTime=2022-09-21T21:11:13.5066719Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -993,18 +899,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:27.4750463Z
+    DateTime=2022-09-21T21:11:13.7717529Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1059,18 +957,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:27.7411327Z
+    DateTime=2022-09-21T21:11:14.0373446Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1125,18 +1015,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:28.0064865Z
+    DateTime=2022-09-21T21:11:14.3029247Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1191,18 +1073,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:28.2720535Z
+    DateTime=2022-09-21T21:11:14.5685238Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1257,18 +1131,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:28.5375088Z
+    DateTime=2022-09-21T21:11:14.8344510Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1323,18 +1189,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:28.8035021Z
+    DateTime=2022-09-21T21:11:15.1010848Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1389,18 +1247,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:29.0689877Z
+    DateTime=2022-09-21T21:11:15.3796374Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1455,18 +1305,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:29.3346332Z
+    DateTime=2022-09-21T21:11:15.6366830Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1521,18 +1363,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:29.6000041Z
+    DateTime=2022-09-21T21:11:15.8969492Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1587,18 +1421,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:29.8662225Z
+    DateTime=2022-09-21T21:11:16.1626409Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1653,18 +1479,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:30.1314976Z
+    DateTime=2022-09-21T21:11:16.4278591Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1719,18 +1537,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:30.3970020Z
+    DateTime=2022-09-21T21:11:16.6935835Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1785,18 +1595,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:30.6625156Z
+    DateTime=2022-09-21T21:11:16.9609038Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1851,18 +1653,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:30.9286948Z
+    DateTime=2022-09-21T21:11:17.2255046Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1917,18 +1711,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:31.1940737Z
+    DateTime=2022-09-21T21:11:17.4904671Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -1983,18 +1769,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:31.4596220Z
+    DateTime=2022-09-21T21:11:17.7560245Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2049,18 +1827,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:31.7250040Z
+    DateTime=2022-09-21T21:11:18.0215497Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2115,18 +1885,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:31.9911335Z
+    DateTime=2022-09-21T21:11:18.2874491Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2181,18 +1943,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:32.2565431Z
+    DateTime=2022-09-21T21:11:18.5528777Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2247,18 +2001,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:32.5219676Z
+    DateTime=2022-09-21T21:11:18.8189289Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2313,18 +2059,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:32.7875123Z
+    DateTime=2022-09-21T21:11:19.0843737Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2379,18 +2117,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:33.0535039Z
+    DateTime=2022-09-21T21:11:19.3550778Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2445,18 +2175,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:33.3189792Z
+    DateTime=2022-09-21T21:11:19.6157314Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2511,18 +2233,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:33.5844853Z
+    DateTime=2022-09-21T21:11:19.8810645Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2577,18 +2291,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:33.8499940Z
+    DateTime=2022-09-21T21:11:20.1466975Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2643,18 +2349,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:34.1159881Z
+    DateTime=2022-09-21T21:11:20.4127933Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2709,18 +2407,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:34.3815164Z
+    DateTime=2022-09-21T21:11:20.6782083Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2775,18 +2465,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:34.6471601Z
+    DateTime=2022-09-21T21:11:20.9436922Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2841,18 +2523,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:34.9125381Z
+    DateTime=2022-09-21T21:11:21.2099131Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2907,18 +2581,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:35.1786303Z
+    DateTime=2022-09-21T21:11:21.4748888Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -2973,18 +2639,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:35.4440544Z
+    DateTime=2022-09-21T21:11:21.7505562Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3039,18 +2697,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:35.7094784Z
+    DateTime=2022-09-21T21:11:22.0064212Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3105,18 +2755,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:35.9750106Z
+    DateTime=2022-09-21T21:11:22.2718601Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3171,18 +2813,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:36.2409819Z
+    DateTime=2022-09-21T21:11:22.5376045Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3237,18 +2871,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:36.5065811Z
+    DateTime=2022-09-21T21:11:22.8029579Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3303,18 +2929,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:36.7720861Z
+    DateTime=2022-09-21T21:11:23.0688734Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3369,18 +2987,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:37.0375466Z
+    DateTime=2022-09-21T21:11:23.3342986Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3435,18 +3045,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:37.3036806Z
+    DateTime=2022-09-21T21:11:23.6001206Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3501,18 +3103,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:37.5691228Z
+    DateTime=2022-09-21T21:11:23.8655900Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3567,18 +3161,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:37.8345487Z
+    DateTime=2022-09-21T21:11:24.1312199Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3633,18 +3219,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:38.1001293Z
+    DateTime=2022-09-21T21:11:24.3965850Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3699,18 +3277,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:38.3659945Z
+    DateTime=2022-09-21T21:11:24.6622383Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3765,18 +3335,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:38.6902816Z
+    DateTime=2022-09-21T21:11:24.9280225Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3831,18 +3393,10 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:38.9439733Z
+    DateTime=2022-09-21T21:11:25.1937059Z
 Send Information: 0 : Sending Packet {
   "RoomId": 1,
   "PlayerPosArr": [
@@ -3897,15 +3451,123 @@ Send Information: 0 : Sending Packet {
       "Y": 0
     }
   ],
-  "CharacterTypeArr": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+  "PlayerCount": 1,
+  "Id": 4101
+}
+    DateTime=2022-09-21T21:11:25.4591202Z
+Send Information: 0 : Sending Packet {
+  "RoomId": 1,
+  "PlayerPosArr": [
+    {
+      "X": 4,
+      "Y": 9
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    }
+  ],
+  "PlayerLookDirArr": [
+    {
+      "X": 0,
+      "Y": 1
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    }
   ],
   "PlayerCount": 1,
-  "Id": 4100
+  "Id": 4101
 }
-    DateTime=2022-09-21T16:48:39.2095035Z
+    DateTime=2022-09-21T21:11:25.7248376Z
+Send Information: 0 : Sending Packet {
+  "RoomId": 1,
+  "PlayerPosArr": [
+    {
+      "X": 4,
+      "Y": 9
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    }
+  ],
+  "PlayerLookDirArr": [
+    {
+      "X": 0,
+      "Y": 1
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "X": 0,
+      "Y": 0
+    }
+  ],
+  "PlayerCount": 1,
+  "Id": 4101
+}
+    DateTime=2022-09-21T21:11:26.0454927Z

@@ -8,7 +8,6 @@ using Server.Log;
 using Server.Utils;
 using ServerCore;
 using ServerCore.Managers;
-using ServerCore.Packets;
 using static Server.Utils.Enums;
 using System.Collections.Concurrent;
 using System.Threading;

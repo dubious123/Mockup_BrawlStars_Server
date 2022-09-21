@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
 using static Server.Utils.Enums;
-using static ServerCore.Utils.Enums;
 
 namespace Server
 {
@@ -39,14 +38,10 @@ namespace Server
 		{
 			_instance._roomDict.TryRemove(id, out var room);
 		}
-		public static short EnterGame(Player player)
+		public static void EnterGame(Player player)
 		{
-			return FindWaitingGame().Enter(player);
-		}
-		public static void EnterGame(int id, Player player)
-		{
-			_instance._roomDict.TryGetValue(id, out var room);
-			room.Enter(player);
+			var game = FindWaitingGame();
+			player.Session.RegisterSend(new S_EnterGame(game.Enter(player), game.Players));
 		}
 
 		static GameRoom FindWaitingGame()

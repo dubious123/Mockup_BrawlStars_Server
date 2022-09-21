@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using ServerCore.Managers;
-using ServerCore.Packets;
 
 namespace ServerCore
 {

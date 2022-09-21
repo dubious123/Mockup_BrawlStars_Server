@@ -3,8 +3,8 @@ using static Server.Utils.Enums;
 using System.Numerics;
 using Server.Utils;
 using System.Collections.Generic;
-using ServerCore.Packets;
 using System.Threading;
+using ServerCore;
 
 namespace Server
 {
@@ -13,12 +13,15 @@ namespace Server
 		public int Id;
 		public ushort MapId;
 		public GameState State;
+		public Player[] Players { get => _players; }
 		MapData _map;
 		Player[] _players;
+
 		short _playerCount;
 		readonly object _lock = new();
 		readonly float _moveLimit = 1f;
 		readonly JobQueue _gameQueue;
+		readonly JobQueue _sendQueue;
 		public GameRoom(int id, ushort mapId)
 		{
 			Id = id;
@@ -27,6 +30,7 @@ namespace Server
 			MapId = mapId;
 			_map = MapMgr.GetMapData(mapId);
 			_gameQueue = JobMgr.GetQueue(Define.PacketGameQueueName);
+			_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
 		}
 		/// <summary>
 		/// -1 : room is full
@@ -40,15 +44,17 @@ namespace Server
 			lock (_lock)
 			{
 				if (_playerCount >= 6) return -1;
-				_players[_playerCount] = player;
 				player.Position = _map.SpawnPosArr[_playerCount];
 				player.CurrentGame = this;
+				player.TeamId = _playerCount;
+				S_BroadcastEnterGame packet = new((ushort)player.CharacterType, player.TeamId);
+				Broadcast(packet);
+				_players[_playerCount] = player;
 				player.Session.OnClosed.AddListener("GameRoomExit", () =>
 				{
 					Exit(player);
 					player.Session.OnClosed.RemoveListener("GameRoomExit");
 				});
-				player.TeamId = _playerCount;
 				return _playerCount++;
 			}
 		}
@@ -76,7 +82,6 @@ namespace Server
 					if (player is null) continue;
 					packet.PlayerPosArr[i] = player.Position;
 					packet.PlayerLookDirArr[i] = player.LookDir;
-					packet.CharacterTypeArr[i] = (ushort)player.CharacterType;
 				}
 				for (int i = 0; i < 6; i++)
 				{
@@ -84,6 +89,15 @@ namespace Server
 					if (player is null) continue;
 					player.Session.RegisterSend(packet);
 				}
+			}
+		}
+		public void Broadcast(BasePacket packet)
+		{
+			for (int i = 0; i < 6; i++)
+			{
+				var player = _players[i];
+				if (player is null) continue;
+				_sendQueue.Push(() => player.Session.RegisterSend(packet));
 			}
 		}
 
@@ -94,6 +108,7 @@ namespace Server
 				if (_players[player.TeamId] != player)
 				{
 					System.Console.WriteLine("ERRRRRRRRRRRRRRRRRRRRRRRRrrrrrrrrrrrrrrr");
+					throw new System.Exception();
 				}
 				_players[player.TeamId] = null;
 				_playerCount--;

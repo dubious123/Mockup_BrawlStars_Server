@@ -1,7 +1,6 @@
 using Server.Log;
 using Server.Utils.JsonConverters;
 using ServerCore;
-using ServerCore.Packets;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
@@ -49,6 +48,7 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastEnterGame, arr => JsonSerializer.Deserialize<S_BroadcastEnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastGameState, arr => JsonSerializer.Deserialize<S_BroadcastGameState>(arr, _options));
 		}
 		//		public static BasePacket ReadPacket(this RecvBuffer buffer)

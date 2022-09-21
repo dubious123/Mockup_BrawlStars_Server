@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Concurrent;
 using ServerCore;
-using ServerCore.Packets;
 using Microsoft.EntityFrameworkCore;
 using Server.DB;
 using System.Linq;
@@ -80,10 +79,7 @@ namespace Server
 			{
 				throw new Exception();
 			}
-			var player = PlayerMgr.GetOrAddPlayer(req.UserId, session);
-			var teamId = GameMgr.EnterGame(player);
-
-			session.RegisterSend(new S_EnterGame(true, player.UserId, teamId));
+			GameMgr.EnterGame(PlayerMgr.GetOrAddPlayer(req.UserId, session));
 		}
 
 		private static void C_BroadcastPlayerStateHandle(BasePacket packet, ClientSession session)

@@ -20,6 +20,7 @@ namespace Server.Utils
 		}
 		public enum CharacterType
 		{
+			None,
 			Dog,
 		}
 		public enum TileType
