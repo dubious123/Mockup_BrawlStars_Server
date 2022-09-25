@@ -17,14 +17,6 @@ namespace Server
 		}
 		public static void Init()
 		{
-			Program.Update += () => _instance.Update();
-		}
-		public void Update()
-		{
-			foreach (var room in _roomDict.Values)
-			{
-				room.Broadcast();
-			}
 		}
 		public static GameRoom CreateGame()
 		{

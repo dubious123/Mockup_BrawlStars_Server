@@ -6,6 +6,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Game\Base\Component.cs" />
+	  <Compile Remove="Game\Base\GameObject.cs" />
+	  <Compile Remove="Game\Base\Ref.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
 		<PackageReference Include="protobuf-net" Version="3.1.17" />
 	</ItemGroup>
@@ -17,6 +23,10 @@
 	<ItemGroup>
 		<Folder Include="DB\Configure\" />
 		<Folder Include="Data\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Game\Base\Ref.cs" />
 	</ItemGroup>
 
 </Project>

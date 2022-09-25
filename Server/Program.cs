@@ -6,14 +6,15 @@ using System;
 using System.Threading;
 using static Server.Utils.Enums;
 using static ServerCore.Utils.Tools;
-
+using System.Diagnostics;
+using Server.Utils;
 
 namespace Server
 {
 	public class Program
 	{
-		public static Action Update { get; set; }
-		const long WaitTick = 150;
+		public static ConcurrentAction Update { get; set; } = new();
+		const long WaitTick = 16;
 		static void Main(string[] args)
 		{
 			#region Init
@@ -22,6 +23,7 @@ namespace Server
 			GameMgr.Init();
 			MapMgr.Init();
 			JobMgr.Init();
+			Timing.Init();
 			#endregion
 
 
@@ -31,12 +33,23 @@ namespace Server
 			listener.StartListen(endPoint);
 			LogMgr.Log($"Listening to {endPoint}", TraceSourceType.Network, TraceSourceType.Console);
 			long nowTick = default;
+			long delta = default;
+			//frame start 
+			//last = now;
+			//
+			//base =  environment.tickCount;
+			//frame end
+			//new frame start
+			//delta time = base - environment.tickCount;
+
 			while (true)
 			{
-				if (WaitTick < Environment.TickCount64 - nowTick)
+				delta = Environment.TickCount64 - nowTick;
+				if (WaitTick <= delta)
 				{
-					Update.Invoke();
 					nowTick = Environment.TickCount64;
+					Timing.OnNewFrameStart(delta);
+					Update.Invoke();
 				}
 
 			}

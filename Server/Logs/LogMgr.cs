@@ -41,13 +41,19 @@ namespace Server.Log
 			_tsArr[7] = BuildNewTraceSource(Define.Ts_PacketRecv)
 					.AddTextWriterListener(string.Empty, "RecvLog.txt", TraceOptions.DateTime)
 					.AddListener(listener);
-			Program.Update += () =>
-			{
-				foreach (var ts in _tsArr)
-				{
-					ts.Flush();
-				}
-			};
+
+
+			Trace.AutoFlush = true;
+			//AppDomain.CurrentDomain.ProcessExit += new EventHandler((obj, e) =>
+			//{
+			//	Log("hi", TraceEventType.Information, TraceSourceType.Network);
+			//	foreach (var ts in _tsArr)
+			//	{
+			//		ts.Flush();
+			//	}
+			//});
+
+
 		}
 		~LogMgr()
 		{
