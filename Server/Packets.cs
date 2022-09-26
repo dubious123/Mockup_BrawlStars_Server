@@ -31,6 +31,9 @@ namespace Server
 	{
 		public ushort CharacterType;
 	}
+	public class C_GameReady : AuthPacket
+	{
+	}
 	public class C_BroadcastPlayerInput : GamePacket
 	{
 		public short TeamId;
@@ -98,11 +101,20 @@ namespace Server
 		public ushort Charactertype;
 		public short TeamId;
 	}
+	public class S_BroadcastStartGame : BasePacket
+	{
+		public S_BroadcastStartGame(float waitTime)
+		{
+			Id = 0x1005;
+			WaitTime = waitTime;
+		}
+		public float WaitTime;
+	}
 	public class S_BroadcastGameState : BasePacket
 	{
 		public S_BroadcastGameState()
 		{
-			Id = 0x1005;
+			Id = 0x1006;
 			PlayerMoveDirArr = new Vector2[6];
 			PlayerLookDirArr = new Vector2[6];
 		}
@@ -117,7 +129,7 @@ namespace Server
 	{
 		public S_BroadcastMove(short teamId, Vector2 moveDir, Vector2 lookDir)
 		{
-			Id = 0x1006;
+			Id = 0x1007;
 			TeamId = teamId;
 			MoveDir = moveDir;
 			LookDir = lookDir;

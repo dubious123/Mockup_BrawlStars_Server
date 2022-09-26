@@ -16,8 +16,10 @@ namespace Server.Log
 		static LogMgr _instance = new();
 		static string _dirPath;
 		TraceSource[] _tsArr;
+		DateTime _dt;
 		LogMgr()
 		{
+			_dt = DateTime.Now;
 			_dirPath = Directory.GetCurrentDirectory() + "/../../../Logs";
 			Directory.CreateDirectory(_dirPath);
 			_tsArr = new TraceSource[8];
@@ -36,10 +38,10 @@ namespace Server.Log
 					.AddConsoleListener(TraceOptions.DateTime | TraceOptions.Callstack);
 			var listener = _tsArr[0].Listeners[0];
 			_tsArr[6] = BuildNewTraceSource(Define.Ts_PacketSend)
-					.AddTextWriterListener(string.Empty, "SendLog.txt", TraceOptions.DateTime)
+					.AddTextWriterListener(string.Empty, "SendLog.txt")
 					.AddListener(listener);
 			_tsArr[7] = BuildNewTraceSource(Define.Ts_PacketRecv)
-					.AddTextWriterListener(string.Empty, "RecvLog.txt", TraceOptions.DateTime)
+					.AddTextWriterListener(string.Empty, "RecvLog.txt")
 					.AddListener(listener);
 
 
@@ -77,7 +79,7 @@ namespace Server.Log
 		}
 		public static void Log(string message, params TraceSourceType[] sourceTypes)
 		{
-			Log(message, TraceEventType.Information, sourceTypes);
+			Log($"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}", TraceEventType.Information, sourceTypes);
 		}
 
 		static TraceSource BuildNewTraceSource(string name)
@@ -95,7 +97,7 @@ namespace Server.Log
 			ts.Listeners.Add(listener);
 			return ts;
 		}
-		public static TraceSource AddTextWriterListener(TraceSource ts, string dirPath, string fileName, TraceOptions options)
+		public static TraceSource AddTextWriterListener(TraceSource ts, string dirPath, string fileName, TraceOptions options = TraceOptions.None)
 		{
 			var path = Path.Combine(_dirPath, dirPath);
 			Directory.CreateDirectory(path);

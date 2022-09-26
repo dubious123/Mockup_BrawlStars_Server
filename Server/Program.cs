@@ -14,7 +14,7 @@ namespace Server
 	public class Program
 	{
 		public static ConcurrentAction Update { get; set; } = new();
-		const long WaitTick = 16;
+		const long WaitTick = 200000;
 		static void Main(string[] args)
 		{
 			#region Init
@@ -41,15 +41,20 @@ namespace Server
 			//frame end
 			//new frame start
 			//delta time = base - environment.tickCount;
-
+			Stopwatch sw = new Stopwatch();
 			while (true)
 			{
-				delta = Environment.TickCount64 - nowTick;
+				delta = DateTime.Now.Ticks - nowTick;
+
 				if (WaitTick <= delta)
 				{
-					nowTick = Environment.TickCount64;
-					Timing.OnNewFrameStart(delta);
+					//LogMgr.Log($"{delta}", TraceSourceType.Network);
+					nowTick = DateTime.Now.Ticks;
+					Timing.OnNewFrameStart(nowTick);
 					Update.Invoke();
+					//sw.Stop();
+					//LogMgr.Log($"time : {sw.ElapsedMilliseconds}, tick : {sw.ElapsedTicks}", TraceSourceType.Network);
+					//sw.Restart();
 				}
 
 			}

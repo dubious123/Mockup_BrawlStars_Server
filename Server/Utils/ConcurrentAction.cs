@@ -15,11 +15,15 @@ namespace Server.Utils
 		public void Invoke()
 		{
 			if (_actionDict.IsEmpty) return;
-			var enumerator = _actionDict.Values.GetEnumerator();
-			while (enumerator.MoveNext())
+			foreach (var action in _actionDict.Values)
 			{
-				enumerator.Current.Invoke();
+				action.Invoke();
 			}
+			//var enumerator = _actionDict.Values.GetEnumerator();
+			//while (enumerator.MoveNext())
+			//{
+			//	enumerator.Current.Invoke();
+			//}
 		}
 		public static ConcurrentAction operator +(ConcurrentAction cAction, Action action)
 		{

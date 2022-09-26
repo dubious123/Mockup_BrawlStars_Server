@@ -23,6 +23,7 @@ namespace Server
 			_handlerDict.TryAdd(PacketId.C_Login, (packet, session) => C_LoginHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_GameReady, (packet, session) => C_GameReadyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_BroadcastPlayerInput, (packet, session) => C_BroadcastPlayerInputHandle(packet, session));
 		}
 
@@ -82,6 +83,16 @@ namespace Server
 			GameMgr.EnterGame(PlayerMgr.GetOrAddPlayer(req.UserId, session));
 		}
 
+		private static void C_GameReadyHandle(BasePacket packet, ClientSession session)
+		{
+			var req = packet as C_GameReady;
+			var player = PlayerMgr.GetPlayer(req.UserId);
+			Debug.Assert(player is not null);
+			player.GameSceneReady = true;
+			if (player.CurrentGame.IsReady == false) return;
+			player.CurrentGame.StartGame();
+		}
+
 		private static void C_BroadcastPlayerInputHandle(BasePacket packet, ClientSession session)
 		{
 			var req = packet as C_BroadcastPlayerInput;
@@ -95,7 +106,7 @@ namespace Server
 			}
 			var input = new Game.PlayerInput()
 			{
-				ClientTick = req.StartTick,
+				ClientTargetTick = req.StartTick + 6,
 				ReceivedTick = player.CurrentGame.CurrentTick,
 				MoveDirX = req.MoveDirX,
 				MoveDirY = req.MoveDirY,
@@ -106,5 +117,6 @@ namespace Server
 
 			return;
 		}
+
 	}
 }

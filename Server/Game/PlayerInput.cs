@@ -39,7 +39,7 @@ namespace Server.Game
 	// client -----||---send-----||------predict--------||--------------||---------------------------
 	public struct PlayerInput
 	{
-		public long ClientTick;
+		public long ClientTargetTick;
 		public long ReceivedTick;
 		public float LookDirX;
 		public float LookDirY;

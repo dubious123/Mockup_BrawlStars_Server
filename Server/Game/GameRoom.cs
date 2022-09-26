@@ -7,6 +7,8 @@ using System.Threading;
 using ServerCore;
 using System.Diagnostics;
 using Server.Game.Base;
+using System;
+using Server.Log;
 
 namespace Server
 {
@@ -17,6 +19,18 @@ namespace Server
 		public GameState State;
 		public Player[] Players { get => _players; }
 		public long CurrentTick { get => _currentTick; }
+		public bool IsReady
+		{
+			get
+			{
+				for (int i = 0; i < 6; i++)
+				{
+					if (_players[i]?.GameSceneReady == false) return false;
+				}
+				return true;
+			}
+		}
+		public bool GameStarted => _gameStarted == 1;
 		MapData _map;
 		Player[] _players;
 
@@ -26,6 +40,7 @@ namespace Server
 		readonly JobQueue _gameQueue;
 		readonly JobQueue _sendQueue;
 		long _currentTick = 0;
+		int _gameStarted = 0;
 		public GameRoom(int id, ushort mapId)
 		{
 			Id = id;
@@ -35,13 +50,21 @@ namespace Server
 			_map = MapMgr.GetMapData(mapId);
 			_gameQueue = JobMgr.GetQueue(Define.PacketGameQueueName);
 			_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
-			var co_update = Co_Update();
-			Program.Update += () => co_update.MoveNext();
 		}
+
+		public void StartGame()
+		{
+			if (Interlocked.CompareExchange(ref _gameStarted, 1, 0) == 1) return;
+			Broadcast(new S_BroadcastStartGame(0.2f));
+			Program.Update += () => Co_Update().MoveNext();
+		}
+
 		~GameRoom()
 		{
 			Program.Update -= () => Co_Update().MoveNext();
 		}
+
+		//Stopwatch _sw = new();
 		IEnumerator<float> Co_Update()
 		{
 			Player player;
@@ -49,23 +72,28 @@ namespace Server
 			S_BroadcastGameState packet = new();
 			while (true)
 			{
+				//_sw.Restart();
 				_currentTick++;
 				for (int i = 0; i < 6; i++)
 				{
 					player = _players[i];
 					if (player is null) continue;
 
-					while ((player.InputBuffer.TryDequeue(out input)) == false)
+					//while ((player.InputBuffer.TryPeek(out input)) == false)
+					//{
+					//	//todo set timeout
+					//	yield return 0f;
+					//}
+					if (player.InputBuffer.TryDequeue(out input) == false)
 					{
-						//todo set timeout
-						yield return 0f;
+						input = default(PlayerInput);
 					}
 					packet.PlayerMoveDirArr[i].X = input.MoveDirX;
 					packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
 					packet.PlayerLookDirArr[i].X = input.LookDirX;
 					packet.PlayerLookDirArr[i].Y = input.LookDirY;
+					packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
 					packet.StartTick = _currentTick;
-					packet.TargetTick = _currentTick + 3;
 					player.Character.Move(new Vector3(input.MoveDirX, 0, input.MoveDirY));
 					player.Character.Look(new Vector3(input.LookDirX, 0, input.LookDirY));
 				}
@@ -74,6 +102,8 @@ namespace Server
 				{
 					_players[i]?.Character.Update();
 				}
+				//_sw.Stop();
+				//LogMgr.Log($"inner update time {_sw.ElapsedMilliseconds}, tick: {_sw.ElapsedTicks}", TraceSourceType.Network);
 				yield return 0f;
 			}
 		}

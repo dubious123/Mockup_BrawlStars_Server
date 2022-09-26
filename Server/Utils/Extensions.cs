@@ -13,7 +13,7 @@ namespace Server.Utils
 		{
 			return LogMgr.AddConsoleListener(ts, options);
 		}
-		public static TraceSource AddTextWriterListener(this TraceSource ts, string dirPath, string fileName, TraceOptions options)
+		public static TraceSource AddTextWriterListener(this TraceSource ts, string dirPath, string fileName, TraceOptions options = TraceOptions.None)
 		{
 			return LogMgr.AddTextWriterListener(ts, dirPath, fileName, options);
 		}

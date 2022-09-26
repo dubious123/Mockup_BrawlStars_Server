@@ -14,6 +14,7 @@ namespace Server.Game
 	{
 		public int UserId { get; init; }
 		public short TeamId { get; set; }
+		public bool GameSceneReady { get; set; } = false;
 		public ClientSession Session { get; init; }
 		public GameRoom CurrentGame;
 		public BaseCharacter Character { get; set; }
