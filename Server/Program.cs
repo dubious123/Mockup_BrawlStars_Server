@@ -14,7 +14,7 @@ namespace Server
 	public class Program
 	{
 		public static ConcurrentAction Update { get; set; } = new();
-		const long WaitTick = 200000;
+		const long WaitTick = 166667;
 		static void Main(string[] args)
 		{
 			#region Init

@@ -22,7 +22,7 @@ namespace Server.Log
 			_dt = DateTime.Now;
 			_dirPath = Directory.GetCurrentDirectory() + "/../../../Logs";
 			Directory.CreateDirectory(_dirPath);
-			_tsArr = new TraceSource[8];
+			_tsArr = new TraceSource[9];
 			_tsArr[0] = BuildNewTraceSource(Define.Ts_Packet)
 					.AddTextWriterListener(string.Empty, "PacketLogs.txt", TraceOptions.DateTime);
 			_tsArr[1] = BuildNewTraceSource(Define.Ts_Network)
@@ -43,6 +43,8 @@ namespace Server.Log
 			_tsArr[7] = BuildNewTraceSource(Define.Ts_PacketRecv)
 					.AddTextWriterListener(string.Empty, "RecvLog.txt")
 					.AddListener(listener);
+			_tsArr[(int)TraceSourceType.Debug] = BuildNewTraceSource(Define.Ts_Debug)
+					.AddTextWriterListener(string.Empty, "Debug.txt");
 
 
 			Trace.AutoFlush = true;

@@ -24,6 +24,7 @@ namespace Server.Utils
 		public const string Ts_Error = "Error";
 		public const string Ts_PacketSend = "Send";
 		public const string Ts_PacketRecv = "Recv";
+		public const string Ts_Debug = "Debug";
 
 
 		#endregion

@@ -55,7 +55,8 @@ namespace Server
 		public void StartGame()
 		{
 			if (Interlocked.CompareExchange(ref _gameStarted, 1, 0) == 1) return;
-			Broadcast(new S_BroadcastStartGame(0.2f));
+			Broadcast(new S_BroadcastStartGame(0f));
+			LogMgr.Log("----------Start Game--------------", TraceSourceType.Debug);
 			Program.Update += () => Co_Update().MoveNext();
 		}
 
@@ -68,35 +69,35 @@ namespace Server
 		IEnumerator<float> Co_Update()
 		{
 			Player player;
-			PlayerInput input;
 			S_BroadcastGameState packet = new();
 			while (true)
 			{
 				//_sw.Restart();
-				_currentTick++;
 				for (int i = 0; i < 6; i++)
 				{
 					player = _players[i];
 					if (player is null) continue;
-
-					//while ((player.InputBuffer.TryPeek(out input)) == false)
-					//{
-					//	//todo set timeout
-					//	yield return 0f;
-					//}
-					if (player.InputBuffer.TryDequeue(out input) == false)
+					while (player.InputBuffer.IsEmpty)
 					{
-						input = default(PlayerInput);
+						//todo
+					}
+					player.InputBuffer.TryDequeue(out PlayerInput input);
+					for (int j = player.InputBuffer.Count; j > 0; j--)
+					{
+						player.InputBuffer.TryDequeue(out var temp);
+						input.Combine(in temp);
 					}
 					packet.PlayerMoveDirArr[i].X = input.MoveDirX;
 					packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
 					packet.PlayerLookDirArr[i].X = input.LookDirX;
 					packet.PlayerLookDirArr[i].Y = input.LookDirY;
-					packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
+					packet.TargetTick = input.ClientTargetTick == 0 ? _currentTick + 3 : input.ClientTargetTick;
+					//packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
 					packet.StartTick = _currentTick;
 					player.Character.Move(new Vector3(input.MoveDirX, 0, input.MoveDirY));
 					player.Character.Look(new Vector3(input.LookDirX, 0, input.LookDirY));
 				}
+				LogMgr.Log($"----------moving one tick, current tick : [{_currentTick}]--------------", TraceSourceType.Debug);
 				Broadcast(packet);
 				for (int i = 0; i < 6; i++)
 				{
@@ -104,6 +105,7 @@ namespace Server
 				}
 				//_sw.Stop();
 				//LogMgr.Log($"inner update time {_sw.ElapsedMilliseconds}, tick: {_sw.ElapsedTicks}", TraceSourceType.Network);
+				_currentTick++;
 				yield return 0f;
 			}
 		}

@@ -1,0 +1,2736 @@
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.284]
+----------Start Game--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.385]
+----------moving one tick, current tick : [0]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.389]
+----------moving one tick, current tick : [1]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.408]
+----------moving one tick, current tick : [2]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.423]
+----------moving one tick, current tick : [3]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.440]
+----------moving one tick, current tick : [4]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.456]
+----------moving one tick, current tick : [5]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.473]
+----------moving one tick, current tick : [6]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.490]
+----------moving one tick, current tick : [7]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.507]
+----------moving one tick, current tick : [8]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.523]
+----------moving one tick, current tick : [9]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.540]
+----------moving one tick, current tick : [10]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.557]
+----------moving one tick, current tick : [11]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.573]
+----------moving one tick, current tick : [12]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.590]
+----------moving one tick, current tick : [13]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.607]
+----------moving one tick, current tick : [14]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.627]
+----------moving one tick, current tick : [15]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.641]
+----------moving one tick, current tick : [16]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.657]
+----------moving one tick, current tick : [17]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.674]
+----------moving one tick, current tick : [18]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.899]
+----------moving one tick, current tick : [19]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.899]
+----------moving one tick, current tick : [20]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.916]
+----------moving one tick, current tick : [21]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.932]
+----------moving one tick, current tick : [22]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.949]
+----------moving one tick, current tick : [23]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.966]
+----------moving one tick, current tick : [24]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.982]
+----------moving one tick, current tick : [25]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:09.999]
+----------moving one tick, current tick : [26]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.016]
+----------moving one tick, current tick : [27]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.032]
+----------moving one tick, current tick : [28]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.049]
+----------moving one tick, current tick : [29]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.066]
+----------moving one tick, current tick : [30]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.083]
+----------moving one tick, current tick : [31]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.099]
+----------moving one tick, current tick : [32]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.116]
+----------moving one tick, current tick : [33]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.133]
+----------moving one tick, current tick : [34]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.149]
+----------moving one tick, current tick : [35]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.166]
+----------moving one tick, current tick : [36]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.183]
+----------moving one tick, current tick : [37]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.199]
+----------moving one tick, current tick : [38]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.216]
+----------moving one tick, current tick : [39]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.233]
+----------moving one tick, current tick : [40]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.249]
+----------moving one tick, current tick : [41]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.266]
+----------moving one tick, current tick : [42]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.283]
+----------moving one tick, current tick : [43]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.299]
+----------moving one tick, current tick : [44]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.316]
+----------moving one tick, current tick : [45]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.333]
+----------moving one tick, current tick : [46]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.349]
+----------moving one tick, current tick : [47]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.366]
+----------moving one tick, current tick : [48]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.383]
+----------moving one tick, current tick : [49]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.399]
+----------moving one tick, current tick : [50]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.416]
+----------moving one tick, current tick : [51]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.433]
+----------moving one tick, current tick : [52]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.450]
+----------moving one tick, current tick : [53]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.466]
+----------moving one tick, current tick : [54]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.483]
+----------moving one tick, current tick : [55]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.500]
+----------moving one tick, current tick : [56]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.516]
+----------moving one tick, current tick : [57]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.533]
+----------moving one tick, current tick : [58]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.550]
+----------moving one tick, current tick : [59]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.566]
+----------moving one tick, current tick : [60]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.583]
+----------moving one tick, current tick : [61]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.600]
+----------moving one tick, current tick : [62]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.616]
+----------moving one tick, current tick : [63]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.633]
+----------moving one tick, current tick : [64]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.650]
+----------moving one tick, current tick : [65]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.666]
+----------moving one tick, current tick : [66]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.683]
+----------moving one tick, current tick : [67]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.700]
+----------moving one tick, current tick : [68]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.716]
+----------moving one tick, current tick : [69]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.733]
+----------moving one tick, current tick : [70]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.750]
+----------moving one tick, current tick : [71]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.767]
+----------moving one tick, current tick : [72]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.783]
+----------moving one tick, current tick : [73]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.800]
+----------moving one tick, current tick : [74]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.817]
+----------moving one tick, current tick : [75]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.833]
+----------moving one tick, current tick : [76]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.850]
+----------moving one tick, current tick : [77]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.867]
+----------moving one tick, current tick : [78]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.883]
+----------moving one tick, current tick : [79]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.900]
+----------moving one tick, current tick : [80]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.917]
+----------moving one tick, current tick : [81]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.933]
+----------moving one tick, current tick : [82]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.950]
+----------moving one tick, current tick : [83]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.967]
+----------moving one tick, current tick : [84]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:10.983]
+----------moving one tick, current tick : [85]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.000]
+----------moving one tick, current tick : [86]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.017]
+----------moving one tick, current tick : [87]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.033]
+----------moving one tick, current tick : [88]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.050]
+----------moving one tick, current tick : [89]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.067]
+----------moving one tick, current tick : [90]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.083]
+----------moving one tick, current tick : [91]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.100]
+----------moving one tick, current tick : [92]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.117]
+----------moving one tick, current tick : [93]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.133]
+----------moving one tick, current tick : [94]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.150]
+----------moving one tick, current tick : [95]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.167]
+----------moving one tick, current tick : [96]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.183]
+----------moving one tick, current tick : [97]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.200]
+----------moving one tick, current tick : [98]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.217]
+----------moving one tick, current tick : [99]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.233]
+----------moving one tick, current tick : [100]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.250]
+----------moving one tick, current tick : [101]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.267]
+----------moving one tick, current tick : [102]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.283]
+----------moving one tick, current tick : [103]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.300]
+----------moving one tick, current tick : [104]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.317]
+----------moving one tick, current tick : [105]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.333]
+----------moving one tick, current tick : [106]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.350]
+----------moving one tick, current tick : [107]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.367]
+----------moving one tick, current tick : [108]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.383]
+----------moving one tick, current tick : [109]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.400]
+----------moving one tick, current tick : [110]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.417]
+----------moving one tick, current tick : [111]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.433]
+----------moving one tick, current tick : [112]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.450]
+----------moving one tick, current tick : [113]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.467]
+----------moving one tick, current tick : [114]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.484]
+----------moving one tick, current tick : [115]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.500]
+----------moving one tick, current tick : [116]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.517]
+----------moving one tick, current tick : [117]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.534]
+----------moving one tick, current tick : [118]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.550]
+----------moving one tick, current tick : [119]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.567]
+----------moving one tick, current tick : [120]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.584]
+----------moving one tick, current tick : [121]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.600]
+----------moving one tick, current tick : [122]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.617]
+----------moving one tick, current tick : [123]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.634]
+----------moving one tick, current tick : [124]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.650]
+----------moving one tick, current tick : [125]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.667]
+----------moving one tick, current tick : [126]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.684]
+----------moving one tick, current tick : [127]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.700]
+----------moving one tick, current tick : [128]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.717]
+----------moving one tick, current tick : [129]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.734]
+----------moving one tick, current tick : [130]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.750]
+----------moving one tick, current tick : [131]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.767]
+----------moving one tick, current tick : [132]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.784]
+----------moving one tick, current tick : [133]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.800]
+----------moving one tick, current tick : [134]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.817]
+----------moving one tick, current tick : [135]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.834]
+----------moving one tick, current tick : [136]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.850]
+----------moving one tick, current tick : [137]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.867]
+----------moving one tick, current tick : [138]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.884]
+----------moving one tick, current tick : [139]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.900]
+----------moving one tick, current tick : [140]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.917]
+----------moving one tick, current tick : [141]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.934]
+----------moving one tick, current tick : [142]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.950]
+----------moving one tick, current tick : [143]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.967]
+----------moving one tick, current tick : [144]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:11.984]
+----------moving one tick, current tick : [145]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.000]
+----------moving one tick, current tick : [146]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.017]
+----------moving one tick, current tick : [147]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.034]
+----------moving one tick, current tick : [148]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.050]
+----------moving one tick, current tick : [149]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.067]
+----------moving one tick, current tick : [150]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.084]
+----------moving one tick, current tick : [151]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.100]
+----------moving one tick, current tick : [152]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.117]
+----------moving one tick, current tick : [153]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.134]
+----------moving one tick, current tick : [154]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.150]
+----------moving one tick, current tick : [155]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.167]
+----------moving one tick, current tick : [156]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.184]
+----------moving one tick, current tick : [157]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.200]
+----------moving one tick, current tick : [158]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.217]
+----------moving one tick, current tick : [159]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.234]
+----------moving one tick, current tick : [160]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.250]
+----------moving one tick, current tick : [161]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.267]
+----------moving one tick, current tick : [162]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.284]
+----------moving one tick, current tick : [163]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.300]
+----------moving one tick, current tick : [164]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.317]
+----------moving one tick, current tick : [165]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.334]
+----------moving one tick, current tick : [166]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.350]
+----------moving one tick, current tick : [167]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.367]
+----------moving one tick, current tick : [168]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.384]
+----------moving one tick, current tick : [169]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.400]
+----------moving one tick, current tick : [170]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.417]
+----------moving one tick, current tick : [171]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.434]
+----------moving one tick, current tick : [172]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.450]
+----------moving one tick, current tick : [173]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.467]
+----------moving one tick, current tick : [174]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.484]
+----------moving one tick, current tick : [175]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.500]
+----------moving one tick, current tick : [176]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.517]
+----------moving one tick, current tick : [177]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.534]
+----------moving one tick, current tick : [178]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.550]
+----------moving one tick, current tick : [179]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.567]
+----------moving one tick, current tick : [180]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.584]
+----------moving one tick, current tick : [181]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.600]
+----------moving one tick, current tick : [182]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.617]
+----------moving one tick, current tick : [183]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.634]
+----------moving one tick, current tick : [184]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.650]
+----------moving one tick, current tick : [185]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.667]
+----------moving one tick, current tick : [186]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.684]
+----------moving one tick, current tick : [187]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.700]
+----------moving one tick, current tick : [188]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.717]
+----------moving one tick, current tick : [189]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.734]
+----------moving one tick, current tick : [190]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.750]
+----------moving one tick, current tick : [191]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.767]
+----------moving one tick, current tick : [192]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.784]
+----------moving one tick, current tick : [193]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.800]
+----------moving one tick, current tick : [194]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.817]
+----------moving one tick, current tick : [195]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.834]
+----------moving one tick, current tick : [196]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.851]
+----------moving one tick, current tick : [197]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.867]
+----------moving one tick, current tick : [198]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.884]
+----------moving one tick, current tick : [199]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.901]
+----------moving one tick, current tick : [200]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.917]
+----------moving one tick, current tick : [201]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.934]
+----------moving one tick, current tick : [202]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.951]
+----------moving one tick, current tick : [203]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.967]
+----------moving one tick, current tick : [204]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:12.984]
+----------moving one tick, current tick : [205]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.001]
+----------moving one tick, current tick : [206]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.017]
+----------moving one tick, current tick : [207]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.034]
+----------moving one tick, current tick : [208]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.051]
+----------moving one tick, current tick : [209]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.068]
+----------moving one tick, current tick : [210]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.085]
+----------moving one tick, current tick : [211]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.101]
+----------moving one tick, current tick : [212]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.118]
+----------moving one tick, current tick : [213]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.135]
+----------moving one tick, current tick : [214]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.151]
+----------moving one tick, current tick : [215]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.168]
+----------moving one tick, current tick : [216]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.185]
+----------moving one tick, current tick : [217]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.201]
+----------moving one tick, current tick : [218]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.218]
+----------moving one tick, current tick : [219]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.235]
+----------moving one tick, current tick : [220]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.251]
+----------moving one tick, current tick : [221]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.268]
+----------moving one tick, current tick : [222]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.285]
+----------moving one tick, current tick : [223]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.301]
+----------moving one tick, current tick : [224]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.318]
+----------moving one tick, current tick : [225]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.335]
+----------moving one tick, current tick : [226]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.351]
+----------moving one tick, current tick : [227]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.368]
+----------moving one tick, current tick : [228]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.385]
+----------moving one tick, current tick : [229]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.402]
+----------moving one tick, current tick : [230]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.418]
+----------moving one tick, current tick : [231]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.435]
+----------moving one tick, current tick : [232]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.452]
+----------moving one tick, current tick : [233]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.468]
+----------moving one tick, current tick : [234]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.485]
+----------moving one tick, current tick : [235]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.502]
+----------moving one tick, current tick : [236]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.518]
+----------moving one tick, current tick : [237]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.535]
+----------moving one tick, current tick : [238]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.552]
+----------moving one tick, current tick : [239]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.568]
+----------moving one tick, current tick : [240]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.585]
+----------moving one tick, current tick : [241]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.602]
+----------moving one tick, current tick : [242]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.621]
+----------moving one tick, current tick : [243]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.638]
+----------moving one tick, current tick : [244]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.654]
+----------moving one tick, current tick : [245]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.671]
+----------moving one tick, current tick : [246]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.687]
+----------moving one tick, current tick : [247]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.704]
+----------moving one tick, current tick : [248]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.721]
+----------moving one tick, current tick : [249]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.738]
+----------moving one tick, current tick : [250]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.754]
+----------moving one tick, current tick : [251]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.772]
+----------moving one tick, current tick : [252]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.787]
+----------moving one tick, current tick : [253]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.804]
+----------moving one tick, current tick : [254]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.822]
+----------moving one tick, current tick : [255]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.838]
+----------moving one tick, current tick : [256]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.855]
+----------moving one tick, current tick : [257]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.871]
+----------moving one tick, current tick : [258]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.888]
+----------moving one tick, current tick : [259]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.905]
+----------moving one tick, current tick : [260]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.921]
+----------moving one tick, current tick : [261]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.939]
+----------moving one tick, current tick : [262]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.954]
+----------moving one tick, current tick : [263]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.972]
+----------moving one tick, current tick : [264]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:13.990]
+----------moving one tick, current tick : [265]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.005]
+----------moving one tick, current tick : [266]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.022]
+----------moving one tick, current tick : [267]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.039]
+----------moving one tick, current tick : [268]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.056]
+----------moving one tick, current tick : [269]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.072]
+----------moving one tick, current tick : [270]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.088]
+----------moving one tick, current tick : [271]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.105]
+----------moving one tick, current tick : [272]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.121]
+----------moving one tick, current tick : [273]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.139]
+----------moving one tick, current tick : [274]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.156]
+----------moving one tick, current tick : [275]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.173]
+----------moving one tick, current tick : [276]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.189]
+----------moving one tick, current tick : [277]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.204]
+----------moving one tick, current tick : [278]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.222]
+----------moving one tick, current tick : [279]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.237]
+----------moving one tick, current tick : [280]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.255]
+----------moving one tick, current tick : [281]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.271]
+----------moving one tick, current tick : [282]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.288]
+----------moving one tick, current tick : [283]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.304]
+----------moving one tick, current tick : [284]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.321]
+----------moving one tick, current tick : [285]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.338]
+----------moving one tick, current tick : [286]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.356]
+----------moving one tick, current tick : [287]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.371]
+----------moving one tick, current tick : [288]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.388]
+----------moving one tick, current tick : [289]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.404]
+----------moving one tick, current tick : [290]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.422]
+----------moving one tick, current tick : [291]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.438]
+----------moving one tick, current tick : [292]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.454]
+----------moving one tick, current tick : [293]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.471]
+----------moving one tick, current tick : [294]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.488]
+----------moving one tick, current tick : [295]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.504]
+----------moving one tick, current tick : [296]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.521]
+----------moving one tick, current tick : [297]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.538]
+----------moving one tick, current tick : [298]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.555]
+----------moving one tick, current tick : [299]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.571]
+----------moving one tick, current tick : [300]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.590]
+----------moving one tick, current tick : [301]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.604]
+----------moving one tick, current tick : [302]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.622]
+----------moving one tick, current tick : [303]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.646]
+----------moving one tick, current tick : [304]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.655]
+----------moving one tick, current tick : [305]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.671]
+----------moving one tick, current tick : [306]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.688]
+----------moving one tick, current tick : [307]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.705]
+----------moving one tick, current tick : [308]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.722]
+----------moving one tick, current tick : [309]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.746]
+----------moving one tick, current tick : [310]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.762]
+----------moving one tick, current tick : [311]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.772]
+----------moving one tick, current tick : [312]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.788]
+----------moving one tick, current tick : [313]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.806]
+----------moving one tick, current tick : [314]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.832]
+----------moving one tick, current tick : [315]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.843]
+----------moving one tick, current tick : [316]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.856]
+----------moving one tick, current tick : [317]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.879]
+----------moving one tick, current tick : [318]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.889]
+----------moving one tick, current tick : [319]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.914]
+----------moving one tick, current tick : [320]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.923]
+----------moving one tick, current tick : [321]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.939]
+----------moving one tick, current tick : [322]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.956]
+----------moving one tick, current tick : [323]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.973]
+----------moving one tick, current tick : [324]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:14.989]
+----------moving one tick, current tick : [325]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.006]
+----------moving one tick, current tick : [326]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.030]
+----------moving one tick, current tick : [327]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.045]
+----------moving one tick, current tick : [328]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.062]
+----------moving one tick, current tick : [329]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.080]
+----------moving one tick, current tick : [330]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.089]
+----------moving one tick, current tick : [331]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.106]
+----------moving one tick, current tick : [332]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.123]
+----------moving one tick, current tick : [333]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.139]
+----------moving one tick, current tick : [334]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.162]
+----------moving one tick, current tick : [335]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.173]
+----------moving one tick, current tick : [336]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.189]
+----------moving one tick, current tick : [337]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.212]
+----------moving one tick, current tick : [338]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.223]
+----------moving one tick, current tick : [339]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.245]
+----------moving one tick, current tick : [340]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.256]
+----------moving one tick, current tick : [341]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.279]
+----------moving one tick, current tick : [342]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.289]
+----------moving one tick, current tick : [343]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.306]
+----------moving one tick, current tick : [344]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.323]
+----------moving one tick, current tick : [345]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.339]
+----------moving one tick, current tick : [346]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.356]
+----------moving one tick, current tick : [347]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.373]
+----------moving one tick, current tick : [348]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.395]
+----------moving one tick, current tick : [349]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.412]
+----------moving one tick, current tick : [350]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.423]
+----------moving one tick, current tick : [351]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.445]
+----------moving one tick, current tick : [352]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.456]
+----------moving one tick, current tick : [353]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.473]
+----------moving one tick, current tick : [354]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.495]
+----------moving one tick, current tick : [355]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.506]
+----------moving one tick, current tick : [356]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.529]
+----------moving one tick, current tick : [357]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.539]
+----------moving one tick, current tick : [358]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.564]
+----------moving one tick, current tick : [359]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.573]
+----------moving one tick, current tick : [360]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.589]
+----------moving one tick, current tick : [361]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.613]
+----------moving one tick, current tick : [362]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.623]
+----------moving one tick, current tick : [363]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.639]
+----------moving one tick, current tick : [364]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.661]
+----------moving one tick, current tick : [365]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.673]
+----------moving one tick, current tick : [366]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.695]
+----------moving one tick, current tick : [367]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.706]
+----------moving one tick, current tick : [368]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.730]
+----------moving one tick, current tick : [369]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.746]
+----------moving one tick, current tick : [370]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.763]
+----------moving one tick, current tick : [371]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.774]
+----------moving one tick, current tick : [372]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.796]
+----------moving one tick, current tick : [373]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.812]
+----------moving one tick, current tick : [374]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.824]
+----------moving one tick, current tick : [375]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.845]
+----------moving one tick, current tick : [376]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.857]
+----------moving one tick, current tick : [377]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.874]
+----------moving one tick, current tick : [378]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.891]
+----------moving one tick, current tick : [379]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.907]
+----------moving one tick, current tick : [380]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.928]
+----------moving one tick, current tick : [381]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.945]
+----------moving one tick, current tick : [382]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.958]
+----------moving one tick, current tick : [383]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.975]
+----------moving one tick, current tick : [384]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:15.995]
+----------moving one tick, current tick : [385]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.008]
+----------moving one tick, current tick : [386]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.025]
+----------moving one tick, current tick : [387]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.045]
+----------moving one tick, current tick : [388]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.062]
+----------moving one tick, current tick : [389]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.080]
+----------moving one tick, current tick : [390]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.091]
+----------moving one tick, current tick : [391]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.113]
+----------moving one tick, current tick : [392]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.125]
+----------moving one tick, current tick : [393]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.146]
+----------moving one tick, current tick : [394]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.163]
+----------moving one tick, current tick : [395]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.179]
+----------moving one tick, current tick : [396]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.191]
+----------moving one tick, current tick : [397]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.212]
+----------moving one tick, current tick : [398]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.225]
+----------moving one tick, current tick : [399]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.241]
+----------moving one tick, current tick : [400]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.258]
+----------moving one tick, current tick : [401]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.279]
+----------moving one tick, current tick : [402]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.291]
+----------moving one tick, current tick : [403]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.308]
+----------moving one tick, current tick : [404]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.329]
+----------moving one tick, current tick : [405]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.342]
+----------moving one tick, current tick : [406]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.362]
+----------moving one tick, current tick : [407]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.378]
+----------moving one tick, current tick : [408]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.392]
+----------moving one tick, current tick : [409]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.408]
+----------moving one tick, current tick : [410]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.425]
+----------moving one tick, current tick : [411]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.445]
+----------moving one tick, current tick : [412]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.458]
+----------moving one tick, current tick : [413]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.479]
+----------moving one tick, current tick : [414]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.495]
+----------moving one tick, current tick : [415]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.514]
+----------moving one tick, current tick : [416]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.529]
+----------moving one tick, current tick : [417]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.545]
+----------moving one tick, current tick : [418]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.562]
+----------moving one tick, current tick : [419]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.577]
+----------moving one tick, current tick : [420]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.595]
+----------moving one tick, current tick : [421]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.611]
+----------moving one tick, current tick : [422]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.663]
+----------moving one tick, current tick : [423]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.664]
+----------moving one tick, current tick : [424]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.680]
+----------moving one tick, current tick : [425]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.697]
+----------moving one tick, current tick : [426]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.714]
+----------moving one tick, current tick : [427]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.730]
+----------moving one tick, current tick : [428]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.747]
+----------moving one tick, current tick : [429]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.764]
+----------moving one tick, current tick : [430]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.780]
+----------moving one tick, current tick : [431]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.797]
+----------moving one tick, current tick : [432]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.814]
+----------moving one tick, current tick : [433]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.830]
+----------moving one tick, current tick : [434]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.847]
+----------moving one tick, current tick : [435]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.864]
+----------moving one tick, current tick : [436]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.880]
+----------moving one tick, current tick : [437]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.897]
+----------moving one tick, current tick : [438]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.914]
+----------moving one tick, current tick : [439]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.930]
+----------moving one tick, current tick : [440]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.947]
+----------moving one tick, current tick : [441]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.964]
+----------moving one tick, current tick : [442]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.980]
+----------moving one tick, current tick : [443]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:16.997]
+----------moving one tick, current tick : [444]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.014]
+----------moving one tick, current tick : [445]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.030]
+----------moving one tick, current tick : [446]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.048]
+----------moving one tick, current tick : [447]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.064]
+----------moving one tick, current tick : [448]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.080]
+----------moving one tick, current tick : [449]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.097]
+----------moving one tick, current tick : [450]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.114]
+----------moving one tick, current tick : [451]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.130]
+----------moving one tick, current tick : [452]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.147]
+----------moving one tick, current tick : [453]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.164]
+----------moving one tick, current tick : [454]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.180]
+----------moving one tick, current tick : [455]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.197]
+----------moving one tick, current tick : [456]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.214]
+----------moving one tick, current tick : [457]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.230]
+----------moving one tick, current tick : [458]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.247]
+----------moving one tick, current tick : [459]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.264]
+----------moving one tick, current tick : [460]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.280]
+----------moving one tick, current tick : [461]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.297]
+----------moving one tick, current tick : [462]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.314]
+----------moving one tick, current tick : [463]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.330]
+----------moving one tick, current tick : [464]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.347]
+----------moving one tick, current tick : [465]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.642]
+----------moving one tick, current tick : [466]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.642]
+----------moving one tick, current tick : [467]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.658]
+----------moving one tick, current tick : [468]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.675]
+----------moving one tick, current tick : [469]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.692]
+----------moving one tick, current tick : [470]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.708]
+----------moving one tick, current tick : [471]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.725]
+----------moving one tick, current tick : [472]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.744]
+----------moving one tick, current tick : [473]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.758]
+----------moving one tick, current tick : [474]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.777]
+----------moving one tick, current tick : [475]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.795]
+----------moving one tick, current tick : [476]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.810]
+----------moving one tick, current tick : [477]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.827]
+----------moving one tick, current tick : [478]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.844]
+----------moving one tick, current tick : [479]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.860]
+----------moving one tick, current tick : [480]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.877]
+----------moving one tick, current tick : [481]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.893]
+----------moving one tick, current tick : [482]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.911]
+----------moving one tick, current tick : [483]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.927]
+----------moving one tick, current tick : [484]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.943]
+----------moving one tick, current tick : [485]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.963]
+----------moving one tick, current tick : [486]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.975]
+----------moving one tick, current tick : [487]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:17.993]
+----------moving one tick, current tick : [488]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.010]
+----------moving one tick, current tick : [489]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.027]
+----------moving one tick, current tick : [490]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.044]
+----------moving one tick, current tick : [491]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.060]
+----------moving one tick, current tick : [492]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.077]
+----------moving one tick, current tick : [493]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.094]
+----------moving one tick, current tick : [494]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.110]
+----------moving one tick, current tick : [495]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.127]
+----------moving one tick, current tick : [496]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.144]
+----------moving one tick, current tick : [497]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.160]
+----------moving one tick, current tick : [498]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.177]
+----------moving one tick, current tick : [499]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.194]
+----------moving one tick, current tick : [500]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.210]
+----------moving one tick, current tick : [501]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.227]
+----------moving one tick, current tick : [502]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.244]
+----------moving one tick, current tick : [503]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.261]
+----------moving one tick, current tick : [504]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.277]
+----------moving one tick, current tick : [505]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.292]
+----------moving one tick, current tick : [506]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.309]
+----------moving one tick, current tick : [507]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.325]
+----------moving one tick, current tick : [508]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.342]
+----------moving one tick, current tick : [509]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.362]
+----------moving one tick, current tick : [510]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.378]
+----------moving one tick, current tick : [511]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.392]
+----------moving one tick, current tick : [512]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.411]
+----------moving one tick, current tick : [513]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.429]
+----------moving one tick, current tick : [514]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.445]
+----------moving one tick, current tick : [515]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.461]
+----------moving one tick, current tick : [516]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.477]
+----------moving one tick, current tick : [517]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.495]
+----------moving one tick, current tick : [518]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.511]
+----------moving one tick, current tick : [519]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.528]
+----------moving one tick, current tick : [520]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.545]
+----------moving one tick, current tick : [521]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.562]
+----------moving one tick, current tick : [522]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.575]
+----------moving one tick, current tick : [523]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.595]
+----------moving one tick, current tick : [524]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.609]
+----------moving one tick, current tick : [525]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.628]
+----------moving one tick, current tick : [526]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.644]
+----------moving one tick, current tick : [527]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.661]
+----------moving one tick, current tick : [528]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.677]
+----------moving one tick, current tick : [529]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.694]
+----------moving one tick, current tick : [530]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.710]
+----------moving one tick, current tick : [531]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.731]
+----------moving one tick, current tick : [532]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.745]
+----------moving one tick, current tick : [533]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.762]
+----------moving one tick, current tick : [534]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.777]
+----------moving one tick, current tick : [535]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.795]
+----------moving one tick, current tick : [536]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.811]
+----------moving one tick, current tick : [537]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.828]
+----------moving one tick, current tick : [538]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.844]
+----------moving one tick, current tick : [539]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.861]
+----------moving one tick, current tick : [540]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.878]
+----------moving one tick, current tick : [541]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.895]
+----------moving one tick, current tick : [542]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.911]
+----------moving one tick, current tick : [543]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.927]
+----------moving one tick, current tick : [544]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.944]
+----------moving one tick, current tick : [545]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.961]
+----------moving one tick, current tick : [546]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.978]
+----------moving one tick, current tick : [547]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:18.994]
+----------moving one tick, current tick : [548]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.011]
+----------moving one tick, current tick : [549]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.028]
+----------moving one tick, current tick : [550]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.047]
+----------moving one tick, current tick : [551]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.064]
+----------moving one tick, current tick : [552]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.081]
+----------moving one tick, current tick : [553]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.097]
+----------moving one tick, current tick : [554]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.114]
+----------moving one tick, current tick : [555]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.131]
+----------moving one tick, current tick : [556]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.147]
+----------moving one tick, current tick : [557]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.164]
+----------moving one tick, current tick : [558]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.181]
+----------moving one tick, current tick : [559]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.197]
+----------moving one tick, current tick : [560]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.214]
+----------moving one tick, current tick : [561]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.231]
+----------moving one tick, current tick : [562]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.247]
+----------moving one tick, current tick : [563]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.264]
+----------moving one tick, current tick : [564]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.281]
+----------moving one tick, current tick : [565]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.297]
+----------moving one tick, current tick : [566]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.314]
+----------moving one tick, current tick : [567]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.331]
+----------moving one tick, current tick : [568]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.347]
+----------moving one tick, current tick : [569]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.364]
+----------moving one tick, current tick : [570]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.381]
+----------moving one tick, current tick : [571]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.397]
+----------moving one tick, current tick : [572]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.414]
+----------moving one tick, current tick : [573]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.431]
+----------moving one tick, current tick : [574]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.447]
+----------moving one tick, current tick : [575]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.464]
+----------moving one tick, current tick : [576]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.481]
+----------moving one tick, current tick : [577]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.497]
+----------moving one tick, current tick : [578]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.514]
+----------moving one tick, current tick : [579]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.531]
+----------moving one tick, current tick : [580]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.548]
+----------moving one tick, current tick : [581]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.564]
+----------moving one tick, current tick : [582]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.581]
+----------moving one tick, current tick : [583]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.597]
+----------moving one tick, current tick : [584]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.614]
+----------moving one tick, current tick : [585]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.631]
+----------moving one tick, current tick : [586]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.647]
+----------moving one tick, current tick : [587]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.664]
+----------moving one tick, current tick : [588]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.681]
+----------moving one tick, current tick : [589]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.697]
+----------moving one tick, current tick : [590]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.714]
+----------moving one tick, current tick : [591]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.731]
+----------moving one tick, current tick : [592]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.747]
+----------moving one tick, current tick : [593]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.764]
+----------moving one tick, current tick : [594]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.781]
+----------moving one tick, current tick : [595]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.798]
+----------moving one tick, current tick : [596]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.814]
+----------moving one tick, current tick : [597]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.831]
+----------moving one tick, current tick : [598]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.848]
+----------moving one tick, current tick : [599]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.864]
+----------moving one tick, current tick : [600]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.881]
+----------moving one tick, current tick : [601]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.898]
+----------moving one tick, current tick : [602]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.914]
+----------moving one tick, current tick : [603]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.931]
+----------moving one tick, current tick : [604]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.949]
+----------moving one tick, current tick : [605]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.964]
+----------moving one tick, current tick : [606]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.981]
+----------moving one tick, current tick : [607]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:19.998]
+----------moving one tick, current tick : [608]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.015]
+----------moving one tick, current tick : [609]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.032]
+----------moving one tick, current tick : [610]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.049]
+----------moving one tick, current tick : [611]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.065]
+----------moving one tick, current tick : [612]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.082]
+----------moving one tick, current tick : [613]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.099]
+----------moving one tick, current tick : [614]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.115]
+----------moving one tick, current tick : [615]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.132]
+----------moving one tick, current tick : [616]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.149]
+----------moving one tick, current tick : [617]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.165]
+----------moving one tick, current tick : [618]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.182]
+----------moving one tick, current tick : [619]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.199]
+----------moving one tick, current tick : [620]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.215]
+----------moving one tick, current tick : [621]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.232]
+----------moving one tick, current tick : [622]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.249]
+----------moving one tick, current tick : [623]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.265]
+----------moving one tick, current tick : [624]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.282]
+----------moving one tick, current tick : [625]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.299]
+----------moving one tick, current tick : [626]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.315]
+----------moving one tick, current tick : [627]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.332]
+----------moving one tick, current tick : [628]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.349]
+----------moving one tick, current tick : [629]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.365]
+----------moving one tick, current tick : [630]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.382]
+----------moving one tick, current tick : [631]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.399]
+----------moving one tick, current tick : [632]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.415]
+----------moving one tick, current tick : [633]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.432]
+----------moving one tick, current tick : [634]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.449]
+----------moving one tick, current tick : [635]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.465]
+----------moving one tick, current tick : [636]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.482]
+----------moving one tick, current tick : [637]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.499]
+----------moving one tick, current tick : [638]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.515]
+----------moving one tick, current tick : [639]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.532]
+----------moving one tick, current tick : [640]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.549]
+----------moving one tick, current tick : [641]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.565]
+----------moving one tick, current tick : [642]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.582]
+----------moving one tick, current tick : [643]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.599]
+----------moving one tick, current tick : [644]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.615]
+----------moving one tick, current tick : [645]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.632]
+----------moving one tick, current tick : [646]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.649]
+----------moving one tick, current tick : [647]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.665]
+----------moving one tick, current tick : [648]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.682]
+----------moving one tick, current tick : [649]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.699]
+----------moving one tick, current tick : [650]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.715]
+----------moving one tick, current tick : [651]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.732]
+----------moving one tick, current tick : [652]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.749]
+----------moving one tick, current tick : [653]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.765]
+----------moving one tick, current tick : [654]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.782]
+----------moving one tick, current tick : [655]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.799]
+----------moving one tick, current tick : [656]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.815]
+----------moving one tick, current tick : [657]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.832]
+----------moving one tick, current tick : [658]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.849]
+----------moving one tick, current tick : [659]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.865]
+----------moving one tick, current tick : [660]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.882]
+----------moving one tick, current tick : [661]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.899]
+----------moving one tick, current tick : [662]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.915]
+----------moving one tick, current tick : [663]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.932]
+----------moving one tick, current tick : [664]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.949]
+----------moving one tick, current tick : [665]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.965]
+----------moving one tick, current tick : [666]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.982]
+----------moving one tick, current tick : [667]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:20.999]
+----------moving one tick, current tick : [668]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.015]
+----------moving one tick, current tick : [669]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.032]
+----------moving one tick, current tick : [670]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.049]
+----------moving one tick, current tick : [671]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.065]
+----------moving one tick, current tick : [672]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.082]
+----------moving one tick, current tick : [673]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.099]
+----------moving one tick, current tick : [674]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.115]
+----------moving one tick, current tick : [675]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.132]
+----------moving one tick, current tick : [676]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.149]
+----------moving one tick, current tick : [677]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.166]
+----------moving one tick, current tick : [678]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.183]
+----------moving one tick, current tick : [679]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.199]
+----------moving one tick, current tick : [680]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.216]
+----------moving one tick, current tick : [681]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.233]
+----------moving one tick, current tick : [682]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.249]
+----------moving one tick, current tick : [683]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.266]
+----------moving one tick, current tick : [684]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.283]
+----------moving one tick, current tick : [685]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.299]
+----------moving one tick, current tick : [686]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.316]
+----------moving one tick, current tick : [687]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.333]
+----------moving one tick, current tick : [688]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.349]
+----------moving one tick, current tick : [689]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.366]
+----------moving one tick, current tick : [690]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.383]
+----------moving one tick, current tick : [691]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.399]
+----------moving one tick, current tick : [692]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.416]
+----------moving one tick, current tick : [693]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.433]
+----------moving one tick, current tick : [694]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.449]
+----------moving one tick, current tick : [695]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.466]
+----------moving one tick, current tick : [696]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.483]
+----------moving one tick, current tick : [697]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.499]
+----------moving one tick, current tick : [698]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.516]
+----------moving one tick, current tick : [699]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.533]
+----------moving one tick, current tick : [700]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.549]
+----------moving one tick, current tick : [701]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.566]
+----------moving one tick, current tick : [702]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.583]
+----------moving one tick, current tick : [703]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.599]
+----------moving one tick, current tick : [704]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.616]
+----------moving one tick, current tick : [705]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.706]
+----------moving one tick, current tick : [706]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:21.706]
+----------moving one tick, current tick : [707]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.010]
+----------moving one tick, current tick : [708]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.027]
+----------moving one tick, current tick : [709]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.043]
+----------moving one tick, current tick : [710]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.060]
+----------moving one tick, current tick : [711]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.077]
+----------moving one tick, current tick : [712]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.093]
+----------moving one tick, current tick : [713]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.110]
+----------moving one tick, current tick : [714]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.127]
+----------moving one tick, current tick : [715]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.143]
+----------moving one tick, current tick : [716]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.160]
+----------moving one tick, current tick : [717]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.177]
+----------moving one tick, current tick : [718]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.193]
+----------moving one tick, current tick : [719]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.210]
+----------moving one tick, current tick : [720]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.227]
+----------moving one tick, current tick : [721]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.243]
+----------moving one tick, current tick : [722]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.260]
+----------moving one tick, current tick : [723]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.277]
+----------moving one tick, current tick : [724]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.294]
+----------moving one tick, current tick : [725]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.310]
+----------moving one tick, current tick : [726]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.327]
+----------moving one tick, current tick : [727]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.344]
+----------moving one tick, current tick : [728]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.360]
+----------moving one tick, current tick : [729]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.377]
+----------moving one tick, current tick : [730]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.394]
+----------moving one tick, current tick : [731]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.410]
+----------moving one tick, current tick : [732]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.427]
+----------moving one tick, current tick : [733]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.444]
+----------moving one tick, current tick : [734]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.460]
+----------moving one tick, current tick : [735]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.477]
+----------moving one tick, current tick : [736]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.494]
+----------moving one tick, current tick : [737]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.510]
+----------moving one tick, current tick : [738]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.527]
+----------moving one tick, current tick : [739]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.544]
+----------moving one tick, current tick : [740]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.560]
+----------moving one tick, current tick : [741]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.577]
+----------moving one tick, current tick : [742]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.594]
+----------moving one tick, current tick : [743]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.610]
+----------moving one tick, current tick : [744]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.627]
+----------moving one tick, current tick : [745]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.644]
+----------moving one tick, current tick : [746]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.660]
+----------moving one tick, current tick : [747]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.677]
+----------moving one tick, current tick : [748]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.694]
+----------moving one tick, current tick : [749]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.710]
+----------moving one tick, current tick : [750]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.727]
+----------moving one tick, current tick : [751]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.744]
+----------moving one tick, current tick : [752]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.760]
+----------moving one tick, current tick : [753]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.777]
+----------moving one tick, current tick : [754]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.794]
+----------moving one tick, current tick : [755]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.810]
+----------moving one tick, current tick : [756]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.827]
+----------moving one tick, current tick : [757]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.844]
+----------moving one tick, current tick : [758]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.860]
+----------moving one tick, current tick : [759]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.877]
+----------moving one tick, current tick : [760]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.894]
+----------moving one tick, current tick : [761]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.910]
+----------moving one tick, current tick : [762]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.927]
+----------moving one tick, current tick : [763]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.944]
+----------moving one tick, current tick : [764]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.960]
+----------moving one tick, current tick : [765]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.977]
+----------moving one tick, current tick : [766]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:22.994]
+----------moving one tick, current tick : [767]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.010]
+----------moving one tick, current tick : [768]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.027]
+----------moving one tick, current tick : [769]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.044]
+----------moving one tick, current tick : [770]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.060]
+----------moving one tick, current tick : [771]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.077]
+----------moving one tick, current tick : [772]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.094]
+----------moving one tick, current tick : [773]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.110]
+----------moving one tick, current tick : [774]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.127]
+----------moving one tick, current tick : [775]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.144]
+----------moving one tick, current tick : [776]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.160]
+----------moving one tick, current tick : [777]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.177]
+----------moving one tick, current tick : [778]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.194]
+----------moving one tick, current tick : [779]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.210]
+----------moving one tick, current tick : [780]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.227]
+----------moving one tick, current tick : [781]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.244]
+----------moving one tick, current tick : [782]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.260]
+----------moving one tick, current tick : [783]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.277]
+----------moving one tick, current tick : [784]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.294]
+----------moving one tick, current tick : [785]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.310]
+----------moving one tick, current tick : [786]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.327]
+----------moving one tick, current tick : [787]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.344]
+----------moving one tick, current tick : [788]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.360]
+----------moving one tick, current tick : [789]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.377]
+----------moving one tick, current tick : [790]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.394]
+----------moving one tick, current tick : [791]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.410]
+----------moving one tick, current tick : [792]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.427]
+----------moving one tick, current tick : [793]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.444]
+----------moving one tick, current tick : [794]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.460]
+----------moving one tick, current tick : [795]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.477]
+----------moving one tick, current tick : [796]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.494]
+----------moving one tick, current tick : [797]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.510]
+----------moving one tick, current tick : [798]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.527]
+----------moving one tick, current tick : [799]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.544]
+----------moving one tick, current tick : [800]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.560]
+----------moving one tick, current tick : [801]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.577]
+----------moving one tick, current tick : [802]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.594]
+----------moving one tick, current tick : [803]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.610]
+----------moving one tick, current tick : [804]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.627]
+----------moving one tick, current tick : [805]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.644]
+----------moving one tick, current tick : [806]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.660]
+----------moving one tick, current tick : [807]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.677]
+----------moving one tick, current tick : [808]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.694]
+----------moving one tick, current tick : [809]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.710]
+----------moving one tick, current tick : [810]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.727]
+----------moving one tick, current tick : [811]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.744]
+----------moving one tick, current tick : [812]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.760]
+----------moving one tick, current tick : [813]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.777]
+----------moving one tick, current tick : [814]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.794]
+----------moving one tick, current tick : [815]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.810]
+----------moving one tick, current tick : [816]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.827]
+----------moving one tick, current tick : [817]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.844]
+----------moving one tick, current tick : [818]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.860]
+----------moving one tick, current tick : [819]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.877]
+----------moving one tick, current tick : [820]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.894]
+----------moving one tick, current tick : [821]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.910]
+----------moving one tick, current tick : [822]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.927]
+----------moving one tick, current tick : [823]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.944]
+----------moving one tick, current tick : [824]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.960]
+----------moving one tick, current tick : [825]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.977]
+----------moving one tick, current tick : [826]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:23.994]
+----------moving one tick, current tick : [827]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.010]
+----------moving one tick, current tick : [828]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.027]
+----------moving one tick, current tick : [829]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.044]
+----------moving one tick, current tick : [830]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.060]
+----------moving one tick, current tick : [831]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.077]
+----------moving one tick, current tick : [832]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.094]
+----------moving one tick, current tick : [833]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.110]
+----------moving one tick, current tick : [834]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.127]
+----------moving one tick, current tick : [835]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.144]
+----------moving one tick, current tick : [836]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.160]
+----------moving one tick, current tick : [837]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.177]
+----------moving one tick, current tick : [838]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.194]
+----------moving one tick, current tick : [839]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.210]
+----------moving one tick, current tick : [840]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.227]
+----------moving one tick, current tick : [841]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.244]
+----------moving one tick, current tick : [842]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.260]
+----------moving one tick, current tick : [843]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.277]
+----------moving one tick, current tick : [844]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.294]
+----------moving one tick, current tick : [845]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.310]
+----------moving one tick, current tick : [846]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.327]
+----------moving one tick, current tick : [847]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.344]
+----------moving one tick, current tick : [848]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.360]
+----------moving one tick, current tick : [849]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.377]
+----------moving one tick, current tick : [850]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.394]
+----------moving one tick, current tick : [851]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.410]
+----------moving one tick, current tick : [852]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.427]
+----------moving one tick, current tick : [853]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.444]
+----------moving one tick, current tick : [854]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.460]
+----------moving one tick, current tick : [855]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.477]
+----------moving one tick, current tick : [856]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.494]
+----------moving one tick, current tick : [857]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.510]
+----------moving one tick, current tick : [858]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.527]
+----------moving one tick, current tick : [859]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.544]
+----------moving one tick, current tick : [860]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.560]
+----------moving one tick, current tick : [861]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.577]
+----------moving one tick, current tick : [862]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.594]
+----------moving one tick, current tick : [863]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.610]
+----------moving one tick, current tick : [864]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.627]
+----------moving one tick, current tick : [865]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.644]
+----------moving one tick, current tick : [866]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.660]
+----------moving one tick, current tick : [867]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.677]
+----------moving one tick, current tick : [868]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.694]
+----------moving one tick, current tick : [869]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.710]
+----------moving one tick, current tick : [870]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.727]
+----------moving one tick, current tick : [871]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.744]
+----------moving one tick, current tick : [872]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.762]
+----------moving one tick, current tick : [873]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.777]
+----------moving one tick, current tick : [874]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.794]
+----------moving one tick, current tick : [875]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.810]
+----------moving one tick, current tick : [876]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.827]
+----------moving one tick, current tick : [877]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.844]
+----------moving one tick, current tick : [878]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.860]
+----------moving one tick, current tick : [879]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.877]
+----------moving one tick, current tick : [880]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.894]
+----------moving one tick, current tick : [881]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.910]
+----------moving one tick, current tick : [882]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.927]
+----------moving one tick, current tick : [883]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.944]
+----------moving one tick, current tick : [884]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.960]
+----------moving one tick, current tick : [885]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.977]
+----------moving one tick, current tick : [886]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:24.994]
+----------moving one tick, current tick : [887]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.010]
+----------moving one tick, current tick : [888]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.027]
+----------moving one tick, current tick : [889]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.044]
+----------moving one tick, current tick : [890]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.060]
+----------moving one tick, current tick : [891]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.077]
+----------moving one tick, current tick : [892]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.094]
+----------moving one tick, current tick : [893]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.110]
+----------moving one tick, current tick : [894]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.127]
+----------moving one tick, current tick : [895]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.144]
+----------moving one tick, current tick : [896]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.160]
+----------moving one tick, current tick : [897]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.177]
+----------moving one tick, current tick : [898]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.194]
+----------moving one tick, current tick : [899]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.210]
+----------moving one tick, current tick : [900]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.227]
+----------moving one tick, current tick : [901]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.244]
+----------moving one tick, current tick : [902]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.260]
+----------moving one tick, current tick : [903]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.277]
+----------moving one tick, current tick : [904]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.294]
+----------moving one tick, current tick : [905]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.310]
+----------moving one tick, current tick : [906]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.327]
+----------moving one tick, current tick : [907]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.344]
+----------moving one tick, current tick : [908]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.366]
+----------moving one tick, current tick : [909]--------------
+Debug Information: 0 : 
+[Date = 2022-09-27 오후 8:46:25.377]
+----------moving one tick, current tick : [910]--------------

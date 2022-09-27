@@ -39,6 +39,7 @@ namespace Server.Utils
 			Error,
 			PacketSend,
 			PacketRecv,
+			Debug
 		}
 	}
 }
