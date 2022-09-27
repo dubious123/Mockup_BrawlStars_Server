@@ -45,12 +45,14 @@ namespace Server.Game
 		public float LookDirY;
 		public float MoveDirX;
 		public float MoveDirY;
+		public ushort MousePressed;
 		public void Combine(in PlayerInput other)
 		{
 			LookDirX = (LookDirX + other.LookDirX) / 2;
 			LookDirY = (LookDirY + other.LookDirY) / 2;
 			MoveDirX = (MoveDirX + other.MoveDirX) / 2;
 			MoveDirY = (MoveDirY + other.MoveDirY) / 2;
+			MousePressed = (ushort)(MousePressed | other.MousePressed);
 		}
 	}
 }

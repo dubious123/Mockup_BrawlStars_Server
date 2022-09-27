@@ -41,23 +41,31 @@ namespace Server
 			//frame end
 			//new frame start
 			//delta time = base - environment.tickCount;
-			Stopwatch sw = new Stopwatch();
+			//Stopwatch sw = new Stopwatch();
+			//sw.Start();
 			while (true)
 			{
-				delta = DateTime.Now.Ticks - nowTick;
-
+				delta = DateTime.UtcNow.Ticks - nowTick;
 				if (WaitTick <= delta)
 				{
-					//LogMgr.Log($"{delta}", TraceSourceType.Network);
-					nowTick = DateTime.Now.Ticks;
-					Timing.OnNewFrameStart(nowTick);
+					nowTick = DateTime.UtcNow.Ticks;
 					Update.Invoke();
-					//sw.Stop();
-					//LogMgr.Log($"time : {sw.ElapsedMilliseconds}, tick : {sw.ElapsedTicks}", TraceSourceType.Network);
-					//sw.Restart();
+					Timing.OnNewFrameStart(nowTick);
 				}
 
 			}
+			//while (true)
+			//{
+			//	LogMgr.Log($"{sw.ElapsedTicks}", TraceSourceType.Debug);
+			//	if (WaitTick <= sw.ElapsedTicks)
+			//	{
+
+			//		sw.Restart();
+			//		Timing.OnNewFrameStart(nowTick);
+			//		Update.Invoke();
+			//	}
+
+			//}
 		}
 	}
 }

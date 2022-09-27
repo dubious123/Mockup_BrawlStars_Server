@@ -1,8 +1,8 @@
 Network Information: 0 : 
-[Date = 2022-09-27 오후 8:45:48.000]
+[Date = 2022-09-27 오후 11:15:35.409]
 Listening to [fe80::9d3d:afe9:3ee8:96a7%7]:7777
-    DateTime=2022-09-27T11:45:48.0698079Z
+    DateTime=2022-09-27T14:15:36.8044976Z
 Network Information: 0 : 
-[Date = 2022-09-27 오후 8:46:04.028]
-[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:11563 completed
-    DateTime=2022-09-27T11:46:04.0286361Z
+[Date = 2022-09-27 오후 11:15:42.177]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:7489 completed
+    DateTime=2022-09-27T14:15:42.1780365Z

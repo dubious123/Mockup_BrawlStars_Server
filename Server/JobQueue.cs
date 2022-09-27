@@ -60,14 +60,14 @@ namespace Server
 
 				while (_isJobQueueRunning)
 				{
-					if (_waitTick < DateTime.Now.Ticks - nowTick)
+					if (_waitTick < DateTime.UtcNow.Ticks - nowTick)
 					{
 						for (int j = 0; j < _jobQueue.Count; j++)
 						{
 							if (_jobQueue.TryDequeue(out var action))
 								action.Invoke();
 						}
-						nowTick = DateTime.Now.Ticks;
+						nowTick = DateTime.UtcNow.Ticks;
 					}
 				}
 				Thread.Sleep(Timeout.Infinite);

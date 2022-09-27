@@ -36,6 +36,7 @@ namespace Server
 	}
 	public class C_BroadcastPlayerInput : GamePacket
 	{
+		public byte MousePressed;
 		public short TeamId;
 		public long StartTick;
 		public float MoveDirX;
@@ -117,11 +118,13 @@ namespace Server
 			Id = 0x1006;
 			PlayerMoveDirArr = new Vector2[6];
 			PlayerLookDirArr = new Vector2[6];
+			MousePressed = new ushort[6];
 		}
 		public long StartTick;
 		public long TargetTick;
 		public Vector2[] PlayerMoveDirArr;
 		public Vector2[] PlayerLookDirArr;
+		public ushort[] MousePressed;
 
 
 	}

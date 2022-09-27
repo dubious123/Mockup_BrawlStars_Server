@@ -112,6 +112,7 @@ namespace Server
 				MoveDirY = req.MoveDirY,
 				LookDirX = req.LookDirX,
 				LookDirY = req.LookDirY,
+				MousePressed = req.MousePressed,
 			};
 			player.InputBuffer.Enqueue(input);
 

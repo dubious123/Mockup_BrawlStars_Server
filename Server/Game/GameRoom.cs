@@ -23,9 +23,9 @@ namespace Server
 		{
 			get
 			{
-				for (int i = 0; i < 6; i++)
+				for (int i = 0; i < 1; i++)
 				{
-					if (_players[i]?.GameSceneReady == false) return false;
+					if (_players[i] is null || _players[i].GameSceneReady == false) return false;
 				}
 				return true;
 			}
@@ -91,6 +91,7 @@ namespace Server
 					packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
 					packet.PlayerLookDirArr[i].X = input.LookDirX;
 					packet.PlayerLookDirArr[i].Y = input.LookDirY;
+					packet.MousePressed[i] = input.MousePressed;
 					packet.TargetTick = input.ClientTargetTick == 0 ? _currentTick + 3 : input.ClientTargetTick;
 					//packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
 					packet.StartTick = _currentTick;

@@ -1,28 +1,28 @@
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:04.028]
-[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:11563 completed
-    DateTime=2022-09-27T11:46:04.0284776Z
+[Date = 2022-09-27 오후 11:15:42.177]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:7489 completed
+    DateTime=2022-09-27T14:15:42.1779036Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.421]
+[Date = 2022-09-27 오후 11:16:21.190]
 Session [1] close started
-    DateTime=2022-09-27T11:46:25.4218486Z
+    DateTime=2022-09-27T14:16:21.1908769Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.423]
+[Date = 2022-09-27 오후 11:16:21.192]
 Session [1] shut down started
-    DateTime=2022-09-27T11:46:25.4234814Z
+    DateTime=2022-09-27T14:16:21.1926619Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.423]
+[Date = 2022-09-27 오후 11:16:21.193]
 Session [1] shut down completed
-    DateTime=2022-09-27T11:46:25.4239433Z
+    DateTime=2022-09-27T14:16:21.1931289Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.424]
+[Date = 2022-09-27 오후 11:16:21.193]
 Session [1] disconnect started
-    DateTime=2022-09-27T11:46:25.4243403Z
+    DateTime=2022-09-27T14:16:21.1934409Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.425]
+[Date = 2022-09-27 오후 11:16:21.194]
 Session [1] disconnect completed
-    DateTime=2022-09-27T11:46:25.4253754Z
+    DateTime=2022-09-27T14:16:21.1944517Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 8:46:25.427]
+[Date = 2022-09-27 오후 11:16:21.196]
 Session [1] close completed
-    DateTime=2022-09-27T11:46:25.4270173Z
+    DateTime=2022-09-27T14:16:21.1961401Z
