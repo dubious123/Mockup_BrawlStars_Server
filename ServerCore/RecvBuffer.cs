@@ -53,7 +53,12 @@ namespace ServerCore
 		}
 		public void OnWrite(int size)
 		{
-			Debug.Assert(_writePos + size < _buffer.Length);
+			//Debug.Assert(_writePos + size < _buffer.Length);
+			if (_writePos + size > _buffer.Length)
+			{
+				Clear();
+				return;
+			}
 			//Console.WriteLine($"on write, readPos : {_readPos}, writePos : {_writePos}, size : {size}");
 			Interlocked.Add(ref _writePos, size);
 		}

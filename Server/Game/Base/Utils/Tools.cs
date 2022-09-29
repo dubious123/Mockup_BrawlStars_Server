@@ -80,6 +80,25 @@ namespace Server.Game.Base.Utils
 
 			return new Vector3(output_x, output_y, output_z);
 		}
+
+		public static float Angle(Vector3 from, Vector3 to)
+		{
+			// sqrt(a) * sqrt(b) = sqrt(a * b) -- valid for real numbers
+			float denominator = (float)Math.Sqrt(from.LengthSquared() * to.LengthSquared());
+			if (denominator < 1e-15F)
+				return 0F;
+
+			float dot = Clamp(Vector3.Dot(from, to) / denominator, -1F, 1F);
+			return ((float)Math.Acos(dot)) * radToDeg;
+		}
+		public static float Clamp(float value, float min, float max)
+		{
+			if (value < min)
+				value = min;
+			else if (value > max)
+				value = max;
+			return value;
+		}
 		#endregion
 		#region Quaternion
 		public static Quaternion LookRotation(Vector3 forward, Vector3 up)
@@ -216,7 +235,27 @@ namespace Server.Game.Base.Utils
 			else
 				return Quaternion.Identity;
 		}
+		public static Vector3 Rotate(in Quaternion rotation, in Vector3 point)
+		{
+			float x = rotation.X * 2F;
+			float y = rotation.Y * 2F;
+			float z = rotation.Z * 2F;
+			float xx = rotation.X * x;
+			float yy = rotation.Y * y;
+			float zz = rotation.Z * z;
+			float xy = rotation.X * y;
+			float xz = rotation.X * z;
+			float yz = rotation.Y * z;
+			float wx = rotation.W * x;
+			float wy = rotation.W * y;
+			float wz = rotation.W * z;
 
+			return new Vector3(
+				(1F - (yy + zz)) * point.X + (xy - wz) * point.Y + (xz + wy) * point.Z,
+				(xy + wz) * point.X + (1F - (xx + zz)) * point.Y + (yz - wx) * point.Z,
+				(xz - wy) * point.X + (yz + wx) * point.Y + (1F - (xx + yy)) * point.Z
+				);
+		}
 		#endregion
 	}
 

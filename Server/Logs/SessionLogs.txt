@@ -1,28 +1,56 @@
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:15:42.177]
-[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:7489 completed
-    DateTime=2022-09-27T14:15:42.1779036Z
+[Date = 2022-09-30 오전 12:09:04.755]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12713 completed
+    DateTime=2022-09-29T15:09:04.7558305Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.190]
+[Date = 2022-09-30 오전 12:09:14.446]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12717 completed
+    DateTime=2022-09-29T15:09:14.4462453Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.584]
+Session [2] close started
+    DateTime=2022-09-29T15:10:01.5846018Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.588]
+Session [2] shut down started
+    DateTime=2022-09-29T15:10:01.5881176Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.588]
+Session [2] shut down completed
+    DateTime=2022-09-29T15:10:01.5886536Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.589]
+Session [2] disconnect started
+    DateTime=2022-09-29T15:10:01.5896740Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.593]
+Session [2] disconnect completed
+    DateTime=2022-09-29T15:10:01.5936020Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:01.603]
+Session [2] close completed
+    DateTime=2022-09-29T15:10:01.6037935Z
+Session Information: 0 : 
+[Date = 2022-09-30 오전 12:10:03.796]
 Session [1] close started
-    DateTime=2022-09-27T14:16:21.1908769Z
+    DateTime=2022-09-29T15:10:03.7965837Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.192]
+[Date = 2022-09-30 오전 12:10:03.804]
 Session [1] shut down started
-    DateTime=2022-09-27T14:16:21.1926619Z
+    DateTime=2022-09-29T15:10:03.8044490Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.193]
+[Date = 2022-09-30 오전 12:10:03.805]
 Session [1] shut down completed
-    DateTime=2022-09-27T14:16:21.1931289Z
+    DateTime=2022-09-29T15:10:03.8059381Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.193]
+[Date = 2022-09-30 오전 12:10:03.806]
 Session [1] disconnect started
-    DateTime=2022-09-27T14:16:21.1934409Z
+    DateTime=2022-09-29T15:10:03.8068124Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.194]
+[Date = 2022-09-30 오전 12:10:03.807]
 Session [1] disconnect completed
-    DateTime=2022-09-27T14:16:21.1944517Z
+    DateTime=2022-09-29T15:10:03.8077391Z
 Session Information: 0 : 
-[Date = 2022-09-27 오후 11:16:21.196]
+[Date = 2022-09-30 오전 12:10:03.808]
 Session [1] close completed
-    DateTime=2022-09-27T14:16:21.1961401Z
+    DateTime=2022-09-29T15:10:03.8085637Z

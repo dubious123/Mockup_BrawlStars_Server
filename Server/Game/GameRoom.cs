@@ -9,6 +9,7 @@ using System.Diagnostics;
 using Server.Game.Base;
 using System;
 using Server.Log;
+using System.Linq;
 
 namespace Server
 {
@@ -23,7 +24,7 @@ namespace Server
 		{
 			get
 			{
-				for (int i = 0; i < 1; i++)
+				for (int i = 0; i < 2; i++)
 				{
 					if (_players[i] is null || _players[i].GameSceneReady == false) return false;
 				}
@@ -87,16 +88,16 @@ namespace Server
 						player.InputBuffer.TryDequeue(out var temp);
 						input.Combine(in temp);
 					}
+
 					packet.PlayerMoveDirArr[i].X = input.MoveDirX;
 					packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
 					packet.PlayerLookDirArr[i].X = input.LookDirX;
 					packet.PlayerLookDirArr[i].Y = input.LookDirY;
-					packet.MousePressed[i] = input.MousePressed;
+					packet.MousePressed[i] = input.ButtonPressed;
 					packet.TargetTick = input.ClientTargetTick == 0 ? _currentTick + 3 : input.ClientTargetTick;
 					//packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
 					packet.StartTick = _currentTick;
-					player.Character.Move(new Vector3(input.MoveDirX, 0, input.MoveDirY));
-					player.Character.Look(new Vector3(input.LookDirX, 0, input.LookDirY));
+					player.Character.HandleInput(input);
 				}
 				LogMgr.Log($"----------moving one tick, current tick : [{_currentTick}]--------------", TraceSourceType.Debug);
 				Broadcast(packet);
@@ -122,7 +123,7 @@ namespace Server
 			lock (_lock)
 			{
 				if (_playerCount >= 6) return -1;
-				BaseCharacter character = new();
+				BaseCharacter character = new(this);
 				character.Position = new Vector3(_map.SpawnPosArr[_playerCount].X, 0, _map.SpawnPosArr[_playerCount].Y);
 				player.CurrentGame = this;
 				player.TeamId = _playerCount;
@@ -138,45 +139,6 @@ namespace Server
 				return _playerCount++;
 			}
 		}
-		public bool Move(Player player, Vector2 moveDir, Vector2 lookDir)
-		{
-			lock (_lock)
-			{
-				//if (_map.CanGo(moveDir) == false) return false;
-				Debug.Assert(_players[player.TeamId] == player);
-				//if (_players[player.TeamId] != player) return false;
-				//if ((player.Position - movePos).Length() > _moveLimit) return false;
-				player.Character.Move(new Vector3(moveDir.X, 0, moveDir.Y));
-				player.Character.Look(new Vector3(lookDir.X, 0, lookDir.Y));
-				System.Console.WriteLine(player.TeamId);
-				Broadcast(player.TeamId,
-					new S_BroadcastMove(player.TeamId, new Vector2(moveDir.X, moveDir.Y), new Vector2(lookDir.X, lookDir.Y)));
-				return true;
-			}
-		}
-		//public void Broadcast()
-		//{
-		//	lock (_lock)
-		//	{
-		//		if (_playerCount <= 0) return;
-		//		S_BroadcastGameState packet = new(this.Id, (ushort)_playerCount);
-		//		for (int i = 0; i < 6; i++)
-		//		{
-		//			var go = _players[i].Character.gameObject;
-		//			if (go is null) continue;
-		//			var pos = go.Position;
-		//			var rot = go.Rotation;
-		//			packet.PlayerMoveDirArr[i] = new Vector2(pos.X, pos.Z);
-		//			packet.PlayerLookDirArr[i] = new Vector2(rot.X, rot.Z);
-		//		}
-		//		for (int i = 0; i < 6; i++)
-		//		{
-		//			var player = _players[i];
-		//			if (player is null) continue;
-		//			_sendQueue.Push(() => player.Session.RegisterSend(packet));
-		//		}
-		//	}
-		//}
 		public void Broadcast(BasePacket packet)
 		{
 			for (int i = 0; i < 6; i++)
@@ -196,6 +158,13 @@ namespace Server
 			}
 
 		}
+		public IEnumerable<BaseCharacter> FindCharacters(Func<BaseCharacter, bool> condition)
+		{
+			return from player in _players
+				   where player is not null && condition(player.Character)
+				   select player.Character;
+		}
+
 		void Exit(Player player)
 		{
 			lock (_lock)

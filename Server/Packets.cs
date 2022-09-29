@@ -36,13 +36,11 @@ namespace Server
 	}
 	public class C_BroadcastPlayerInput : GamePacket
 	{
-		public byte MousePressed;
+		public byte ButtonPressed;
 		public short TeamId;
 		public long StartTick;
-		public float MoveDirX;
-		public float MoveDirY;
-		public float LookDirX;
-		public float LookDirY;
+		public Vector2 MoveDir;
+		public Vector2 LookDir;
 	}
 	public class S_Init : BasePacket
 	{

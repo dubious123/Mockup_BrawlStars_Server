@@ -36,6 +36,7 @@ namespace Server.Utils.JsonConverters
 						goto Exception;
 				}
 			}
+			reader.Read();
 			if (reader.TokenType != JsonTokenType.EndObject) goto Exception;
 			return new Vector2(x, y);
 		Exception:

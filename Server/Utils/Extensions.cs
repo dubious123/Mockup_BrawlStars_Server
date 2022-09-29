@@ -45,5 +45,9 @@ namespace Server.Utils
 		{
 			return Tools.RotateTowards(from, to, maxDegreesDelta);
 		}
+		public static Vector3 Rotate(this in Quaternion rotation, in Vector3 origin)
+		{
+			return Tools.Rotate(rotation, origin);
+		}
 	}
 }

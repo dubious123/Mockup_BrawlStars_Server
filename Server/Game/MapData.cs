@@ -33,7 +33,7 @@ namespace Server.Game
 				{
 					if (line[j] == '2' || line[j] == '3')
 					{
-						SpawnPosArr[spawnCount++] = new Vector2(i, j);
+						SpawnPosArr[spawnCount++] = new Vector2(j - offset_X + 0.5f, i - offset_Y + 0.5f);
 					}
 					_map[i][j] = line[j] == '1' ? (int)TileType.Wall : (int)TileType.Emtpy;
 				}

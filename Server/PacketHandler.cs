@@ -108,11 +108,11 @@ namespace Server
 			{
 				ClientTargetTick = req.StartTick + 6,
 				ReceivedTick = player.CurrentGame.CurrentTick,
-				MoveDirX = req.MoveDirX,
-				MoveDirY = req.MoveDirY,
-				LookDirX = req.LookDirX,
-				LookDirY = req.LookDirY,
-				MousePressed = req.MousePressed,
+				MoveDirX = req.MoveDir.X,
+				MoveDirY = req.MoveDir.Y,
+				LookDirX = req.LookDir.X,
+				LookDirY = req.LookDir.Y,
+				ButtonPressed = req.ButtonPressed,
 			};
 			player.InputBuffer.Enqueue(input);
 
