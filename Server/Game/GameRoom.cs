@@ -32,8 +32,10 @@ namespace Server
 			}
 		}
 		public bool GameStarted => _gameStarted == 1;
+		public CoroutineHelper CoHelper => _coHelper;
 		MapData _map;
 		Player[] _players;
+		CoroutineHelper _coHelper;
 
 		short _playerCount;
 		readonly object _lock = new();
@@ -46,6 +48,7 @@ namespace Server
 		{
 			Id = id;
 			_players = new Player[6];
+			_coroutineHelper = new();
 			State = GameState.Waiting;
 			MapId = mapId;
 			_map = MapMgr.GetMapData(mapId);

@@ -11,8 +11,6 @@ namespace Server.Utils
 	public class Timing
 	{
 		static Timing _instnace = new();
-		Stopwatch _stopWatch;
-		Timer _timer;
 		Timing() { }
 		public static float DeltaTime { get; private set; }
 		public static ulong Fps { get; private set; }

@@ -13,15 +13,9 @@ namespace Server.Game.Base
 {
 	public class BaseCharacter
 	{
-		public BaseCharacter(GameRoom game)
-		{
-			_interactable = true;
-			_controllable = true;
-			_game = game;
-		}
 		public Vector3 Position;
 		public Quaternion Rotation;
-		public Enums.CharacterType CharacterType { get; set; } = Enums.CharacterType.Dog;
+		public CharacterType CharacterType { get; set; } = CharacterType.Dog;
 		protected GameRoom _game;
 		protected bool _controllable;
 		protected bool _interactable;
@@ -37,10 +31,36 @@ namespace Server.Game.Base
 		protected Vector3 _targetLookDir;
 		protected Quaternion _targetRotation;
 
+		#region Coroutine
+		CoroutineHelper _coHelper;
+		#endregion
+
+		#region Stat
+		protected int _maxHp = 100;
+		protected int _currentHp = 100;
+		#endregion
+
+		#region  Hit Info
+		protected HitInfo _basicAttackHitInfo;
+
+		#endregion
 		protected float _attackCooldown;
 
-		public void Update()
+		public BaseCharacter(GameRoom game)
 		{
+			_interactable = true;
+			_controllable = true;
+			_game = game;
+			_coHelper = game.CoHelper;
+			_basicAttackHitInfo = new HitInfo
+			{
+				Damage = 10,
+			};
+		}
+
+		public virtual void Update()
+		{
+
 			if (_controllable == false || _interactable == false) return;
 			#region Move
 			_currentMoveSpeed =
@@ -68,7 +88,39 @@ namespace Server.Game.Base
 			if ((input.ButtonPressed & 1) == 1) PerformBasicAttack();
 
 		}
-		void PerformBasicAttack()
+		public virtual void OnHit(in HitInfo info)
+		{
+			_currentHp = _currentHp - info.Damage;
+			if (_currentHp < 0) _currentHp = 0;
+			if (_currentHp == 0)
+			{
+				OnDead();
+				return;
+			}
+			if (info.KnockbackInfo is not null)
+			{
+				OnKnockback(info.KnockbackInfo);
+				return;
+			}
+			if (info.StunInfo is not null)
+			{
+				OnStun(info.StunInfo);
+				return;
+			}
+		}
+		public virtual void OnKnockback(in KnockbackInfo info)
+		{
+
+		}
+		public virtual void OnStun(in StunInfo info)
+		{
+
+		}
+		public virtual void OnDead()
+		{
+
+		}
+		protected virtual void PerformBasicAttack()
 		{
 			if (_attackCooldown > 0f) return;
 
@@ -83,7 +135,7 @@ namespace Server.Game.Base
 			});
 			foreach (var other in others)
 			{
-				LogMgr.Log("Hit", TraceSourceType.Debug);
+				other.OnHit(in _basicAttackHitInfo);
 			}
 
 			_attackCooldown = 0.25f;
