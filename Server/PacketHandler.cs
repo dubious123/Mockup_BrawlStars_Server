@@ -106,7 +106,7 @@ namespace Server
 			}
 			var input = new Game.PlayerInput()
 			{
-				ClientTargetTick = req.StartTick + 6,
+				ClientTargetTick = req.StartTick,
 				ReceivedTick = player.CurrentGame.CurrentTick,
 				MoveDirX = req.MoveDir.X,
 				MoveDirY = req.MoveDir.Y,

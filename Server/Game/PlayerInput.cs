@@ -37,22 +37,25 @@ namespace Server.Game
 	// client -----||---send--check--adjust or rollback-||-------------------------
 	// server -----||---lock------------broadcast-------||--------------||--------------------
 	// client -----||---send-----||------predict--------||--------------||---------------------------
-	public struct PlayerInput
+	public readonly struct PlayerInput
 	{
-		public long ClientTargetTick;
-		public long ReceivedTick;
-		public float LookDirX;
-		public float LookDirY;
-		public float MoveDirX;
-		public float MoveDirY;
-		public ushort ButtonPressed;
-		public void Combine(in PlayerInput other)
+		public readonly long ClientTargetTick { get; init; }
+		public readonly long ReceivedTick { get; init; }
+		public readonly float LookDirX { get; init; }
+		public readonly float LookDirY { get; init; }
+		public readonly float MoveDirX { get; init; }
+		public readonly float MoveDirY { get; init; }
+		public readonly ushort ButtonPressed { get; init; }
+		public static void Combine(in PlayerInput left, in PlayerInput right, out PlayerInput res)
 		{
-			LookDirX = (LookDirX + other.LookDirX) / 2;
-			LookDirY = (LookDirY + other.LookDirY) / 2;
-			MoveDirX = (MoveDirX + other.MoveDirX) / 2;
-			MoveDirY = (MoveDirY + other.MoveDirY) / 2;
-			ButtonPressed = (ushort)(ButtonPressed | other.ButtonPressed);
+			res = new PlayerInput
+			{
+				LookDirX = (left.LookDirX + right.LookDirX) / 2,
+				LookDirY = (left.LookDirY + right.LookDirY) / 2,
+				MoveDirX = (left.MoveDirX + right.MoveDirX) / 2,
+				MoveDirY = (left.MoveDirY + right.MoveDirY) / 2,
+				ButtonPressed = (ushort)(left.ButtonPressed | right.ButtonPressed),
+			};
 		}
 	}
 }

@@ -1,12 +1,12 @@
 Network Information: 0 : 
-[Date = 2022-09-30 오전 12:08:42.148]
-Listening to [fe80::9d3d:afe9:3ee8:96a7%7]:7777
-    DateTime=2022-09-29T15:08:42.2304196Z
+[Date = 2022-10-02 오후 11:44:00.007]
+Listening to [fe80::9d3d:afe9:3ee8:96a7%6]:7777
+    DateTime=2022-10-02T14:44:00.1170940Z
 Network Information: 0 : 
-[Date = 2022-09-30 오전 12:09:04.755]
-[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12713 completed
-    DateTime=2022-09-29T15:09:04.7559966Z
+[Date = 2022-10-02 오후 11:44:01.676]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%6]:7841 completed
+    DateTime=2022-10-02T14:44:01.6766051Z
 Network Information: 0 : 
-[Date = 2022-09-30 오전 12:09:14.446]
-[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%7]:12717 completed
-    DateTime=2022-09-29T15:09:14.4462714Z
+[Date = 2022-10-02 오후 11:44:03.626]
+[server] connecting to [fe80::9d3d:afe9:3ee8:96a7%6]:7846 completed
+    DateTime=2022-10-02T14:44:03.6262251Z

@@ -2,6 +2,7 @@ using System;
 using Server.Game;
 using ServerCore;
 using System.Numerics;
+using System.Collections.Generic;
 
 
 namespace Server
@@ -116,13 +117,32 @@ namespace Server
 			Id = 0x1006;
 			PlayerMoveDirArr = new Vector2[6];
 			PlayerLookDirArr = new Vector2[6];
-			MousePressed = new ushort[6];
+			ButtonPressedArr = new ushort[6];
+			Actions = new List<GameActionResult>();
 		}
 		public long StartTick;
 		public long TargetTick;
 		public Vector2[] PlayerMoveDirArr;
 		public Vector2[] PlayerLookDirArr;
-		public ushort[] MousePressed;
+		public ushort[] ButtonPressedArr;
+		public List<GameActionResult> Actions;
+
+		[Serializable]
+		public class GameActionResult
+		{
+			public GameActionResult(uint code, short subject, params short[] objects)
+			{
+				ActionCode = code;
+				Subject = subject;
+				Objects = objects;
+			}
+			//[][][][][][][][]
+			//charType / action code (0,1,2,3...)
+			public uint ActionCode;
+			public short Subject;
+			public short[] Objects;
+		}
+
 
 
 	}

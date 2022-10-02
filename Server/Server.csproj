@@ -5,6 +5,14 @@
 		<TargetFramework>net5.0</TargetFramework>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<Compile Remove="Game\Base\Component.cs" />
 		<Compile Remove="Game\Base\GameObject.cs" />
@@ -23,6 +31,7 @@
 	<ItemGroup>
 		<Folder Include="DB\Configure\" />
 		<Folder Include="Data\" />
+		<Folder Include="Dto\" />
 	</ItemGroup>
 
 	<ItemGroup>

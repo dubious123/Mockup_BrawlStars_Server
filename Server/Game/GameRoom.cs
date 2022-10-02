@@ -10,6 +10,7 @@ using Server.Game.Base;
 using System;
 using Server.Log;
 using System.Linq;
+using static Server.S_BroadcastGameState;
 
 namespace Server
 {
@@ -36,19 +37,18 @@ namespace Server
 		MapData _map;
 		Player[] _players;
 		CoroutineHelper _coHelper;
-
 		short _playerCount;
 		readonly object _lock = new();
-		readonly float _moveLimit = 1.5f;
 		readonly JobQueue _gameQueue;
 		readonly JobQueue _sendQueue;
 		long _currentTick = 0;
 		int _gameStarted = 0;
+		S_BroadcastGameState _packet;
 		public GameRoom(int id, ushort mapId)
 		{
 			Id = id;
 			_players = new Player[6];
-			_coroutineHelper = new();
+			_coHelper = new();
 			State = GameState.Waiting;
 			MapId = mapId;
 			_map = MapMgr.GetMapData(mapId);
@@ -73,10 +73,11 @@ namespace Server
 		IEnumerator<float> Co_Update()
 		{
 			Player player;
-			S_BroadcastGameState packet = new();
 			while (true)
 			{
-				//_sw.Restart();
+				//todo object pooling
+				_packet = new();
+				_coHelper.Update();
 				for (int i = 0; i < 6; i++)
 				{
 					player = _players[i];
@@ -85,29 +86,27 @@ namespace Server
 					{
 						//todo
 					}
-					player.InputBuffer.TryDequeue(out PlayerInput input);
+					player.InputBuffer.TryDequeue(out var input);
 					for (int j = player.InputBuffer.Count; j > 0; j--)
 					{
 						player.InputBuffer.TryDequeue(out var temp);
-						input.Combine(in temp);
+						PlayerInput.Combine(in temp, in input, out input);
 					}
-
-					packet.PlayerMoveDirArr[i].X = input.MoveDirX;
-					packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
-					packet.PlayerLookDirArr[i].X = input.LookDirX;
-					packet.PlayerLookDirArr[i].Y = input.LookDirY;
-					packet.MousePressed[i] = input.ButtonPressed;
-					packet.TargetTick = input.ClientTargetTick == 0 ? _currentTick + 3 : input.ClientTargetTick;
-					//packet.TargetTick = input.ClientTargetTick < _currentTick ? _currentTick : input.ClientTargetTick;
-					packet.StartTick = _currentTick;
+					_packet.PlayerMoveDirArr[i].X = input.MoveDirX;
+					_packet.PlayerMoveDirArr[i].Y = input.MoveDirY;
+					_packet.PlayerLookDirArr[i].X = input.LookDirX;
+					_packet.PlayerLookDirArr[i].Y = input.LookDirY;
+					_packet.ButtonPressedArr[i] = input.ButtonPressed;
+					_packet.TargetTick = input.ClientTargetTick;
+					_packet.StartTick = _currentTick;
 					player.Character.HandleInput(input);
 				}
 				LogMgr.Log($"----------moving one tick, current tick : [{_currentTick}]--------------", TraceSourceType.Debug);
-				Broadcast(packet);
 				for (int i = 0; i < 6; i++)
 				{
-					_players[i]?.Character.Update();
+					_players[i]?.Character.HandleOneFrame();
 				}
+				Broadcast(_packet);
 				//_sw.Stop();
 				//LogMgr.Log($"inner update time {_sw.ElapsedMilliseconds}, tick: {_sw.ElapsedTicks}", TraceSourceType.Network);
 				_currentTick++;
@@ -126,7 +125,7 @@ namespace Server
 			lock (_lock)
 			{
 				if (_playerCount >= 6) return -1;
-				BaseCharacter character = new(this);
+				BaseCharacter character = new(this, _playerCount);
 				character.Position = new Vector3(_map.SpawnPosArr[_playerCount].X, 0, _map.SpawnPosArr[_playerCount].Y);
 				player.CurrentGame = this;
 				player.TeamId = _playerCount;
@@ -167,7 +166,11 @@ namespace Server
 				   where player is not null && condition(player.Character)
 				   select player.Character;
 		}
-
+		public void PushActionResult(uint actionCode, short subject, params short[] objects)
+		{
+			//Todo object pooling
+			_packet.Actions.Add(new GameActionResult(actionCode, subject, objects));
+		}
 		void Exit(Player player)
 		{
 			lock (_lock)
