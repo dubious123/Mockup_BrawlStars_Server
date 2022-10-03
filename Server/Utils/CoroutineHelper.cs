@@ -8,6 +8,7 @@
 		private Stack<int> _holes = new();
 		private Stack<int> _tempHoles = new();
 		private int _currentIndex;
+
 		public void Update()
 		{
 			if (_activeDict.Count == 0) return;
@@ -20,15 +21,18 @@
 					_activeDict[key] = value - 1;
 					continue;
 				}
+
 				var coroutine = _coroutines[key];
 				if (coroutine.MoveNext())
 				{
 					_activeDict[key] = coroutine.Current;
 					continue;
 				}
+
 				_coroutines[key] = null;
 				_tempHoles.Push(key);
 			}
+
 			if (_tempHoles.Count == 0) return;
 			while (_tempHoles.TryPop(out var index))
 			{
@@ -36,6 +40,7 @@
 				_holes.Push(index);
 			}
 		}
+
 		public int RunCoroutine(IEnumerator<int> coroutine)
 		{
 			if (_holes.TryPeek(out int index))
@@ -49,19 +54,23 @@
 			_activeDict.Add(index, 0);
 			return index;
 		}
+
 		public int RunDelayed(float delay, IEnumerator<int> coroutine)
 		{
 			return RunCoroutine(BuildDelayedCoroutine(delay, coroutine));
 		}
+
 		public int WaitForFrames(int delay, IEnumerator<int> coroutine)
 		{
 			return RunCoroutine(BuildWaitFrameCoroutine(delay, coroutine));
 		}
+
 		public int WaitUntilDone(IEnumerator<int> others)
 		{
 			RunCoroutine(AppendAction(others, () => _activeDict[_currentIndex] = 0));
 			return int.MaxValue;
 		}
+
 		public bool Pause(int id)
 		{
 			if (_pauseDict.ContainsKey(id) || (_activeDict.ContainsKey(id) == false)) return false;
@@ -69,17 +78,20 @@
 			_pauseDict.Add(id, value);
 			return true;
 		}
+
 		public void PauseAll()
 		{
 			_activeDict.ToList().ForEach(x => _pauseDict.Add(x.Key, x.Value));
 			_activeDict.Clear();
 		}
+
 		public bool Resume(int id)
 		{
 			if (_pauseDict.Remove(id, out var value) == false) return false;
 			_activeDict.Add(id, value);
 			return true;
 		}
+
 		public bool Kill(int id)
 		{
 			bool res = true;
@@ -89,13 +101,15 @@
 			if (res) _coroutines[id] = null;
 			return res;
 		}
+
 		public void KillAll()
 		{
 			_pauseDict.Clear();
 			_activeDict.Clear();
 			_coroutines.Clear();
 		}
-		static IEnumerator<int> BuildDelayedCoroutine(float delay, IEnumerator<int> enumerator)
+
+		private static IEnumerator<int> BuildDelayedCoroutine(float delay, IEnumerator<int> enumerator)
 		{
 			float now = 0f;
 			while (now < delay)
@@ -103,12 +117,14 @@
 				now += Timing.DeltaTime;
 				yield return 0;
 			}
+
 			while (enumerator.MoveNext())
 			{
 				yield return enumerator.Current;
 			}
 		}
-		static IEnumerator<int> BuildWaitFrameCoroutine(int waitFrame, IEnumerator<int> enumerator)
+
+		private static IEnumerator<int> BuildWaitFrameCoroutine(int waitFrame, IEnumerator<int> enumerator)
 		{
 			yield return waitFrame;
 			while (enumerator.MoveNext())
@@ -116,15 +132,15 @@
 				yield return enumerator.Current;
 			}
 		}
-		static IEnumerator<int> AppendAction(IEnumerator<int> enumerator, Action action)
+
+		private static IEnumerator<int> AppendAction(IEnumerator<int> enumerator, Action action)
 		{
 			while (enumerator.MoveNext())
 			{
 				yield return enumerator.Current;
 			}
+
 			action.Invoke();
 		}
 	}
-
-
 }

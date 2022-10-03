@@ -4,6 +4,7 @@ namespace Server
 	{
 		public int UserId;
 	}
+
 	public class GamePacket : AuthPacket
 	{
 		public int RoomId;
@@ -15,6 +16,7 @@ namespace Server
 	}
 	public class C_Login : BasePacket
 	{
+
 		public string loginId;
 		public string loginPw;
 	}
@@ -23,6 +25,7 @@ namespace Server
 	}
 	public class C_EnterGame : AuthPacket
 	{
+
 		public ushort CharacterType;
 	}
 	public class C_GameReady : AuthPacket
@@ -30,6 +33,7 @@ namespace Server
 	}
 	public class C_BroadcastPlayerInput : GamePacket
 	{
+
 		public byte ButtonPressed;
 		public short TeamId;
 		public long StartTick;
@@ -71,6 +75,7 @@ namespace Server
 				PlayerInfoArr[i] = new PlayerInfoDto(playerInfoArr[i]);
 			}
 		}
+
 		[Serializable]
 		public struct PlayerInfoDto
 		{
@@ -78,8 +83,10 @@ namespace Server
 			{
 				CharacterType = player is null ? (ushort)0 : (ushort)player.Character.CharacterType;
 			}
+
 			public ushort CharacterType;
 		}
+
 		public short TeamId;
 		public PlayerInfoDto[] PlayerInfoArr;
 	}
@@ -91,6 +98,7 @@ namespace Server
 			Charactertype = characterType;
 			TeamId = teamId;
 		}
+
 		public ushort Charactertype;
 		public short TeamId;
 	}
@@ -101,6 +109,7 @@ namespace Server
 			Id = 0x1005;
 			WaitTime = waitTime;
 		}
+
 		public float WaitTime;
 	}
 	public class S_BroadcastGameState : BasePacket
@@ -113,6 +122,7 @@ namespace Server
 			ButtonPressedArr = new ushort[6];
 			Actions = new List<GameActionResult>();
 		}
+
 		public long StartTick;
 		public long TargetTick;
 		public Vector2[] PlayerMoveDirArr;
@@ -135,9 +145,6 @@ namespace Server
 			public short Subject;
 			public short[] Objects;
 		}
-
-
-
 	}
 	public class S_BroadcastMove : BasePacket
 	{
@@ -148,8 +155,10 @@ namespace Server
 			MoveDir = moveDir;
 			LookDir = lookDir;
 		}
+
 		public Vector2 MoveDir;
 		public Vector2 LookDir;
 		public short TeamId;
 	}
 }
+

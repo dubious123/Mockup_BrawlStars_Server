@@ -9,19 +9,17 @@
 		public const string PacketGameQueueName = "Packet Game Thread";
 		#endregion
 
-		#region TraceSource name 
-		public const string Ts_Packet = "Packets";
-		public const string Ts_Session = "Session";
-		public const string Ts_Network = "Network";
-		public const string Ts_Handler = "Handler";
-		public const string Ts_Console = "Console";
-		public const string Ts_Error = "Error";
-		public const string Ts_PacketSend = "Send";
-		public const string Ts_PacketRecv = "Recv";
-		public const string Ts_Debug = "Debug";
-		public const string Ts_Game = "Game";
-
-
+		#region TraceSource name
+		public const string TsPacket = "Packets";
+		public const string TsSession = "Session";
+		public const string TsNetwork = "Network";
+		public const string TsHandler = "Handler";
+		public const string TsConsole = "Console";
+		public const string TsError = "Error";
+		public const string TsPacketSend = "Send";
+		public const string TsPacketRecv = "Recv";
+		public const string TsDebug = "Debug";
+		public const string TsGame = "Game";
 		#endregion
 
 	}

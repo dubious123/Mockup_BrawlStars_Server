@@ -6,51 +6,33 @@ namespace Server.Game.Base
 	{
 		public short TeamId { get; init; }
 		public int Id { get; }
-		public Vector3 Position;
-		public Quaternion Rotation;
-		public CharacterType CharacterType { get; set; } = CharacterType.Dog;
-		protected GameRoom _game;
-		protected bool _controllable;
-		protected bool _interactable;
-		protected bool _isCharging;
-		protected bool _isAttacking;
-		protected float _currentMoveSpeed;
-		protected float _walkSpeed = 3f;
-		protected float _runSpeed = 6f;
-		protected float _rotationSpeed = 360f;
-		protected Vector3 _smoothVelocity;
-		protected float _smoothInputSpeed;
-		protected Vector3 _targetMoveDir;
-		protected Vector3 _targetLookDir;
+		public Vector3 Position { get; set; }
 		public Vector3 LookDir => _targetLookDir;
-		protected Quaternion _targetRotation;
+		public Quaternion Rotation { get; set; }
+		public CharacterType CharacterType { get; set; } = CharacterType.Dog;
 
-
-		#region Coroutine
-		CoroutineHelper _coHelper;
-		#endregion
-
-		#region Stat
-		protected int _maxHp = 100;
-		protected int _currentHp = 100;
-		#endregion
-
-		#region Skills
+		private bool _controllable;
+		private bool _interactable;
+		private bool _isCharging;
+		private bool _isAttacking;
+		private bool _moveControllEnabled = true;
+		private bool _lookControllEnabled = true;
+		private bool _isStun = false;
+		private int _maxHp = 100;
+		private int _currentHp = 100;
+		private float _currentMoveSpeed;
+		private float _walkSpeed = 3f;
+		private float _runSpeed = 6f;
+		private float _rotationSpeed = 360f;
+		private float _smoothInputSpeed;
+		private Vector3 _smoothVelocity;
+		private Vector3 _targetMoveDir;
+		private Vector3 _targetLookDir;
+		private GameRoom _game;
 		private BaseSkill _basicAttack;
-		#endregion
-
-		#region  Hit Info
-		protected HitInfo _basicAttackHitInfo;
-		#endregion
-
-		#region State
-		public void EnableMoveControll(bool value) => _moveControllEnabled = value;
-		protected bool _moveControllEnabled = true;
-		public void EnableLookControll(bool value) => _lookControllEnabled = value;
-		protected bool _lookControllEnabled = true;
-		protected bool _isStun = false;
-		#endregion
-
+		private Quaternion _targetRotation;
+		private CoroutineHelper _coHelper;
+		private HitInfo _basicAttackHitInfo;
 
 		public BaseCharacter(GameRoom game, short teamId)
 		{
@@ -61,6 +43,10 @@ namespace Server.Game.Base
 			_coHelper = game.CoHelper;
 			_basicAttack = new BaseBasicAttack(this, game);
 		}
+
+		public void EnableMoveControll(bool value) => _moveControllEnabled = value;
+
+		public void EnableLookControll(bool value) => _lookControllEnabled = value;
 
 		public virtual void HandleOneFrame()
 		{
@@ -89,8 +75,8 @@ namespace Server.Game.Base
 			#endregion
 
 			LogMgr.Log($"{Position}", TraceSourceType.Debug);
-
 		}
+
 		public virtual void HandleInput(in PlayerInput input)
 		{
 			_targetMoveDir = _targetMoveDir.SmoothDamp(new Vector3(input.MoveDirX, 0, input.MoveDirY), ref _smoothVelocity, _smoothInputSpeed, float.MaxValue, Timing.DeltaTime);
@@ -98,10 +84,12 @@ namespace Server.Game.Base
 			_targetLookDir.Y = input.LookDirY;
 			_basicAttack.HandleInput((input.ButtonPressed & 1) == 1);
 		}
+
 		public virtual void SetOtherSkillsActive(uint skillId, bool active)
 		{
 			if (_basicAttack.Id == skillId == false) _basicAttack.SetActive(active);
 		}
+
 		public virtual void OnGetHit(in HitInfo info)
 		{
 			_currentHp = (int)MathF.Max(0, _currentHp - info.Damage);
@@ -110,11 +98,13 @@ namespace Server.Game.Base
 				OnDead();
 				return;
 			}
+
 			if (info.KnockbackInfo is not null)
 			{
 				Co_OnKnockback(info.KnockbackInfo);
 				return;
 			}
+
 			if (info.StunInfo is not null)
 			{
 				_coHelper.RunCoroutine(Co_OnStun(info.StunInfo));
@@ -122,10 +112,11 @@ namespace Server.Game.Base
 				return;
 			}
 		}
+
 		public virtual void Co_OnKnockback(in KnockbackInfo info)
 		{
-
 		}
+
 		public virtual IEnumerator<int> Co_OnStun(StunInfo info)
 		{
 			float deltaTime = 0f;
@@ -135,11 +126,12 @@ namespace Server.Game.Base
 				deltaTime += Timing.DeltaTime;
 				yield return 0;
 			}
+
 			_isStun = false;
 		}
+
 		protected virtual void OnDead()
 		{
-
 		}
 	}
 }

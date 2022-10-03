@@ -4,16 +4,15 @@
 	{
 		public Vector2[] SpawnPosArr { get; init; } = new Vector2[6];
 
-		readonly int offset_X;
-		readonly int offset_Y;
-
-		int[][] _map;
+		private readonly int offsetX;
+		private readonly int offsetY;
+		private int[][] _map;
 
 		public MapData(string path)
 		{
 			var lines = File.ReadAllLines(path);
-			offset_X = lines[0].Length / 2;
-			offset_Y = lines.Length / 2;
+			offsetX = lines[0].Length / 2;
+			offsetY = lines.Length / 2;
 			_map = new int[lines.Length][];
 			int spawnCount = default;
 			for (int i = 0; i < lines.Length; i++)
@@ -24,8 +23,9 @@
 				{
 					if (line[j] == '2' || line[j] == '3')
 					{
-						SpawnPosArr[spawnCount++] = new Vector2(j - offset_X + 0.5f, i - offset_Y + 0.5f);
+						SpawnPosArr[spawnCount++] = new Vector2(j - offsetX + 0.5f, i - offsetY + 0.5f);
 					}
+
 					_map[i][j] = line[j] == '1' ? (int)TileType.Wall : (int)TileType.Emtpy;
 				}
 			}
@@ -33,12 +33,12 @@
 
 		public bool CanGo(Vector2 pos)
 		{
-			var x = (int)(pos.X - 0.5f) + offset_X;
-			var y = (int)(pos.Y - 0.5f) + offset_Y;
+			var x = (int)(pos.X - 0.5f) + offsetX;
+			var y = (int)(pos.Y - 0.5f) + offsetY;
 			return HasTile(x, y) && _map[y][x] != (int)TileType.Wall;
-
 		}
-		bool HasTile(int x, int y)
+
+		private bool HasTile(int x, int y)
 		{
 			if (_map.Length <= y || y < 0)
 				return false;

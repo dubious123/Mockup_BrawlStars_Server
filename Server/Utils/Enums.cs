@@ -6,21 +6,24 @@
 		{
 			Team3vs3,
 		}
+
 		public enum GameState
 		{
 			Waiting,
 			Started,
-			Ended
+			Ended,
 		}
+
 		public enum CharacterType
 		{
 			None,
 			Dog,
 		}
+
 		public enum TileType
 		{
 			Emtpy,
-			Wall
+			Wall,
 		}
 
 		public enum TraceSourceType
@@ -34,7 +37,7 @@
 			PacketSend,
 			PacketRecv,
 			Debug,
-			Game
+			Game,
 		}
 	}
 }

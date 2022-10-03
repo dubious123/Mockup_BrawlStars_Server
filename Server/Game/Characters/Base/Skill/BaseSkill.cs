@@ -2,24 +2,24 @@
 {
 	public abstract class BaseSkill
 	{
-		public uint Id;
-		protected BaseCharacter _character;
-		protected HitInfo _hitInfo;
-		protected bool _enabled = true;
-		protected GameRoom _game;
-		protected HitInfo _info;
+		public uint Id { get; set; }
+		protected BaseCharacter Character { get; set; }
+		protected HitInfo SkillHitInfo { get; init; }
+		protected bool Enabled { get; set; } = true;
+		protected GameRoom Game { get; set; }
 		public BaseSkill(BaseCharacter character, GameRoom game)
 		{
-			_character = character;
-			_game = game;
+			Character = character;
+			Game = game;
 			Id = 1;
 		}
+
 		public abstract void HandleInput(bool buttonPressed);
 		public abstract void HandleOneFrame();
 		public abstract void Cancel();
 		public virtual void SetActive(bool set)
 		{
-			_enabled = set;
+			Enabled = set;
 		}
 	}
 }

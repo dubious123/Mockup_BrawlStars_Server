@@ -1,4 +1,4 @@
 Network Information: 0 : 
-[Date = 2022-10-03 오후 6:42:21.053]
+[Date = 2022-10-03 오후 7:06:49.486]
 Listening to [fe80::9d3d:afe9:3ee8:96a7%6]:7777
-    DateTime=2022-10-03T09:42:21.1121053Z
+    DateTime=2022-10-03T10:06:49.5261486Z

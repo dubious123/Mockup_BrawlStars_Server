@@ -2,12 +2,13 @@
 {
 	public class JobQueue
 	{
-		readonly string _name;
-		readonly int _waitTick;
+		private readonly string _name;
+		private readonly int _waitTick;
 
-		bool _isJobQueueRunning;
-		Thread[] _threads;
-		ConcurrentQueue<Action> _jobQueue = new();
+		private bool _isJobQueueRunning;
+		private Thread[] _threads;
+		private ConcurrentQueue<Action> _jobQueue = new();
+
 		public JobQueue(string name, int threadNum, int waitTick)
 		{
 			_name = name;
@@ -19,6 +20,7 @@
 				_threads[i].Name = $"{_name}[{i}]";
 			}
 		}
+
 		public void Start()
 		{
 			foreach (var t in _threads)
@@ -27,14 +29,17 @@
 				t.Start();
 			}
 		}
+
 		public void Push(Action action)
 		{
 			_jobQueue.Enqueue(action);
 		}
+
 		public void Stop()
 		{
 			_isJobQueueRunning = false;
 		}
+
 		public void Resume()
 		{
 			_isJobQueueRunning = true;
@@ -43,13 +48,13 @@
 				t.Interrupt();
 			}
 		}
-		void Loop()
+
+		private void Loop()
 		{
 		Loop:
 			long nowTick = 0;
 			try
 			{
-
 				while (_isJobQueueRunning)
 				{
 					if (_waitTick < DateTime.UtcNow.Ticks - nowTick)
@@ -59,9 +64,11 @@
 							if (_jobQueue.TryDequeue(out var action))
 								action.Invoke();
 						}
+
 						nowTick = DateTime.UtcNow.Ticks;
 					}
 				}
+
 				Thread.Sleep(Timeout.Infinite);
 			}
 			catch (ThreadInterruptedException)

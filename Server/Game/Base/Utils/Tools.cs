@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
-
-namespace Server.Game.Base.Utils
+﻿namespace Server.Game.Base.Utils
 {
 	public class Tools
 	{
-		const float radToDeg = (float)(180.0 / Math.PI);
-		const float degToRad = (float)(Math.PI / 180.0);
+		private const float RadToDeg = (float)(180.0 / Math.PI);
+		private const float DegToRad = (float)(Math.PI / 180.0);
 		#region Vector3
 		public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed, float deltaTime)
 		{
@@ -89,8 +82,9 @@ namespace Server.Game.Base.Utils
 				return 0F;
 
 			float dot = Clamp(Vector3.Dot(from, to) / denominator, -1F, 1F);
-			return ((float)Math.Acos(dot)) * radToDeg;
+			return ((float)Math.Acos(dot)) * RadToDeg;
 		}
+
 		public static float Clamp(float value, float min, float max)
 		{
 			if (value < min)
@@ -103,7 +97,6 @@ namespace Server.Game.Base.Utils
 		#region Quaternion
 		public static Quaternion LookRotation(Vector3 forward, Vector3 up)
 		{
-
 			forward = Vector3.Normalize(forward);
 			Vector3 right = Vector3.Normalize(Vector3.Cross(up, forward));
 			up = Vector3.Cross(forward, right);
@@ -116,10 +109,8 @@ namespace Server.Game.Base.Utils
 			var m20 = forward.X;
 			var m21 = forward.Y;
 			var m22 = forward.Z;
-
-
 			float num8 = (m00 + m11) + m22;
-			var quaternion = new Quaternion();
+			var quaternion = default(Quaternion);
 			if (num8 > 0f)
 			{
 				var num = (float)System.Math.Sqrt(num8 + 1f);
@@ -130,6 +121,7 @@ namespace Server.Game.Base.Utils
 				quaternion.Z = (m01 - m10) * num;
 				return quaternion;
 			}
+
 			if ((m00 >= m11) && (m00 >= m22))
 			{
 				var num7 = (float)System.Math.Sqrt(((1f + m00) - m11) - m22);
@@ -140,6 +132,7 @@ namespace Server.Game.Base.Utils
 				quaternion.W = (m12 - m21) * num4;
 				return quaternion;
 			}
+
 			if (m11 > m22)
 			{
 				var num6 = (float)System.Math.Sqrt(((1f + m11) - m00) - m22);
@@ -150,6 +143,7 @@ namespace Server.Game.Base.Utils
 				quaternion.W = (m20 - m02) * num3;
 				return quaternion;
 			}
+
 			var num5 = (float)System.Math.Sqrt(((1f + m22) - m00) - m11);
 			var num2 = 0.5f / num5;
 			quaternion.X = (m20 + m02) * num2;
@@ -158,6 +152,7 @@ namespace Server.Game.Base.Utils
 			quaternion.W = (m01 - m10) * num2;
 			return quaternion;
 		}
+
 		public static Quaternion RotateTowards(Quaternion from, Quaternion to, float maxDegreesDelta)
 		{
 			float num = Angle(from, to);
@@ -165,18 +160,43 @@ namespace Server.Game.Base.Utils
 			{
 				return to;
 			}
+
 			float t = Math.Min(1f, maxDegreesDelta / num);
 			return SlerpUnclamped(from, to, t);
 		}
+
 		public static float Angle(Quaternion a, Quaternion b)
 		{
 			float f = Quaternion.Dot(a, b);
-			return MathF.Acos(MathF.Min(MathF.Abs(f), 1f)) * 2f * radToDeg;
+			return MathF.Acos(MathF.Min(MathF.Abs(f), 1f)) * 2f * RadToDeg;
 		}
+
 		public static Quaternion SlerpUnclamped(Quaternion a, Quaternion b, float t)
 		{
 			return SlerpUnclamped(ref a, ref b, t);
 		}
+
+		public static Vector3 Rotate(in Quaternion rotation, in Vector3 point)
+		{
+			float x = rotation.X * 2F;
+			float y = rotation.Y * 2F;
+			float z = rotation.Z * 2F;
+			float xx = rotation.X * x;
+			float yy = rotation.Y * y;
+			float zz = rotation.Z * z;
+			float xy = rotation.X * y;
+			float xz = rotation.X * z;
+			float yz = rotation.Y * z;
+			float wx = rotation.W * x;
+			float wy = rotation.W * y;
+			float wz = rotation.W * z;
+
+			return new Vector3(
+				(1F - (yy + zz)) * point.X + (xy - wz) * point.Y + (xz + wy) * point.Z,
+				(xy + wz) * point.X + (1F - (xx + zz)) * point.Y + (yz - wx) * point.Z,
+				(xz - wy) * point.X + (yz + wx) * point.Y + (1F - (xx + yy)) * point.Z);
+		}
+
 		private static Quaternion SlerpUnclamped(ref Quaternion a, ref Quaternion b, float t)
 		{
 			// if either input is zero, return the other.
@@ -186,6 +206,7 @@ namespace Server.Game.Base.Utils
 				{
 					return new Quaternion(0f, 0f, 0f, 1f);
 				}
+
 				return b;
 			}
 			else if (b.LengthSquared() == 0.0f)
@@ -193,9 +214,7 @@ namespace Server.Game.Base.Utils
 				return a;
 			}
 
-
-			float cosHalfAngle = a.W * b.W + Vector3.Dot(new Vector3(a.X, a.Y, a.Z), new Vector3(b.X, b.Y, b.Z));
-
+			float cosHalfAngle = (a.W * b.W) + Vector3.Dot(new Vector3(a.X, a.Y, a.Z), new Vector3(b.X, b.Y, b.Z));
 			if (cosHalfAngle >= 1.0f || cosHalfAngle <= -1.0f)
 			{
 				// angle = 0.0f, so just return one input.
@@ -231,32 +250,9 @@ namespace Server.Game.Base.Utils
 			Quaternion result = new Quaternion(blendA * new Vector3(a.X, a.Y, a.Z) + blendB * new Vector3(b.X, b.Y, b.Z), blendA * a.W + blendB * b.W);
 			if (result.LengthSquared() > 0.0f)
 				return Quaternion.Normalize(result);
-
 			else
 				return Quaternion.Identity;
 		}
-		public static Vector3 Rotate(in Quaternion rotation, in Vector3 point)
-		{
-			float x = rotation.X * 2F;
-			float y = rotation.Y * 2F;
-			float z = rotation.Z * 2F;
-			float xx = rotation.X * x;
-			float yy = rotation.Y * y;
-			float zz = rotation.Z * z;
-			float xy = rotation.X * y;
-			float xz = rotation.X * z;
-			float yz = rotation.Y * z;
-			float wx = rotation.W * x;
-			float wy = rotation.W * y;
-			float wz = rotation.W * z;
-
-			return new Vector3(
-				(1F - (yy + zz)) * point.X + (xy - wz) * point.Y + (xz + wy) * point.Z,
-				(xy + wz) * point.X + (1F - (xx + zz)) * point.Y + (yz - wx) * point.Z,
-				(xz - wy) * point.X + (yz + wx) * point.Y + (1F - (xx + yy)) * point.Z
-				);
-		}
 		#endregion
 	}
-
 }

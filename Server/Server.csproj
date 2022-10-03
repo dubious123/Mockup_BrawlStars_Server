@@ -8,16 +8,26 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<CodeAnalysisRuleSet />
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<CodeAnalysisRuleSet />
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Compile Remove="Game\Base\Component.cs" />
 		<Compile Remove="Game\Base\GameObject.cs" />
 		<Compile Remove="Game\Base\Ref.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Config\stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AdditionalFiles Include="Config\stylecop.json" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -6,7 +6,7 @@
 		public short TeamId { get; set; }
 		public bool GameSceneReady { get; set; } = false;
 		public ClientSession Session { get; init; }
-		public GameRoom CurrentGame;
+		public GameRoom CurrentGame { get; set; }
 		public BaseCharacter Character { get; set; }
 		public ConcurrentQueue<PlayerInput> InputBuffer { get; set; } = new();
 

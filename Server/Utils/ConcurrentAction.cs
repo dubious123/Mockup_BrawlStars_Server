@@ -2,7 +2,7 @@
 {
 	public class ConcurrentAction
 	{
-		ConcurrentDictionary<int, Action> _actionDict = new();
+		private ConcurrentDictionary<int, Action> _actionDict = new();
 
 		public void Invoke()
 		{
@@ -11,30 +11,28 @@
 			{
 				action.Invoke();
 			}
-			//var enumerator = _actionDict.Values.GetEnumerator();
-			//while (enumerator.MoveNext())
-			//{
-			//	enumerator.Current.Invoke();
-			//}
 		}
+
+		private void AddAction(Action action)
+		{
+			_actionDict.TryAdd(action.GetHashCode(), action);
+		}
+
+		private void DeleteAction(Action action)
+		{
+			_actionDict.TryRemove(action.GetHashCode(), out _);
+		}
+
 		public static ConcurrentAction operator +(ConcurrentAction cAction, Action action)
 		{
 			cAction.AddAction(action);
 			return cAction;
 		}
+
 		public static ConcurrentAction operator -(ConcurrentAction cAction, Action action)
 		{
 			cAction.DeleteAction(action);
 			return cAction;
 		}
-		void AddAction(Action action)
-		{
-			_actionDict.TryAdd(action.GetHashCode(), action);
-		}
-		void DeleteAction(Action action)
-		{
-			_actionDict.TryRemove(action.GetHashCode(), out _);
-		}
-
 	}
 }

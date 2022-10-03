@@ -2,9 +2,11 @@
 {
 	public class Program
 	{
+		private const long WaitTick = 166667;
+
 		public static ConcurrentAction Update { get; set; } = new();
-		const long WaitTick = 166667;
-		static void Main(string[] args)
+
+		private static void Main(string[] args)
 		{
 			#region Init
 			LogMgr.Init();
@@ -14,46 +16,22 @@
 			JobMgr.Init();
 			Timing.Init();
 			#endregion
-
-
 			Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 			var endPoint = GetNewEndPoint(7777);
 			listener.StartListen(endPoint);
 			LogMgr.Log($"Listening to {endPoint}", TraceSourceType.Network, TraceSourceType.Console);
 			long nowTick = default;
 			long delta = default;
-			//frame start 
-			//last = now;
-			//
-			//base =  environment.tickCount;
-			//frame end
-			//new frame start
-			//delta time = base - environment.tickCount;
-			//Stopwatch sw = new Stopwatch();
-			//sw.Start();
 			while (true)
 			{
 				delta = DateTime.UtcNow.Ticks - nowTick;
-				if (WaitTick <= delta)
+				if (delta <= WaitTick)
 				{
 					nowTick = DateTime.UtcNow.Ticks;
 					Update.Invoke();
 					Timing.OnNewFrameStart(nowTick);
 				}
-
 			}
-			//while (true)
-			//{
-			//	LogMgr.Log($"{sw.ElapsedTicks}", TraceSourceType.Debug);
-			//	if (WaitTick <= sw.ElapsedTicks)
-			//	{
-
-			//		sw.Restart();
-			//		Timing.OnNewFrameStart(nowTick);
-			//		Update.Invoke();
-			//	}
-
-			//}
 		}
 	}
 }

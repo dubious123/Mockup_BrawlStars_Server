@@ -4,15 +4,8 @@
 	{
 		public DbSet<User> Users { get; set; }
 
-		const string _connectString = @"Data Source=JONGHUN\SQLEXPRESS;Initial Catalog=BrawlStarsDB;Integrated Security=True";
-		protected override void OnConfiguring(DbContextOptionsBuilder options)
-		{
-			options.UseSqlServer(_connectString);
-		}
-		protected override void OnModelCreating(ModelBuilder builder)
-		{
-			builder.Entity<User>().HasQueryFilter(i => i.DeletedTime == null);
-		}
+		private const string _connectString = @"Data Source=JONGHUN\SQLEXPRESS;Initial Catalog=BrawlStarsDB;Integrated Security=True";
+
 		public static void Init(bool reset)
 		{
 			using GameDBContext db = new();
@@ -20,12 +13,21 @@
 			{
 				return;
 			}
+
 			db.Database.EnsureDeleted();
 			db.Database.EnsureCreated();
 			LogMgr.Log("DB reset completed", TraceSourceType.Console);
 			return;
+		}
 
+		protected override void OnConfiguring(DbContextOptionsBuilder options)
+		{
+			options.UseSqlServer(_connectString);
+		}
 
+		protected override void OnModelCreating(ModelBuilder builder)
+		{
+			builder.Entity<User>().HasQueryFilter(i => i.DeletedTime == null);
 		}
 	}
 }

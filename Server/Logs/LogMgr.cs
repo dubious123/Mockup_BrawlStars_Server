@@ -1,66 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-using System.Collections.Concurrent;
-using Server.Utils;
-using static Server.Utils.Enums;
-
-namespace Server.Log
+﻿namespace Server.Log
 {
 	public class LogMgr
 	{
-		static LogMgr _instance = new();
-		static string _dirPath;
-		TraceSource[] _tsArr;
-		DateTime _dt;
-		LogMgr()
+		private static LogMgr _instance = new();
+		private static string _dirPath;
+		private TraceSource[] _tsArr;
+		private DateTime _dt;
+
+		private LogMgr()
 		{
 			_dt = DateTime.Now;
 			_dirPath = Directory.GetCurrentDirectory() + "/../../../Logs";
 			Directory.CreateDirectory(_dirPath);
 			_tsArr = new TraceSource[10];
-			_tsArr[0] = BuildNewTraceSource(Define.Ts_Packet)
+			_tsArr[0] = BuildNewTraceSource(Define.TsPacket)
 					.AddTextWriterListener(string.Empty, "PacketLogs.txt", TraceOptions.DateTime);
-			_tsArr[1] = BuildNewTraceSource(Define.Ts_Network)
+			_tsArr[1] = BuildNewTraceSource(Define.TsNetwork)
 					.AddTextWriterListener(string.Empty, "NetworkLogs.txt", TraceOptions.DateTime);
-			_tsArr[2] = BuildNewTraceSource(Define.Ts_Session)
+			_tsArr[2] = BuildNewTraceSource(Define.TsSession)
 					.AddTextWriterListener(string.Empty, "SessionLogs.txt", TraceOptions.DateTime);
-			_tsArr[3] = BuildNewTraceSource(Define.Ts_Handler)
+			_tsArr[3] = BuildNewTraceSource(Define.TsHandler)
 					.AddTextWriterListener(string.Empty, "PacketHandlerLogs.txt", TraceOptions.DateTime);
-			_tsArr[4] = BuildNewTraceSource(Define.Ts_Console)
+			_tsArr[4] = BuildNewTraceSource(Define.TsConsole)
 					.AddConsoleListener(TraceOptions.DateTime);
-			_tsArr[5] = BuildNewTraceSource(Define.Ts_Error)
+			_tsArr[5] = BuildNewTraceSource(Define.TsError)
 					.AddTextWriterListener(string.Empty, "Errors.txt", TraceOptions.DateTime | TraceOptions.Callstack)
 					.AddConsoleListener(TraceOptions.DateTime | TraceOptions.Callstack);
 			var listener = _tsArr[0].Listeners[0];
-			_tsArr[6] = BuildNewTraceSource(Define.Ts_PacketSend)
+			_tsArr[6] = BuildNewTraceSource(Define.TsPacketSend)
 					.AddTextWriterListener(string.Empty, "SendLog.txt")
 					.AddListener(listener);
-			_tsArr[7] = BuildNewTraceSource(Define.Ts_PacketRecv)
+			_tsArr[7] = BuildNewTraceSource(Define.TsPacketRecv)
 					.AddTextWriterListener(string.Empty, "RecvLog.txt")
 					.AddListener(listener);
-			_tsArr[(int)TraceSourceType.Debug] = BuildNewTraceSource(Define.Ts_Debug)
+			_tsArr[(int)TraceSourceType.Debug] = BuildNewTraceSource(Define.TsDebug)
 					.AddTextWriterListener(string.Empty, "Debug.txt");
-			_tsArr[(int)TraceSourceType.Game] = BuildNewTraceSource(Define.Ts_Game)
+			_tsArr[(int)TraceSourceType.Game] = BuildNewTraceSource(Define.TsGame)
 					.AddTextWriterListener(string.Empty, "Game.txt");
-
-
 			Trace.AutoFlush = true;
-			//AppDomain.CurrentDomain.ProcessExit += new EventHandler((obj, e) =>
-			//{
-			//	Log("hi", TraceEventType.Information, TraceSourceType.Network);
-			//	foreach (var ts in _tsArr)
-			//	{
-			//		ts.Flush();
-			//	}
-			//});
-
-
 		}
+
 		~LogMgr()
 		{
 			foreach (var ts in _tsArr)
@@ -68,6 +47,7 @@ namespace Server.Log
 				ts.Flush();
 			}
 		}
+
 		public static void Init() { }
 
 		public static void Log(string message, TraceEventType eventType, params TraceSourceType[] sourceTypes)
@@ -76,34 +56,26 @@ namespace Server.Log
 			{
 				_instance._tsArr[(int)sourceType].TraceEvent(eventType, default, message);
 			}
+
 			if (eventType == TraceEventType.Error && sourceTypes.Contains(TraceSourceType.Error) == false)
 			{
 				_instance._tsArr[4].TraceEvent(eventType, default, message);
 			}
 		}
+
 		public static void Log(string message, params TraceSourceType[] sourceTypes)
 		{
 			Log($"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}", TraceEventType.Information, sourceTypes);
 		}
-		public static void Log(string message, int id, TraceEventType eventType = TraceEventType.Information, params TraceSourceType[] sourceTypes)
+
+		public static void LogInfo(string message, int id, params TraceSourceType[] sourceTypes)
 		{
 			foreach (var sourceType in sourceTypes)
 			{
-				_instance._tsArr[(int)sourceType].TraceEvent(eventType, id, message);
-			}
-			if (eventType == TraceEventType.Error && sourceTypes.Contains(TraceSourceType.Error) == false)
-			{
-				_instance._tsArr[4].TraceEvent(eventType, id, message);
+				_instance._tsArr[(int)sourceType].TraceEvent(TraceEventType.Information, id, $"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}");
 			}
 		}
 
-		static TraceSource BuildNewTraceSource(string name)
-		{
-			TraceSource ts = new(name);
-			ts.Listeners.Clear();
-			ts.Switch = new SourceSwitch(name + "Switch", "Information");
-			return ts;
-		}
 		public static TraceSource AddConsoleListener(TraceSource ts, TraceOptions options)
 		{
 			ConsoleTraceListener listener = new();
@@ -112,6 +84,7 @@ namespace Server.Log
 			ts.Listeners.Add(listener);
 			return ts;
 		}
+
 		public static TraceSource AddTextWriterListener(TraceSource ts, string dirPath, string fileName, TraceOptions options = TraceOptions.None)
 		{
 			var path = Path.Combine(_dirPath, dirPath);
@@ -123,9 +96,18 @@ namespace Server.Log
 			ts.Listeners.Add(listener);
 			return ts;
 		}
+
 		public static TraceSource AddListenter(TraceSource ts, TraceListener listener)
 		{
 			ts.Listeners.Add(listener);
+			return ts;
+		}
+
+		private static TraceSource BuildNewTraceSource(string name)
+		{
+			TraceSource ts = new(name);
+			ts.Listeners.Clear();
+			ts.Switch = new SourceSwitch(name + "Switch", "Information");
 			return ts;
 		}
 	}
