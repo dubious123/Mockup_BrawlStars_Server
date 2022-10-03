@@ -1,13 +1,4 @@
-﻿using Server.Game.Base;
-using Server.Game.Characters.Base.Skill;
-using Server.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Game.Characters.Dog
+﻿namespace Server.Game.Characters.Dog
 {
 	public class Dog_Bash : BaseSkill
 	{
@@ -49,8 +40,8 @@ namespace Server.Game.Characters.Dog
 		{
 			while (true)
 			{
-				float bashLength = 0;
-				float bashTime = 0;
+				float bashLength;
+				float bashTime;
 				int holdFrame = 0;
 				#region Charge
 				{

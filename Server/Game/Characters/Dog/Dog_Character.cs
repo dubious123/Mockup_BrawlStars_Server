@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-using Server.Game.Base;
-
-namespace Server.Game.Characters.Dog
+﻿namespace Server.Game.Characters.Dog
 {
 	public class Dog_Character : BaseCharacter
 	{

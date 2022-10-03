@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	//server => client : check avg RTT
 	//server => client : start game after 3 sec - avg tick

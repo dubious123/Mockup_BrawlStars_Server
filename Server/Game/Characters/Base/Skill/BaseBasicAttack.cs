@@ -1,12 +1,4 @@
-﻿using Server.Game.Base;
-using Server.Game.Base.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-using static Server.S_BroadcastGameState;
+﻿using Tools = Server.Game.Base.Utils.Tools;
 
 namespace Server.Game.Characters.Base.Skill
 {

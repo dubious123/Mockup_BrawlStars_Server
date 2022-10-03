@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-using System.Numerics;
-using static Server.Utils.Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class MapData
 	{

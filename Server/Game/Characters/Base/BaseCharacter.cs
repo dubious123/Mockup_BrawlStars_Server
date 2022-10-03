@@ -1,21 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-using Server.Utils;
-using Server.Game.Base.Utils;
-using Server.Log;
-using static Server.Utils.Enums;
-using static Server.S_BroadcastGameState;
-using Server.Game.Characters.Base.Skill;
+﻿using Tools = Server.Game.Base.Utils.Tools;
 
 namespace Server.Game.Base
 {
 	public class BaseCharacter
 	{
 		public short TeamId { get; init; }
+		public int Id { get; }
 		public Vector3 Position;
 		public Quaternion Rotation;
 		public CharacterType CharacterType { get; set; } = CharacterType.Dog;

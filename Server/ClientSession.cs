@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Net.Sockets;
-using Server.Game;
-using Server.Game.Managers;
-using Server.Log;
-using Server.Utils;
-using ServerCore;
-using ServerCore.Managers;
-using static Server.Utils.Enums;
-using System.Collections.Concurrent;
-using System.Threading;
-
-namespace Server
+﻿namespace Server
 {
 	public class ClientSession : Session
 	{

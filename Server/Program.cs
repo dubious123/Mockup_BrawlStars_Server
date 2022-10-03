@@ -1,16 +1,4 @@
-﻿using Server.DB;
-using Server.Log;
-using ServerCore;
-using ServerCore.Managers;
-using System;
-using System.Threading;
-using static Server.Utils.Enums;
-using static ServerCore.Utils.Tools;
-using System.Diagnostics;
-using Server.Utils;
-using System.Collections.Generic;
-
-namespace Server
+﻿namespace Server
 {
 	public class Program
 	{

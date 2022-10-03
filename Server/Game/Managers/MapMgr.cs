@@ -1,7 +1,4 @@
-﻿using System.Collections.Concurrent;
-using Server.Game;
-
-namespace Server
+﻿namespace Server
 {
 	public class MapMgr
 	{

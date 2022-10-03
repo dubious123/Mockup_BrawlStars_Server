@@ -1,12 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Storage;
-using Server.DB.Entities;
-using System;
-using Server.Log;
-using static Server.Utils.Enums;
-
-namespace Server.DB
+﻿namespace Server.DB
 {
 	public class GameDBContext : DbContext
 	{

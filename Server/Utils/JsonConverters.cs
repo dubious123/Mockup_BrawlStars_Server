@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
-namespace Server.Utils.JsonConverters
+﻿namespace Server.Utils.JsonConverters
 {
 	public class Vector2Converter : JsonConverter<Vector2>
 	{

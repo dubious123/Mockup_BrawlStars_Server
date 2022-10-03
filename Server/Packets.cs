@@ -1,10 +1,3 @@
-using System;
-using Server.Game;
-using ServerCore;
-using System.Numerics;
-using System.Collections.Generic;
-
-
 namespace Server
 {
 	public class AuthPacket : BasePacket

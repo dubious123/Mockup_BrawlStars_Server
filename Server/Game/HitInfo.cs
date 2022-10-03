@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	//[skill code][team id][list of target id] => action info
 	public record HitInfo

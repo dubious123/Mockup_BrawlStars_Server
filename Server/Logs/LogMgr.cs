@@ -22,7 +22,7 @@ namespace Server.Log
 			_dt = DateTime.Now;
 			_dirPath = Directory.GetCurrentDirectory() + "/../../../Logs";
 			Directory.CreateDirectory(_dirPath);
-			_tsArr = new TraceSource[9];
+			_tsArr = new TraceSource[10];
 			_tsArr[0] = BuildNewTraceSource(Define.Ts_Packet)
 					.AddTextWriterListener(string.Empty, "PacketLogs.txt", TraceOptions.DateTime);
 			_tsArr[1] = BuildNewTraceSource(Define.Ts_Network)
@@ -45,6 +45,8 @@ namespace Server.Log
 					.AddListener(listener);
 			_tsArr[(int)TraceSourceType.Debug] = BuildNewTraceSource(Define.Ts_Debug)
 					.AddTextWriterListener(string.Empty, "Debug.txt");
+			_tsArr[(int)TraceSourceType.Game] = BuildNewTraceSource(Define.Ts_Game)
+					.AddTextWriterListener(string.Empty, "Game.txt");
 
 
 			Trace.AutoFlush = true;
@@ -82,6 +84,17 @@ namespace Server.Log
 		public static void Log(string message, params TraceSourceType[] sourceTypes)
 		{
 			Log($"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}", TraceEventType.Information, sourceTypes);
+		}
+		public static void Log(string message, int id, TraceEventType eventType = TraceEventType.Information, params TraceSourceType[] sourceTypes)
+		{
+			foreach (var sourceType in sourceTypes)
+			{
+				_instance._tsArr[(int)sourceType].TraceEvent(eventType, id, message);
+			}
+			if (eventType == TraceEventType.Error && sourceTypes.Contains(TraceSourceType.Error) == false)
+			{
+				_instance._tsArr[4].TraceEvent(eventType, id, message);
+			}
 		}
 
 		static TraceSource BuildNewTraceSource(string name)

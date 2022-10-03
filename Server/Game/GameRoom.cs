@@ -1,17 +1,4 @@
-﻿using Server.Game;
-using static Server.Utils.Enums;
-using System.Numerics;
-using Server.Utils;
-using System.Collections.Generic;
-using System.Threading;
-using ServerCore;
-using System.Diagnostics;
-using Server.Game.Base;
-using System;
-using Server.Log;
-using System.Linq;
-using static Server.S_BroadcastGameState;
-
+﻿using static Server.S_BroadcastGameState;
 namespace Server
 {
 	public class GameRoom
@@ -25,7 +12,7 @@ namespace Server
 		{
 			get
 			{
-				for (int i = 0; i < 2; i++)
+				for (int i = 0; i < 1; i++)
 				{
 					if (_players[i] is null || _players[i].GameSceneReady == false) return false;
 				}

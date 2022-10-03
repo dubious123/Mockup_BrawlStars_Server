@@ -1,8 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using static Server.Utils.Enums;
-
-namespace Server.DB.Entities
+﻿namespace Server.DB.Entities
 {
 	public class User
 	{

@@ -1,17 +1,3 @@
-using Server.Log;
-using Server.Utils.JsonConverters;
-using ServerCore;
-using System;
-using System.Collections.Concurrent;
-using System.Diagnostics;
-using System.Text.Json;
-using System.Threading;
-using static Server.Utils.Enums;
-using static ServerCore.Utils.Enums;
-using System.Text;
-using System.Collections.Generic;
-using Server.Utils;
-
 namespace Server
 {
 	public static class PacketParser

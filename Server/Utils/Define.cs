@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Utils
+﻿namespace Server.Utils
 {
 	public static class Define
 	{
@@ -25,6 +19,7 @@ namespace Server.Utils
 		public const string Ts_PacketSend = "Send";
 		public const string Ts_PacketRecv = "Recv";
 		public const string Ts_Debug = "Debug";
+		public const string Ts_Game = "Game";
 
 
 		#endregion
