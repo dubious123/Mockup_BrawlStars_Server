@@ -2,11 +2,12 @@
 {
 	public class Dog_Character : BaseCharacter
 	{
-		private Dog_Bash _bash;
+		private readonly Dog_Bash _bash;
 
 		public Dog_Character(GameRoom game, short teamId)
 			: base(game, teamId)
 		{
+			_bash = new Dog_Bash(this, game);
 		}
 
 		public override void HandleOneFrame()

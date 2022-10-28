@@ -10,12 +10,12 @@
 	public record KnockbackInfo
 	{
 		public Vector3 Direction { get; set; }
-		public float Duration { get; init; }
-		public float Speed { get; init; }
+		public sfloat Duration { get; init; }
+		public sfloat Speed { get; init; }
 	}
 
 	public record StunInfo
 	{
-		public float Duration { get; init; }
+		public sfloat Duration { get; init; }
 	}
 }

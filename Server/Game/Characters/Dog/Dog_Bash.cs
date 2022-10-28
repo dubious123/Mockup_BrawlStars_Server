@@ -6,10 +6,10 @@
 		private bool _buttonPressed;
 		private bool _performing;
 
-		private float _maxBashlength = 10f;
+		private sfloat _maxBashlength = (sfloat)10f;
 		private int _maxChargeTime = 90;
 		private int _holdingTimeLimit = 300;
-		private float _bashSpeed = 24;
+		private sfloat _bashSpeed = (sfloat)24;
 		private int _coolTime = 300;
 
 		public Dog_Bash(BaseCharacter character, GameRoom game)
@@ -45,8 +45,8 @@
 		{
 			while (true)
 			{
-				float bashLength;
-				float bashTime;
+				sfloat bashLength;
+				sfloat bashTime;
 				int holdFrame = 0;
 				#region Charge
 				{
@@ -62,10 +62,10 @@
 				{
 					Character.EnableLookControll(false);
 					Character.EnableMoveControll(false);
-					bashLength = _maxBashlength * MathF.Min(holdFrame / (float)_maxChargeTime, 1);
+					bashLength = _maxBashlength * sMathf.Min((sfloat)(holdFrame / _maxChargeTime), sfloat.One);
 					bashTime = bashLength / _bashSpeed;
-
-					for (float current = 0f; current <= bashTime; current += Timing.DeltaTime)
+					Console.WriteLine($"bashTime : {bashTime}, bashLength : {bashLength}");
+					for (sfloat current = sfloat.Zero; current <= bashTime; current += Timing.DeltaTime)
 					{
 						Character.Position += Character.LookDir * _bashSpeed * Timing.DeltaTime;
 						yield return 0;

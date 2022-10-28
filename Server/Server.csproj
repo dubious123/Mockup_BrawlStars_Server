@@ -17,20 +17,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Remove="Game\Base\Component.cs" />
-		<Compile Remove="Game\Base\GameObject.cs" />
-		<Compile Remove="Game\Base\Ref.cs" />
+	  <Compile Remove="Math\math\Extensions\**" />
+	  <EmbeddedResource Remove="Math\math\Extensions\**" />
+	  <None Remove="Math\math\Extensions\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Config\stylecop.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <AdditionalFiles Include="Config\stylecop.json" />
-	</ItemGroup>
-
-	<ItemGroup>
+		<PackageReference Include="ICSharpCode.Decompiler" Version="7.2.1.6856" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
 		<PackageReference Include="protobuf-net" Version="3.1.17" />
 	</ItemGroup>
@@ -43,10 +36,6 @@
 		<Folder Include="DB\Configure\" />
 		<Folder Include="Data\" />
 		<Folder Include="Dto\" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="Game\Base\Ref.cs" />
 	</ItemGroup>
 
 </Project>

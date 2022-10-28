@@ -65,14 +65,14 @@
 
 		public static void Log(string message, params TraceSourceType[] sourceTypes)
 		{
-			Log($"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}", TraceEventType.Information, sourceTypes);
+			Log($"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond:000}]\n{message}", TraceEventType.Information, sourceTypes);
 		}
 
 		public static void LogInfo(string message, int id, params TraceSourceType[] sourceTypes)
 		{
 			foreach (var sourceType in sourceTypes)
 			{
-				_instance._tsArr[(int)sourceType].TraceEvent(TraceEventType.Information, id, $"\n[Date = {DateTime.Now}.{DateTime.Now.Millisecond.ToString("000")}]\n{message}");
+				_instance._tsArr[(int)sourceType].TraceEvent(TraceEventType.Information, id, $"\n{message}");
 			}
 		}
 

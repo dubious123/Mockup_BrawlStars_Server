@@ -4,7 +4,7 @@ namespace Server
 {
 	public static class PacketHandler
 	{
-		static ConcurrentDictionary<PacketId, Action<BasePacket, ClientSession>> _handlerDict;
+		private static ConcurrentDictionary<PacketId, Action<BasePacket, ClientSession>> _handlerDict;
 		static PacketHandler()
 		{
 			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket, ClientSession>>();
@@ -69,7 +69,10 @@ namespace Server
 			{
 				throw new Exception();
 			}
-			GameMgr.EnterGame(PlayerMgr.GetOrAddPlayer(req.UserId, session));
+
+			var player = PlayerMgr.GetOrAddPlayer(req.UserId, session);
+			player.CharType = (CharacterType)req.CharacterType;
+			GameMgr.EnterGame(player);
 		}
 
 		private static void C_GameReadyHandle(BasePacket packet, ClientSession session)
@@ -78,8 +81,6 @@ namespace Server
 			var player = PlayerMgr.GetPlayer(req.UserId);
 			Debug.Assert(player is not null);
 			player.GameSceneReady = true;
-			if (player.CurrentGame.IsReady == false) return;
-			player.CurrentGame.StartGame();
 		}
 
 		private static void C_BroadcastPlayerInputHandle(BasePacket packet, ClientSession session)
@@ -97,10 +98,10 @@ namespace Server
 			{
 				ClientTargetTick = req.StartTick,
 				ReceivedTick = player.CurrentGame.CurrentTick,
-				MoveDirX = req.MoveDir.X,
-				MoveDirY = req.MoveDir.Y,
-				LookDirX = req.LookDir.X,
-				LookDirY = req.LookDir.Y,
+				MoveDirX = (sfloat)req.MoveDir.X,
+				MoveDirY = (sfloat)req.MoveDir.Y,
+				LookDirX = (sfloat)req.LookDir.X,
+				LookDirY = (sfloat)req.LookDir.Y,
 				ButtonPressed = req.ButtonPressed,
 			};
 			player.InputBuffer.Enqueue(input);

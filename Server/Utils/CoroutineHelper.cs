@@ -55,7 +55,7 @@
 			return index;
 		}
 
-		public int RunDelayed(float delay, IEnumerator<int> coroutine)
+		public int RunDelayed(sfloat delay, IEnumerator<int> coroutine)
 		{
 			return RunCoroutine(BuildDelayedCoroutine(delay, coroutine));
 		}
@@ -109,9 +109,9 @@
 			_coroutines.Clear();
 		}
 
-		private static IEnumerator<int> BuildDelayedCoroutine(float delay, IEnumerator<int> enumerator)
+		private static IEnumerator<int> BuildDelayedCoroutine(sfloat delay, IEnumerator<int> enumerator)
 		{
-			float now = 0f;
+			sfloat now = sfloat.Zero;
 			while (now < delay)
 			{
 				now += Timing.DeltaTime;

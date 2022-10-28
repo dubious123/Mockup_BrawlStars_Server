@@ -1,4 +1,6 @@
-﻿namespace Server
+﻿using System.Net.Security;
+
+namespace Server
 {
 	public class Program
 	{
@@ -25,7 +27,7 @@
 			while (true)
 			{
 				delta = DateTime.UtcNow.Ticks - nowTick;
-				if (delta <= WaitTick)
+				if (delta >= WaitTick)
 				{
 					nowTick = DateTime.UtcNow.Ticks;
 					Update.Invoke();

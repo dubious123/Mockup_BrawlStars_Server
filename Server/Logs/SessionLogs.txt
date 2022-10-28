@@ -1,0 +1,28 @@
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:05.885]
+[server] connecting to [fe80::594b:8e1b:d8c4:651%6]:13579 completed
+    DateTime=2022-10-28T13:03:05.8854209Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.701]
+Session [1] close started
+    DateTime=2022-10-28T13:03:18.7015258Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.702]
+Session [1] shut down started
+    DateTime=2022-10-28T13:03:18.7024923Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.702]
+Session [1] shut down completed
+    DateTime=2022-10-28T13:03:18.7028876Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.703]
+Session [1] disconnect started
+    DateTime=2022-10-28T13:03:18.7032085Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.704]
+Session [1] disconnect completed
+    DateTime=2022-10-28T13:03:18.7040769Z
+Session Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.704]
+Session [1] close completed
+    DateTime=2022-10-28T13:03:18.7046307Z

@@ -31,10 +31,13 @@ global using Server.DB;
 global using Server.Game;
 global using Server.Game.Base;
 global using Server.Game.Characters.Base.Skill;
+global using Server.Game.Characters.Dog;
 global using Server.Game.Managers;
 global using Server.Log;
 global using Server.Utils;
 global using Server.Utils.JsonConverter;
 
 global using static Server.Utils.Enums;
+
 #endregion
+

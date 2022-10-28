@@ -89,7 +89,8 @@ namespace Server
 				LogMgr.Log($"received packet\n{JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.PacketRecv);
 				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #else
-				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(func.Invoke(buffer.Read(size)), session));
+				var packet = func.Invoke(buffer.Read(size));
+				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #endif
 			}
 		}

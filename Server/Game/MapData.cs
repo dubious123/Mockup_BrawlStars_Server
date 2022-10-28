@@ -2,7 +2,7 @@
 {
 	public class MapData
 	{
-		public Vector2[] SpawnPosArr { get; init; } = new Vector2[6];
+		public sVector2[] SpawnPosArr { get; init; } = new sVector2[6];
 
 		private readonly int offsetX;
 		private readonly int offsetY;
@@ -23,7 +23,7 @@
 				{
 					if (line[j] == '2' || line[j] == '3')
 					{
-						SpawnPosArr[spawnCount++] = new Vector2(j - offsetX + 0.5f, i - offsetY + 0.5f);
+						SpawnPosArr[spawnCount++] = new sVector2((sfloat)(j - offsetX) + sfloat.Half, (sfloat)(i - offsetY) + sfloat.Half);
 					}
 
 					_map[i][j] = line[j] == '1' ? (int)TileType.Wall : (int)TileType.Emtpy;

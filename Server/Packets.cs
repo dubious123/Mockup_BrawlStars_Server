@@ -1,3 +1,5 @@
+
+
 namespace Server
 {
 	public class AuthPacket : BasePacket
@@ -65,15 +67,11 @@ namespace Server
 	}
 	public class S_EnterGame : BasePacket
 	{
-		public S_EnterGame(short teamId, Player[] playerInfoArr)
+		public S_EnterGame(short teamId, Player player)
 		{
 			Id = 0x1003;
 			TeamId = teamId;
-			PlayerInfoArr = new PlayerInfoDto[playerInfoArr.Length];
-			for (int i = 0; i < playerInfoArr.Length; i++)
-			{
-				PlayerInfoArr[i] = new PlayerInfoDto(playerInfoArr[i]);
-			}
+			PlayerInfo = new PlayerInfoDto(player);
 		}
 
 		[Serializable]
@@ -81,14 +79,14 @@ namespace Server
 		{
 			public PlayerInfoDto(Player player)
 			{
-				CharacterType = player is null ? (ushort)0 : (ushort)player.Character.CharacterType;
+				CharacterType = player is null ? (ushort)0 : (ushort)player.CharType;
 			}
 
 			public ushort CharacterType;
 		}
 
 		public short TeamId;
-		public PlayerInfoDto[] PlayerInfoArr;
+		public PlayerInfoDto PlayerInfo;
 	}
 	public class S_BroadcastEnterGame : BasePacket
 	{
@@ -108,8 +106,10 @@ namespace Server
 		{
 			Id = 0x1005;
 			WaitTime = waitTime;
+			CharacterTypeArr = new ushort[6];
 		}
 
+		public ushort[] CharacterTypeArr;
 		public float WaitTime;
 	}
 	public class S_BroadcastGameState : BasePacket
@@ -161,4 +161,3 @@ namespace Server
 		public short TeamId;
 	}
 }
-

@@ -1,0 +1,1788 @@
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:05.930]
+Sending Packet {"Id":4096}
+    DateTime=2022-10-28T13:03:05.9306683Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:10.018]
+Sending Packet {"result":true,"userId":4,"Id":4097}
+    DateTime=2022-10-28T13:03:10.0183309Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:10.567]
+Sending Packet {"TeamId":0,"PlayerInfo":{"CharacterType":1},"Id":4099}
+    DateTime=2022-10-28T13:03:10.5673712Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:10.736]
+Sending Packet {"CharacterTypeArr":[1],"WaitTime":0,"Id":4101}
+    DateTime=2022-10-28T13:03:10.7365171Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.174]
+Sending Packet {"StartTick":0,"TargetTick":0,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.91543317,"y":-0.4024103},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.1744660Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.174]
+Sending Packet {"StartTick":1,"TargetTick":0,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9190062,"y":-0.3942431},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.1748465Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.180]
+Sending Packet {"StartTick":2,"TargetTick":0,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.96294844,"y":-0.26968557},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.1802093Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.201]
+Sending Packet {"StartTick":3,"TargetTick":1,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9965896,"y":-0.08251758},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2019630Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.220]
+Sending Packet {"StartTick":4,"TargetTick":2,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9823498,"y":0.18705325},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2203843Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.230]
+Sending Packet {"StartTick":5,"TargetTick":3,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9349019,"y":0.3549063},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2302201Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.249]
+Sending Packet {"StartTick":6,"TargetTick":4,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.8248495,"y":0.5653523},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2496395Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.263]
+Sending Packet {"StartTick":7,"TargetTick":5,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6883611,"y":0.7253682},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2635650Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.280]
+Sending Packet {"StartTick":8,"TargetTick":6,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5568314,"y":0.8306255},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2802651Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.296]
+Sending Packet {"StartTick":9,"TargetTick":7,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.42055544,"y":0.90726686},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.2969588Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.313]
+Sending Packet {"StartTick":10,"TargetTick":8,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.3035133,"y":0.9528272},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3136004Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.330]
+Sending Packet {"StartTick":11,"TargetTick":9,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.22777463,"y":0.9737139},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3302488Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.346]
+Sending Packet {"StartTick":12,"TargetTick":10,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.1729048,"y":0.9849385},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3468753Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.363]
+Sending Packet {"StartTick":13,"TargetTick":11,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.12631676,"y":0.99199},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3635556Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.380]
+Sending Packet {"StartTick":14,"TargetTick":12,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.08911561,"y":0.99602133},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3802540Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.396]
+Sending Packet {"StartTick":15,"TargetTick":13,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.055025958,"y":0.9984849},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.3968627Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.413]
+Sending Packet {"StartTick":16,"TargetTick":14,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.012281319,"y":0.9999246},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4135707Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.430]
+Sending Packet {"StartTick":17,"TargetTick":15,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.03147901,"y":0.99950445},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4302111Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.447]
+Sending Packet {"StartTick":18,"TargetTick":16,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.047101475,"y":0.99889016},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4478733Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.463]
+Sending Packet {"StartTick":19,"TargetTick":17,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.056153804,"y":0.99842215},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4635070Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.480]
+Sending Packet {"StartTick":20,"TargetTick":18,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.05841636,"y":0.9982923},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4801848Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.496]
+Sending Packet {"StartTick":21,"TargetTick":19,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.06502479,"y":0.9978836},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.4968412Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.513]
+Sending Packet {"StartTick":22,"TargetTick":20,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.06945669,"y":0.99758494},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5136146Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.530]
+Sending Packet {"StartTick":23,"TargetTick":21,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.08321387,"y":0.9965317},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5301780Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.546]
+Sending Packet {"StartTick":24,"TargetTick":22,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.094236344,"y":0.99554986},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5469297Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.563]
+Sending Packet {"StartTick":25,"TargetTick":23,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.10981775,"y":0.9939518},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5634697Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.580]
+Sending Packet {"StartTick":26,"TargetTick":24,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.12755124,"y":0.991832},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5801808Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.596]
+Sending Packet {"StartTick":27,"TargetTick":25,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.14299135,"y":0.9897239},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.5968777Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.613]
+Sending Packet {"StartTick":28,"TargetTick":26,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.1583477,"y":0.98738337},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6134965Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.630]
+Sending Packet {"StartTick":29,"TargetTick":27,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.17579116,"y":0.9844275},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6302181Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.646]
+Sending Packet {"StartTick":30,"TargetTick":28,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.19095895,"y":0.981598},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6469277Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.663]
+Sending Packet {"StartTick":31,"TargetTick":29,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.21240672,"y":0.9771814},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6635163Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.680]
+Sending Packet {"StartTick":32,"TargetTick":30,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.23361062,"y":0.9723303},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6801511Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.696]
+Sending Packet {"StartTick":33,"TargetTick":31,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.25366724,"y":0.96729153},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.6968620Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.713]
+Sending Packet {"StartTick":34,"TargetTick":32,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26977262,"y":0.96292406},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7134940Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.730]
+Sending Packet {"StartTick":35,"TargetTick":33,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2675369,"y":0.9635476},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7301457Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.749]
+Sending Packet {"StartTick":36,"TargetTick":34,"PlayerMoveDirArr":[{"x":-1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2675459,"y":0.9635451},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7490288Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.774]
+Sending Packet {"StartTick":37,"TargetTick":35,"PlayerMoveDirArr":[{"x":-0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.25492144,"y":0.9669618},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7750156Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.782]
+Sending Packet {"StartTick":38,"TargetTick":36,"PlayerMoveDirArr":[{"x":-0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2549218,"y":0.9669617},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7826116Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.799]
+Sending Packet {"StartTick":39,"TargetTick":37,"PlayerMoveDirArr":[{"x":-0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2549221,"y":0.96696156},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.7993516Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.815]
+Sending Packet {"StartTick":40,"TargetTick":38,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.25765455,"y":0.9662371},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8159531Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.832]
+Sending Packet {"StartTick":41,"TargetTick":39,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.25841948,"y":0.96603274},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8325902Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.849]
+Sending Packet {"StartTick":42,"TargetTick":40,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2584893,"y":0.96601415},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8492202Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.865]
+Sending Packet {"StartTick":43,"TargetTick":41,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2629734,"y":0.9648031},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8659425Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.882]
+Sending Packet {"StartTick":44,"TargetTick":42,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26422167,"y":0.964462},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8825627Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.899]
+Sending Packet {"StartTick":45,"TargetTick":43,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2643462,"y":0.9644278},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.8992687Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.915]
+Sending Packet {"StartTick":46,"TargetTick":44,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26435417,"y":0.9644257},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9159440Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.932]
+Sending Packet {"StartTick":47,"TargetTick":45,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.264359,"y":0.9644244},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9325758Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.949]
+Sending Packet {"StartTick":48,"TargetTick":46,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2643555,"y":0.9644253},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9492684Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.965]
+Sending Packet {"StartTick":49,"TargetTick":47,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26435307,"y":0.964426},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9659092Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.982]
+Sending Packet {"StartTick":50,"TargetTick":48,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26435646,"y":0.9644251},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9828502Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:11.999]
+Sending Packet {"StartTick":51,"TargetTick":49,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26435342,"y":0.96442586},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:11.9992662Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.015]
+Sending Packet {"StartTick":52,"TargetTick":50,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2643558,"y":0.96442527},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0159144Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.032]
+Sending Packet {"StartTick":53,"TargetTick":51,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26435506,"y":0.96442544},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0325744Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.049]
+Sending Packet {"StartTick":54,"TargetTick":52,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26497585,"y":0.96425503},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0492128Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.065]
+Sending Packet {"StartTick":55,"TargetTick":53,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26506147,"y":0.96423155},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0658856Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.082]
+Sending Packet {"StartTick":56,"TargetTick":54,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26600593,"y":0.9639714},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0825164Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.099]
+Sending Packet {"StartTick":57,"TargetTick":55,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26696554,"y":0.96370614},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.0991829Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.116]
+Sending Packet {"StartTick":58,"TargetTick":56,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2679401,"y":0.9634356},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1160796Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.132]
+Sending Packet {"StartTick":59,"TargetTick":57,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26893142,"y":0.9631593},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1325247Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.149]
+Sending Packet {"StartTick":60,"TargetTick":58,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26993945,"y":0.9628773},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1492028Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.165]
+Sending Packet {"StartTick":61,"TargetTick":59,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2757744,"y":0.9612224},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1658520Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.182]
+Sending Packet {"StartTick":62,"TargetTick":60,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.28166565,"y":0.9595126},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1825276Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.199]
+Sending Packet {"StartTick":63,"TargetTick":61,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.28504783,"y":0.9585133},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.1991699Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.216]
+Sending Packet {"StartTick":64,"TargetTick":62,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.29076275,"y":0.9567952},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2161911Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.232]
+Sending Packet {"StartTick":65,"TargetTick":63,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.29393727,"y":0.95582473},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2325168Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.249]
+Sending Packet {"StartTick":66,"TargetTick":64,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2953956,"y":0.9553751},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2491763Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.265]
+Sending Packet {"StartTick":67,"TargetTick":65,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.30066007,"y":0.9537314},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2658344Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.282]
+Sending Packet {"StartTick":68,"TargetTick":66,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.3021792,"y":0.9532511},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2825020Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.299]
+Sending Packet {"StartTick":69,"TargetTick":67,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.30605882,"y":0.9520126},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.2991756Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.315]
+Sending Packet {"StartTick":70,"TargetTick":68,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.31377295,"y":0.94949806},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3158522Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.332]
+Sending Packet {"StartTick":71,"TargetTick":69,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.3180489,"y":0.9480743},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3325207Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.349]
+Sending Packet {"StartTick":72,"TargetTick":70,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.32647395,"y":0.94520617},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3491872Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.365]
+Sending Packet {"StartTick":73,"TargetTick":71,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.33731595,"y":0.94139147},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3659032Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.382]
+Sending Packet {"StartTick":74,"TargetTick":72,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.35123584,"y":0.93628705},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3825103Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.399]
+Sending Packet {"StartTick":75,"TargetTick":73,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.35884345,"y":0.93339777},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.3991662Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.415]
+Sending Packet {"StartTick":76,"TargetTick":74,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.37438694,"y":0.92727256},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4158904Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.432]
+Sending Packet {"StartTick":77,"TargetTick":75,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.38383347,"y":0.92340237},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4325645Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.449]
+Sending Packet {"StartTick":78,"TargetTick":76,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.39379317,"y":0.9191991},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4491490Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.465]
+Sending Packet {"StartTick":79,"TargetTick":77,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.40745723,"y":0.9132243},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4659933Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.482]
+Sending Packet {"StartTick":80,"TargetTick":78,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.42007855,"y":0.9074878},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4825167Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.499]
+Sending Packet {"StartTick":81,"TargetTick":79,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.43268153,"y":0.90154684},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.4993872Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.515]
+Sending Packet {"StartTick":82,"TargetTick":80,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.44116822,"y":0.8974244},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5158565Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.532]
+Sending Packet {"StartTick":83,"TargetTick":81,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.45516145,"y":0.89040893},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5325814Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.549]
+Sending Packet {"StartTick":84,"TargetTick":82,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.46618885,"y":0.8846852},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5491736Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.565]
+Sending Packet {"StartTick":85,"TargetTick":83,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.4846256,"y":0.8747217},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5659346Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.582]
+Sending Packet {"StartTick":86,"TargetTick":84,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.50095236,"y":0.8654749},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5826002Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.599]
+Sending Packet {"StartTick":87,"TargetTick":85,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.5243589,"y":0.8514973},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.5992274Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.615]
+Sending Packet {"StartTick":88,"TargetTick":86,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.56266636,"y":0.82668406},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6158192Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.632]
+Sending Packet {"StartTick":89,"TargetTick":87,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.59476674,"y":0.8038983},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6326715Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.649]
+Sending Packet {"StartTick":90,"TargetTick":88,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6279902,"y":0.7782213},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6493244Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.665]
+Sending Packet {"StartTick":91,"TargetTick":89,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.66379553,"y":0.74791414},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6659894Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.682]
+Sending Packet {"StartTick":92,"TargetTick":90,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.75391734,"y":0.65696925},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6826791Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.699]
+Sending Packet {"StartTick":93,"TargetTick":91,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7895103,"y":0.6137372},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.6993290Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.715]
+Sending Packet {"StartTick":94,"TargetTick":92,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8130715,"y":0.5821638},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7159159Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.732]
+Sending Packet {"StartTick":95,"TargetTick":93,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8356561,"y":0.5492531},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7327437Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.749]
+Sending Packet {"StartTick":96,"TargetTick":94,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8536126,"y":0.52090836},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7492351Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.765]
+Sending Packet {"StartTick":97,"TargetTick":95,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.87848264,"y":0.4777743},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7659867Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.782]
+Sending Packet {"StartTick":98,"TargetTick":96,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8985256,"y":0.43892115},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7826475Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.799]
+Sending Packet {"StartTick":99,"TargetTick":97,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9197212,"y":0.39257213},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.7994230Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.815]
+Sending Packet {"StartTick":100,"TargetTick":98,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.93630147,"y":0.3511973},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8159134Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.832]
+Sending Packet {"StartTick":101,"TargetTick":99,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9490537,"y":0.3151144},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8326257Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.849]
+Sending Packet {"StartTick":102,"TargetTick":100,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.96083254,"y":0.2771295},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8494729Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.865]
+Sending Packet {"StartTick":103,"TargetTick":101,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.967954,"y":0.25112757},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8659687Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.882]
+Sending Packet {"StartTick":104,"TargetTick":102,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9743913,"y":0.22485909},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8826365Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.899]
+Sending Packet {"StartTick":105,"TargetTick":103,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9766945,"y":0.214634},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.8992732Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.916]
+Sending Packet {"StartTick":106,"TargetTick":104,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9766938,"y":0.21463741},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9161189Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.932]
+Sending Packet {"StartTick":107,"TargetTick":105,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9766919,"y":0.21464601},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9327127Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.949]
+Sending Packet {"StartTick":108,"TargetTick":106,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9766923,"y":0.21464401},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9494756Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.966]
+Sending Packet {"StartTick":109,"TargetTick":107,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9766907,"y":0.21465135},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9660926Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.982]
+Sending Packet {"StartTick":110,"TargetTick":108,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.97732085,"y":0.21176398},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9827820Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:12.999]
+Sending Packet {"StartTick":111,"TargetTick":109,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9746165,"y":0.2238807},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:12.9993514Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.015]
+Sending Packet {"StartTick":112,"TargetTick":110,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9676904,"y":0.25214162},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0158877Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.032]
+Sending Packet {"StartTick":113,"TargetTick":111,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9190676,"y":0.39409992},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0326504Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.049]
+Sending Packet {"StartTick":114,"TargetTick":112,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9074271,"y":0.42020962},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0493289Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.066]
+Sending Packet {"StartTick":115,"TargetTick":113,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8946782,"y":0.44671118},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0660599Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.082]
+Sending Packet {"StartTick":116,"TargetTick":114,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.87583274,"y":0.4826148},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0826096Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.099]
+Sending Packet {"StartTick":117,"TargetTick":115,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.86230135,"y":0.50639546},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.0993610Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.118]
+Sending Packet {"StartTick":118,"TargetTick":116,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.84265774,"y":0.5384496},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1188985Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.132]
+Sending Packet {"StartTick":119,"TargetTick":117,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8307598,"y":0.556631},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1328085Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.149]
+Sending Packet {"StartTick":120,"TargetTick":118,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.80702996,"y":0.5905104},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1494444Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.166]
+Sending Packet {"StartTick":121,"TargetTick":119,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7915739,"y":0.61107355},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1660547Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.182]
+Sending Packet {"StartTick":122,"TargetTick":120,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.77463526,"y":0.6324082},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1827794Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.199]
+Sending Packet {"StartTick":123,"TargetTick":121,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7621284,"y":0.64742595},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.1992841Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.216]
+Sending Packet {"StartTick":124,"TargetTick":122,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.74487877,"y":0.6671998},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2161111Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.232]
+Sending Packet {"StartTick":125,"TargetTick":123,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.71857625,"y":0.69544816},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2327453Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.249]
+Sending Packet {"StartTick":126,"TargetTick":124,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6938781,"y":0.7200925},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2493465Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.266]
+Sending Packet {"StartTick":127,"TargetTick":125,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.67599833,"y":0.73690313},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2660991Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.282]
+Sending Packet {"StartTick":128,"TargetTick":126,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6667418,"y":0.74528885},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2826875Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.299]
+Sending Packet {"StartTick":129,"TargetTick":127,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.655138,"y":0.75550914},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.2994361Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.315]
+Sending Packet {"StartTick":130,"TargetTick":128,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6381223,"y":0.76993495},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3160101Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.332]
+Sending Packet {"StartTick":131,"TargetTick":129,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6163085,"y":0.78750485},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3327592Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.349]
+Sending Packet {"StartTick":132,"TargetTick":130,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.58025163,"y":0.81443727},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3493487Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.365]
+Sending Packet {"StartTick":133,"TargetTick":131,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.5350764,"y":0.84480363},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3660769Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.382]
+Sending Packet {"StartTick":134,"TargetTick":132,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.4954363,"y":0.86864424},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3827004Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.399]
+Sending Packet {"StartTick":135,"TargetTick":133,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.451634,"y":0.8922033},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.3993583Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.419]
+Sending Packet {"StartTick":136,"TargetTick":134,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.42396694,"y":0.9056776},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4191927Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.432]
+Sending Packet {"StartTick":137,"TargetTick":135,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.39242542,"y":0.91978383},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4326472Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.449]
+Sending Packet {"StartTick":138,"TargetTick":136,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.36189303,"y":0.9322196},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4494053Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.465]
+Sending Packet {"StartTick":139,"TargetTick":137,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.33577725,"y":0.9419414},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4660178Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.482]
+Sending Packet {"StartTick":140,"TargetTick":138,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.30526868,"y":0.9522663},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4827817Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.499]
+Sending Packet {"StartTick":141,"TargetTick":139,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2791823,"y":0.96023816},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.4993911Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.516]
+Sending Packet {"StartTick":142,"TargetTick":140,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.24171951,"y":0.9703462},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5161229Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.532]
+Sending Packet {"StartTick":143,"TargetTick":141,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.21464814,"y":0.9766915},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5328303Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.549]
+Sending Packet {"StartTick":144,"TargetTick":142,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.18836808,"y":0.9820985},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5493825Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.565]
+Sending Packet {"StartTick":145,"TargetTick":143,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.17369843,"y":0.9847989},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5660286Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.582]
+Sending Packet {"StartTick":146,"TargetTick":144,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.1396689,"y":0.99019825},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5827092Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.599]
+Sending Packet {"StartTick":147,"TargetTick":145,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.10968075,"y":0.9939669},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.5993134Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.615]
+Sending Packet {"StartTick":148,"TargetTick":146,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.071778424,"y":0.9974206},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6159557Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.632]
+Sending Packet {"StartTick":149,"TargetTick":147,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.029731715,"y":0.9995579},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6327620Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.649]
+Sending Packet {"StartTick":150,"TargetTick":148,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.008634764,"y":0.9999627},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6493722Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.666]
+Sending Packet {"StartTick":151,"TargetTick":149,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.03931056,"y":0.99922705},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6660895Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.682]
+Sending Packet {"StartTick":152,"TargetTick":150,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.058430832,"y":0.9982915},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6826425Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.699]
+Sending Packet {"StartTick":153,"TargetTick":151,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.085089006,"y":0.99637336},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.6993659Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.716]
+Sending Packet {"StartTick":154,"TargetTick":152,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.11205402,"y":0.9937021},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7160968Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.732]
+Sending Packet {"StartTick":155,"TargetTick":153,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.13585176,"y":0.99072915},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7328773Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.749]
+Sending Packet {"StartTick":156,"TargetTick":154,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.16289103,"y":0.986644},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7492905Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.765]
+Sending Packet {"StartTick":157,"TargetTick":155,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.17565833,"y":0.98445123},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7660120Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.782]
+Sending Packet {"StartTick":158,"TargetTick":156,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.18690804,"y":0.9823774},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7826608Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.799]
+Sending Packet {"StartTick":159,"TargetTick":157,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.19148543,"y":0.98149544},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.7992795Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.815]
+Sending Packet {"StartTick":160,"TargetTick":158,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2166489,"y":0.9762496},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8159623Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.832]
+Sending Packet {"StartTick":161,"TargetTick":159,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.24315968,"y":0.96998626},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8325989Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.849]
+Sending Packet {"StartTick":162,"TargetTick":160,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.27262473,"y":0.9621205},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8493079Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.865]
+Sending Packet {"StartTick":163,"TargetTick":161,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.3101797,"y":0.95067793},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8660628Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.882]
+Sending Packet {"StartTick":164,"TargetTick":162,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.34621525,"y":0.93815506},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8826134Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.899]
+Sending Packet {"StartTick":165,"TargetTick":163,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.3813928,"y":0.92441314},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.8993111Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.915]
+Sending Packet {"StartTick":166,"TargetTick":164,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.42253518,"y":0.90634656},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9159401Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.932]
+Sending Packet {"StartTick":167,"TargetTick":165,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.45397863,"y":0.8910126},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9326085Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.949]
+Sending Packet {"StartTick":168,"TargetTick":166,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.495282,"y":0.8687323},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9494585Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.965]
+Sending Packet {"StartTick":169,"TargetTick":167,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5428121,"y":0.8398541},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9659499Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.982]
+Sending Packet {"StartTick":170,"TargetTick":168,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.58385724,"y":0.8118563},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9826608Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:13.999]
+Sending Packet {"StartTick":171,"TargetTick":169,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.65147626,"y":0.7586691},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:13.9993189Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.015]
+Sending Packet {"StartTick":172,"TargetTick":170,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.7023635,"y":0.7118184},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0159540Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.032]
+Sending Packet {"StartTick":173,"TargetTick":171,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.7533292,"y":0.6576436},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0326367Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.049]
+Sending Packet {"StartTick":174,"TargetTick":172,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.8109513,"y":0.5851137},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0492673Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.065]
+Sending Packet {"StartTick":175,"TargetTick":173,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.8615607,"y":0.50765455},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0660001Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.082]
+Sending Packet {"StartTick":176,"TargetTick":174,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.90664387,"y":0.42189673},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0826539Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.099]
+Sending Packet {"StartTick":177,"TargetTick":175,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.93159914,"y":0.36348745},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.0993497Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.115]
+Sending Packet {"StartTick":178,"TargetTick":176,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9565007,"y":0.2917301},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1159537Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.132]
+Sending Packet {"StartTick":179,"TargetTick":177,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9736841,"y":0.22790213},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1325960Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.149]
+Sending Packet {"StartTick":180,"TargetTick":178,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.98582166,"y":0.16779633},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1493496Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.165]
+Sending Packet {"StartTick":181,"TargetTick":179,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.99439055,"y":0.10577058},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1659464Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.182]
+Sending Packet {"StartTick":182,"TargetTick":180,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9990967,"y":0.04249475},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1826237Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.199]
+Sending Packet {"StartTick":183,"TargetTick":181,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":1,"y":-2.7853292E-05},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.1993655Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.215]
+Sending Packet {"StartTick":184,"TargetTick":182,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9993542,"y":-0.03593387},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2159566Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.232]
+Sending Packet {"StartTick":185,"TargetTick":183,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.99616426,"y":-0.08750298},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2326429Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.249]
+Sending Packet {"StartTick":186,"TargetTick":184,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.99099,"y":-0.13393605},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2492738Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.268]
+Sending Packet {"StartTick":187,"TargetTick":185,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9812102,"y":-0.19294202},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2683884Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.282]
+Sending Packet {"StartTick":188,"TargetTick":186,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.97531956,"y":-0.22079797},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2826168Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.299]
+Sending Packet {"StartTick":189,"TargetTick":187,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9639453,"y":-0.26610035},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.2993091Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.315]
+Sending Packet {"StartTick":190,"TargetTick":188,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.94536316,"y":-0.3260192},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3159193Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.332]
+Sending Packet {"StartTick":191,"TargetTick":189,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.9257588,"y":-0.37811467},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3326066Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.349]
+Sending Packet {"StartTick":192,"TargetTick":190,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.8827206,"y":-0.4698982},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3493101Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.365]
+Sending Packet {"StartTick":193,"TargetTick":191,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.82127225,"y":-0.5705365},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3660010Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.382]
+Sending Packet {"StartTick":194,"TargetTick":192,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.7605517,"y":-0.6492774},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3827228Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.399]
+Sending Packet {"StartTick":195,"TargetTick":193,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68607754,"y":-0.7275284},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.3994223Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.415]
+Sending Packet {"StartTick":196,"TargetTick":194,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.59245956,"y":-0.8056002},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4160018Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.432]
+Sending Packet {"StartTick":197,"TargetTick":195,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.48898622,"y":-0.8722915},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4326311Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.449]
+Sending Packet {"StartTick":198,"TargetTick":196,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.37788045,"y":-0.92585444},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4492829Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.465]
+Sending Packet {"StartTick":199,"TargetTick":197,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2870327,"y":-0.9579208},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4659749Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.482]
+Sending Packet {"StartTick":200,"TargetTick":198,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.19012444,"y":-0.98175997},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4826132Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.499]
+Sending Packet {"StartTick":201,"TargetTick":199,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.11179404,"y":-0.9937314},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.4992907Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.515]
+Sending Packet {"StartTick":202,"TargetTick":200,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.062836915,"y":-0.9980238},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.5159458Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.535]
+Sending Packet {"StartTick":203,"TargetTick":201,"PlayerMoveDirArr":[{"x":0,"y":1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.014987599,"y":-0.9998877},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.5357694Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.549]
+Sending Packet {"StartTick":204,"TargetTick":202,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.014583887,"y":-0.99989367},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.5493483Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.565]
+Sending Packet {"StartTick":205,"TargetTick":203,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.00874907,"y":-0.9999617},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.5659770Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.584]
+Sending Packet {"StartTick":206,"TargetTick":204,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.008748982,"y":-0.9999617},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.5841402Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.601]
+Sending Packet {"StartTick":207,"TargetTick":205,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.04262956,"y":-0.99909097},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6012660Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.617]
+Sending Packet {"StartTick":208,"TargetTick":206,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.052228946,"y":-0.9986351},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6175355Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.633]
+Sending Packet {"StartTick":209,"TargetTick":207,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053175587,"y":-0.9985852},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6335656Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.651]
+Sending Packet {"StartTick":210,"TargetTick":208,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053250775,"y":-0.9985812},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6511875Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.667]
+Sending Packet {"StartTick":211,"TargetTick":209,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053266734,"y":-0.99858034},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6675366Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.685]
+Sending Packet {"StartTick":212,"TargetTick":210,"PlayerMoveDirArr":[{"x":0.707107,"y":0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053264555,"y":-0.9985804},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6851768Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.699]
+Sending Packet {"StartTick":213,"TargetTick":211,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053263992,"y":-0.9985805},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.6993339Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.718]
+Sending Packet {"StartTick":214,"TargetTick":212,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.05325455,"y":-0.99858093},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.7180506Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.734]
+Sending Packet {"StartTick":215,"TargetTick":213,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.053247172,"y":-0.99858135},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.7342012Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.825]
+Sending Packet {"StartTick":216,"TargetTick":214,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.069590084,"y":-0.99757564},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.8255752Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.928]
+Sending Packet {"StartTick":217,"TargetTick":215,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07434632,"y":-0.99723244},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.9281116Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.929]
+Sending Packet {"StartTick":218,"TargetTick":216,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.13882066,"y":-0.9903175},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.9298854Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.944]
+Sending Packet {"StartTick":219,"TargetTick":0,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.26013142,"y":-0.96551275},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.9448771Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.961]
+Sending Packet {"StartTick":220,"TargetTick":219,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.074855864,"y":-0.9971944},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.9615522Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:14.978]
+Sending Packet {"StartTick":221,"TargetTick":0,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485404,"y":-0.99719447},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:14.9782049Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.001]
+Sending Packet {"StartTick":222,"TargetTick":222,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.08197767,"y":-0.9966342},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0011799Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.016]
+Sending Packet {"StartTick":223,"TargetTick":223,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.084805466,"y":-0.99639755},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0169081Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.034]
+Sending Packet {"StartTick":224,"TargetTick":224,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07905795,"y":-0.99687},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0347192Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.050]
+Sending Packet {"StartTick":225,"TargetTick":225,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07458385,"y":-0.99721473},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0502362Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.066]
+Sending Packet {"StartTick":226,"TargetTick":226,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07484323,"y":-0.9971953},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0665093Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.084]
+Sending Packet {"StartTick":227,"TargetTick":227,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07490958,"y":-0.9971903},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.0841490Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.100]
+Sending Packet {"StartTick":228,"TargetTick":228,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07720442,"y":-0.9970153},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1009941Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.111]
+Sending Packet {"StartTick":229,"TargetTick":229,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.077125885,"y":-0.9970213},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1115604Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.133]
+Sending Packet {"StartTick":230,"TargetTick":230,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.076843284,"y":-0.9970432},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1337189Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.144]
+Sending Packet {"StartTick":231,"TargetTick":231,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07670147,"y":-0.9970541},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1448555Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.167]
+Sending Packet {"StartTick":232,"TargetTick":232,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07621819,"y":-0.9970911},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1680279Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.178]
+Sending Packet {"StartTick":233,"TargetTick":233,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.0760033,"y":-0.99710757},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.1781757Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.200]
+Sending Packet {"StartTick":234,"TargetTick":234,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07531955,"y":-0.9971595},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2004948Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.211]
+Sending Packet {"StartTick":235,"TargetTick":235,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07512973,"y":-0.9971738},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2115272Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.234]
+Sending Packet {"StartTick":236,"TargetTick":236,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07488197,"y":-0.9971924},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2345984Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.250]
+Sending Packet {"StartTick":237,"TargetTick":237,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07486337,"y":-0.9971938},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2500353Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.267]
+Sending Packet {"StartTick":238,"TargetTick":238,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07486041,"y":-0.99719405},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2675236Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.282]
+Sending Packet {"StartTick":239,"TargetTick":239,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.074859135,"y":-0.9971941},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.2829808Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.300]
+Sending Packet {"StartTick":240,"TargetTick":240,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.0748633,"y":-0.99719375},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3009602Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.316]
+Sending Packet {"StartTick":241,"TargetTick":241,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485851,"y":-0.9971942},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3163392Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.332]
+Sending Packet {"StartTick":242,"TargetTick":242,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485673,"y":-0.9971943},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3328190Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.351]
+Sending Packet {"StartTick":243,"TargetTick":243,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485649,"y":-0.9971943},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3510625Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.366]
+Sending Packet {"StartTick":244,"TargetTick":244,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485471,"y":-0.99719447},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3660695Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.378]
+Sending Packet {"StartTick":245,"TargetTick":245,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485595,"y":-0.9971944},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.3781974Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.400]
+Sending Packet {"StartTick":246,"TargetTick":246,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485719,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4009135Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.411]
+Sending Packet {"StartTick":247,"TargetTick":247,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.074857704,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4115137Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.432]
+Sending Packet {"StartTick":248,"TargetTick":248,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485737,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4328448Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.444]
+Sending Packet {"StartTick":249,"TargetTick":249,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485707,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4448560Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.467]
+Sending Packet {"StartTick":250,"TargetTick":250,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.0748575,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4676994Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.478]
+Sending Packet {"StartTick":251,"TargetTick":251,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485719,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.4782040Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.501]
+Sending Packet {"StartTick":252,"TargetTick":252,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.07485729,"y":-0.99719423},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5018139Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.517]
+Sending Packet {"StartTick":253,"TargetTick":253,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.14803691,"y":-0.98898184},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5173052Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.535]
+Sending Packet {"StartTick":254,"TargetTick":254,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.2790757,"y":-0.96026903},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5354875Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.544]
+Sending Packet {"StartTick":255,"TargetTick":255,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.38951832,"y":-0.92101866},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5448766Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.561]
+Sending Packet {"StartTick":256,"TargetTick":256,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.54502714,"y":-0.8384184},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5615407Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.578]
+Sending Packet {"StartTick":257,"TargetTick":257,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6753799,"y":-0.7374701},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5781789Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.594]
+Sending Packet {"StartTick":258,"TargetTick":258,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.78094506,"y":-0.6245997},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.5948850Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.611]
+Sending Packet {"StartTick":259,"TargetTick":259,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.87007344,"y":-0.49292207},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6115516Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.628]
+Sending Packet {"StartTick":260,"TargetTick":260,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.92264324,"y":-0.38565457},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6282204Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.644]
+Sending Packet {"StartTick":261,"TargetTick":261,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.95504946,"y":-0.29644647},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6448830Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.671]
+Sending Packet {"StartTick":262,"TargetTick":262,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.98989075,"y":-0.14183217},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6716461Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.678]
+Sending Packet {"StartTick":263,"TargetTick":263,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.99712205,"y":-0.07581332},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6782504Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.694]
+Sending Packet {"StartTick":264,"TargetTick":264,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9999305,"y":0.011786609},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.6948597Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.717]
+Sending Packet {"StartTick":265,"TargetTick":265,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9859425,"y":0.16708495},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7175496Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.728]
+Sending Packet {"StartTick":266,"TargetTick":266,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9746106,"y":0.22390647},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7282106Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.751]
+Sending Packet {"StartTick":267,"TargetTick":267,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.9351879,"y":0.3541521},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7511167Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.768]
+Sending Packet {"StartTick":268,"TargetTick":268,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.90593225,"y":0.42342263},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7680963Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.778]
+Sending Packet {"StartTick":269,"TargetTick":269,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8913965,"y":0.45322418},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7781699Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.794]
+Sending Packet {"StartTick":270,"TargetTick":270,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8670781,"y":0.49817222},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.7948500Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.811]
+Sending Packet {"StartTick":271,"TargetTick":271,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8451274,"y":0.5345649},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.8115325Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.834]
+Sending Packet {"StartTick":272,"TargetTick":272,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8172936,"y":0.5762214},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.8341280Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.844]
+Sending Packet {"StartTick":273,"TargetTick":273,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.8089205,"y":0.5879181},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.8448426Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.867]
+Sending Packet {"StartTick":274,"TargetTick":274,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.80055547,"y":0.59925866},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.8674246Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.878]
+Sending Packet {"StartTick":275,"TargetTick":275,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.80055565,"y":0.59925854},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.8784803Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.900]
+Sending Packet {"StartTick":276,"TargetTick":276,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.80055535,"y":0.59925884},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9008743Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.917]
+Sending Packet {"StartTick":277,"TargetTick":277,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.78954387,"y":0.6136941},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9177010Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.934]
+Sending Packet {"StartTick":278,"TargetTick":278,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7891078,"y":0.6142547},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9345468Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.952]
+Sending Packet {"StartTick":279,"TargetTick":279,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7890196,"y":0.6143681},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9525888Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.967]
+Sending Packet {"StartTick":280,"TargetTick":280,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.78900105,"y":0.6143919},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9670891Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.982]
+Sending Packet {"StartTick":281,"TargetTick":281,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.78899646,"y":0.61439764},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9829191Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:15.994]
+Sending Packet {"StartTick":282,"TargetTick":282,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7861402,"y":0.61804813},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[1,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:15.9948494Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.011]
+Sending Packet {"StartTick":283,"TargetTick":283,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.777608,"y":0.6287494},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.0115250Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.028]
+Sending Packet {"StartTick":284,"TargetTick":284,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.7614282,"y":0.64824927},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.0282053Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.051]
+Sending Packet {"StartTick":285,"TargetTick":285,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.73523426,"y":0.67781305},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.0511178Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.066]
+Sending Packet {"StartTick":286,"TargetTick":286,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.71194726,"y":0.70223284},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.0662255Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.083]
+Sending Packet {"StartTick":287,"TargetTick":287,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6878936,"y":0.7258115},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.0834756Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.101]
+Sending Packet {"StartTick":288,"TargetTick":288,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.6611087,"y":0.7502901},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1017001Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.118]
+Sending Packet {"StartTick":289,"TargetTick":289,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.61747086,"y":0.7865938},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1182873Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.135]
+Sending Packet {"StartTick":290,"TargetTick":290,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.5544792,"y":0.83219767},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1352053Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.149]
+Sending Packet {"StartTick":291,"TargetTick":291,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.48325372,"y":0.8754804},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1500123Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.167]
+Sending Packet {"StartTick":292,"TargetTick":292,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.39765278,"y":0.91753596},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1675610Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.178]
+Sending Packet {"StartTick":293,"TargetTick":293,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.35420686,"y":0.9351671},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.1781910Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.202]
+Sending Packet {"StartTick":294,"TargetTick":294,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.24847652,"y":0.96863794},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2023693Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.216]
+Sending Packet {"StartTick":295,"TargetTick":295,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.16226687,"y":0.9867469},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2167448Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.228]
+Sending Packet {"StartTick":296,"TargetTick":296,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.12666307,"y":0.9919458},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2285364Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.244]
+Sending Packet {"StartTick":297,"TargetTick":297,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":-0.029639624,"y":0.99956065},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2449019Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.261]
+Sending Packet {"StartTick":298,"TargetTick":298,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.052617345,"y":0.9986147},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2615160Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.283]
+Sending Packet {"StartTick":299,"TargetTick":299,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.14215632,"y":0.9898442},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.2834574Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.304]
+Sending Packet {"StartTick":300,"TargetTick":300,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.18667607,"y":0.9824216},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3046419Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.311]
+Sending Packet {"StartTick":301,"TargetTick":301,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2111656,"y":0.9774503},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3115452Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.334]
+Sending Packet {"StartTick":302,"TargetTick":302,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2498924,"y":0.96827364},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3347268Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.352]
+Sending Packet {"StartTick":303,"TargetTick":303,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2605509,"y":0.9654601},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3520321Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.367]
+Sending Packet {"StartTick":304,"TargetTick":304,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3671500Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.382]
+Sending Packet {"StartTick":305,"TargetTick":305,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.3825254Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.405]
+Sending Packet {"StartTick":306,"TargetTick":306,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[{"ActionCode":0,"Subject":0,"Objects":[]}],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4052512Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.416]
+Sending Packet {"StartTick":307,"TargetTick":307,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4168965Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.428]
+Sending Packet {"StartTick":308,"TargetTick":308,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4281878Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.449]
+Sending Packet {"StartTick":309,"TargetTick":309,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4499765Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.466]
+Sending Packet {"StartTick":310,"TargetTick":310,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4660745Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.482]
+Sending Packet {"StartTick":311,"TargetTick":311,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4826181Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.498]
+Sending Packet {"StartTick":312,"TargetTick":312,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.4990012Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.516]
+Sending Packet {"StartTick":313,"TargetTick":313,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5160820Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.533]
+Sending Packet {"StartTick":314,"TargetTick":314,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5332512Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.549]
+Sending Packet {"StartTick":315,"TargetTick":315,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5496980Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.566]
+Sending Packet {"StartTick":316,"TargetTick":316,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5665333Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.582]
+Sending Packet {"StartTick":317,"TargetTick":317,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5829175Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.599]
+Sending Packet {"StartTick":318,"TargetTick":318,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.2631246,"y":0.96476185},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.5997417Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.616]
+Sending Packet {"StartTick":319,"TargetTick":319,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.27336404,"y":0.96191067},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.6168681Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.633]
+Sending Packet {"StartTick":320,"TargetTick":320,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.30599582,"y":0.9520328},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.6336134Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.650]
+Sending Packet {"StartTick":321,"TargetTick":321,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.34053397,"y":0.9402322},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.6504994Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.667]
+Sending Packet {"StartTick":322,"TargetTick":322,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.3735197,"y":0.9276223},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.6673413Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.678]
+Sending Packet {"StartTick":323,"TargetTick":323,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.3962127,"y":0.91815877},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.6782495Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.700]
+Sending Packet {"StartTick":324,"TargetTick":324,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.44939706,"y":0.8933322},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7002899Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.717]
+Sending Packet {"StartTick":325,"TargetTick":325,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.48177448,"y":0.8762952},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7174071Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.733]
+Sending Packet {"StartTick":326,"TargetTick":326,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5153994,"y":0.8569501},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7337353Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.749]
+Sending Packet {"StartTick":327,"TargetTick":327,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5500123,"y":0.8351565},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7493709Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.766]
+Sending Packet {"StartTick":328,"TargetTick":328,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5805219,"y":0.8142447},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7665004Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.784]
+Sending Packet {"StartTick":329,"TargetTick":329,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6061116,"y":0.79537964},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7843441Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.799]
+Sending Packet {"StartTick":330,"TargetTick":330,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6263875,"y":0.77951187},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.7999701Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.817]
+Sending Packet {"StartTick":331,"TargetTick":331,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.64171064,"y":0.7669468},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8175279Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.832]
+Sending Packet {"StartTick":332,"TargetTick":332,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6512672,"y":0.75884855},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8329981Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.850]
+Sending Packet {"StartTick":333,"TargetTick":333,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6619064,"y":0.74958646},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8503805Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.866]
+Sending Packet {"StartTick":334,"TargetTick":334,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.66713566,"y":0.7449362},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8665135Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.882]
+Sending Packet {"StartTick":335,"TargetTick":335,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6735752,"y":0.7391187},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8825190Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.899]
+Sending Packet {"StartTick":336,"TargetTick":336,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.681222,"y":0.7320768},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.8993238Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.916]
+Sending Packet {"StartTick":337,"TargetTick":337,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68369204,"y":0.7297706},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.9166237Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.932]
+Sending Packet {"StartTick":338,"TargetTick":338,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68140906,"y":0.73190284},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.9328558Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.949]
+Sending Packet {"StartTick":339,"TargetTick":339,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6826398,"y":0.73075503},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.9495794Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.966]
+Sending Packet {"StartTick":340,"TargetTick":340,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6823196,"y":0.73105407},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.9665617Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:16.982]
+Sending Packet {"StartTick":341,"TargetTick":341,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6822271,"y":0.7311403},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:16.9828565Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.000]
+Sending Packet {"StartTick":342,"TargetTick":342,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68219405,"y":0.7311712},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0003257Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.015]
+Sending Packet {"StartTick":343,"TargetTick":343,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6822591,"y":0.7311106},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0154092Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.031]
+Sending Packet {"StartTick":344,"TargetTick":344,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6823885,"y":0.73098975},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0319896Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.048]
+Sending Packet {"StartTick":345,"TargetTick":345,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68259573,"y":0.73079616},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0486575Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.066]
+Sending Packet {"StartTick":346,"TargetTick":346,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6828657,"y":0.730544},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0669068Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.082]
+Sending Packet {"StartTick":347,"TargetTick":347,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6832062,"y":0.7302255},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0827832Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.099]
+Sending Packet {"StartTick":348,"TargetTick":348,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6836209,"y":0.72983724},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.0994118Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.117]
+Sending Packet {"StartTick":349,"TargetTick":349,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.68409884,"y":0.7293893},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1170383Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.132]
+Sending Packet {"StartTick":350,"TargetTick":350,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6845126,"y":0.729001},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1326060Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.150]
+Sending Packet {"StartTick":351,"TargetTick":351,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6821445,"y":0.7312173},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1506644Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.167]
+Sending Packet {"StartTick":352,"TargetTick":352,"PlayerMoveDirArr":[{"x":1,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.6493874,"y":0.76045775},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1676998Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.178]
+Sending Packet {"StartTick":353,"TargetTick":353,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.62859464,"y":0.7777331},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1783860Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.195]
+Sending Packet {"StartTick":354,"TargetTick":354,"PlayerMoveDirArr":[{"x":0.707107,"y":-0.707107},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5872633,"y":0.809396},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.1950455Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.216]
+Sending Packet {"StartTick":355,"TargetTick":355,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.5443782,"y":0.8388399},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2163764Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.228]
+Sending Packet {"StartTick":356,"TargetTick":356,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2283862Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.249]
+Sending Packet {"StartTick":357,"TargetTick":357,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2497695Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.266]
+Sending Packet {"StartTick":358,"TargetTick":358,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2668661Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.282]
+Sending Packet {"StartTick":359,"TargetTick":359,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2825292Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.298]
+Sending Packet {"StartTick":360,"TargetTick":360,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.2989937Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.315]
+Sending Packet {"StartTick":361,"TargetTick":361,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.3159944Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.333]
+Sending Packet {"StartTick":362,"TargetTick":362,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.3332334Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.349]
+Sending Packet {"StartTick":363,"TargetTick":363,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.3499656Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.368]
+Sending Packet {"StartTick":364,"TargetTick":364,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.3683844Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.384]
+Sending Packet {"StartTick":365,"TargetTick":365,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.3842658Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.400]
+Sending Packet {"StartTick":366,"TargetTick":366,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4000962Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.416]
+Sending Packet {"StartTick":367,"TargetTick":367,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4163828Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.428]
+Sending Packet {"StartTick":368,"TargetTick":368,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4283699Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.445]
+Sending Packet {"StartTick":369,"TargetTick":369,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4450522Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.468]
+Sending Packet {"StartTick":370,"TargetTick":370,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4686598Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.478]
+Sending Packet {"StartTick":371,"TargetTick":371,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4784028Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.495]
+Sending Packet {"StartTick":372,"TargetTick":372,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.4951812Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.516]
+Sending Packet {"StartTick":373,"TargetTick":373,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5162884Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.528]
+Sending Packet {"StartTick":374,"TargetTick":374,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5283906Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.553]
+Sending Packet {"StartTick":375,"TargetTick":375,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5538721Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.566]
+Sending Packet {"StartTick":376,"TargetTick":376,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5668160Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.584]
+Sending Packet {"StartTick":377,"TargetTick":377,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5843993Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.599]
+Sending Packet {"StartTick":378,"TargetTick":378,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.5996555Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.618]
+Sending Packet {"StartTick":379,"TargetTick":379,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6182175Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.632]
+Sending Packet {"StartTick":380,"TargetTick":380,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6328311Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.651]
+Sending Packet {"StartTick":381,"TargetTick":381,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6516386Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.661]
+Sending Packet {"StartTick":382,"TargetTick":382,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6617227Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.678]
+Sending Packet {"StartTick":383,"TargetTick":383,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6784422Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.695]
+Sending Packet {"StartTick":384,"TargetTick":384,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.6951394Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.711]
+Sending Packet {"StartTick":385,"TargetTick":385,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7117536Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.728]
+Sending Packet {"StartTick":386,"TargetTick":386,"PlayerMoveDirArr":[{"x":0,"y":-1},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7284319Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.750]
+Sending Packet {"StartTick":387,"TargetTick":387,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7500503Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.766]
+Sending Packet {"StartTick":388,"TargetTick":388,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7668992Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.783]
+Sending Packet {"StartTick":389,"TargetTick":389,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7839739Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.799]
+Sending Packet {"StartTick":390,"TargetTick":390,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.7994462Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.815]
+Sending Packet {"StartTick":391,"TargetTick":391,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8159104Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.832]
+Sending Packet {"StartTick":392,"TargetTick":392,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8326770Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.850]
+Sending Packet {"StartTick":393,"TargetTick":393,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8503374Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.866]
+Sending Packet {"StartTick":394,"TargetTick":394,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8662358Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.878]
+Sending Packet {"StartTick":395,"TargetTick":395,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8784167Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.896]
+Sending Packet {"StartTick":396,"TargetTick":396,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.8963543Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.916]
+Sending Packet {"StartTick":397,"TargetTick":397,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9164744Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.932]
+Sending Packet {"StartTick":398,"TargetTick":398,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9327281Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.949]
+Sending Packet {"StartTick":399,"TargetTick":399,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9493868Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.961]
+Sending Packet {"StartTick":400,"TargetTick":400,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9618034Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.982]
+Sending Packet {"StartTick":401,"TargetTick":401,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9829860Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:17.996]
+Sending Packet {"StartTick":402,"TargetTick":402,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:17.9965629Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.016]
+Sending Packet {"StartTick":403,"TargetTick":403,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0168521Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.031]
+Sending Packet {"StartTick":404,"TargetTick":404,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0317228Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.048]
+Sending Packet {"StartTick":405,"TargetTick":405,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0490285Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.065]
+Sending Packet {"StartTick":406,"TargetTick":406,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0659145Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.081]
+Sending Packet {"StartTick":407,"TargetTick":407,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0815911Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.099]
+Sending Packet {"StartTick":408,"TargetTick":408,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.0992442Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.115]
+Sending Packet {"StartTick":409,"TargetTick":409,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1155624Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.131]
+Sending Packet {"StartTick":410,"TargetTick":410,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1317641Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.148]
+Sending Packet {"StartTick":411,"TargetTick":411,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1488075Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.165]
+Sending Packet {"StartTick":412,"TargetTick":412,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1655500Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.182]
+Sending Packet {"StartTick":413,"TargetTick":413,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1827877Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.199]
+Sending Packet {"StartTick":414,"TargetTick":414,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.1994135Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.215]
+Sending Packet {"StartTick":415,"TargetTick":415,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2159546Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.228]
+Sending Packet {"StartTick":416,"TargetTick":416,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2284397Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.250]
+Sending Packet {"StartTick":417,"TargetTick":417,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2508801Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.267]
+Sending Packet {"StartTick":418,"TargetTick":418,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2670353Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.282]
+Sending Packet {"StartTick":419,"TargetTick":419,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2827698Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.299]
+Sending Packet {"StartTick":420,"TargetTick":420,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.2996800Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.312]
+Sending Packet {"StartTick":421,"TargetTick":421,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3122862Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.332]
+Sending Packet {"StartTick":422,"TargetTick":422,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3327902Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.349]
+Sending Packet {"StartTick":423,"TargetTick":423,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3498745Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.365]
+Sending Packet {"StartTick":424,"TargetTick":424,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3652768Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.382]
+Sending Packet {"StartTick":425,"TargetTick":425,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3829056Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.399]
+Sending Packet {"StartTick":426,"TargetTick":426,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.3992267Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.415]
+Sending Packet {"StartTick":427,"TargetTick":427,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4151250Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.431]
+Sending Packet {"StartTick":428,"TargetTick":428,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4316845Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.449]
+Sending Packet {"StartTick":429,"TargetTick":429,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4493110Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.465]
+Sending Packet {"StartTick":430,"TargetTick":430,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4658594Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.484]
+Sending Packet {"StartTick":431,"TargetTick":431,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4842782Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.496]
+Sending Packet {"StartTick":432,"TargetTick":432,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.4967848Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.515]
+Sending Packet {"StartTick":433,"TargetTick":433,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5157126Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.532]
+Sending Packet {"StartTick":434,"TargetTick":434,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5326094Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.550]
+Sending Packet {"StartTick":435,"TargetTick":435,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5503366Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.565]
+Sending Packet {"StartTick":436,"TargetTick":436,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5650458Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.585]
+Sending Packet {"StartTick":437,"TargetTick":437,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5852737Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.596]
+Sending Packet {"StartTick":438,"TargetTick":438,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.5968259Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.615]
+Sending Packet {"StartTick":439,"TargetTick":439,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.6156508Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.631]
+Sending Packet {"StartTick":440,"TargetTick":440,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.6316369Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.648]
+Sending Packet {"StartTick":441,"TargetTick":441,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.6487444Z
+Send Information: 0 : 
+[Date = 2022-10-28 오후 10:03:18.663]
+Sending Packet {"StartTick":442,"TargetTick":442,"PlayerMoveDirArr":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"PlayerLookDirArr":[{"x":0.52918845,"y":0.84850425},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"ButtonPressedArr":[0,0,0,0,0,0],"Actions":[],"Id":4102}
+    DateTime=2022-10-28T13:03:18.6634989Z

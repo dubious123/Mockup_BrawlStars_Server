@@ -1,11 +1,10 @@
-﻿using Tools = Server.Game.Base.Utils.Tools;
-
+﻿
 namespace Server.Game.Characters.Base.Skill
 {
 	public class BaseBasicAttack : BaseSkill
 	{
-		private readonly float _squaredRange = 2.89f;
-		private readonly float _angle = 45f;
+		private readonly sfloat _squaredRange = (sfloat)2.89f;
+		private readonly sfloat _angle = (sfloat)45f;
 		private bool _performing = false;
 		private IEnumerator<int> _coHandler;
 
@@ -71,8 +70,8 @@ namespace Server.Game.Characters.Base.Skill
 			{
 				if (other == Character) return false;
 				var targetDir = other.Position - Character.Position;
-				if (targetDir.LengthSquared() > _squaredRange) return false;
-				var angle = Tools.Angle(targetDir, Tools.Rotate(Character.Rotation, Vector3.UnitZ));
+				if (targetDir.sqrMagnitude > _squaredRange) return false;
+				var angle = sVector3.Angle(targetDir, sQuaternion.Rotate(Character.Rotation, sVector3.forward));
 				if (angle < -_angle || angle > _angle) return false;
 				return true;
 			});

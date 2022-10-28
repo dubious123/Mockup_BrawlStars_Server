@@ -1,14 +1,19 @@
-﻿namespace Server
+﻿
+
+namespace Server
 {
 	public class GameMgr
 	{
 		private static int _roomCount;
 		private static GameMgr _instance = new();
 		private ConcurrentDictionary<int, GameRoom> _roomDict;
+		private readonly ConcurrentDictionary<CharacterType, Func<GameRoom, short, BaseCharacter>> _charDict;
 
 		private GameMgr()
 		{
 			_roomDict = new();
+			_charDict = new();
+			_charDict.TryAdd(CharacterType.Dog, (game, teamId) => new Dog_Character(game, teamId));
 		}
 
 		public static void Init()
@@ -31,6 +36,11 @@
 		public static void EnterGame(Player player)
 		{
 			FindWaitingGame().Enter(player);
+		}
+
+		public static BaseCharacter CreateNewCharacter(GameRoom game, short teamId, CharacterType type)
+		{
+			return _instance._charDict[type].Invoke(game, teamId);
 		}
 
 		private static GameRoom FindWaitingGame()
