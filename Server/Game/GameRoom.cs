@@ -1,7 +1,5 @@
 ﻿namespace Server;
 
-using static Server.S_BroadcastGameState;
-
 public class GameRoom
 {
 	private readonly object _lock = new();
@@ -13,19 +11,14 @@ public class GameRoom
 	private int _gameStarted = 0;
 	private short _playerCount = 0;
 	private long _currentTick = 0;
-	private MapData _map;
 	private Player[] _players;
-	private CoroutineHelper _coHelper;
-	private S_BroadcastGameState _packet;
 
 	public GameRoom(int id, ushort mapId)
 	{
 		Id = id;
 		_players = new Player[_maxPlayerCount];
-		_coHelper = new();
 		State = GameState.Waiting;
 		MapId = mapId;
-		_map = MapMgr.GetMapData(mapId);
 		_gameQueue = JobMgr.GetQueue(Define.PacketGameQueueName);
 		_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
 		_coHandle = Co_Update();
@@ -42,20 +35,22 @@ public class GameRoom
 	public long CurrentTick { get => _currentTick; }
 	public Player[] Players { get => _players; }
 	public GameState State { get; init; }
-	public CoroutineHelper CoHelper => _coHelper;
 
 	private IEnumerator<float> Co_Update()
 	{
 		Player player;
 		_playerCount = 0;
+		var data = DataMgr.GetWorldData();
+		NetWorld world = new(data);
 
 		#region Ready Game
 		while (_enterBuffer.TryDequeue(out player))
 		{
 			_players[_playerCount] = player;
 			player.TeamId = _playerCount;
-			player.Character = GameMgr.CreateNewCharacter(this, player.TeamId, player.CharType);
-			player.Character.Position = new sVector3(_map.SpawnPosArr[_playerCount].x, sfloat.Zero, _map.SpawnPosArr[_playerCount].y);
+			player.Character = new NetCharacterDog(data.SpawnPoints[player.TeamId], sQuaternion.identity, world);
+			world.AddNewNetObject((uint)player.TeamId, player.Character);
+			player.CharType = CharacterType.Dog;
 			player.CurrentGame = this;
 			player.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{
@@ -80,27 +75,28 @@ public class GameRoom
 		}
 		#endregion
 
-		LogMgr.LogInfo($"\n[{DateTime.Now}.{DateTime.Now.Millisecond:000}]\n-------------Start Game--------------", Id, TraceSourceType.Game);
 
 		#region Broadcast start game
 		Broadcast(new S_BroadcastStartGame(0f)
 		{
-			CharacterTypeArr = _players.Select(p => (ushort)(p.Character.CharacterType)).ToArray(),
+			CharacterTypeArr = _players.Select(p => (ushort)(p.CharType)).ToArray(),
 		});
 		#endregion
 
 		yield return 0f;
-		StringBuilder sb = new("\n");
+
+		GameFrameInfo frameInfo = new(_maxPlayerCount);
 		while (true)
 		{
-			_packet = new();
-			sb.AppendLine($"[{DateTime.Now}.{DateTime.Now.Millisecond:000}]");
-			sb.AppendLine($"-------------Start Frame [{_currentTick}]--------------");
-			_coHelper.Update();
+			S_GameFrameInfo packet = new();
 			for (int i = 0; i < _maxPlayerCount; i++)
 			{
 				player = _players[i];
-				if (player is null) continue;
+				if (player is null)
+				{
+					continue;
+				}
+
 				while (player.InputBuffer.IsEmpty)
 				{
 					// todo
@@ -110,29 +106,20 @@ public class GameRoom
 				for (int j = player.InputBuffer.Count; j > 0; j--)
 				{
 					player.InputBuffer.TryDequeue(out var temp);
-					PlayerInput.Combine(in temp, in input, out input);
+					InputData.Combine(in temp, in input, out input);
 				}
-				_packet.PlayerMoveDirArr[i].X = (float)input.MoveDirX;
-				_packet.PlayerMoveDirArr[i].Y = (float)input.MoveDirY;
-				_packet.PlayerLookDirArr[i].X = (float)input.LookDirX;
-				_packet.PlayerLookDirArr[i].Y = (float)input.LookDirY;
-				_packet.ButtonPressedArr[i] = input.ButtonPressed;
-				_packet.TargetTick = input.ClientTargetTick;
-				_packet.StartTick = _currentTick;
-				player.Character.HandleInput(input);
+
+				frameInfo.Inputs[i] = input;
+				packet.PlayerMoveDirXArr[i] = input.MoveInput.x.RawValue;
+				packet.PlayerMoveDirYArr[i] = input.MoveInput.z.RawValue;
+				packet.PlayerLookDirXArr[i] = input.LookInput.x.RawValue;
+				packet.PlayerLookDirYArr[i] = input.LookInput.z.RawValue;
+				packet.ButtonPressedArr[i] = input.ButtonInput;
 			}
 
-			for (int i = 0; i < _maxPlayerCount; i++)
-			{
-				_players[i]?.Character.HandleOneFrame();
-				var pos = _players[i]?.Character.Position;
-				sb.AppendLine($"({pos?.x},{pos?.y},{pos?.z})");
-				sb.AppendLine(_players[i]?.Character.LookDir.ToString());
-			}
-			LogMgr.Log(sb.ToString(), TraceSourceType.Game);
-			sb.Clear();
-
-			Broadcast(_packet);
+			world.InputInfo = frameInfo;
+			world.Update();
+			Broadcast(packet);
 			_currentTick++;
 			yield return 0f;
 		}
@@ -173,19 +160,6 @@ public class GameRoom
 			if (player is null || i == hostTeamId) continue;
 			_sendQueue.Push(() => player.Session.RegisterSend(packet));
 		}
-	}
-
-	public IEnumerable<BaseCharacter> FindCharacters(Func<BaseCharacter, bool> condition)
-	{
-		return from player in _players
-			   where player is not null && condition(player.Character)
-			   select player.Character;
-	}
-
-	public void PushActionResult(uint actionCode, short subject, params short[] objects)
-	{
-		// Todo object pooling
-		_packet.Actions.Add(new GameActionResult(actionCode, subject, objects));
 	}
 
 	private void Exit(Player player)

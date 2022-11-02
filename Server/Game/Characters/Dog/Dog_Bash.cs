@@ -9,7 +9,7 @@
 		private sfloat _maxBashlength = (sfloat)10f;
 		private int _maxChargeTime = 90;
 		private int _holdingTimeLimit = 300;
-		private sfloat _bashSpeed = (sfloat)24;
+		private sfloat _bashSpeed = (sfloat)24f;
 		private int _coolTime = 300;
 
 		public Dog_Bash(BaseCharacter character, GameRoom game)
@@ -22,12 +22,19 @@
 
 		public override void HandleOneFrame()
 		{
-			if (_performing) _coHandler.MoveNext();
+			if (_performing)
+			{
+				_coHandler.MoveNext();
+			}
 		}
 
 		public override void HandleInput(bool buttonPressed)
 		{
-			if (Enabled == false) return;
+			if (Enabled == false)
+			{
+				return;
+			}
+
 			_buttonPressed = buttonPressed;
 			if (_performing == false && _buttonPressed)
 			{

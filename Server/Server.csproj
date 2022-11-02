@@ -17,14 +17,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Math\math\Extensions\**" />
-	  <EmbeddedResource Remove="Math\math\Extensions\**" />
-	  <None Remove="Math\math\Extensions\**" />
+	  <Compile Remove="Game\Characters\**" />
+	  <Compile Remove="Game\Math\math\Extensions\**" />
+	  <EmbeddedResource Remove="Game\Characters\**" />
+	  <EmbeddedResource Remove="Game\Math\math\Extensions\**" />
+	  <None Remove="Game\Characters\**" />
+	  <None Remove="Game\Math\math\Extensions\**" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="ICSharpCode.Decompiler" Version="7.2.1.6856" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="protobuf-net" Version="3.1.17" />
 	</ItemGroup>
 
@@ -35,7 +39,6 @@
 	<ItemGroup>
 		<Folder Include="DB\Configure\" />
 		<Folder Include="Data\" />
-		<Folder Include="Dto\" />
 	</ItemGroup>
 
 </Project>

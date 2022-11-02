@@ -1,8 +1,8 @@
 Network Information: 0 : 
-[Date = 2022-10-28 오후 10:03:01.409]
+[Date = 2022-11-02 오후 9:37:00.064]
 Listening to [fe80::594b:8e1b:d8c4:651%6]:7777
-    DateTime=2022-10-28T13:03:01.4290398Z
+    DateTime=2022-11-02T12:37:00.0896084Z
 Network Information: 0 : 
-[Date = 2022-10-28 오후 10:03:05.885]
-[server] connecting to [fe80::594b:8e1b:d8c4:651%6]:13579 completed
-    DateTime=2022-10-28T13:03:05.8856256Z
+[Date = 2022-11-02 오후 9:37:01.892]
+[server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10001 completed
+    DateTime=2022-11-02T12:37:01.8927276Z

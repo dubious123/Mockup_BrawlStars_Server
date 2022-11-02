@@ -1,5 +1,6 @@
 
 
+
 namespace Server
 {
 	public static class PacketHandler
@@ -13,7 +14,7 @@ namespace Server
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_GameReady, (packet, session) => C_GameReadyHandle(packet, session));
-			_handlerDict.TryAdd(PacketId.C_BroadcastPlayerInput, (packet, session) => C_BroadcastPlayerInputHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_PlayerInput, (packet, session) => C_PlayerInputHandle(packet, session));
 		}
 
 		public static void HandlePacket(BasePacket packet, ClientSession session)
@@ -83,31 +84,25 @@ namespace Server
 			player.GameSceneReady = true;
 		}
 
-		private static void C_BroadcastPlayerInputHandle(BasePacket packet, ClientSession session)
+		private static void C_PlayerInputHandle(BasePacket packet, ClientSession session)
 		{
-			var req = packet as C_BroadcastPlayerInput;
+			var req = packet as C_PlayerInput;
 			using GameDBContext db = new();
 			var player = PlayerMgr.GetPlayer(req.UserId);
-
-
 			if (player == null || player.CurrentGame == null)
 			{
 				return;
 			}
-			var input = new Game.PlayerInput()
-			{
-				ClientTargetTick = req.StartTick,
-				ReceivedTick = player.CurrentGame.CurrentTick,
-				MoveDirX = (sfloat)req.MoveDir.X,
-				MoveDirY = (sfloat)req.MoveDir.Y,
-				LookDirX = (sfloat)req.LookDir.X,
-				LookDirY = (sfloat)req.LookDir.Y,
-				ButtonPressed = req.ButtonPressed,
-			};
-			player.InputBuffer.Enqueue(input);
 
+			var input = new InputData()
+			{
+				MoveInput = new sVector3(sfloat.FromRaw(req.MoveDirX), (sfloat)0f, sfloat.FromRaw(req.MoveDirY)),
+				LookInput = new sVector3(sfloat.FromRaw(req.LookDirX), (sfloat)0f, sfloat.FromRaw(req.LookDirY)),
+				ButtonInput = req.ButtonPressed,
+			};
+
+			player.InputBuffer.Enqueue(input);
 			return;
 		}
-
 	}
 }

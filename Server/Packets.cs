@@ -33,14 +33,16 @@ namespace Server
 	public class C_GameReady : AuthPacket
 	{
 	}
-	public class C_BroadcastPlayerInput : GamePacket
+	public class C_PlayerInput : GamePacket
 	{
 
 		public byte ButtonPressed;
 		public short TeamId;
 		public long StartTick;
-		public Vector2 MoveDir;
-		public Vector2 LookDir;
+		public uint MoveDirX;
+		public uint MoveDirY;
+		public uint LookDirX;
+		public uint LookDirY;
 	}
 	public class S_Init : BasePacket
 	{
@@ -112,52 +114,24 @@ namespace Server
 		public ushort[] CharacterTypeArr;
 		public float WaitTime;
 	}
-	public class S_BroadcastGameState : BasePacket
+	public class S_GameFrameInfo : BasePacket
 	{
-		public S_BroadcastGameState()
+		public S_GameFrameInfo()
 		{
 			Id = 0x1006;
-			PlayerMoveDirArr = new Vector2[6];
-			PlayerLookDirArr = new Vector2[6];
+			PlayerMoveDirXArr = new uint[6];
+			PlayerMoveDirYArr = new uint[6];
+			PlayerLookDirXArr = new uint[6];
+			PlayerLookDirYArr = new uint[6];
 			ButtonPressedArr = new ushort[6];
-			Actions = new List<GameActionResult>();
 		}
 
 		public long StartTick;
 		public long TargetTick;
-		public Vector2[] PlayerMoveDirArr;
-		public Vector2[] PlayerLookDirArr;
+		public uint[] PlayerMoveDirXArr;
+		public uint[] PlayerMoveDirYArr;
+		public uint[] PlayerLookDirXArr;
+		public uint[] PlayerLookDirYArr;
 		public ushort[] ButtonPressedArr;
-		public List<GameActionResult> Actions;
-
-		[Serializable]
-		public class GameActionResult
-		{
-			public GameActionResult(uint code, short subject, params short[] objects)
-			{
-				ActionCode = code;
-				Subject = subject;
-				Objects = objects;
-			}
-			//[][][][][][][][]
-			//charType / action code (0,1,2,3...)
-			public uint ActionCode;
-			public short Subject;
-			public short[] Objects;
-		}
-	}
-	public class S_BroadcastMove : BasePacket
-	{
-		public S_BroadcastMove(short teamId, Vector2 moveDir, Vector2 lookDir)
-		{
-			Id = 0x1007;
-			TeamId = teamId;
-			MoveDir = moveDir;
-			LookDir = lookDir;
-		}
-
-		public Vector2 MoveDir;
-		public Vector2 LookDir;
-		public short TeamId;
 	}
 }

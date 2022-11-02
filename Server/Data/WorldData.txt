@@ -1,0 +1,909 @@
+{
+  "NetObjectDatas": [
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1056964608
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1065353216
+          },
+          "magnitude": {
+            "RawValue": 1065353216
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353216
+          }
+        },
+        "magnitude": {
+          "RawValue": 1056964608
+        },
+        "sqrMagnitude": {
+          "RawValue": 1048576000
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1084227584
+          },
+          "y": {
+            "RawValue": 1084227584
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1060439282
+            },
+            "y": {
+              "RawValue": 1060439282
+            },
+            "magnitude": {
+              "RawValue": 1065353214
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353212
+            }
+          },
+          "magnitude": {
+            "RawValue": 1088570928
+          },
+          "sqrMagnitude": {
+            "RawValue": 1112014848
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 1092091904
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1056964608
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 1065330026
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1029130220
+          },
+          "magnitude": {
+            "RawValue": 1065353214
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353213
+          }
+        },
+        "magnitude": {
+          "RawValue": 1092105692
+        },
+        "sqrMagnitude": {
+          "RawValue": 1119158272
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1065353216
+          },
+          "y": {
+            "RawValue": 1105199104
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1024602440
+            },
+            "y": {
+              "RawValue": 1065342526
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353214
+            }
+          },
+          "magnitude": {
+            "RawValue": 1105208463
+          },
+          "sqrMagnitude": {
+            "RawValue": 1145323520
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 3239575552
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1056964608
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 3212813674
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1029130220
+          },
+          "magnitude": {
+            "RawValue": 1065353214
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353213
+          }
+        },
+        "magnitude": {
+          "RawValue": 1092105692
+        },
+        "sqrMagnitude": {
+          "RawValue": 1119158272
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1065353216
+          },
+          "y": {
+            "RawValue": 1105199104
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1024602440
+            },
+            "y": {
+              "RawValue": 1065342526
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353214
+            }
+          },
+          "magnitude": {
+            "RawValue": 1105208463
+          },
+          "sqrMagnitude": {
+            "RawValue": 1145323520
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 3242721280
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 3212836864
+          },
+          "magnitude": {
+            "RawValue": 1065353216
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353216
+          }
+        },
+        "magnitude": {
+          "RawValue": 1095237632
+        },
+        "sqrMagnitude": {
+          "RawValue": 1125924864
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1099956224
+          },
+          "y": {
+            "RawValue": 1065353216
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1065327384
+            },
+            "y": {
+              "RawValue": 1029911688
+            },
+            "magnitude": {
+              "RawValue": 1065353214
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353213
+            }
+          },
+          "magnitude": {
+            "RawValue": 1099970776
+          },
+          "sqrMagnitude": {
+            "RawValue": 1134723072
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1096286208
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1065353216
+          },
+          "magnitude": {
+            "RawValue": 1065353216
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353216
+          }
+        },
+        "magnitude": {
+          "RawValue": 1096286208
+        },
+        "sqrMagnitude": {
+          "RawValue": 1127628800
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1099956224
+          },
+          "y": {
+            "RawValue": 1065353216
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1065327384
+            },
+            "y": {
+              "RawValue": 1029911688
+            },
+            "magnitude": {
+              "RawValue": 1065353214
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353213
+            }
+          },
+          "magnitude": {
+            "RawValue": 1099970776
+          },
+          "sqrMagnitude": {
+            "RawValue": 1134723072
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 1090519040
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1056964608
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 1065320542
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1031766110
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1065320544
+            },
+            "y": {
+              "RawValue": 0
+            },
+            "z": {
+              "RawValue": 1031766112
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353215
+            }
+          },
+          "magnitude": {
+            "RawValue": 1065353213
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353211
+          }
+        },
+        "magnitude": {
+          "RawValue": 1090535408
+        },
+        "sqrMagnitude": {
+          "RawValue": 1115717632
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1077936128
+          },
+          "y": {
+            "RawValue": 1084227584
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1057207806
+            },
+            "y": {
+              "RawValue": 1062962344
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353215
+            }
+          },
+          "magnitude": {
+            "RawValue": 1085970216
+          },
+          "sqrMagnitude": {
+            "RawValue": 1107820544
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    },
+    {
+      "NetObjectId": 1,
+      "Position": {
+        "x": {
+          "RawValue": 3238002688
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1056964608
+        },
+        "normalized": {
+          "x": {
+            "RawValue": 3212804190
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "z": {
+            "RawValue": 1031766110
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 3212804192
+            },
+            "y": {
+              "RawValue": 0
+            },
+            "z": {
+              "RawValue": 1031766112
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353215
+            }
+          },
+          "magnitude": {
+            "RawValue": 1065353213
+          },
+          "sqrMagnitude": {
+            "RawValue": 1065353211
+          }
+        },
+        "magnitude": {
+          "RawValue": 1090535408
+        },
+        "sqrMagnitude": {
+          "RawValue": 1115717632
+        }
+      },
+      "Rotation": {
+        "x": {
+          "RawValue": 0
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 0
+        },
+        "w": {
+          "RawValue": 1065353216
+        }
+      },
+      "BoxCollider": {
+        "Size": {
+          "x": {
+            "RawValue": 1077936128
+          },
+          "y": {
+            "RawValue": 1084227584
+          },
+          "normalized": {
+            "x": {
+              "RawValue": 1057207806
+            },
+            "y": {
+              "RawValue": 1062962344
+            },
+            "magnitude": {
+              "RawValue": 1065353215
+            },
+            "sqrMagnitude": {
+              "RawValue": 1065353215
+            }
+          },
+          "magnitude": {
+            "RawValue": 1085970216
+          },
+          "sqrMagnitude": {
+            "RawValue": 1107820544
+          }
+        },
+        "Offset": {
+          "x": {
+            "RawValue": 0
+          },
+          "y": {
+            "RawValue": 0
+          },
+          "magnitude": {
+            "RawValue": 0
+          },
+          "sqrMagnitude": {
+            "RawValue": 0
+          }
+        }
+      }
+    }
+  ],
+  "SpawnPoints": [
+    {
+      "x": {
+        "RawValue": 3223322624
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 3240624128
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 3194826222
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 3212380628
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353215
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093448254
+      },
+      "sqrMagnitude": {
+        "RawValue": 1122566144
+      }
+    },
+    {
+      "x": {
+        "RawValue": 1056964608
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 3240624128
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 1027789740
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 3212817874
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353214
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093152956
+      },
+      "sqrMagnitude": {
+        "RawValue": 1121779712
+      }
+    },
+    {
+      "x": {
+        "RawValue": 1080033280
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 3240624128
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 1050798234
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 3211975912
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353214
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093736042
+      },
+      "sqrMagnitude": {
+        "RawValue": 1123352576
+      }
+    },
+    {
+      "x": {
+        "RawValue": 3223322624
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 1093140480
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 3194826222
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1064896980
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353215
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093448254
+      },
+      "sqrMagnitude": {
+        "RawValue": 1122566144
+      }
+    },
+    {
+      "x": {
+        "RawValue": 1056964608
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 1093140480
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 1027789740
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1065334226
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353214
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093152956
+      },
+      "sqrMagnitude": {
+        "RawValue": 1121779712
+      }
+    },
+    {
+      "x": {
+        "RawValue": 1080033280
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 1093140480
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 1050798234
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1064492264
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353214
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093736042
+      },
+      "sqrMagnitude": {
+        "RawValue": 1123352576
+      }
+    }
+  ]
+}

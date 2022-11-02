@@ -72,7 +72,7 @@ public class BaseCharacter
 		#endregion
 	}
 
-	public virtual void HandleInput(in PlayerInput input)
+	public virtual void HandleInput(in InputData input)
 	{
 		_targetMoveDir = sVector3.SmoothDamp(_targetMoveDir, new sVector3(input.MoveDirX, sfloat.Zero, input.MoveDirY), ref _smoothVelocity, _smoothInputSpeed, sfloat.PositiveInfinity, Timing.DeltaTime);
 		_targetLookDir.x = input.LookDirX;

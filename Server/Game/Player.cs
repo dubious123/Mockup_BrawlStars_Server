@@ -8,9 +8,9 @@
 		public bool GameSceneReady { get; set; } = false;
 		public ClientSession Session { get; init; }
 		public GameRoom CurrentGame { get; set; }
-		public BaseCharacter Character { get; set; }
+		public NetCharacter Character { get; set; }
 		public CharacterType CharType { get; set; }
-		public ConcurrentQueue<PlayerInput> InputBuffer { get; set; } = new();
+		public ConcurrentQueue<InputData> InputBuffer { get; set; } = new();
 
 		public Player(int userId, ClientSession session)
 		{
