@@ -3,20 +3,6 @@ namespace Server.Utils
 {
 	public static class Extensions
 	{
-		public static TraceSource AddConsoleListener(this TraceSource ts, TraceOptions options)
-		{
-			return LogMgr.AddConsoleListener(ts, options);
-		}
-
-		public static TraceSource AddTextWriterListener(this TraceSource ts, string dirPath, string fileName, TraceOptions options = TraceOptions.None)
-		{
-			return LogMgr.AddTextWriterListener(ts, dirPath, fileName, options);
-		}
-
-		public static TraceSource AddListener(this TraceSource ts, TraceListener listener)
-		{
-			return LogMgr.AddListenter(ts, listener);
-		}
 
 		//public static Vector3 SmoothDamp(this ref Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed, float deltaTime)
 		//{

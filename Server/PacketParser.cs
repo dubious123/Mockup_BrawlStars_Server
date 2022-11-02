@@ -1,3 +1,5 @@
+using Server.Logs;
+
 namespace Server
 {
 	public static class PacketParser
@@ -103,7 +105,7 @@ namespace Server
 				using (var writer = new Utf8JsonWriter(buffer))
 				{
 					JsonSerializer.Serialize(writer, packet, packet.GetType(), _options);
-					LogMgr.Log($"Sending Packet {JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.PacketSend);
+					Loggers.Send.Information("Sending Packet {0}", JsonSerializer.Serialize(packet, packet.GetType(), _options));
 					writer.Flush();
 					BitConverter.TryWriteBytes(sizeSegment, (ushort)writer.BytesCommitted);
 				}
@@ -112,7 +114,7 @@ namespace Server
 			}
 			catch (Exception ex) when (ex is InvalidOperationException or JsonException or ArgumentOutOfRangeException)
 			{
-				LogMgr.Log($"{ex.Message}", TraceEventType.Error, TraceSourceType.Error);
+				Loggers.Error.Error(ex.Message);
 				return false;
 			}
 			catch (Exception)

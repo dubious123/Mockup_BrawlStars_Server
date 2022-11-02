@@ -29,7 +29,6 @@ global using static ServerCore.Utils.Tools;
 #region Server
 global using Server.DB;
 global using Server.Game;
-global using Server.Log;
 global using Server.Utils;
 global using Server.Utils.JsonConverter;
 

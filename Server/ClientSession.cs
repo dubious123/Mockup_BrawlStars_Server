@@ -1,4 +1,6 @@
-﻿namespace Server;
+﻿using Server.Logs;
+
+namespace Server;
 
 public class ClientSession : Session
 {
@@ -24,15 +26,15 @@ public class ClientSession : Session
 	public override void OnConnected()
 	{
 		base.OnConnected();
-		LogMgr.Log($"[server] connecting to {_socket.RemoteEndPoint} completed", TraceSourceType.Session, TraceSourceType.Network);
+		Loggers.Network.Information("[server] connecting to {0} completed", _socket.RemoteEndPoint);
 	}
 
 	public override void Close()
 	{
-		LogMgr.Log($"Session [{Id}] close started", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] close started", Id);
 		OnClosed.Invoke();
 		base.Close();
-		LogMgr.Log($"Session [{Id}] close completed", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] close completed", Id);
 	}
 
 	public override bool RegisterSend(BasePacket packet)
@@ -60,7 +62,8 @@ public class ClientSession : Session
 		}
 		catch (ObjectDisposedException e)
 		{
-			LogMgr.Log($"Session [{Id}] : {e.Message}", TraceEventType.Error, TraceSourceType.Session);
+			Loggers.Network.Error("Session [{Id}] : {e.Message}", Id, e.Message);
+			Loggers.Console.Error("Session [{Id}] : {e.Message}", Id, e.Message);
 		}
 		catch (Exception)
 		{
@@ -70,16 +73,17 @@ public class ClientSession : Session
 
 	protected override void Shutdown()
 	{
-		LogMgr.Log($"Session [{Id}] shut down started", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] shut down started", Id);
 		base.Shutdown();
-		LogMgr.Log($"Session [{Id}] shut down completed", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] shut down completed", Id);
 	}
 
 	protected override void Disconnect()
 	{
-		LogMgr.Log($"Session [{Id}] disconnect started", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] disconnect started", Id);
 		base.Disconnect();
-		LogMgr.Log($"Session [{Id}] disconnect completed", TraceSourceType.Session, TraceSourceType.Console);
+		Loggers.Network.Information("Session [{Id}] disconnect completed", Id);
+		Loggers.Console.Information("Session [{Id}] disconnect completed", Id);
 	}
 
 	protected override void OnSendCompleted(SocketAsyncEventArgs args)

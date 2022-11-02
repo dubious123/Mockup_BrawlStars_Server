@@ -1,6 +1,8 @@
 
 
 
+using Server.Logs;
+
 namespace Server
 {
 	public static class PacketHandler
@@ -22,7 +24,7 @@ namespace Server
 			if (packet == null) return;
 			if (_handlerDict.TryGetValue((PacketId)packet.Id, out Action<BasePacket, ClientSession> action) == false)
 			{
-				LogMgr.Log($"Invalid Packet {packet}", TraceEventType.Error, TraceSourceType.Console, TraceSourceType.PacketHandler);
+				Loggers.Error.Fatal("Invalid Packet {packet}", packet);
 				throw new Exception();
 			}
 			action.Invoke(packet, session);

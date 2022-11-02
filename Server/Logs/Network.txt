@@ -1,0 +1,7 @@
+2022-11-03 00:23:02.055 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:12344 completed
+2022-11-03 00:23:14.913 +09:00 [INF] Session [1] close started
+2022-11-03 00:23:14.916 +09:00 [INF] Session [1] shut down started
+2022-11-03 00:23:14.917 +09:00 [INF] Session [1] shut down completed
+2022-11-03 00:23:14.917 +09:00 [INF] Session [1] disconnect started
+2022-11-03 00:23:14.919 +09:00 [INF] Session [1] disconnect completed
+2022-11-03 00:23:14.923 +09:00 [INF] Session [1] close completed

@@ -1,4 +1,8 @@
-﻿namespace Server.DB
+﻿using Serilog.Core;
+
+using Server.Logs;
+
+namespace Server.DB
 {
 	public class GameDBContext : DbContext
 	{
@@ -16,7 +20,7 @@
 
 			db.Database.EnsureDeleted();
 			db.Database.EnsureCreated();
-			LogMgr.Log("DB reset completed", TraceSourceType.Console);
+			Loggers.Console.Information("DB reset completed");
 			return;
 		}
 

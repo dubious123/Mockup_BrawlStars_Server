@@ -1,4 +1,12 @@
-﻿namespace Server;
+﻿using Microsoft.Extensions.Logging;
+
+using Serilog;
+using Serilog.Sinks.File;
+using Serilog.Sinks.SystemConsole.Themes;
+
+using Server.Logs;
+
+namespace Server;
 
 public class Program
 {
@@ -9,7 +17,7 @@ public class Program
 	private static void Main(string[] args)
 	{
 		#region Init
-		LogMgr.Init();
+		Loggers.Init();
 		GameDBContext.Init(false);
 		GameMgr.Init();
 		DataMgr.Init();
@@ -19,7 +27,7 @@ public class Program
 		Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 		var endPoint = GetNewEndPoint(7777);
 		listener.StartListen(endPoint);
-		LogMgr.Log($"Listening to {endPoint}", TraceSourceType.Network, TraceSourceType.Console);
+		Loggers.Console.Information("Listening to {0}", endPoint);
 		long nowTick = default;
 		long delta = default;
 		while (true)
