@@ -23,6 +23,7 @@ public class Program
 		DataMgr.Init();
 		JobMgr.Init();
 		Timing.Init();
+		SessionMgr.Init();
 		#endregion
 		Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
 		var endPoint = GetNewEndPoint(7777);

@@ -46,18 +46,18 @@ public class GameRoom
 		NetWorld world = new(data);
 
 		#region Ready Game
-		while (_enterBuffer.TryDequeue(out player))
+		while (_enterBuffer.TryDequeue(out var p))
 		{
-			_players[_playerCount] = player;
-			player.TeamId = _playerCount;
-			player.Character = new NetCharacterDog(data.SpawnPoints[player.TeamId], sQuaternion.identity, world);
-			world.AddNewNetObject((uint)player.TeamId, player.Character);
-			player.CharType = CharacterType.Dog;
-			player.CurrentGame = this;
-			player.Session.OnClosed.AddListener("GameRoomExit", () =>
+			_players[_playerCount] = p;
+			p.TeamId = _playerCount;
+			p.Character = new NetCharacterDog(data.SpawnPoints[p.TeamId], sQuaternion.identity, world);
+			world.AddNewNetObject((uint)p.TeamId, p.Character);
+			p.CharType = CharacterType.Dog;
+			p.CurrentGame = this;
+			p.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{
-				Exit(player);
-				player.Session.OnClosed.RemoveListener("GameRoomExit");
+				Exit(_players[p.TeamId]);
+				p.Session.OnClosed.RemoveListener("GameRoomExit");
 			});
 
 			_playerCount++;
@@ -141,9 +141,11 @@ public class GameRoom
 		lock (_lock)
 		{
 			player.Session.RegisterSend(new S_EnterGame(_playerCount, player));
-			player.TeamId = _playerCount;
 			_playerCount++;
-			if (_playerCount == _maxPlayerCount) StartGame();
+			if (_playerCount == _maxPlayerCount)
+			{
+				StartGame();
+			}
 		}
 	}
 
@@ -172,7 +174,7 @@ public class GameRoom
 		if (_players[player.TeamId] != player)
 		{
 			Loggers.Console.Error("ERRRRRRRRRRRRRRRRRRRRRRRRrrrrrrrrrrrrrrr");
-			throw new System.Exception();
+			//throw new System.Exception();
 		}
 
 		_players[player.TeamId] = null;

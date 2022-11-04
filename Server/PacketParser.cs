@@ -78,16 +78,7 @@ namespace Server
 				//Todo handle invalid id
 				_readDict.TryGetValue(id, out Func<ArraySegment<byte>, BasePacket> func);
 #if DEBUG
-				var arr = buffer.Read(size);
-
-				//str += BitConverter.ToString(arr.Array, arr.Offset, arr.Count);
-
-				//LogMgr.Log(str, TraceSourceType.Network);
-
-				string json = Encoding.UTF8.GetString(arr);
-				//LogMgr.Log($"size : {size}" + json, TraceSourceType.PacketRecv);
-				var packet = func.Invoke(arr);
-				LogMgr.Log($"received packet\n{JsonSerializer.Serialize(packet, packet.GetType(), _options)}", TraceSourceType.PacketRecv);
+				var packet = func.Invoke(buffer.Read(size));
 				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #else
 				var packet = func.Invoke(buffer.Read(size));

@@ -111,6 +111,7 @@ public class ClientSession : Session
 		base.OnRecvCompleted(args);
 		if (args.BytesTransferred == 0)
 		{
+			Loggers.Network.Information("Closing[{0}]", Id);
 			SessionMgr.Close(Id);
 			return;
 		}

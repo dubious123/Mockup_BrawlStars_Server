@@ -7,12 +7,17 @@ namespace ServerCore.Managers
 {
 	public class SessionMgr
 	{
-		static int _sessionCount = 0;
-		static readonly ConcurrentDictionary<int, Session> _sessionDict = new();
+		private static int _sessionCount = 0;
+		private static readonly ConcurrentDictionary<int, Session> _sessionDict = new();
+
+		public static void Init() { }
+
 		public static int GetSessionId()
 		{
 			return Interlocked.Increment(ref _sessionCount);
 		}
+
+
 		public static T GenerateSession<T>(Socket socket) where T : Session, new()
 		{
 			T session = new();
@@ -36,15 +41,18 @@ namespace ServerCore.Managers
 			_sessionDict.TryRemove(id, out Session session);
 			return session;
 		}
+
 		public static Session Find(int id)
 		{
 			_sessionDict.TryGetValue(id, out Session session);
 			return session;
 		}
+
 		public static void Close(int id)
 		{
 			Remove(id)?.Close();
 		}
+
 		public static void CloseAll()
 		{
 			foreach (var session in _sessionDict.Values)
