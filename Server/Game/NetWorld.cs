@@ -1,10 +1,5 @@
-﻿
-using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-
-using Server.Game.Data;
+﻿using Server.Game.Data;
+using Server.Logs;
 
 using static Enums;
 
@@ -30,6 +25,7 @@ namespace Server.Game
 					Position = netObjData.Position,
 					Rotation = netObjData.Rotation,
 				};
+
 				AddNewNetObject(i++, wall);
 			}
 
@@ -53,8 +49,10 @@ namespace Server.Game
 					return;
 				}
 
+				Loggers.Game.Information("Player [{0}]", i);
 				player.UpdateInput(InputInfo.Inputs[i]);
 				player.Update();
+				Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
 			}
 		}
 
@@ -79,6 +77,28 @@ namespace Server.Game
 		}
 
 		public INetObject FindNetObject(uint inGameId) => _netObjDict[inGameId];
+
+		public void FindNetObjects(Func<INetObject, bool> condition, IList<INetObject> result)
+		{
+			foreach (var obj in _netObjDict.Values)
+			{
+				if (condition(obj))
+				{
+					result.Add(obj);
+				}
+			}
+		}
+
+		public void FindAllAndBroadcast(Func<INetObject, bool> condition, Action<INetObject> action)
+		{
+			foreach (var obj in _netObjDict.Values)
+			{
+				if (condition(obj))
+				{
+					action(obj);
+				}
+			}
+		}
 	}
 }
 

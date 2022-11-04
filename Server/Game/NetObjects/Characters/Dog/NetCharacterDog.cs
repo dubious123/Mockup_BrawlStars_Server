@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using static Enums;
 
 namespace Server.Game
 {
@@ -16,6 +12,8 @@ namespace Server.Game
 		{
 			BasicAttack = new NetDogBasicAttack(this);
 			Bash = new NetDogBash(this);
+			MaxHp = 100;
+			Hp = MaxHp;
 		}
 
 		public override void Update()
@@ -43,6 +41,15 @@ namespace Server.Game
 			{
 				Bash.Active = Active;
 			}
+		}
+
+		public override void OnDead()
+		{
+			base.OnDead();
+			BasicAttack.Performing = false;
+			BasicAttack.Active = false;
+			Bash.Performing = false;
+			Bash.Active = false;
 		}
 	}
 }

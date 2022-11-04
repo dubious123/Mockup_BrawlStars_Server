@@ -540,11 +540,10 @@ public struct sQuaternion : IEquatable<sQuaternion>, IFormattable
 		sfloat num10 = rotation.w * num;
 		sfloat num11 = rotation.w * num2;
 		sfloat num12 = rotation.w * num3;
-		sVector3 result = default(sVector3);
-		result.x = ((sfloat)1f - (num5 + num6)) * point.x + (num7 - num12) * point.y + (num8 + num11) * point.z;
-		result.y = (num7 + num12) * point.x + ((sfloat)1f - (num4 + num6)) * point.y + (num9 - num10) * point.z;
-		result.z = (num8 - num11) * point.x + (num9 + num10) * point.y + ((sfloat)1f - (num4 + num5)) * point.z;
-		return result;
+		return new(
+		((sfloat)1f - (num5 + num6)) * point.x + (num7 - num12) * point.y + (num8 + num11) * point.z,
+		(num7 + num12) * point.x + ((sfloat)1f - (num4 + num6)) * point.y + (num9 - num10) * point.z,
+		(num8 - num11) * point.x + (num9 + num10) * point.y + ((sfloat)1f - (num4 + num5)) * point.z);
 	}
 
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]

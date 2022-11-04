@@ -1,7 +1,4 @@
-﻿
-using System.Collections.Generic;
-
-using static Enums;
+﻿using static Enums;
 
 namespace Server.Game
 {

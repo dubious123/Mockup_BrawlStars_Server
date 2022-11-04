@@ -1,6 +1,6 @@
 ﻿namespace Server.Utils;
 
-public static class Enums
+public partial class Enums
 {
 	public enum GameType
 	{
@@ -38,11 +38,5 @@ public static class Enums
 		PacketRecv,
 		Debug,
 		Game,
-	}
-
-	public enum NetObjectTag
-	{
-		Character,
-		Wall,
 	}
 }

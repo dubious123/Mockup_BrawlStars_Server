@@ -1,9 +1,11 @@
-﻿namespace Server;
+﻿using Server.Logs;
+
+namespace Server;
 
 public class GameRoom
 {
 	private readonly object _lock = new();
-	private readonly int _maxPlayerCount = 1;
+	private readonly int _maxPlayerCount = 2;
 	private readonly IEnumerator<float> _coHandle;
 	private readonly JobQueue _gameQueue;
 	private readonly JobQueue _sendQueue;
@@ -85,9 +87,11 @@ public class GameRoom
 
 		yield return 0f;
 
+		Loggers.Game.Information("---------------StartGame----------------");
 		GameFrameInfo frameInfo = new(_maxPlayerCount);
 		while (true)
 		{
+			Loggers.Game.Information("---------------Frame [{0}]----------------", _currentTick);
 			S_GameFrameInfo packet = new();
 			for (int i = 0; i < _maxPlayerCount; i++)
 			{
@@ -137,6 +141,7 @@ public class GameRoom
 		lock (_lock)
 		{
 			player.Session.RegisterSend(new S_EnterGame(_playerCount, player));
+			player.TeamId = _playerCount;
 			_playerCount++;
 			if (_playerCount == _maxPlayerCount) StartGame();
 		}
@@ -166,7 +171,7 @@ public class GameRoom
 	{
 		if (_players[player.TeamId] != player)
 		{
-			System.Console.WriteLine("ERRRRRRRRRRRRRRRRRRRRRRRRrrrrrrrrrrrrrrr");
+			Loggers.Console.Error("ERRRRRRRRRRRRRRRRRRRRRRRRrrrrrrrrrrrrrrr");
 			throw new System.Exception();
 		}
 
