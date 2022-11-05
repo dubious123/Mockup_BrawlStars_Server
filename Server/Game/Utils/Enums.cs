@@ -11,6 +11,14 @@
 		Character = 0,
 		Wall = 1,
 	}
+
+	[Flags]
+	public enum CCFlags
+	{
+		None = 0,
+		Knockback = 1,
+		Stun = 2,
+	}
 }
 
 

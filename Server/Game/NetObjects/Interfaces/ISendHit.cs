@@ -1,6 +1,6 @@
 ﻿namespace Server.Game
 {
-	public interface ISendHit
+	public interface ISendHit : INetObject
 	{
 		public void SendHit(ITakeHit target, in HitInfo info);
 	}

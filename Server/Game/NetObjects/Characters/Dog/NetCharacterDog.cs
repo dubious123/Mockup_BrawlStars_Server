@@ -51,5 +51,21 @@ namespace Server.Game
 			Bash.Performing = false;
 			Bash.Active = false;
 		}
+
+		protected override void OnCCStart()
+		{
+			base.OnCCStart();
+			BasicAttack.Cancel();
+			BasicAttack.Active = false;
+			Bash.Cancel();
+			Bash.Active = false;
+		}
+
+		protected override void OnCCEnd()
+		{
+			base.OnCCEnd();
+			BasicAttack.Active = true;
+			Bash.Active = true;
+		}
 	}
 }
