@@ -8,8 +8,8 @@
 
 	public enum NetObjectTag
 	{
-		Character,
-		Wall,
+		Character = 0,
+		Wall = 1,
 	}
 }
 

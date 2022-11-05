@@ -89,15 +89,19 @@ namespace Server.Game
 			}
 		}
 
-		public void FindAllAndBroadcast(Func<INetObject, bool> condition, Action<INetObject> action)
+		public bool FindAllAndBroadcast(Func<INetObject, bool> condition, Action<INetObject> action)
 		{
+			var count = 0;
 			foreach (var obj in _netObjDict.Values)
 			{
 				if (condition(obj))
 				{
+					count++;
 					action(obj);
 				}
 			}
+
+			return count > 0;
 		}
 	}
 }

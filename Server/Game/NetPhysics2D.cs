@@ -64,6 +64,21 @@ namespace Server.Game
 			return false;
 		}
 
+		public bool DetectAndBroadcast(INetCollider2D collider, NetObjectTag tag, Action<INetCollider2D> action)
+		{
+			int count = 0;
+			foreach (var c in _colliders[(int)tag])
+			{
+				if (c != collider && collider.CheckCollision(c))
+				{
+					++count;
+					action(c);
+				}
+			}
+
+			return count == 0;
+		}
+
 		public void GetCollisions(INetCollider2D collider, NetObjectTag tag, IList<INetCollider2D> collisions)
 		{
 			foreach (var c in _colliders[(int)tag])
