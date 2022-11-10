@@ -4,7 +4,7 @@ using static Enums;
 
 namespace Server.Game
 {
-	public class NetDogBash : INetBaseSkill
+	public class NetKnightBash : INetBaseSkill
 	{
 		public NetCharacter Character => _dog;
 		public int Id { get; init; }
@@ -21,13 +21,13 @@ namespace Server.Game
 		public int BashFrame { get; private set; }
 		public bool IsHit { get; private set; }
 
-		private NetCharacterDog _dog;
+		private NetCharacterKnight _dog;
 		private IEnumerator<int> _coHandler;
 		private bool _holdBtnPressed;
 		private bool _cancelBtnPressed;
 		private HitInfo _hitInfo;
 
-		public NetDogBash(NetCharacterDog dog)
+		public NetKnightBash(NetCharacterKnight dog)
 		{
 			_dog = dog;
 			Id = 0;

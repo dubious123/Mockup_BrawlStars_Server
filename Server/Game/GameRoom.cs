@@ -5,7 +5,7 @@ namespace Server;
 public class GameRoom
 {
 	private readonly object _lock = new();
-	private readonly int _maxPlayerCount = 2;
+	private readonly int _maxPlayerCount = 1;
 	private readonly IEnumerator<float> _coHandle;
 	private readonly JobQueue _gameQueue;
 	private readonly JobQueue _sendQueue;
@@ -50,9 +50,9 @@ public class GameRoom
 		{
 			_players[_playerCount] = p;
 			p.TeamId = _playerCount;
-			p.Character = new NetCharacterDog(data.SpawnPoints[p.TeamId], sQuaternion.identity, world);
+			p.Character = new NetCharacterKnight(data.SpawnPoints[p.TeamId], sQuaternion.identity, world);
 			world.AddNewNetObject((uint)p.TeamId, p.Character);
-			p.CharType = CharacterType.Dog;
+			p.CharType = CharacterType.Knight;
 			p.CurrentGame = this;
 			p.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{

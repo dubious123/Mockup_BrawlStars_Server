@@ -2,7 +2,7 @@
 
 namespace Server.Game
 {
-	public class NetDogBasicAttack : INetBaseSkill
+	public class NetKnightBasicAttack : INetBaseSkill
 	{
 		public NetCharacter Character => _dog;
 		public int Id { get; init; }
@@ -12,11 +12,11 @@ namespace Server.Game
 		public bool Performing { get; set; }
 		public bool Active { get; set; }
 
-		private NetCharacterDog _dog;
+		private NetCharacterKnight _dog;
 		private IEnumerator<int> _coHandler;
 		private HitInfo _hitInfo;
 
-		public NetDogBasicAttack(NetCharacterDog dog)
+		public NetKnightBasicAttack(NetCharacterKnight dog)
 		{
 			_dog = dog;
 			Id = 0;

@@ -17,7 +17,7 @@ public partial class Enums
 	public enum CharacterType
 	{
 		None,
-		Dog,
+		Knight,
 	}
 
 	public enum TileType

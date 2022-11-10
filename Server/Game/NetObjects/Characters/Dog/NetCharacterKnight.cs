@@ -2,16 +2,16 @@
 
 namespace Server.Game
 {
-	public class NetCharacterDog : NetCharacter
+	public class NetCharacterKnight : NetCharacter
 	{
 		public INetBaseSkill BasicAttack { get; set; }
 		public INetBaseSkill Bash { get; set; }
 
-		public NetCharacterDog(sVector3 position, sQuaternion rotation, NetWorld world)
+		public NetCharacterKnight(sVector3 position, sQuaternion rotation, NetWorld world)
 			: base(position, rotation, NetObjectTag.Character, world)
 		{
-			BasicAttack = new NetDogBasicAttack(this);
-			Bash = new NetDogBash(this);
+			BasicAttack = new NetKnightBasicAttack(this);
+			Bash = new NetKnightBash(this);
 			MaxHp = 100;
 			Hp = MaxHp;
 		}
