@@ -56,25 +56,22 @@ namespace ServerCore
 				OnRecvCompleted(_recvArgs);
 			}
 		}
+
 		protected virtual void OnRecvCompleted(SocketAsyncEventArgs args)
 		{
 			if (args.SocketError != SocketError.Success)
 				throw new Exception();
 			_recvBuffer.OnWrite(args.BytesTransferred);
 		}
+
 		protected virtual void Disconnect()
 		{
 			_socket.Disconnect(false);
 		}
+
 		protected virtual void Shutdown()
 		{
 			_socket.Shutdown(SocketShutdown.Both);
 		}
-
-
-
-
-
-
 	}
 }

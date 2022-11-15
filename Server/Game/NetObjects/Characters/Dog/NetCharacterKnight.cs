@@ -4,13 +4,13 @@ namespace Server.Game
 {
 	public class NetCharacterKnight : NetCharacter
 	{
-		public INetBaseSkill BasicAttack { get; set; }
+		public INetBaseSkill Whirlwind { get; set; }
 		public INetBaseSkill Bash { get; set; }
 
 		public NetCharacterKnight(sVector3 position, sQuaternion rotation, NetWorld world)
 			: base(position, rotation, NetObjectTag.Character, world)
 		{
-			BasicAttack = new NetKnightBasicAttack(this);
+			Whirlwind = new NetKnightWhirlwind(this);
 			Bash = new NetKnightBash(this);
 			MaxHp = 100;
 			Hp = MaxHp;
@@ -19,22 +19,22 @@ namespace Server.Game
 		public override void Update()
 		{
 			base.Update();
-			BasicAttack.Update();
+			Whirlwind.Update();
 			Bash.Update();
 		}
 
 		public override void UpdateInput(in InputData input)
 		{
 			base.UpdateInput(input);
-			BasicAttack.HandleInput(in input);
+			Whirlwind.HandleInput(in input);
 			Bash.HandleInput(in input);
 		}
 
 		public void SetActiveOtherSkills(INetBaseSkill from, bool Active)
 		{
-			if (from != BasicAttack)
+			if (from != Whirlwind)
 			{
-				BasicAttack.Active = Active;
+				Whirlwind.Active = Active;
 			}
 
 			if (from != Bash)
@@ -46,8 +46,8 @@ namespace Server.Game
 		public override void OnDead()
 		{
 			base.OnDead();
-			BasicAttack.Performing = false;
-			BasicAttack.Active = false;
+			Whirlwind.Performing = false;
+			Whirlwind.Active = false;
 			Bash.Performing = false;
 			Bash.Active = false;
 		}
@@ -55,8 +55,8 @@ namespace Server.Game
 		protected override void OnCCStart()
 		{
 			base.OnCCStart();
-			BasicAttack.Cancel();
-			BasicAttack.Active = false;
+			Whirlwind.Cancel();
+			Whirlwind.Active = false;
 			Bash.Cancel();
 			Bash.Active = false;
 		}
@@ -64,7 +64,7 @@ namespace Server.Game
 		protected override void OnCCEnd()
 		{
 			base.OnCCEnd();
-			BasicAttack.Active = true;
+			Whirlwind.Active = true;
 			Bash.Active = true;
 		}
 	}

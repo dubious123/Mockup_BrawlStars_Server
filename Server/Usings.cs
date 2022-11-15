@@ -33,6 +33,6 @@ global using Server.Utils;
 global using Server.Utils.JsonConverter;
 
 global using static Server.Utils.Enums;
-
+global using static Enums;
 #endregion
 
