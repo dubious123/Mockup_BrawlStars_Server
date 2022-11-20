@@ -19,6 +19,13 @@
 		Knockback = 1,
 		Stun = 2,
 	}
+
+	public enum TeamType
+	{
+		None,
+		Red,
+		Blue,
+	}
 }
 
 

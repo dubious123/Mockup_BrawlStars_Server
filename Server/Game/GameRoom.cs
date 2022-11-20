@@ -1,4 +1,5 @@
-﻿using Server.Logs;
+﻿using Server.Game.GameRule;
+using Server.Logs;
 
 namespace Server;
 
@@ -7,7 +8,6 @@ public class GameRoom
 	private readonly object _lock = new();
 	private readonly int _maxPlayerCount = 1;
 	private readonly IEnumerator<float> _coHandle;
-	private readonly JobQueue _gameQueue;
 	private readonly JobQueue _sendQueue;
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();
 	private int _gameStarted = 0;
@@ -21,7 +21,6 @@ public class GameRoom
 		_players = new Player[_maxPlayerCount];
 		State = GameState.Waiting;
 		MapId = mapId;
-		_gameQueue = JobMgr.GetQueue(Define.PacketGameQueueName);
 		_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
 		_coHandle = Co_Update();
 	}
@@ -43,15 +42,14 @@ public class GameRoom
 		Player player;
 		_playerCount = 0;
 		var data = DataMgr.GetWorldData();
-		NetWorld world = new(data);
+		NetWorld world = new(data, new GameRule00());
 
 		#region Ready Game
 		while (_enterBuffer.TryDequeue(out var p))
 		{
 			_players[_playerCount] = p;
 			p.TeamId = _playerCount;
-			p.Character = new NetCharacterKnight(data.SpawnPoints[p.TeamId], sQuaternion.identity, world);
-			world.AddNewNetObject((uint)p.TeamId, p.Character);
+			p.Character = world.AddNewCharacter(_playerCount, CharacterType.Knight);
 			p.CharType = CharacterType.Knight;
 			p.CurrentGame = this;
 			p.Session.OnClosed.AddListener("GameRoomExit", () =>
@@ -131,7 +129,11 @@ public class GameRoom
 
 	public void StartGame()
 	{
-		if (Interlocked.CompareExchange(ref _gameStarted, 1, 0) == 1) return;
+		if (Interlocked.CompareExchange(ref _gameStarted, 1, 0) == 1)
+		{
+			return;
+		}
+
 		Program.Update += () => _coHandle.MoveNext();
 	}
 

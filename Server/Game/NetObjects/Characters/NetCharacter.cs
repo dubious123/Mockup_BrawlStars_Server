@@ -4,6 +4,8 @@ namespace Server.Game
 {
 	public abstract class NetCharacter : INetCollidable2D, INetUpdatable, ISendHit, ITakeHit
 	{
+		public uint ObjectId { get; init; }
+		public TeamType Team { get; set; }
 		public NetWorld World { get; init; }
 		public sVector3 Position { get; set; }
 		public sVector3 Forward => Rotation * sVector3.forward;
@@ -33,8 +35,10 @@ namespace Server.Game
 
 		private sVector3 _smoothVelocity;
 
-		public NetCharacter(sVector3 position, sQuaternion rotation, NetObjectTag tag, NetWorld world)
+		public NetCharacter(uint objectId, TeamType team, sVector3 position, sQuaternion rotation, NetObjectTag tag, NetWorld world)
 		{
+			ObjectId = objectId;
+			Team = team;
 			Collider = new NetCircleCollider2D(this, sVector2.zero, (sfloat)0.5f);
 			Position = position;
 			Rotation = rotation;

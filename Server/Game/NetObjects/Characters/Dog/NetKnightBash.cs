@@ -1,4 +1,4 @@
-﻿using Server.Logs;
+﻿using System.Collections.Generic;
 
 using static Enums;
 
@@ -31,7 +31,7 @@ namespace Server.Game
 		{
 			_dog = dog;
 			Id = 0;
-			MaxHoldingFrame = 180;
+			MaxHoldingFrame = 60;
 			MaxBashDistance = (sfloat)8f;
 			BashSpeed = (sfloat)15f;
 			CoolTimeFrame = 300;
@@ -106,12 +106,13 @@ namespace Server.Game
 				Character.CanControlLook = false;
 				BashFrame = (int)((sfloat)CurrentHoldFrame / (sfloat)MaxHoldingFrame * MaxBashDistance / BashSpeed * 60f);
 				Bashing = true;
+				var dir = Character.TargetLookDir;
 				for (int i = 0; i < BashFrame; i++)
 				{
-					Character.Move(Character.TargetLookDir * BashSpeed * Define.FixedDeltaTime);
+					Character.Move(dir * BashSpeed * Define.FixedDeltaTime);
 					IsHit = Character.World.FindAllAndBroadcast(netObj =>
 					{
-						if (netObj is INetCollidable2D && netObj is ITakeHit && netObj != Character)
+						if (Character.World.GameRule.CanSendHit(Character, netObj))
 						{
 							return (netObj as INetCollidable2D).Collider.CheckCollision(Character.Collider);
 						}

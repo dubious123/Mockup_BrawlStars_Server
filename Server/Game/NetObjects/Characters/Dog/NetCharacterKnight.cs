@@ -7,8 +7,8 @@ namespace Server.Game
 		public INetBaseSkill Whirlwind { get; set; }
 		public INetBaseSkill Bash { get; set; }
 
-		public NetCharacterKnight(sVector3 position, sQuaternion rotation, NetWorld world)
-			: base(position, rotation, NetObjectTag.Character, world)
+		public NetCharacterKnight(uint objectId, TeamType team, sVector3 position, sQuaternion rotation, NetWorld world)
+			: base(objectId, team, position, rotation, NetObjectTag.Character, world)
 		{
 			Whirlwind = new NetKnightWhirlwind(this);
 			Bash = new NetKnightBash(this);

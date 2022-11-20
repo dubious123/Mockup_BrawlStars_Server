@@ -737,6 +737,40 @@
     },
     {
       "x": {
+        "RawValue": 3223322624
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 1093140480
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 3194826222
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1064896980
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353215
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093448254
+      },
+      "sqrMagnitude": {
+        "RawValue": 1122566144
+      }
+    },
+    {
+      "x": {
         "RawValue": 1056964608
       },
       "y": {
@@ -754,6 +788,40 @@
         },
         "z": {
           "RawValue": 3212817874
+        },
+        "magnitude": {
+          "RawValue": 1065353215
+        },
+        "sqrMagnitude": {
+          "RawValue": 1065353214
+        }
+      },
+      "magnitude": {
+        "RawValue": 1093152956
+      },
+      "sqrMagnitude": {
+        "RawValue": 1121779712
+      }
+    },
+    {
+      "x": {
+        "RawValue": 1056964608
+      },
+      "y": {
+        "RawValue": 0
+      },
+      "z": {
+        "RawValue": 1093140480
+      },
+      "normalized": {
+        "x": {
+          "RawValue": 1027789740
+        },
+        "y": {
+          "RawValue": 0
+        },
+        "z": {
+          "RawValue": 1065334226
         },
         "magnitude": {
           "RawValue": 1065353215
@@ -801,74 +869,6 @@
       },
       "sqrMagnitude": {
         "RawValue": 1123352576
-      }
-    },
-    {
-      "x": {
-        "RawValue": 3223322624
-      },
-      "y": {
-        "RawValue": 0
-      },
-      "z": {
-        "RawValue": 1093140480
-      },
-      "normalized": {
-        "x": {
-          "RawValue": 3194826222
-        },
-        "y": {
-          "RawValue": 0
-        },
-        "z": {
-          "RawValue": 1064896980
-        },
-        "magnitude": {
-          "RawValue": 1065353215
-        },
-        "sqrMagnitude": {
-          "RawValue": 1065353215
-        }
-      },
-      "magnitude": {
-        "RawValue": 1093448254
-      },
-      "sqrMagnitude": {
-        "RawValue": 1122566144
-      }
-    },
-    {
-      "x": {
-        "RawValue": 1056964608
-      },
-      "y": {
-        "RawValue": 0
-      },
-      "z": {
-        "RawValue": 1093140480
-      },
-      "normalized": {
-        "x": {
-          "RawValue": 1027789740
-        },
-        "y": {
-          "RawValue": 0
-        },
-        "z": {
-          "RawValue": 1065334226
-        },
-        "magnitude": {
-          "RawValue": 1065353215
-        },
-        "sqrMagnitude": {
-          "RawValue": 1065353214
-        }
-      },
-      "magnitude": {
-        "RawValue": 1093152956
-      },
-      "sqrMagnitude": {
-        "RawValue": 1121779712
       }
     },
     {

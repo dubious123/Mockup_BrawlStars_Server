@@ -7,14 +7,16 @@ namespace Server.Game
 {
 	public class Wall : INetCollidable2D
 	{
+		public uint ObjectId { get; init; }
 		public NetWorld World { get; init; }
 		public sVector3 Position { get; set; }
 		public sQuaternion Rotation { get; set; }
 		public NetObjectTag Tag { get; set; }
 		public INetCollider2D Collider { get; init; }
 
-		public Wall(NetWorld world, NetObjectTag tag, sVector2 colliderOffset, sVector2 colliderSize)
+		public Wall(uint objectId, NetWorld world, NetObjectTag tag, sVector2 colliderOffset, sVector2 colliderSize)
 		{
+			ObjectId = objectId;
 			World = world;
 			Tag = tag;
 			Collider = new NetBoxCollider2D(this, colliderOffset, colliderSize);
