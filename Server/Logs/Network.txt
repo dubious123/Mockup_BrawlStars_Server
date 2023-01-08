@@ -1,8 +1,8 @@
-2022-11-20 14:13:18.080 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%8]:2656 completed
-2022-11-20 14:14:12.010 +09:00 [INF] Closing[1]
-2022-11-20 14:14:12.011 +09:00 [INF] Session [1] close started
-2022-11-20 14:14:12.013 +09:00 [INF] Session [1] shut down started
-2022-11-20 14:14:12.015 +09:00 [INF] Session [1] shut down completed
-2022-11-20 14:14:12.016 +09:00 [INF] Session [1] disconnect started
-2022-11-20 14:14:12.018 +09:00 [INF] Session [1] disconnect completed
-2022-11-20 14:14:12.023 +09:00 [INF] Session [1] close completed
+2023-01-08 19:22:30.350 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:13496 completed
+2023-01-08 19:28:31.520 +09:00 [INF] Closing[1]
+2023-01-08 19:28:31.521 +09:00 [INF] Session [1] close started
+2023-01-08 19:28:31.522 +09:00 [INF] Session [1] shut down started
+2023-01-08 19:28:31.523 +09:00 [INF] Session [1] shut down completed
+2023-01-08 19:28:31.523 +09:00 [INF] Session [1] disconnect started
+2023-01-08 19:28:31.523 +09:00 [INF] Session [1] disconnect completed
+2023-01-08 19:28:31.526 +09:00 [INF] Session [1] close completed

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using Server.Game.Data;
 using Server.Game.GameRule;
@@ -11,93 +12,86 @@ namespace Server.Game
 {
 	public class NetWorld
 	{
-		private readonly WorldData _worldData;
-		public readonly IGameRule GameRule;
-		private Action _update;
-		private Dictionary<uint, INetObject> _netObjDict = new();
-		public NetPhysics2D Physics2D = new();
-		public GameFrameInfo InputInfo { get; set; }
-		public NetCharacter[] NetCharacters { get; set; }
+		public readonly BaseGameRule GameRule;
 
-		public NetWorld(WorldData data, IGameRule gameRule)
+		public Dictionary<NetObjectId, NetObject> NetObjectDict { get; private set; } = new();
+		public NetObjectBuilder ObjectBuilder { get; }
+		public NetCollider2DSystem ColliderSystem { get; }
+		public NetCharacterSystem CharacterSystem { get; }
+		public NetEnvSystem EnvSystem { get; }
+		public NetProjectileSystem ProjectileSystem { get; }
+		public GameFrameInfo InputInfo { get; set; }
+		public NetCharacter[] NetCharacters = new NetCharacter[6];
+
+		private readonly WorldData _worldData;
+
+		public NetWorld(WorldData data, BaseGameRule gameRule)
 		{
-			_worldData = data;
 			GameRule = gameRule;
-			_update = UpdateGameLogic;
-			_update += UpdatePlayers;
-			uint i = 0x10;
+			GameRule.World = this;
+			ObjectBuilder = new() { World = this };
+			ColliderSystem = new() { World = this };
+			CharacterSystem = new() { World = this };
+			EnvSystem = new() { World = this };
+			ProjectileSystem = new() { World = this };
+			_worldData = data;
 			foreach (var netObjData in data.NetObjectDatas)
 			{
-				var wall = new Wall(i, this, NetObjectTag.Wall, netObjData.BoxCollider.Offset, netObjData.BoxCollider.Size)
-				{
-					Position = netObjData.Position,
-					Rotation = netObjData.Rotation,
-				};
-
-				AddNewNetObject(i++, wall);
+				var obj = ObjectBuilder.GetNewObject(NetObjectType.Env_Wall)
+					.SetPositionAndRotation(netObjData.Position, netObjData.Rotation);
+				var collider = obj.GetComponent<NetBoxCollider2D>();
+				collider.SetOffsetAndSize(netObjData.BoxCollider.Offset, netObjData.BoxCollider.Size);
 			}
-
-			NetCharacters = new NetCharacter[6];
 		}
 
-		public void Update() => _update();
+		public void OnWorldStart()
+		{
+			foreach (var character in CharacterSystem.ComponentDict.Values)
+			{
+				character.Position = _worldData.SpawnPoints[character.NetObjId.InstanceId];
+			}
+		}
+
+		public void Update()
+		{
+			UpdateGameLogic();
+			UpdateInputs();
+			ColliderSystem.Update();
+			CharacterSystem.Update();
+			EnvSystem.Update();
+			ProjectileSystem.Update();
+		}
 
 		public void UpdateGameLogic()
 		{
-
+			GameRule.UpdateGameLogic();
 		}
 
-		public void UpdatePlayers()
+		public void UpdateInputs()
 		{
-			for (int i = 0; i < 6; i++)
+			foreach (var player in CharacterSystem.ComponentDict.Values)
 			{
-				var player = NetCharacters[i];
-				if (player is null)
+				if (player is null || player.Active is false)
 				{
-					return;
+					continue;
 				}
 
-				Loggers.Game.Information("Player [{0}]", i);
-				player.UpdateInput(InputInfo.Inputs[i]);
-				player.Update();
+				Loggers.Game.Information("Player [{0}]", player.NetObj.ObjectId.InstanceId);
+				player.UpdateInput(InputInfo.Inputs[player.NetObj.ObjectId.InstanceId]);
 				Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
 			}
 		}
 
-		public NetCharacter AddNewCharacter(int inGameId, CharacterType type)
+		public void AddNewNetObject(NetObject obj)
 		{
-			var id = (uint)inGameId;
-			var character = new NetCharacterKnight(id, GameRule.GetTeamType(id), _worldData.SpawnPoints[inGameId], sQuaternion.identity, this);
-			NetCharacters[inGameId] = character;
-			_netObjDict.Add(id, character);
-			return character;
+			NetObjectDict.Add(obj.ObjectId, obj);
 		}
 
-		public void AddNewNetObject(uint inGameId, INetObject obj)
+		public NetObject FindNetObject(NetObjectId inGameId) => NetObjectDict[inGameId];
+
+		public void FindNetObjects(Func<NetObject, bool> condition, IList<NetObject> result)
 		{
-			if (obj is NetCharacter)
-			{
-				NetCharacters[inGameId] = (obj as NetCharacter);
-				_netObjDict.Add(inGameId, obj);
-			}
-			else if (obj is INetUpdatable)
-			{
-				_update += (obj as INetUpdatable).Update;
-			}
-
-			if (obj is INetCollidable2D)
-			{
-				Physics2D.RegisterCollider((obj as INetCollidable2D).Collider);
-			}
-
-			_netObjDict.Add(inGameId, obj);
-		}
-
-		public INetObject FindNetObject(uint inGameId) => _netObjDict[inGameId];
-
-		public void FindNetObjects(Func<INetObject, bool> condition, IList<INetObject> result)
-		{
-			foreach (var obj in _netObjDict.Values)
+			foreach (var obj in NetObjectDict.Values)
 			{
 				if (condition(obj))
 				{
@@ -106,10 +100,10 @@ namespace Server.Game
 			}
 		}
 
-		public bool FindAllAndBroadcast(Func<INetObject, bool> condition, Action<INetObject> action)
+		public bool FindAllAndBroadcast(Func<NetObject, bool> condition, Action<NetObject> action)
 		{
 			var count = 0;
-			foreach (var obj in _netObjDict.Values)
+			foreach (var obj in NetObjectDict.Values)
 			{
 				if (condition(obj))
 				{

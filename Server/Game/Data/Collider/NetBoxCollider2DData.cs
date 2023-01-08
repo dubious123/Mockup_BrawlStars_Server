@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Server.Game.Data
 {
-	public class NetBoxCollider2DData : NetCircleColllider2DData
+	public class NetBoxCollider2DData : NetCollider2DData
 	{
-		public sfloat Radius { get; set; }
+		public sVector2 Size { get; set; }
 	}
 }

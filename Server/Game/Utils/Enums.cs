@@ -1,15 +1,27 @@
-﻿public static partial class Enums
-{
-	public enum NetObjectId
-	{
-		Wall,
-		Player_Dog,
-	}
+﻿using System;
 
-	public enum NetObjectTag
+public static partial class Enums
+{
+	public enum NetObjectType
 	{
-		Character = 0,
-		Wall = 1,
+		None,
+
+		#region Character
+		Character_Shelly,
+		#endregion
+
+		#region Env
+		Env_Wall,
+		Env_Tree,
+		#endregion
+
+		#region Projectile
+		Projectile_Shelly_Buckshot,
+		Projectile_Shelly_SuperShell,
+		#endregion
+
+		#region Summons
+		#endregion
 	}
 
 	[Flags]

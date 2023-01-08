@@ -13,10 +13,12 @@ namespace ServerCore.Utils
 			S_Init = 0x1000,
 			S_Login = 0x1001,
 			S_EnterLobby = 0x1002,
-			S_EnterGame = 0x1003,
-			S_BroadcastEnterGame = 0x1004,
-			S_BroadcastStartGame = 0x1005,
-			S_GameFrameInfo = 0x1006,
+			S_GameReady = 0x1003,
+			S_EnterGame = 0x1004,
+			S_BroadcastSearchPlayer = 0x1005,
+			S_BroadcastEnterGame = 0x1006,
+			S_BroadcastStartGame = 0x1007,
+			S_GameFrameInfo = 0x1008,
 		}
 
 	}

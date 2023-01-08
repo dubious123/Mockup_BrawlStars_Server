@@ -49,8 +49,7 @@ public class GameRoom
 		{
 			_players[_playerCount] = p;
 			p.TeamId = _playerCount;
-			p.Character = world.AddNewCharacter(_playerCount, CharacterType.Knight);
-			p.CharType = CharacterType.Knight;
+			p.Character = world.ObjectBuilder.GetNewObject(NetObjectType.Character_Shelly).GetComponent<NetCharacter>();// (_playerCount, CharacterType.Knight);
 			p.CurrentGame = this;
 			p.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{
@@ -61,6 +60,8 @@ public class GameRoom
 			_playerCount++;
 		}
 		#endregion
+
+		Broadcast(new S_GameReady());
 
 		#region Check if clients are ready
 		while (true)
@@ -79,10 +80,11 @@ public class GameRoom
 		#region Broadcast start game
 		Broadcast(new S_BroadcastStartGame(0f)
 		{
-			CharacterTypeArr = _players.Select(p => (ushort)(p.CharType)).ToArray(),
+			CharacterTypeArr = _players.Select(p => (ushort)(p.Character.NetObj.Tag)).ToArray(),
 		});
 		#endregion
 
+		world.OnWorldStart();
 		yield return 0f;
 
 		Loggers.Game.Information("---------------StartGame----------------");
@@ -142,8 +144,12 @@ public class GameRoom
 		_enterBuffer.Enqueue(player);
 		lock (_lock)
 		{
-			player.Session.RegisterSend(new S_EnterGame(_playerCount, player));
-			_playerCount++;
+			player.Session.RegisterSend(new S_EnterGame(_playerCount++, player));
+			foreach (var p in _enterBuffer)
+			{
+				p.Session.RegisterSend(new S_BroadcastSearchPlayer((ushort)_playerCount));
+			}
+
 			if (_playerCount == _maxPlayerCount)
 			{
 				StartGame();

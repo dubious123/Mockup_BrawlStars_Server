@@ -40,7 +40,9 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_Init, arr => JsonSerializer.Deserialize<S_Init>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_GameReady, arr => JsonSerializer.Deserialize<S_GameReady>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastSearchPlayer, arr => JsonSerializer.Deserialize<S_BroadcastSearchPlayer>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastEnterGame, arr => JsonSerializer.Deserialize<S_BroadcastEnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartGame, arr => JsonSerializer.Deserialize<S_BroadcastStartGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_GameFrameInfo, arr => JsonSerializer.Deserialize<S_GameFrameInfo>(arr, _options));

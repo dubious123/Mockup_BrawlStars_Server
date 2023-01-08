@@ -1,4 +1,6 @@
-﻿namespace Server.Game.Data
+﻿using System;
+
+namespace Server.Game.Data
 {
 	public class NetObjectData
 	{

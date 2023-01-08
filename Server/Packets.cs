@@ -67,11 +67,18 @@ namespace Server
 			Id = 0x1002;
 		}
 	}
+	public class S_GameReady : BasePacket
+	{
+		public S_GameReady()
+		{
+			Id = 0x1003;
+		}
+	}
 	public class S_EnterGame : BasePacket
 	{
 		public S_EnterGame(short teamId, Player player)
 		{
-			Id = 0x1003;
+			Id = 0x1004;
 			TeamId = teamId;
 			PlayerInfo = new PlayerInfoDto(player);
 		}
@@ -81,7 +88,7 @@ namespace Server
 		{
 			public PlayerInfoDto(Player player)
 			{
-				CharacterType = player is null ? (ushort)0 : (ushort)player.CharType;
+				CharacterType = player is null ? (ushort)0 : (ushort)player.CharacterType;
 			}
 
 			public ushort CharacterType;
@@ -90,11 +97,21 @@ namespace Server
 		public short TeamId;
 		public PlayerInfoDto PlayerInfo;
 	}
+	public class S_BroadcastSearchPlayer : BasePacket
+	{
+		public S_BroadcastSearchPlayer(ushort foundPlayersCount)
+		{
+			Id = 0x1005;
+			FoundPlayersCount = foundPlayersCount;
+		}
+
+		public ushort FoundPlayersCount;
+	}
 	public class S_BroadcastEnterGame : BasePacket
 	{
 		public S_BroadcastEnterGame(ushort characterType, short teamId)
 		{
-			Id = 0x1004;
+			Id = 0x1006;
 			Charactertype = characterType;
 			TeamId = teamId;
 		}
@@ -106,7 +123,7 @@ namespace Server
 	{
 		public S_BroadcastStartGame(float waitTime)
 		{
-			Id = 0x1005;
+			Id = 0x1007;
 			WaitTime = waitTime;
 			CharacterTypeArr = new ushort[6];
 		}
@@ -118,7 +135,7 @@ namespace Server
 	{
 		public S_GameFrameInfo()
 		{
-			Id = 0x1006;
+			Id = 0x1008;
 			PlayerMoveDirXArr = new uint[6];
 			PlayerMoveDirYArr = new uint[6];
 			PlayerLookDirXArr = new uint[6];

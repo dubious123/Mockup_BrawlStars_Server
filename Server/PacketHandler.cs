@@ -74,7 +74,7 @@ namespace Server
 			}
 
 			var player = PlayerMgr.GetOrAddPlayer(req.UserId, session);
-			player.CharType = (CharacterType)req.CharacterType;
+			player.CharacterType = (NetObjectType)req.CharacterType;
 			GameMgr.EnterGame(player);
 		}
 

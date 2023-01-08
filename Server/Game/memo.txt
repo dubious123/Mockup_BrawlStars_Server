@@ -1,0 +1,8 @@
+net object Id convention
+
+1. static vs non static
+2. take hit vs don't take hit
+3. collidable vs non collidable
+
+OOO => breakable wall, 고정 소환물
+

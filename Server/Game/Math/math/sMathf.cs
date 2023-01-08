@@ -3,6 +3,9 @@ using System.Runtime.CompilerServices;
 
 public static partial class sMathf
 {
+	public static sfloat Deg2Rad = sfloat.FromRaw(pi) / 180f;
+	public static sfloat Rad2Deg = (sfloat)57.29578f;
+
 	[MethodImpl(MethodImplOptions.AggressiveInlining)]
 	public static sfloat Clamp(sfloat value, sfloat min, sfloat max)
 	{

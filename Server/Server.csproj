@@ -17,16 +17,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Game\Characters\**" />
-	  <Compile Remove="Game\Math\math\Extensions\**" />
-	  <EmbeddedResource Remove="Game\Characters\**" />
-	  <EmbeddedResource Remove="Game\Math\math\Extensions\**" />
-	  <None Remove="Game\Characters\**" />
-	  <None Remove="Game\Math\math\Extensions\**" />
+	  <Compile Remove="Logs\LogMgr.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Logs\LogMgr.cs" />
+	  <None Remove="Game.zip" />
 	</ItemGroup>
 
 	<ItemGroup>
