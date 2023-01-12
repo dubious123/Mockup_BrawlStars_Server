@@ -58,30 +58,6 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 		}
 
 		NetObj.Position += NetObj.Rotation * (_speed * _moveDir * Define.FixedDeltaTime);
-		Loggers.Debug.Information("{0}", NetObj.Position);
-		//Owner.World.FindAllAndBroadcast(target =>
-		//{
-		//	if (target == Owner)
-		//	{
-		//		return false;
-		//	}
-
-		//	if (target.Type == NetObjectType.Character || target.Type == NetObjectType.Wall)
-		//	{
-		//		return Collider.CheckCollision((target as INetCollidable2D).Collider);
-		//	}
-
-		//	return false;
-		//}
-		//, target =>
-		//{
-		//	if (World.GameRule.CanSendHit(Owner, target))
-		//	{
-		//		Owner.SendHit(target as ITakeHit, _hitInfo);
-		//	}
-
-		//	Disable();
-		//});
 		++_currentTravelTime;
 	}
 }

@@ -5,8 +5,15 @@ namespace Server;
 
 public class GameRoom
 {
+	public int Id { get; init; }
+	public ushort MapId { get; init; }
+	public bool GameStarted => _gameStarted == 1;
+	public long CurrentTick { get => _currentTick; }
+	public Player[] Players { get => _players; }
+	public GameState State { get; private set; }
+
 	private readonly object _lock = new();
-	private readonly int _maxPlayerCount = 1;
+	private readonly int _maxPlayerCount = 2;
 	private readonly IEnumerator<float> _coHandle;
 	private readonly JobQueue _sendQueue;
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();
@@ -30,12 +37,6 @@ public class GameRoom
 		Program.Update -= () => _coHandle.MoveNext();
 	}
 
-	public int Id { get; init; }
-	public ushort MapId { get; init; }
-	public bool GameStarted => _gameStarted == 1;
-	public long CurrentTick { get => _currentTick; }
-	public Player[] Players { get => _players; }
-	public GameState State { get; init; }
 
 	private IEnumerator<float> Co_Update()
 	{
@@ -89,7 +90,7 @@ public class GameRoom
 
 		Loggers.Game.Information("---------------StartGame----------------");
 		GameFrameInfo frameInfo = new(_maxPlayerCount);
-		while (true)
+		while (State == GameState.Started)
 		{
 			Loggers.Game.Information("---------------Frame [{0}]----------------", _currentTick);
 			S_GameFrameInfo packet = new();
@@ -101,9 +102,14 @@ public class GameRoom
 					continue;
 				}
 
-				while (player.InputBuffer.IsEmpty)
+
+				//if (player.InputBuffer.IsEmpty && State == GameState.Started)
+				//{
+				//	continue;
+				//}
+
+				while (player.InputBuffer.IsEmpty && State == GameState.Started)
 				{
-					// todo
 				}
 
 				player.InputBuffer.TryDequeue(out var input);
@@ -125,6 +131,7 @@ public class GameRoom
 			world.Update();
 			Broadcast(packet);
 			_currentTick++;
+			Loggers.Game.Information("------------------------------------------");
 			yield return 0f;
 		}
 	}
@@ -136,6 +143,7 @@ public class GameRoom
 			return;
 		}
 
+		State = GameState.Started;
 		Program.Update += () => _coHandle.MoveNext();
 	}
 
@@ -187,5 +195,16 @@ public class GameRoom
 
 		_players[player.TeamId] = null;
 		_playerCount--;
+
+		if (_playerCount == 0)
+		{
+			EndGame();
+		}
+	}
+
+	private void EndGame()
+	{
+		State = GameState.Ended;
+		GameMgr.EndGame(Id);
 	}
 }

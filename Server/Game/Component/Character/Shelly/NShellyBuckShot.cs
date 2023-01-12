@@ -50,6 +50,7 @@ public class NShellyBuckShot : NetBaseSkill
 				var pallet = obj.GetComponent<NetProjectile>()
 					.SetAngle((degreeOffset + degreeDelta * j) * sMathf.Deg2Rad);
 				obj.GetComponent<NetCollider2D>().OnCollided = target => OnHit(pallet, target);
+				obj.Active = false;
 				Shots[i, j] = pallet;
 			}
 		}
@@ -96,7 +97,7 @@ public class NShellyBuckShot : NetBaseSkill
 			var bullet = Shots[_currentShellCount - 1, i];
 			bullet.Reset();
 			bullet.NetObj.SetPositionAndRotation(_shelly.Position, _shelly.Rotation);
-			bullet.Active = true;
+			bullet.NetObj.Active = true;
 		}
 
 		yield return 0;
@@ -150,7 +151,7 @@ public class NShellyBuckShot : NetBaseSkill
 		if (character is not null && _shelly.World.GameRule.CanSendHit(_shelly, character))
 		{
 			_shelly.SendHit(character, _hitInfo);
-			pallet.Active = false;
+			pallet.NetObj.Active = false;
 			return;
 		}
 	}

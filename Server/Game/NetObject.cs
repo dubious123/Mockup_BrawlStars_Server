@@ -14,6 +14,21 @@ namespace Server.Game
 		public sQuaternion Rotation { get; set; }
 		public NetObjectType Tag => ObjectId.Type;
 		public NetWorld World { get; init; }
+		public bool Active
+		{
+			get
+			{
+				return _active;
+			}
+
+			set
+			{
+				World.SetNetObjectActive(this, value);
+				_active = value;
+			}
+		}
+
+		private bool _active = true;
 
 		public NetObject SetPositionAndRotation(sVector3 position, sQuaternion rotation)
 		{

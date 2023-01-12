@@ -36,6 +36,15 @@ namespace Server.Game
 			return component;
 		}
 
+		public void SetActive(NetObject netObj, bool active)
+		{
+			var component = GetComponent(netObj.ObjectId);
+			if (component is not null)
+			{
+				component.Active = active;
+			}
+		}
+
 		public virtual void Update()
 		{
 			foreach (var c in _componentDict)

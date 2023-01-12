@@ -10,8 +10,8 @@ public class JobMgr
 	public static void Init()
 	{
 		CreatejobQueue(Define.PacketParserQueueName, 1, true, 1);
-		CreatejobQueue(Define.PacketHandlerQueueName, 10, true, 1);
-		CreatejobQueue(Define.PacketSendQueueName, 10, true, 1);
+		CreatejobQueue(Define.PacketHandlerQueueName, 1, true, 1);
+		CreatejobQueue(Define.PacketSendQueueName, 1, true, 1);
 		CreatejobQueue(Define.PacketGameQueueName, 1, true, 1);
 	}
 

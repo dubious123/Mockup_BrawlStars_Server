@@ -44,6 +44,14 @@ namespace Server.Game
 			}
 		}
 
+		public void SetNetObjectActive(NetObject netObj, bool active)
+		{
+			ColliderSystem.SetActive(netObj, active);
+			CharacterSystem.SetActive(netObj, active);
+			EnvSystem.SetActive(netObj, active);
+			ProjectileSystem.SetActive(netObj, active);
+		}
+
 		public void OnWorldStart()
 		{
 			foreach (var character in CharacterSystem.ComponentDict.Values)
