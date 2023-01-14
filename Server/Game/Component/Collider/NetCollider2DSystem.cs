@@ -112,7 +112,7 @@ namespace Server.Game
 				var sender = _senders[i];
 				for (int j = i - 1; 0 <= j; --j)
 				{
-					var to = activeComponents[j];
+					var to = _senders[j];
 					if (sender.CheckCollision(to) is false)
 					{
 						continue;
