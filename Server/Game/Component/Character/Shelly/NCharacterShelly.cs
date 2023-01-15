@@ -15,6 +15,11 @@ public class NCharacterShelly : NetCharacter
 		base.Start();
 		BuckShot = new NShellyBuckShot(this);
 		SuperShell = new NShellySuperShell(this);
+	}
+
+	public override void Reset()
+	{
+		base.Reset();
 		MaxHp = 100;
 		Hp = MaxHp;
 	}

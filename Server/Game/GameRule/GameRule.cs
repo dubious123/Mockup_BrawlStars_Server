@@ -9,6 +9,6 @@ namespace Server.Game.GameRule
 		public NetWorld World { get; set; }
 		public abstract TeamType GetTeamType(NetObject netObj);
 		public abstract bool CanSendHit(NetBaseComponent from, NetBaseComponent to);
-		public abstract void UpdateGameLogic();
+		public abstract void Update();
 	}
 }

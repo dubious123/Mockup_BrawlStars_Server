@@ -12,6 +12,7 @@ namespace Server
 		{
 			_handlerDict = new ConcurrentDictionary<PacketId, Action<BasePacket, ClientSession>>();
 			_handlerDict.TryAdd(PacketId.C_Init, (packet, session) => C_InitHandle(packet, session));
+			_handlerDict.TryAdd(PacketId.C_SyncTime, (packet, session) => C_SyncTimeHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_Login, (packet, session) => C_LoginHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterLobby, (packet, session) => C_EnterLobbyHandle(packet, session));
 			_handlerDict.TryAdd(PacketId.C_EnterGame, (packet, session) => C_EnterGameHandle(packet, session));
@@ -105,6 +106,17 @@ namespace Server
 
 			player.InputBuffer.Enqueue(input);
 			return;
+		}
+
+		private static void C_SyncTimeHandle(BasePacket packet, ClientSession session)
+		{
+			var req = packet as C_SyncTime;
+
+			session.RegisterSend(new S_SyncTime()
+			{
+				ClientLocalTime = req.ClientLocalTime,
+				ServerTime = DateTime.UtcNow.ToFileTimeUtc(),
+			});
 		}
 	}
 }

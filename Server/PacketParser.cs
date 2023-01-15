@@ -32,12 +32,14 @@ namespace Server
 #endif
 			_readDict = new ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>>();
 			_readDict.TryAdd((ushort)PacketId.C_Init, arr => JsonSerializer.Deserialize<C_Init>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.C_SyncTime, arr => JsonSerializer.Deserialize<C_SyncTime>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_Login, arr => JsonSerializer.Deserialize<C_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterLobby, arr => JsonSerializer.Deserialize<C_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_EnterGame, arr => JsonSerializer.Deserialize<C_EnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_GameReady, arr => JsonSerializer.Deserialize<C_GameReady>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.C_PlayerInput, arr => JsonSerializer.Deserialize<C_PlayerInput>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Init, arr => JsonSerializer.Deserialize<S_Init>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_SyncTime, arr => JsonSerializer.Deserialize<S_SyncTime>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_GameReady, arr => JsonSerializer.Deserialize<S_GameReady>(arr, _options));
@@ -46,6 +48,8 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastEnterGame, arr => JsonSerializer.Deserialize<S_BroadcastEnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartGame, arr => JsonSerializer.Deserialize<S_BroadcastStartGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_GameFrameInfo, arr => JsonSerializer.Deserialize<S_GameFrameInfo>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartNewRound, arr => JsonSerializer.Deserialize<S_BroadcastStartNewRound>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastEndGame, arr => JsonSerializer.Deserialize<S_BroadcastEndGame>(arr, _options));
 		}
 
 		public static IEnumerator<float> ReadPacket(this RecvBuffer buffer, ClientSession session)

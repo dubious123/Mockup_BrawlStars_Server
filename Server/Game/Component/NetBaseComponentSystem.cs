@@ -36,6 +36,11 @@ namespace Server.Game
 			return component;
 		}
 
+		public void RemoveComponent(NetObject netObj)
+		{
+			_componentDict.Remove(netObj.ObjectId);
+		}
+
 		public void SetActive(NetObject netObj, bool active)
 		{
 			var component = GetComponent(netObj.ObjectId);
@@ -54,6 +59,11 @@ namespace Server.Game
 					(c as INetUpdatable)?.Update();
 				}
 			}
+		}
+
+		public virtual void Reset()
+		{
+
 		}
 	}
 }

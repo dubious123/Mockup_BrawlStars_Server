@@ -38,14 +38,19 @@ namespace Server.Game
 		{
 			Collider = this.GetComponent<NetCollider2D>();
 			Team = World.GameRule.GetTeamType(NetObj);
+			KnockbackCoHandler = CoKnockback();
+			StunCoHandler = CoStun();
+			Reset();
+		}
+
+		public virtual void Reset()
+		{
 			MoveSpeed = (sfloat)6f;
 			LookSpeed = (sfloat)360f;
 			MoveSmoothTime = (sfloat)0.01f;
 			CanControlMove = true;
 			CanControlLook = true;
 			Active = true;
-			KnockbackCoHandler = CoKnockback();
-			StunCoHandler = CoStun();
 		}
 
 		public virtual void Update()

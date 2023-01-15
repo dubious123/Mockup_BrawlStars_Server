@@ -8,5 +8,12 @@ namespace Server.Game
 {
 	public class NetProjectileSystem : NetBaseComponentSystem<NetProjectile>
 	{
+		public override void Reset()
+		{
+			foreach (NetProjectile p in ComponentDict)
+			{
+				p.Reset();
+			}
+		}
 	}
 }

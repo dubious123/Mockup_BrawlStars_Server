@@ -16,6 +16,11 @@ namespace Server
 	public class C_Init : BasePacket
 	{
 	}
+	public class C_SyncTime : BasePacket
+	{
+
+		public long ClientLocalTime;
+	}
 	public class C_Login : BasePacket
 	{
 
@@ -51,11 +56,20 @@ namespace Server
 			Id = 0x1000;
 		}
 	}
+	public class S_SyncTime : BasePacket
+	{
+		public S_SyncTime()
+		{
+			Id = 0x1001;
+		}
+		public long ClientLocalTime;
+		public long ServerTime;
+	}
 	public class S_Login : BasePacket
 	{
 		public S_Login()
 		{
-			Id = 0x1001;
+			Id = 0x1002;
 		}
 		public bool result;
 		public int userId;
@@ -64,21 +78,21 @@ namespace Server
 	{
 		public S_EnterLobby()
 		{
-			Id = 0x1002;
+			Id = 0x1003;
 		}
 	}
 	public class S_GameReady : BasePacket
 	{
 		public S_GameReady()
 		{
-			Id = 0x1003;
+			Id = 0x1004;
 		}
 	}
 	public class S_EnterGame : BasePacket
 	{
 		public S_EnterGame(short teamId, Player player)
 		{
-			Id = 0x1004;
+			Id = 0x1005;
 			TeamId = teamId;
 			PlayerInfo = new PlayerInfoDto(player);
 		}
@@ -101,7 +115,7 @@ namespace Server
 	{
 		public S_BroadcastSearchPlayer(ushort foundPlayersCount)
 		{
-			Id = 0x1005;
+			Id = 0x1006;
 			FoundPlayersCount = foundPlayersCount;
 		}
 
@@ -111,7 +125,7 @@ namespace Server
 	{
 		public S_BroadcastEnterGame(ushort characterType, short teamId)
 		{
-			Id = 0x1006;
+			Id = 0x1007;
 			Charactertype = characterType;
 			TeamId = teamId;
 		}
@@ -123,7 +137,7 @@ namespace Server
 	{
 		public S_BroadcastStartGame(float waitTime)
 		{
-			Id = 0x1007;
+			Id = 0x1008;
 			WaitTime = waitTime;
 			CharacterTypeArr = new ushort[6];
 		}
@@ -135,7 +149,7 @@ namespace Server
 	{
 		public S_GameFrameInfo()
 		{
-			Id = 0x1008;
+			Id = 0x1009;
 			PlayerMoveDirXArr = new uint[6];
 			PlayerMoveDirYArr = new uint[6];
 			PlayerLookDirXArr = new uint[6];
@@ -150,5 +164,21 @@ namespace Server
 		public uint[] PlayerLookDirXArr;
 		public uint[] PlayerLookDirYArr;
 		public ushort[] ButtonPressedArr;
+	}
+	public class S_BroadcastStartNewRound : BasePacket
+	{
+		public S_BroadcastStartNewRound()
+		{
+			Id = 0x100A;
+		}
+
+		public int WaitMilliseconds;
+	}
+	public class S_BroadcastEndGame : BasePacket
+	{
+		public S_BroadcastEndGame()
+		{
+			Id = 0x100B;
+		}
 	}
 }

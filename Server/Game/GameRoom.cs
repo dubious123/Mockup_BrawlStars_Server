@@ -1,4 +1,6 @@
-﻿using Server.Game.GameRule;
+﻿using System.Threading.Tasks;
+
+using Server.Game.GameRule;
 using Server.Logs;
 
 namespace Server;
@@ -21,6 +23,7 @@ public class GameRoom
 	private short _playerCount = 0;
 	private long _currentTick = 0;
 	private Player[] _players;
+	private NetWorld _world;
 
 	public GameRoom(int id, ushort mapId)
 	{
@@ -43,14 +46,19 @@ public class GameRoom
 		Player player;
 		_playerCount = 0;
 		var data = DataMgr.GetWorldData();
-		NetWorld world = new(data, new GameRule00());
+		_world = new(data, new GameRule00()
+		{
+			OnMatchOver = OnMatchOver,
+			OnRoundEnd = OnRoundEnd,
+			OnRoundStart = OnRoundStart,
+		});
 
 		#region Ready Game
 		while (_enterBuffer.TryDequeue(out var p))
 		{
 			_players[_playerCount] = p;
 			p.TeamId = _playerCount;
-			p.Character = world.ObjectBuilder.GetNewObject(NetObjectType.Character_Shelly).GetComponent<NetCharacter>();// (_playerCount, CharacterType.Knight);
+			p.Character = _world.ObjectBuilder.GetNewObject(NetObjectType.Character_Shelly).GetComponent<NetCharacter>();// (_playerCount, CharacterType.Knight);
 			p.CurrentGame = this;
 			p.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{
@@ -85,7 +93,7 @@ public class GameRoom
 		});
 		#endregion
 
-		world.OnWorldStart();
+		_world.OnWorldStart();
 		yield return 0f;
 
 		Loggers.Game.Information("---------------StartGame----------------");
@@ -94,6 +102,12 @@ public class GameRoom
 		{
 			Loggers.Game.Information("---------------Frame [{0}]----------------", _currentTick);
 			S_GameFrameInfo packet = new();
+			while (_world.Active is false)
+			{
+				yield return 0f;
+				continue;
+			}
+
 			for (int i = 0; i < _maxPlayerCount; i++)
 			{
 				player = _players[i];
@@ -101,12 +115,6 @@ public class GameRoom
 				{
 					continue;
 				}
-
-
-				//if (player.InputBuffer.IsEmpty && State == GameState.Started)
-				//{
-				//	continue;
-				//}
 
 				while (player.InputBuffer.IsEmpty && State == GameState.Started)
 				{
@@ -127,8 +135,8 @@ public class GameRoom
 				packet.ButtonPressedArr[i] = input.ButtonInput;
 			}
 
-			world.InputInfo = frameInfo;
-			world.Update();
+			_world.InputInfo = frameInfo;
+			_world.Update();
 			Broadcast(packet);
 			_currentTick++;
 			Loggers.Game.Information("------------------------------------------");
@@ -185,6 +193,12 @@ public class GameRoom
 		}
 	}
 
+	public void StartNewRound()
+	{
+		_world.Reset();
+		_world.Active = true;
+	}
+
 	private void Exit(Player player)
 	{
 		if (_players[player.TeamId] != player)
@@ -200,6 +214,28 @@ public class GameRoom
 		{
 			EndGame();
 		}
+	}
+
+	private void OnRoundStart()
+	{
+		Loggers.Game.Information("Round Start");
+	}
+
+	private void OnRoundEnd(GameRule00.RoundResult result)
+	{
+		Loggers.Game.Information("Round End {0}", Enum.GetName(result));
+		var waitMilliseconds = 3000;
+		Broadcast(new S_BroadcastStartNewRound()
+		{
+			WaitMilliseconds = waitMilliseconds
+		});
+
+		Task.Delay(waitMilliseconds).ContinueWith(t => StartNewRound());
+	}
+
+	private void OnMatchOver(GameRule00.MatchResult result)
+	{
+		Loggers.Game.Information("Match End {0}", Enum.GetName(result));
 	}
 
 	private void EndGame()
