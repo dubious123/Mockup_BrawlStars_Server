@@ -33,6 +33,17 @@ public class GameRoom
 		MapId = mapId;
 		_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
 		_coHandle = Co_Update();
+		var data = DataMgr.GetWorldData();
+		_world = new(data, new GameRule00()
+		{
+			OnMatchStart = OnMatchStart,
+			OnRoundStart = OnRoundStart,
+			OnRoundEnd = OnRoundEnd,
+			OnRoundClear = OnRoundClear,
+			OnRoundReset = OnRoundReset,
+			OnMatchOver = OnMatchOver,
+			OnPlayerDead = OnPlayerDead,
+		});
 	}
 
 	~GameRoom()
@@ -45,13 +56,6 @@ public class GameRoom
 	{
 		Player player;
 		_playerCount = 0;
-		var data = DataMgr.GetWorldData();
-		_world = new(data, new GameRule00()
-		{
-			OnMatchOver = OnMatchOver,
-			OnRoundEnd = OnRoundEnd,
-			OnRoundStart = OnRoundStart,
-		});
 
 		#region Ready Game
 		while (_enterBuffer.TryDequeue(out var p))
@@ -70,6 +74,7 @@ public class GameRoom
 		}
 		#endregion
 
+		_world.Reset();
 		Broadcast(new S_GameReady());
 
 		#region Check if clients are ready
@@ -92,8 +97,6 @@ public class GameRoom
 			CharacterTypeArr = _players.Select(p => (ushort)(p.Character.NetObj.Tag)).ToArray(),
 		});
 		#endregion
-
-		_world.OnWorldStart();
 		yield return 0f;
 
 		Loggers.Game.Information("---------------StartGame----------------");
@@ -102,12 +105,6 @@ public class GameRoom
 		{
 			Loggers.Game.Information("---------------Frame [{0}]----------------", _currentTick);
 			S_GameFrameInfo packet = new();
-			while (_world.Active is false)
-			{
-				yield return 0f;
-				continue;
-			}
-
 			for (int i = 0; i < _maxPlayerCount; i++)
 			{
 				player = _players[i];
@@ -135,7 +132,7 @@ public class GameRoom
 				packet.ButtonPressedArr[i] = input.ButtonInput;
 			}
 
-			_world.InputInfo = frameInfo;
+			_world.UpdateInputs(frameInfo);
 			_world.Update();
 			Broadcast(packet);
 			_currentTick++;
@@ -152,6 +149,7 @@ public class GameRoom
 		}
 
 		State = GameState.Started;
+
 		Program.Update += () => _coHandle.MoveNext();
 	}
 
@@ -193,12 +191,6 @@ public class GameRoom
 		}
 	}
 
-	public void StartNewRound()
-	{
-		_world.Reset();
-		_world.Active = true;
-	}
-
 	private void Exit(Player player)
 	{
 		if (_players[player.TeamId] != player)
@@ -216,6 +208,11 @@ public class GameRoom
 		}
 	}
 
+	private void OnMatchStart()
+	{
+		Loggers.Game.Information("Match Start");
+	}
+
 	private void OnRoundStart()
 	{
 		Loggers.Game.Information("Round Start");
@@ -224,18 +221,26 @@ public class GameRoom
 	private void OnRoundEnd(GameRule00.RoundResult result)
 	{
 		Loggers.Game.Information("Round End {0}", Enum.GetName(result));
-		var waitMilliseconds = 3000;
-		Broadcast(new S_BroadcastStartNewRound()
-		{
-			WaitMilliseconds = waitMilliseconds
-		});
+	}
 
-		Task.Delay(waitMilliseconds).ContinueWith(t => StartNewRound());
+	private void OnRoundClear()
+	{
+		Loggers.Game.Information("Round Clear");
+	}
+
+	private void OnRoundReset()
+	{
+		Loggers.Game.Information("Round Reset");
 	}
 
 	private void OnMatchOver(GameRule00.MatchResult result)
 	{
 		Loggers.Game.Information("Match End {0}", Enum.GetName(result));
+	}
+
+	private void OnPlayerDead(NetCharacter character)
+	{
+		Loggers.Game.Information("Player dead {0}", character.NetObjId.InstanceId);
 	}
 
 	private void EndGame()

@@ -22,6 +22,15 @@ public class NCharacterShelly : NetCharacter
 		base.Reset();
 		MaxHp = 100;
 		Hp = MaxHp;
+		if (BuckShot is not null)
+		{
+			BuckShot.Active = true;
+		}
+
+		if (SuperShell is not null)
+		{
+			SuperShell.Active = true;
+		}
 	}
 
 	public override void Update()

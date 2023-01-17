@@ -10,4 +10,12 @@ public class GameFrameInfo
 	public long StartTick { get; set; }
 	public long TargetTick { get; set; }
 	public InputData[] Inputs { get; private set; }
+
+	public void Reset()
+	{
+		for (int i = 0; i < Inputs.Length; i++)
+		{
+			Inputs[i] = default;
+		}
+	}
 }

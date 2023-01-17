@@ -10,8 +10,8 @@ namespace Server.Game
 {
 	public abstract class NetBaseComponentSystem<T> : INetUpdatable where T : NetBaseComponent
 	{
+		public bool Active { get; set; } = true;
 		public NetWorld World { get; init; }
-
 		public DetDictionary<NetObjectId, T> ComponentDict => _componentDict;
 
 		private DetDictionary<NetObjectId, T> _componentDict = new();
@@ -50,8 +50,21 @@ namespace Server.Game
 			}
 		}
 
+		public void SetActiveAll(bool active)
+		{
+			foreach (var component in _componentDict)
+			{
+				component.Active = active;
+			}
+		}
+
 		public virtual void Update()
 		{
+			if (Active is false)
+			{
+				return;
+			}
+
 			foreach (var c in _componentDict)
 			{
 				if (c.Active)
@@ -63,7 +76,7 @@ namespace Server.Game
 
 		public virtual void Reset()
 		{
-
+			Active = true;
 		}
 	}
 }

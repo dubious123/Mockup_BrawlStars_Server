@@ -16,14 +16,15 @@ namespace Server.Game
 
 		public Dictionary<NetObjectId, NetObject> NetObjectDict { get; private set; } = new();
 		public WorldData Data => _worldData;
+		public NTiming NetTiming = new();
 		public NetObjectBuilder ObjectBuilder { get; }
 		public NetCollider2DSystem ColliderSystem { get; }
 		public NetCharacterSystem CharacterSystem { get; }
 		public NetEnvSystem EnvSystem { get; }
 		public NetProjectileSystem ProjectileSystem { get; }
-		public GameFrameInfo InputInfo { get; set; }
 		public NetCharacter[] NetCharacters = new NetCharacter[6];
-		public bool Active { get; set; }
+		public bool Active { get; set; } = true;
+		public bool AllowInput { get; set; } = true;
 
 		private readonly WorldData _worldData;
 
@@ -47,18 +48,26 @@ namespace Server.Game
 			ProjectileSystem.SetActive(netObj, active);
 		}
 
-		public void OnWorldStart()
-		{
-			Active = true;
-			Reset();
-		}
-
 		public void Reset()
 		{
+			Active = true;
 			ColliderSystem.Reset();
 			CharacterSystem.Reset();
 			EnvSystem.Reset();
 			ProjectileSystem.Reset();
+		}
+
+		public void UpdateInputs(GameFrameInfo inputInfo)
+		{
+			if (AllowInput is false)
+			{
+				inputInfo.Reset();
+			}
+
+			foreach (var player in CharacterSystem.ComponentDict)
+			{
+				player.UpdateInput(inputInfo.Inputs[player.NetObj.ObjectId.InstanceId]);
+			}
 		}
 
 		public void Update()
@@ -68,27 +77,12 @@ namespace Server.Game
 				return;
 			}
 
-			UpdateInputs();
+			NetTiming.Update();
 			ColliderSystem.Update();
 			CharacterSystem.Update();
 			EnvSystem.Update();
 			ProjectileSystem.Update();
 			GameRule.Update();
-		}
-
-		public void UpdateInputs()
-		{
-			foreach (var player in CharacterSystem.ComponentDict.Values)
-			{
-				if (player is null || player.Active is false)
-				{
-					continue;
-				}
-
-				Loggers.Game.Information("Player [{0}]", player.NetObj.ObjectId.InstanceId);
-				player.UpdateInput(InputInfo.Inputs[player.NetObj.ObjectId.InstanceId]);
-				Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
-			}
 		}
 
 		public void AddNewNetObject(NetObject obj)

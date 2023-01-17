@@ -41,7 +41,7 @@ namespace Server.Game
 
 		public bool DetectCollision(NetCollider2D collider)
 		{
-			foreach (var c in ComponentDict.Values)
+			foreach (var c in ComponentDict)
 			{
 				if (c != collider && collider.Active is true && collider.CheckCollision(c))
 				{
@@ -54,7 +54,7 @@ namespace Server.Game
 
 		public bool DetectCollision(NetCollider2D collider, NetObjectType tag)
 		{
-			foreach (var c in ComponentDict.Values)
+			foreach (var c in ComponentDict)
 			{
 				if (c.NetObj.Tag == tag && c != collider && collider.Active is true && collider.CheckCollision(c))
 				{
@@ -67,7 +67,7 @@ namespace Server.Game
 
 		public void GetCollisions(NetCollider2D collider, IList<NetCollider2D> collisions)
 		{
-			foreach (var c in ComponentDict.Values)
+			foreach (var c in ComponentDict)
 			{
 				if (c != collider && collider.CheckCollision(c))
 				{
@@ -78,7 +78,7 @@ namespace Server.Game
 
 		public void GetCollisions(NetCollider2D collider, NetObjectType tag, IList<NetCollider2D> collisions)
 		{
-			foreach (var c in ComponentDict.Values)
+			foreach (var c in ComponentDict)
 			{
 				if (c.NetObj.Tag == tag && c != collider && collider.CheckCollision(c))
 				{
@@ -89,6 +89,11 @@ namespace Server.Game
 
 		public override void Update()
 		{
+			if (Active is false)
+			{
+				return;
+			}
+
 			_listeners.Clear();
 			_senders.Clear();
 			var activeComponents = ComponentDict

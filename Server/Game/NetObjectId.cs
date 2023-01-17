@@ -22,11 +22,16 @@ namespace Server.Game
 			return new NetObjectId()
 			{
 				_id = id,
-				_type = (NetObjectType)(id >> 8),
-				_instanceId = (int)(id & 0x0000_00ff),
+				_type = (NetObjectType)(id >> 16),
+				_instanceId = (int)(id & 0x0000_ffff),
 			};
 		}
 
 		public uint GetRaw() => _id;
+
+		public override int GetHashCode()
+		{
+			return (int)_id;
+		}
 	}
 }

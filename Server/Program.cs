@@ -22,7 +22,6 @@ public class Program
 		GameMgr.Init();
 		DataMgr.Init();
 		JobMgr.Init();
-		Timing.Init();
 		SessionMgr.Init();
 		#endregion
 		Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
@@ -38,7 +37,6 @@ public class Program
 			{
 				nowTick = DateTime.UtcNow.Ticks;
 				Update.Invoke();
-				Timing.OnNewFrameStart(nowTick);
 			}
 		}
 	}

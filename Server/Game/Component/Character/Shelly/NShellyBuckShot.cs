@@ -143,7 +143,7 @@ public class NShellyBuckShot : NetBaseSkill
 		var wall = target.GetComponent<NetWall>();
 		if (wall is not null)
 		{
-			pallet.Active = false;
+			pallet.NetObj.Active = false;
 			return;
 		}
 

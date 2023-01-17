@@ -41,7 +41,7 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 	public void Reset()
 	{
 		_currentTravelTime = 0;
-		Active = false;
+		NetObj.Active = false;
 	}
 
 	public void Update()

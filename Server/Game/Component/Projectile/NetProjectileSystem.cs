@@ -10,6 +10,7 @@ namespace Server.Game
 	{
 		public override void Reset()
 		{
+			base.Reset();
 			foreach (NetProjectile p in ComponentDict)
 			{
 				p.Reset();
