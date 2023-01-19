@@ -49,7 +49,7 @@ public class NShellyBuckShot : NetBaseSkill
 				var obj = _shelly.ObjectBuilder.GetNewObject(NetObjectType.Projectile_Shelly_Buckshot);
 				var pallet = obj.GetComponent<NetProjectile>()
 					.SetAngle((degreeOffset + degreeDelta * j) * sMathf.Deg2Rad);
-				obj.GetComponent<NetCollider2D>().OnCollided = target => OnHit(pallet, target);
+				obj.GetComponent<NetCollider2D>().OnCollisionEnter = target => OnHit(pallet, target);
 				obj.Active = false;
 				Shots[i, j] = pallet;
 			}

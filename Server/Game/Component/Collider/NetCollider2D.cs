@@ -9,7 +9,9 @@ namespace Server.Game
 	public abstract class NetCollider2D : NetBaseComponent
 	{
 		public bool IsTrigger { get; set; } = false;
-		public Action<NetCollider2D> OnCollided;
+		public Action<NetCollider2D> OnCollisionEnter;
+		public Action<NetCollider2D> OnCollisionStay;
+		public Action<NetCollider2D> OnCollisionExit;
 
 		public abstract bool CheckCollision(NetCollider2D other);
 

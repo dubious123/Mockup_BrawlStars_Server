@@ -1,16 +1,16 @@
-2023-01-18 00:04:25.244 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:3940 completed
-2023-01-18 00:04:27.987 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:3941 completed
-2023-01-18 00:05:26.201 +09:00 [INF] Closing[2]
-2023-01-18 00:05:26.202 +09:00 [INF] Session [2] close started
-2023-01-18 00:05:26.203 +09:00 [INF] Session [2] shut down started
-2023-01-18 00:05:26.204 +09:00 [INF] Session [2] shut down completed
-2023-01-18 00:05:26.204 +09:00 [INF] Session [2] disconnect started
-2023-01-18 00:05:26.205 +09:00 [INF] Session [2] disconnect completed
-2023-01-18 00:05:26.208 +09:00 [INF] Session [2] close completed
-2023-01-18 00:05:32.393 +09:00 [INF] Closing[1]
-2023-01-18 00:05:32.393 +09:00 [INF] Session [1] close started
-2023-01-18 00:05:32.393 +09:00 [INF] Session [1] shut down started
-2023-01-18 00:05:32.393 +09:00 [INF] Session [1] shut down completed
-2023-01-18 00:05:32.393 +09:00 [INF] Session [1] disconnect started
-2023-01-18 00:05:32.393 +09:00 [INF] Session [1] disconnect completed
-2023-01-18 00:05:32.395 +09:00 [INF] Session [1] close completed
+2023-01-19 22:19:24.645 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:7540 completed
+2023-01-19 22:19:29.472 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:7542 completed
+2023-01-19 22:20:26.284 +09:00 [INF] Closing[2]
+2023-01-19 22:20:26.284 +09:00 [INF] Session [2] close started
+2023-01-19 22:20:26.287 +09:00 [INF] Session [2] shut down started
+2023-01-19 22:20:26.288 +09:00 [INF] Session [2] shut down completed
+2023-01-19 22:20:26.288 +09:00 [INF] Session [2] disconnect started
+2023-01-19 22:20:26.289 +09:00 [INF] Session [2] disconnect completed
+2023-01-19 22:20:26.292 +09:00 [INF] Session [2] close completed
+2023-01-19 22:20:28.589 +09:00 [INF] Closing[1]
+2023-01-19 22:20:28.589 +09:00 [INF] Session [1] close started
+2023-01-19 22:20:28.590 +09:00 [INF] Session [1] shut down started
+2023-01-19 22:20:28.590 +09:00 [INF] Session [1] shut down completed
+2023-01-19 22:20:28.590 +09:00 [INF] Session [1] disconnect started
+2023-01-19 22:20:28.590 +09:00 [INF] Session [1] disconnect completed
+2023-01-19 22:20:28.601 +09:00 [INF] Session [1] close completed

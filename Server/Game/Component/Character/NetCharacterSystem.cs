@@ -5,8 +5,6 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-using Server.Logs;
-
 namespace Server.Game
 {
 	public class NetCharacterSystem : NetBaseComponentSystem<NetCharacter>
@@ -38,6 +36,11 @@ namespace Server.Game
 				character.Rotation = sQuaternion.identity;
 				character.Reset();
 			}
+		}
+
+		public void SetVisible(NetCharacter character, bool visible)
+		{
+			character.IsVisible = visible;
 		}
 	}
 }

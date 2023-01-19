@@ -28,6 +28,7 @@ namespace Server.Game
 		public int Hp { get; protected set; }
 		public bool CanControlMove { get; set; }
 		public bool CanControlLook { get; set; }
+		public bool IsVisible { get; set; }
 
 		protected IEnumerator<int> KnockbackCoHandler { get; set; }
 		protected IEnumerator<int> StunCoHandler { get; set; }
@@ -50,6 +51,7 @@ namespace Server.Game
 			MoveSmoothTime = (sfloat)0.01f;
 			CanControlMove = true;
 			CanControlLook = true;
+			IsVisible = true;
 			Active = true;
 		}
 
