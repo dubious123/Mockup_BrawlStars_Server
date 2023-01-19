@@ -4,7 +4,6 @@ using System.Linq;
 
 using Server.Game.Data;
 using Server.Game.GameRule;
-using Server.Logs;
 
 using static Enums;
 
@@ -18,10 +17,10 @@ namespace Server.Game
 		public WorldData Data => _worldData;
 		public NTiming NetTiming = new();
 		public NetObjectBuilder ObjectBuilder { get; }
-		public NetCollider2DSystem ColliderSystem { get; }
-		public NetCharacterSystem CharacterSystem { get; }
-		public NetEnvSystem EnvSystem { get; }
-		public NetProjectileSystem ProjectileSystem { get; }
+		public NetCollider2DSystem ColliderSystem { get; } = new();
+		public NetCharacterSystem CharacterSystem { get; } = new();
+		public NetEnvSystem EnvSystem { get; } = new();
+		public NetProjectileSystem ProjectileSystem { get; } = new();
 		public NetCharacter[] NetCharacters = new NetCharacter[6];
 		public bool Active { get; set; } = true;
 		public bool AllowInput { get; set; } = true;
@@ -30,14 +29,14 @@ namespace Server.Game
 
 		public NetWorld(WorldData data, BaseGameRule gameRule)
 		{
+			_worldData = data;
 			GameRule = gameRule;
 			GameRule.World = this;
 			ObjectBuilder = new() { World = this };
-			ColliderSystem = new() { World = this };
-			CharacterSystem = new() { World = this };
-			EnvSystem = new() { World = this };
-			ProjectileSystem = new() { World = this };
-			_worldData = data;
+			ColliderSystem.Init(this);
+			CharacterSystem.Init(this);
+			EnvSystem.Init(this);
+			ProjectileSystem.Init(this);
 		}
 
 		public void SetNetObjectActive(NetObject netObj, bool active)

@@ -11,10 +11,15 @@ namespace Server.Game
 	public abstract class NetBaseComponentSystem<T> : INetUpdatable where T : NetBaseComponent
 	{
 		public bool Active { get; set; } = true;
-		public NetWorld World { get; init; }
+		public NetWorld World { get; private set; }
 		public DetDictionary<NetObjectId, T> ComponentDict => _componentDict;
 
 		private DetDictionary<NetObjectId, T> _componentDict = new();
+
+		public virtual void Init(NetWorld world)
+		{
+			World = world;
+		}
 
 		public bool AddComponent(NetObjectId netObjectId, T component)
 		{

@@ -8,5 +8,6 @@ namespace Server.Game
 {
 	public class NetEnv : NetBaseComponent
 	{
+		public virtual void Reset() { }
 	}
 }

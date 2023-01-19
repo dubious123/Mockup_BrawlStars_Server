@@ -11,7 +11,24 @@ namespace Server.Game
 {
 	public class NetEnvSystem : NetBaseComponentSystem<NetEnv>
 	{
+#if CLIENT
+		public Action<NetTree, NetCharacter> OnCharEnterTree;
+		public Action<NetTree, NetCharacter> OnCharExitTree;
+#endif
 		private Dictionary<NetCharacter, int> _steppedTreeCountDict;
+
+		public override void Init(NetWorld world)
+		{
+			base.Init(world);
+			foreach (var netObjData in World.Data.NetObjectDatas)
+			{
+				var obj = World.ObjectBuilder.GetNewObject((NetObjectType)netObjData.NetObjectId)
+					.SetPositionAndRotation(netObjData.Position, netObjData.Rotation);
+				var collider = obj.GetComponent<NetBoxCollider2D>();
+				collider?.SetOffsetAndSize(netObjData.BoxCollider.Offset, netObjData.BoxCollider.Size);
+			}
+		}
+
 		public override void Reset()
 		{
 			base.Reset();
@@ -29,19 +46,9 @@ namespace Server.Game
 				_steppedTreeCountDict.ResetValues(0);
 			}
 
-
-			var list = ComponentDict.AsEnumerable().ToArray();
-			foreach (var env in list)
+			foreach (var env in ComponentDict)
 			{
-				env.NetObj.Destroy();
-			}
-
-			foreach (var netObjData in World.Data.NetObjectDatas)
-			{
-				var obj = World.ObjectBuilder.GetNewObject((NetObjectType)netObjData.NetObjectId)
-					.SetPositionAndRotation(netObjData.Position, netObjData.Rotation);
-				var collider = obj.GetComponent<NetBoxCollider2D>();
-				collider?.SetOffsetAndSize(netObjData.BoxCollider.Offset, netObjData.BoxCollider.Size);
+				env.Reset();
 			}
 		}
 
@@ -53,7 +60,9 @@ namespace Server.Game
 			}
 
 			_steppedTreeCountDict[character]++;
-
+#if CLIENT
+			OnCharEnterTree?.Invoke(tree, character);
+#endif
 		}
 
 		public void OnCharacterExitTree(NetTree tree, NetCharacter character)
@@ -63,6 +72,9 @@ namespace Server.Game
 			{
 				World.CharacterSystem.SetVisible(character, true);
 			}
+#if CLIENT
+			OnCharExitTree?.Invoke(tree, character);
+#endif
 		}
 	}
 }

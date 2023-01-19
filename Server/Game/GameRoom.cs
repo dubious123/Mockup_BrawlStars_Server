@@ -4,7 +4,6 @@ using Server.Game.GameRule;
 using Server.Logs;
 
 namespace Server;
-
 public class GameRoom
 {
 	public int Id { get; init; }
