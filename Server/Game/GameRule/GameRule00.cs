@@ -10,7 +10,8 @@ namespace Server.Game.GameRule
 		public const int MAX_ROUND_COUNT = 3;
 		public const int TEAM_MEMBER_COUNT = 1;//3;
 		public const int REQUIRED_WIN_COUNT = 2;
-		public const int ROUND_WAIT_FRAMECOUNT = 60;
+		public const int ROUND_WAIT_FRAMECOUNT = 120;
+		public const int MAX_FRAME_COUNT = 1000;//60 * 60 * 3;
 
 		//public NetCharacter[] NetCharacters => World.NetCharacters;
 		public Action OnMatchStart { private get; set; }
@@ -25,10 +26,14 @@ namespace Server.Game.GameRule
 		public int RedWinCount { get; private set; }
 		public int BluePlayerDeadCount { get; private set; }
 		public int RedPlayerDeadCount { get; private set; }
-		public int CurrentRoundFrameCount { get; private set; }
 
 		private bool _gameStarted = false;
 		private bool _roundStarted = false;
+
+		public GameRule00()
+		{
+			MaxFrameCount = MAX_FRAME_COUNT;
+		}
 
 		public override TeamType GetTeamType(NetObject netObj)
 		{
@@ -60,6 +65,7 @@ namespace Server.Game.GameRule
 				return;
 			}
 
+			++CurrentRoundFrameCount;
 			if (_gameStarted is false)
 			{
 				HandleMatchStart();
@@ -87,11 +93,14 @@ namespace Server.Game.GameRule
 			}
 
 			_gameStarted = true;
+			CurrentRoundFrameCount = 0;
+			OnMatchStart?.Invoke();
 		}
 
 		private void HandleRoundStart()
 		{
 			OnRoundStart?.Invoke();
+			CurrentRoundFrameCount = 0;
 			BluePlayerDeadCount = 0;
 			RedPlayerDeadCount = 0;
 			_roundStarted = true;
@@ -126,14 +135,14 @@ namespace Server.Game.GameRule
 		{
 			World.ProjectileSystem.Reset();
 			World.CharacterSystem.SetActiveAll(false);
-			World.NetTiming.CallDelayed(60, HandleRoundReset);
+			World.NetTiming.CallDelayed(ROUND_WAIT_FRAMECOUNT, HandleRoundReset);
 			OnRoundClear?.Invoke();
 		}
 
 		private void HandleRoundReset()
 		{
 			World.Reset();
-			World.NetTiming.CallDelayed(60, () =>
+			World.NetTiming.CallDelayed(ROUND_WAIT_FRAMECOUNT, () =>
 			{
 				World.AllowInput = true;
 				Active = true;
@@ -144,6 +153,7 @@ namespace Server.Game.GameRule
 
 		private void HandleMatchOver()
 		{
+			Active = false;
 			OnMatchOver?.Invoke(GetMatchResult());
 		}
 
@@ -166,6 +176,11 @@ namespace Server.Game.GameRule
 		private RoundResult GetRoundResult()
 		{
 			RoundResult roundResult = RoundResult.None;
+			if (CurrentRoundFrameCount >= MAX_FRAME_COUNT)
+			{
+				return RoundResult.Draw;
+			}
+
 			if (BluePlayerDeadCount == TEAM_MEMBER_COUNT)
 			{
 				roundResult |= RoundResult.Red;

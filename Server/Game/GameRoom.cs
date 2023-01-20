@@ -9,7 +9,6 @@ public class GameRoom
 	public int Id { get; init; }
 	public ushort MapId { get; init; }
 	public bool GameStarted => _gameStarted == 1;
-	public long CurrentTick { get => _currentTick; }
 	public Player[] Players { get => _players; }
 	public GameState State { get; private set; }
 
@@ -20,7 +19,6 @@ public class GameRoom
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();
 	private int _gameStarted = 0;
 	private short _playerCount = 0;
-	private long _currentTick = 0;
 	private Player[] _players;
 	private NetWorld _world;
 
@@ -102,7 +100,7 @@ public class GameRoom
 		GameFrameInfo frameInfo = new(_maxPlayerCount);
 		while (State == GameState.Started)
 		{
-			Loggers.Game.Information("---------------Frame [{0}]----------------", _currentTick);
+			Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.CurrentRoundFrameCount);
 			S_GameFrameInfo packet = new();
 			for (int i = 0; i < _maxPlayerCount; i++)
 			{
@@ -134,7 +132,6 @@ public class GameRoom
 			_world.UpdateInputs(frameInfo);
 			_world.Update();
 			Broadcast(packet);
-			_currentTick++;
 			Loggers.Game.Information("------------------------------------------");
 			yield return 0f;
 		}
@@ -234,7 +231,8 @@ public class GameRoom
 
 	private void OnMatchOver(GameRule00.MatchResult result)
 	{
-		Loggers.Game.Information("Match End {0}", Enum.GetName(result));
+		Loggers.Game.Information("Match Over {0}", Enum.GetName(result));
+		EndGame();
 	}
 
 	private void OnPlayerDead(NetCharacter character)
@@ -245,6 +243,7 @@ public class GameRoom
 	private void EndGame()
 	{
 		State = GameState.Ended;
+		Broadcast(new S_BroadcastEndGame());
 		GameMgr.EndGame(Id);
 	}
 }
