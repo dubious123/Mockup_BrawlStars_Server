@@ -42,9 +42,6 @@ namespace Server.Game
 			return this;
 		}
 
-		public override int GetHashCode()
-		{
-			return (int)ObjectId.GetRaw();
-		}
+		public override int GetHashCode() => ObjectId.GetHashCode();
 	}
 }

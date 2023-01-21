@@ -20,5 +20,7 @@ namespace Server.Game
 		public bool Active { get; set; } = true;
 
 		public virtual void Start() { }
+
+		public override int GetHashCode() => NetObjId.GetHashCode();
 	}
 }

@@ -15,7 +15,7 @@ namespace Server.Game
 		public Action<NetTree, NetCharacter> OnCharEnterTree;
 		public Action<NetTree, NetCharacter> OnCharExitTree;
 #endif
-		private Dictionary<NetCharacter, int> _steppedTreeCountDict;
+		private Dictionary<NetCharacter, HashSet<NetTree>> _steppedTreeDict;
 
 		public override void Init(NetWorld world)
 		{
@@ -29,21 +29,66 @@ namespace Server.Game
 			}
 		}
 
+		public override void Update()
+		{
+			if (Active is false)
+			{
+				return;
+			}
+
+			foreach (var c in ComponentDict)
+			{
+				if (c.Active)
+				{
+					(c as INetUpdatable)?.Update();
+				}
+			}
+
+			foreach (var character in World.CharacterSystem.ComponentDict)
+			{
+				if (_steppedTreeDict[character].Count == 0)
+				{
+					World.CharacterSystem.SetVisible(character, true);
+					continue;
+				}
+
+				var otherTeamTree = _steppedTreeDict.Where(pair => pair.Key.Team != character.Team);
+				foreach (var tree in _steppedTreeDict[character])
+				{
+					foreach (var pair in otherTeamTree)
+					{
+						if (pair.Value.Contains(tree))
+						{
+							World.CharacterSystem.SetVisible(character, true);
+							goto Continue;
+						}
+					}
+				}
+
+				World.CharacterSystem.SetVisible(character, false);
+			Continue:
+				continue;
+			}
+		}
+
 		public override void Reset()
 		{
 			base.Reset();
 
-			if (_steppedTreeCountDict is null)
+			if (_steppedTreeDict is null)
 			{
-				_steppedTreeCountDict ??= new(World.CharacterSystem.ComponentDict.Count);
+				_steppedTreeDict ??= new(World.CharacterSystem.ComponentDict.Count);
 				foreach (var character in World.CharacterSystem.ComponentDict)
 				{
-					_steppedTreeCountDict.Add(character, 0);
+					_steppedTreeDict.Add(character, new());
 				}
 			}
 			else
 			{
-				_steppedTreeCountDict.ResetValues(0);
+				foreach (var treeSet in _steppedTreeDict.Values)
+				{
+					treeSet.Clear();
+				}
 			}
 
 			foreach (var env in ComponentDict)
@@ -54,12 +99,7 @@ namespace Server.Game
 
 		public void OnCharacterEnterTree(NetTree tree, NetCharacter character)
 		{
-			if (_steppedTreeCountDict[character] == 0)
-			{
-				World.CharacterSystem.SetVisible(character, false);
-			}
-
-			_steppedTreeCountDict[character]++;
+			_steppedTreeDict[character].Add(tree);
 #if CLIENT
 			OnCharEnterTree?.Invoke(tree, character);
 #endif
@@ -67,11 +107,7 @@ namespace Server.Game
 
 		public void OnCharacterExitTree(NetTree tree, NetCharacter character)
 		{
-			_steppedTreeCountDict[character]--;
-			if (_steppedTreeCountDict[character] == 0)
-			{
-				World.CharacterSystem.SetVisible(character, true);
-			}
+			_steppedTreeDict[character].Remove(tree);
 #if CLIENT
 			OnCharExitTree?.Invoke(tree, character);
 #endif

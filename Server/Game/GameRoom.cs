@@ -246,6 +246,11 @@ public class GameRoom
 		Broadcast(new S_BroadcastEndGame());
 		foreach (var p in _players)
 		{
+			if (p is null)
+			{
+				continue;
+			}
+
 			p.GameSceneReady = false;
 			p.Session.OnClosed.RemoveListener("GameRoomExit");
 		}
