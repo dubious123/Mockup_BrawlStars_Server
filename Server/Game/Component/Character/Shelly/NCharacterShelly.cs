@@ -7,13 +7,12 @@ using static Enums;
 
 public class NCharacterShelly : NetCharacter
 {
-	public NetBaseSkill BuckShot { get; set; }
 	public NetBaseSkill SuperShell { get; set; }
 
 	public override void Start()
 	{
 		base.Start();
-		BuckShot = new NShellyBuckShot(this);
+		BasicAttack = new NShellyBuckShot(this);
 		SuperShell = new NShellySuperShell(this);
 	}
 
@@ -22,9 +21,9 @@ public class NCharacterShelly : NetCharacter
 		base.Reset();
 		MaxHp = 100;
 		Hp = MaxHp;
-		if (BuckShot is not null)
+		if (BasicAttack is not null)
 		{
-			BuckShot.Active = true;
+			BasicAttack.Active = true;
 		}
 
 		if (SuperShell is not null)
@@ -36,22 +35,22 @@ public class NCharacterShelly : NetCharacter
 	public override void Update()
 	{
 		base.Update();
-		BuckShot.Update();
+		BasicAttack.Update();
 		SuperShell.Update();
 	}
 
 	public override void UpdateInput(in InputData input)
 	{
 		base.UpdateInput(input);
-		BuckShot.HandleInput(in input);
+		BasicAttack.HandleInput(in input);
 		SuperShell.HandleInput(in input);
 	}
 
-	public void SetActiveOtherSkills(NetBaseSkill from, bool Active)
+	public override void SetActiveOtherSkills(NetBaseSkill from, bool Active)
 	{
-		if (from != BuckShot)
+		if (from != BasicAttack)
 		{
-			BuckShot.Active = Active;
+			BasicAttack.Active = Active;
 		}
 
 		if (from != SuperShell)
@@ -63,8 +62,8 @@ public class NCharacterShelly : NetCharacter
 	public override void OnDead()
 	{
 		base.OnDead();
-		BuckShot.Performing = false;
-		BuckShot.Active = false;
+		BasicAttack.Performing = false;
+		BasicAttack.Active = false;
 		SuperShell.Performing = false;
 		SuperShell.Active = false;
 	}
@@ -72,8 +71,8 @@ public class NCharacterShelly : NetCharacter
 	protected override void OnCCStart()
 	{
 		base.OnCCStart();
-		BuckShot.Cancel();
-		BuckShot.Active = false;
+		BasicAttack.Cancel();
+		BasicAttack.Active = false;
 		SuperShell.Cancel();
 		SuperShell.Active = false;
 	}
@@ -81,7 +80,7 @@ public class NCharacterShelly : NetCharacter
 	protected override void OnCCEnd()
 	{
 		base.OnCCEnd();
-		BuckShot.Active = true;
+		BasicAttack.Active = true;
 		SuperShell.Active = true;
 	}
 }

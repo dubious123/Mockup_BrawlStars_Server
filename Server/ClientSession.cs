@@ -62,8 +62,8 @@ public class ClientSession : Session
 		}
 		catch (ObjectDisposedException e)
 		{
-			Loggers.Network.Error("Session [{Id}] : {e.Message}", Id, e.Message);
-			Loggers.Console.Error("Session [{Id}] : {e.Message}", Id, e.Message);
+			Loggers.Network.Error("Session [{0}] : {1}", Id, e.Message);
+			Loggers.Console.Error("Session [{0}] : {1}", Id, e.Message);
 		}
 		catch (Exception)
 		{

@@ -22,6 +22,7 @@ namespace Server.Game
 		public CCFlags CCFlag { get; protected set; }
 		public TeamType Team { get; set; }
 		public NetCollider2D Collider { get; protected set; }
+		public NetBasicAttack BasicAttack { get; protected set; }
 		public int KnockbackDuration { get; protected set; }
 		public int StunDuration { get; protected set; }
 		public int MaxHp { get; protected set; }
@@ -161,6 +162,8 @@ namespace Server.Game
 			CanControlLook = false;
 			OnCharacterDead?.Invoke();
 		}
+
+		public abstract void SetActiveOtherSkills(NetBaseSkill from, bool Active);
 
 		protected virtual IEnumerator<int> CoKnockback()
 		{
