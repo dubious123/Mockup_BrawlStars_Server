@@ -45,7 +45,7 @@ public class GameRoom
 
 	~GameRoom()
 	{
-		Program.Update -= () => _coHandle.MoveNext();
+		Loggers.Debug.Debug("GameRoom{0} disposed", Id);
 	}
 
 
@@ -244,6 +244,13 @@ public class GameRoom
 	{
 		State = GameState.Ended;
 		Broadcast(new S_BroadcastEndGame());
+		foreach (var p in _players)
+		{
+			p.GameSceneReady = false;
+			p.Session.OnClosed.RemoveListener("GameRoomExit");
+		}
+
+		Program.Update -= () => _coHandle.MoveNext();
 		GameMgr.EndGame(Id);
 	}
 }

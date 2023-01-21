@@ -1,2 +1,16 @@
-2023-01-20 23:49:51.272 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:4641 completed
-2023-01-20 23:50:11.743 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:4647 completed
+2023-01-21 17:10:16.332 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:9120 completed
+2023-01-21 17:10:20.688 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:9122 completed
+2023-01-21 17:11:05.320 +09:00 [INF] Closing[2]
+2023-01-21 17:11:05.320 +09:00 [INF] Session [2] close started
+2023-01-21 17:11:05.321 +09:00 [INF] Session [2] shut down started
+2023-01-21 17:11:05.321 +09:00 [INF] Session [2] shut down completed
+2023-01-21 17:11:05.321 +09:00 [INF] Session [2] disconnect started
+2023-01-21 17:11:05.322 +09:00 [INF] Session [2] disconnect completed
+2023-01-21 17:11:05.326 +09:00 [INF] Session [2] close completed
+2023-01-21 17:11:06.340 +09:00 [INF] Closing[1]
+2023-01-21 17:11:06.340 +09:00 [INF] Session [1] close started
+2023-01-21 17:11:06.340 +09:00 [INF] Session [1] shut down started
+2023-01-21 17:11:06.341 +09:00 [INF] Session [1] shut down completed
+2023-01-21 17:11:06.341 +09:00 [INF] Session [1] disconnect started
+2023-01-21 17:11:06.341 +09:00 [INF] Session [1] disconnect completed
+2023-01-21 17:11:06.342 +09:00 [INF] Session [1] close completed

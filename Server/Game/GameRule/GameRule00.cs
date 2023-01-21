@@ -10,7 +10,9 @@ namespace Server.Game.GameRule
 		public const int MAX_ROUND_COUNT = 3;
 		public const int TEAM_MEMBER_COUNT = 1;//3;
 		public const int REQUIRED_WIN_COUNT = 2;
-		public const int ROUND_WAIT_FRAMECOUNT = 120;
+		public const int ROUND_END_WAIT_FRAMECOUNT = 120;
+		public const int ROUND_CLEAR_WAIT_FRAMECOUNT = 90;
+		public const int ROUND_RESET_WAIT_FRAMECOUNT = 60;
 		public const int MAX_FRAME_COUNT = 1000;//60 * 60 * 3;
 
 		//public NetCharacter[] NetCharacters => World.NetCharacters;
@@ -123,11 +125,13 @@ namespace Server.Game.GameRule
 			_roundStarted = false;
 			OnRoundEnd?.Invoke(roundResult);
 			World.AllowInput = false;
-			World.NetTiming.CallDelayed(60, HandleRoundClear);
-
 			if (BlueWinCount >= REQUIRED_WIN_COUNT || RedWinCount >= REQUIRED_WIN_COUNT || CurrentRound >= MAX_ROUND_COUNT)
 			{
-				HandleMatchOver();
+				World.NetTiming.CallDelayed(ROUND_END_WAIT_FRAMECOUNT, HandleMatchOver);
+			}
+			else
+			{
+				World.NetTiming.CallDelayed(ROUND_END_WAIT_FRAMECOUNT, HandleRoundClear);
 			}
 		}
 
@@ -135,14 +139,14 @@ namespace Server.Game.GameRule
 		{
 			World.ProjectileSystem.Reset();
 			World.CharacterSystem.SetActiveAll(false);
-			World.NetTiming.CallDelayed(ROUND_WAIT_FRAMECOUNT, HandleRoundReset);
+			World.NetTiming.CallDelayed(ROUND_CLEAR_WAIT_FRAMECOUNT, HandleRoundReset);
 			OnRoundClear?.Invoke();
 		}
 
 		private void HandleRoundReset()
 		{
 			World.Reset();
-			World.NetTiming.CallDelayed(ROUND_WAIT_FRAMECOUNT, () =>
+			World.NetTiming.CallDelayed(ROUND_RESET_WAIT_FRAMECOUNT, () =>
 			{
 				World.AllowInput = true;
 				Active = true;
