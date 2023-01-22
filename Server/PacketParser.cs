@@ -6,10 +6,10 @@ namespace Server
 	{
 		private static readonly ConcurrentDictionary<ushort, Func<ArraySegment<byte>, BasePacket>> _readDict;
 		private static readonly JsonSerializerOptions _options;
-		private static JobQueue _packetHandlerQueue;
+		//private static JobQueue _packetHandlerQueue;
 		static PacketParser()
 		{
-			_packetHandlerQueue = JobMgr.GetQueue(Define.PacketHandlerQueueName);
+			//_packetHandlerQueue = JobMgr.GetQueue(Define.PacketQueueName);
 #if DEBUG
 			_options = new JsonSerializerOptions
 			{
@@ -85,11 +85,13 @@ namespace Server
 				_readDict.TryGetValue(id, out Func<ArraySegment<byte>, BasePacket> func);
 #if DEBUG
 				var packet = func.Invoke(buffer.Read(size));
-				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
+				//_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
+				PacketHandler.HandlePacket(packet, session);
 #else
 				var packet = func.Invoke(buffer.Read(size));
 				Loggers.Recv.Information("Recv Packet {0}", JsonSerializer.Serialize(packet, packet.GetType(), _options));
-				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
+				//_packetHandlerQueue.Push(() => );
+				PacketHandler.HandlePacket(packet, session);
 #endif
 			}
 		}

@@ -1,10 +1,11 @@
 ﻿public static partial class Define
 {
 	#region JobQueue name
-	public const string PacketHandlerQueueName = "PacketHandler Thread";
-	public const string PacketParserQueueName = "PacketParser Thread";
-	public const string PacketSendQueueName = "Packet Send Thread";
-	public const string PacketGameQueueName = "Packet Game Thread";
+	//public const string PacketQueueName = "Packet Thread";
+	//public const string GameQueueName = "Game Thread";
+	//public const string PacketHandlerQueueName = "PacketHandler Thread";
+	//public const string PacketParserQueueName = "PacketParser Thread";
+	//public const string PacketSendQueueName = "Packet Send Thread";
 	#endregion
 
 	#region TraceSource name

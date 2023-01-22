@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 using Serilog;
 using Serilog.Sinks.File;
@@ -17,6 +18,7 @@ public class Program
 	private static void Main(string[] args)
 	{
 		#region Init
+		Config.Init();
 		Loggers.Init();
 		GameDBContext.Init(false);
 		GameMgr.Init();
@@ -28,16 +30,18 @@ public class Program
 		var endPoint = GetNewEndPoint(7777);
 		listener.StartListen(endPoint);
 		Loggers.Console.Information("Listening to {0}", endPoint);
-		long nowTick = default;
-		long delta = default;
-		while (true)
-		{
-			delta = DateTime.UtcNow.Ticks - nowTick;
-			if (delta >= WaitTick)
-			{
-				nowTick = DateTime.UtcNow.Ticks;
-				Update.Invoke();
-			}
-		}
+		//var GameLoop = JobMgr.GetQueue(Define.GameQueueName);
+		//long nowTick = default;
+		//long delta = default;
+		//while (true)
+		//{
+		//	delta = DateTime.UtcNow.Ticks - nowTick;
+		//	if (delta >= WaitTick)
+		//	{
+		//		nowTick = DateTime.UtcNow.Ticks;
+		//		Update.Invoke();
+		//	}
+		//}
+		Console.ReadLine();
 	}
 }

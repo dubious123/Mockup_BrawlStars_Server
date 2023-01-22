@@ -7,13 +7,13 @@ namespace Server.Game.GameRule
 {
 	public class GameRule00 : BaseGameRule
 	{
-		public const int MAX_ROUND_COUNT = 3;
-		public const int TEAM_MEMBER_COUNT = 1;//3;
-		public const int REQUIRED_WIN_COUNT = 2;
-		public const int ROUND_END_WAIT_FRAMECOUNT = 120;
-		public const int ROUND_CLEAR_WAIT_FRAMECOUNT = 90;
-		public const int ROUND_RESET_WAIT_FRAMECOUNT = 60;
-		public const int MAX_FRAME_COUNT = 1000;//60 * 60 * 3;
+		public int MAX_ROUND_COUNT = Config.MAX_ROUND_COUNT;
+		public int TEAM_MEMBER_COUNT = Config.TEAM_MEMBER_COUNT;
+		public int REQUIRED_WIN_COUNT = Config.REQUIRED_WIN_COUNT;
+		public int ROUND_END_WAIT_FRAMECOUNT = Config.ROUND_END_WAIT_FRAMECOUNT;
+		public int ROUND_CLEAR_WAIT_FRAMECOUNT = Config.ROUND_CLEAR_WAIT_FRAMECOUNT;
+		public int ROUND_RESET_WAIT_FRAMECOUNT = Config.ROUND_RESET_WAIT_FRAMECOUNT;
+		public int MAX_FRAME_COUNT = Config.MAX_FRAME_COUNT; //60 * 60 * 3;
 
 		//public NetCharacter[] NetCharacters => World.NetCharacters;
 		public Action OnMatchStart { private get; set; }

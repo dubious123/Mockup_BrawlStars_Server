@@ -1,33 +1,24 @@
-﻿namespace Server;
+﻿using System.Timers;
+
+namespace Server;
 
 public class JobQueue
 {
 	private readonly string _name;
-	private readonly int _waitTick;
 
-	private bool _isJobQueueRunning;
-	private Thread[] _threads;
 	private ConcurrentQueue<Action> _jobQueue = new();
+	private readonly System.Timers.Timer _timer;
 
-	public JobQueue(string name, int threadNum, int waitTick)
+	public JobQueue(string name, double interval)
 	{
 		_name = name;
-		_waitTick = waitTick;
-		_threads = new Thread[threadNum];
-		for (int i = 0; i < threadNum; i++)
-		{
-			_threads[i] = new(Loop);
-			_threads[i].Name = $"{_name}[{i}]";
-		}
+		_timer = new System.Timers.Timer(interval);
+		_timer.Elapsed += Loop;
 	}
 
 	public void Start()
 	{
-		foreach (var t in _threads)
-		{
-			_isJobQueueRunning = true;
-			t.Start();
-		}
+		_timer.Start();
 	}
 
 	public void Push(Action action)
@@ -37,43 +28,15 @@ public class JobQueue
 
 	public void Stop()
 	{
-		_isJobQueueRunning = false;
+		_timer.Stop();
 	}
 
-	public void Resume()
+	private void Loop(Object source, ElapsedEventArgs e)
 	{
-		_isJobQueueRunning = true;
-		foreach (var t in _threads)
+		for (int j = 0; j < _jobQueue.Count; j++)
 		{
-			t.Interrupt();
-		}
-	}
-
-	private void Loop()
-	{
-	Loop:
-		long nowTick = 0;
-		try
-		{
-			while (_isJobQueueRunning)
-			{
-				if (_waitTick < DateTime.UtcNow.Ticks - nowTick)
-				{
-					for (int j = 0; j < _jobQueue.Count; j++)
-					{
-						if (_jobQueue.TryDequeue(out var action))
-							action.Invoke();
-					}
-
-					nowTick = DateTime.UtcNow.Ticks;
-				}
-			}
-
-			Thread.Sleep(Timeout.Infinite);
-		}
-		catch (ThreadInterruptedException)
-		{
-			goto Loop;
+			if (_jobQueue.TryDequeue(out var action))
+				action.Invoke();
 		}
 	}
 }

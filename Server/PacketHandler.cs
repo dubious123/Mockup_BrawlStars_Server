@@ -104,7 +104,7 @@ namespace Server
 				ButtonInput = req.ButtonPressed,
 			};
 
-			player.InputBuffer.Enqueue(input);
+			player.CurrentGame.HandlePlayerInput(player, input);
 			return;
 		}
 

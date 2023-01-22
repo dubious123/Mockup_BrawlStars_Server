@@ -8,8 +8,7 @@ public class ClientSession : Session
 	public bool ParsingPacket { get; set; }
 
 	private int _sendRegistered;
-	private JobQueue _sendQueue;
-	private JobQueue _parserQueue;
+	//private JobQueue _packetQueue;
 	private ConcurrentQueue<BasePacket> _sendingPacketQueue;
 	private IEnumerator<float> _coPacketParserHandler;
 
@@ -18,8 +17,7 @@ public class ClientSession : Session
 		base.Init(id, socket);
 		_sendingPacketQueue = new();
 		_sendRegistered = 0;
-		_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
-		_parserQueue = JobMgr.GetQueue(Define.PacketParserQueueName);
+		//_packetQueue = JobMgr.GetQueue(Define.PacketQueueName);
 		_coPacketParserHandler = _recvBuffer.ReadPacket(this);
 	}
 
@@ -48,7 +46,7 @@ public class ClientSession : Session
 				result &= _sendBuffer.WritePacket(item);
 			}
 
-			_sendQueue.Push(() => Send());
+			Send();
 		}
 
 		return result;
@@ -95,15 +93,12 @@ public class ClientSession : Session
 			return;
 		}
 
-		_sendQueue.Push(() =>
+		while (_sendingPacketQueue.TryDequeue(out BasePacket item))
 		{
-			while (_sendingPacketQueue.TryDequeue(out BasePacket item))
-			{
-				_sendBuffer.WritePacket(item);
-			}
+			_sendBuffer.WritePacket(item);
+		}
 
-			_sendQueue.Push(() => Send());
-		});
+		Send();
 	}
 
 	protected override void OnRecvCompleted(SocketAsyncEventArgs args)
@@ -116,13 +111,10 @@ public class ClientSession : Session
 			return;
 		}
 
-		_parserQueue.Push(() =>
-		{
-			_coPacketParserHandler.MoveNext();
+		_coPacketParserHandler.MoveNext();
 
-			// todo
-			// 만약 한 악성 클라이언트가 엄청 빠르게 많이 보내면 queue가 해당 클라이언트의 패킷만 처리하면서 막힐 수 있다.
-			RegisterRecv();
-		});
+		// todo
+		// 만약 한 악성 클라이언트가 엄청 빠르게 많이 보내면 queue가 해당 클라이언트의 패킷만 처리하면서 막힐 수 있다.
+		RegisterRecv();
 	}
 }

@@ -21,7 +21,7 @@ namespace Server.Game
 		public NetCharacterSystem CharacterSystem { get; } = new();
 		public NetEnvSystem EnvSystem { get; } = new();
 		public NetProjectileSystem ProjectileSystem { get; } = new();
-		public NetCharacter[] NetCharacters = new NetCharacter[6];
+		public NetCharacter[] NetCharacters = new NetCharacter[Config.MAX_PLAYER_COUNT];
 		public bool Active { get; set; } = true;
 		public bool AllowInput { get; set; } = true;
 

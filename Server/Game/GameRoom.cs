@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+﻿using System.Net.WebSockets;
 
 using Server.Game.GameRule;
 using Server.Logs;
@@ -13,14 +13,15 @@ public class GameRoom
 	public GameState State { get; private set; }
 
 	private readonly object _lock = new();
-	private readonly int _maxPlayerCount = 4;
+	private readonly int _maxPlayerCount = Config.MAX_PLAYER_COUNT;
 	private readonly IEnumerator<float> _coHandle;
-	private readonly JobQueue _sendQueue;
+	//private readonly JobQueue _sendQueue;
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();
 	private int _gameStarted = 0;
 	private short _playerCount = 0;
 	private Player[] _players;
 	private NetWorld _world;
+	private System.Timers.Timer _timer;
 
 	public GameRoom(int id, ushort mapId)
 	{
@@ -28,7 +29,7 @@ public class GameRoom
 		_players = new Player[_maxPlayerCount];
 		State = GameState.Waiting;
 		MapId = mapId;
-		_sendQueue = JobMgr.GetQueue(Define.PacketSendQueueName);
+		//_sendQueue = JobMgr.GetQueue(Define.PacketQueueName);
 		_coHandle = Co_Update();
 		var data = DataMgr.GetWorldData();
 		_world = new(data, new GameRule00()
@@ -110,7 +111,7 @@ public class GameRoom
 					continue;
 				}
 
-				while (player.InputBuffer.IsEmpty && State == GameState.Started)
+				while (player.InputBuffer.IsEmpty)
 				{
 				}
 
@@ -120,6 +121,7 @@ public class GameRoom
 					player.InputBuffer.TryDequeue(out var temp);
 					InputData.Combine(in temp, in input, out input);
 				}
+
 
 				frameInfo.Inputs[i] = input;
 				packet.PlayerMoveDirXArr[i] = input.MoveInput.x.RawValue;
@@ -146,7 +148,11 @@ public class GameRoom
 
 		State = GameState.Started;
 
-		Program.Update += () => _coHandle.MoveNext();
+		//Program.Update += () => _coHandle.MoveNext();
+
+		_timer = new System.Timers.Timer(1000 / 60d);
+		_timer.Elapsed += (arg1, arg2) => _coHandle.MoveNext();
+		_timer.Start();
 	}
 
 	public void Enter(Player player)
@@ -167,23 +173,30 @@ public class GameRoom
 		}
 	}
 
+	public void HandlePlayerInput(Player player, InputData input)
+	{
+		player.InputBuffer.Enqueue(input);
+	}
+
 	public void Broadcast(BasePacket packet)
 	{
 		for (int i = 0; i < _maxPlayerCount; i++)
 		{
 			var player = _players[i];
 			if (player is null) continue;
-			_sendQueue.Push(() => player.Session.RegisterSend(packet));
+			//_sendQueue.Push(() => player.Session.RegisterSend(packet));
+			player.Session.RegisterSend(packet);
 		}
 	}
 
 	public void Broadcast(short hostTeamId, BasePacket packet)
 	{
-		for (int i = 0; i < 6; i++)
+		for (int i = 0; i < _maxPlayerCount; i++)
 		{
 			var player = _players[i];
 			if (player is null || i == hostTeamId) continue;
-			_sendQueue.Push(() => player.Session.RegisterSend(packet));
+			//_sendQueue.Push(() => player.Session.RegisterSend(packet));
+			player.Session.RegisterSend(packet);
 		}
 	}
 
@@ -242,6 +255,7 @@ public class GameRoom
 
 	private void EndGame()
 	{
+		_timer.Stop();
 		State = GameState.Ended;
 		Broadcast(new S_BroadcastEndGame());
 		foreach (var p in _players)
@@ -253,6 +267,7 @@ public class GameRoom
 
 			p.GameSceneReady = false;
 			p.Session.OnClosed.RemoveListener("GameRoomExit");
+			p.CurrentGame = null;
 		}
 
 		Program.Update -= () => _coHandle.MoveNext();
