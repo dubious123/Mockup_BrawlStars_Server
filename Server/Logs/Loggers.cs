@@ -25,6 +25,11 @@ namespace Server.Logs
 		static Loggers()
 		{
 			var path = Directory.GetCurrentDirectory() + "/../../../Logs";
+			DirectoryInfo di = new DirectoryInfo(path);
+			if (di.Exists == false)
+			{
+				di.Create();
+			}
 
 			File.WriteAllText(path + "/Debug.txt", "");
 			File.WriteAllText(path + "/Game.txt", "");

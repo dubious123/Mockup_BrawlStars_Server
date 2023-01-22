@@ -1,16 +1,12 @@
-2023-01-22 01:46:47.540 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10849 completed
-2023-01-22 01:47:05.167 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10853 completed
-2023-01-22 01:47:42.983 +09:00 [INF] Closing[2]
-2023-01-22 01:47:42.984 +09:00 [INF] Session [2] close started
-2023-01-22 01:47:42.985 +09:00 [INF] Session [2] shut down started
-2023-01-22 01:47:42.985 +09:00 [INF] Session [2] shut down completed
-2023-01-22 01:47:42.986 +09:00 [INF] Session [2] disconnect started
-2023-01-22 01:47:42.987 +09:00 [INF] Session [2] disconnect completed
-2023-01-22 01:47:42.991 +09:00 [INF] Session [2] close completed
-2023-01-22 01:47:45.583 +09:00 [INF] Closing[1]
-2023-01-22 01:47:45.583 +09:00 [INF] Session [1] close started
-2023-01-22 01:47:45.584 +09:00 [INF] Session [1] shut down started
-2023-01-22 01:47:45.584 +09:00 [INF] Session [1] shut down completed
-2023-01-22 01:47:45.584 +09:00 [INF] Session [1] disconnect started
-2023-01-22 01:47:45.584 +09:00 [INF] Session [1] disconnect completed
-2023-01-22 01:47:45.587 +09:00 [INF] Session [1] close completed
+2023-01-22 17:55:03.132 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10512 completed
+2023-01-22 17:56:50.666 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10517 completed
+2023-01-22 17:59:13.980 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10525 completed
+2023-01-22 18:02:07.487 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10547 completed
+2023-01-22 18:02:11.731 +09:00 [INF] [server] connecting to [fe80::594b:8e1b:d8c4:651%6]:10551 completed
+2023-01-22 18:02:16.980 +09:00 [INF] Closing[5]
+2023-01-22 18:02:16.981 +09:00 [INF] Session [5] close started
+2023-01-22 18:02:16.982 +09:00 [INF] Session [5] shut down started
+2023-01-22 18:02:16.983 +09:00 [INF] Session [5] shut down completed
+2023-01-22 18:02:16.983 +09:00 [INF] Session [5] disconnect started
+2023-01-22 18:02:16.984 +09:00 [INF] Session [5] disconnect completed
+2023-01-22 18:02:17.441 +09:00 [INF] Session [5] close completed

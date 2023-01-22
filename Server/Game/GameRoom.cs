@@ -13,7 +13,7 @@ public class GameRoom
 	public GameState State { get; private set; }
 
 	private readonly object _lock = new();
-	private readonly int _maxPlayerCount = 2;
+	private readonly int _maxPlayerCount = 4;
 	private readonly IEnumerator<float> _coHandle;
 	private readonly JobQueue _sendQueue;
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();

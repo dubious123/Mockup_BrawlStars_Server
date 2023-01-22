@@ -88,6 +88,7 @@ namespace Server
 				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #else
 				var packet = func.Invoke(buffer.Read(size));
+				Loggers.Recv.Information("Recv Packet {0}", JsonSerializer.Serialize(packet, packet.GetType(), _options));
 				_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
 #endif
 			}

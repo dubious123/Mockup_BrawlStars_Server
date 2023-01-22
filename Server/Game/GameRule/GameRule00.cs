@@ -13,7 +13,7 @@ namespace Server.Game.GameRule
 		public const int ROUND_END_WAIT_FRAMECOUNT = 120;
 		public const int ROUND_CLEAR_WAIT_FRAMECOUNT = 90;
 		public const int ROUND_RESET_WAIT_FRAMECOUNT = 60;
-		public const int MAX_FRAME_COUNT = 10000;//60 * 60 * 3;
+		public const int MAX_FRAME_COUNT = 1000;//60 * 60 * 3;
 
 		//public NetCharacter[] NetCharacters => World.NetCharacters;
 		public Action OnMatchStart { private get; set; }
@@ -120,7 +120,6 @@ namespace Server.Game.GameRule
 			}
 
 			++CurrentRound;
-			CurrentRoundFrameCount = 0;
 			Active = false;
 			_roundStarted = false;
 			OnRoundEnd?.Invoke(roundResult);
