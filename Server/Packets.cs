@@ -43,7 +43,7 @@ namespace Server
 
 		public byte ButtonPressed;
 		public short TeamId;
-		public long StartTick;
+		public int FrameNum;
 		public uint MoveDirX;
 		public uint MoveDirY;
 		public uint LookDirX;
@@ -81,18 +81,11 @@ namespace Server
 			Id = 0x1003;
 		}
 	}
-	public class S_GameReady : BasePacket
-	{
-		public S_GameReady()
-		{
-			Id = 0x1004;
-		}
-	}
 	public class S_EnterGame : BasePacket
 	{
 		public S_EnterGame(short teamId, Player player)
 		{
-			Id = 0x1005;
+			Id = 0x1004;
 			TeamId = teamId;
 			PlayerInfo = new PlayerInfoDto(player);
 		}
@@ -111,21 +104,21 @@ namespace Server
 		public short TeamId;
 		public PlayerInfoDto PlayerInfo;
 	}
-	public class S_BroadcastSearchPlayer : BasePacket
+	public class S_BroadcastFoundPlayer : BasePacket
 	{
-		public S_BroadcastSearchPlayer(ushort foundPlayersCount)
+		public S_BroadcastFoundPlayer(int foundPlayersCount)
 		{
-			Id = 0x1006;
+			Id = 0x1005;
 			FoundPlayersCount = foundPlayersCount;
 		}
 
-		public ushort FoundPlayersCount;
+		public int FoundPlayersCount;
 	}
 	public class S_BroadcastEnterGame : BasePacket
 	{
 		public S_BroadcastEnterGame(ushort characterType, short teamId)
 		{
-			Id = 0x1007;
+			Id = 0x1006;
 			Charactertype = characterType;
 			TeamId = teamId;
 		}
@@ -135,21 +128,19 @@ namespace Server
 	}
 	public class S_BroadcastStartGame : BasePacket
 	{
-		public S_BroadcastStartGame(float waitTime)
+		public S_BroadcastStartGame()
 		{
-			Id = 0x1008;
-			WaitTime = waitTime;
+			Id = 0x1007;
 			CharacterTypeArr = new ushort[6];
 		}
 
 		public ushort[] CharacterTypeArr;
-		public float WaitTime;
 	}
 	public class S_GameFrameInfo : BasePacket
 	{
 		public S_GameFrameInfo()
 		{
-			Id = 0x1009;
+			Id = 0x1008;
 			PlayerMoveDirXArr = new uint[6];
 			PlayerMoveDirYArr = new uint[6];
 			PlayerLookDirXArr = new uint[6];
@@ -157,28 +148,39 @@ namespace Server
 			ButtonPressedArr = new ushort[6];
 		}
 
-		public long StartTick;
-		public long TargetTick;
+		public int FrameNum;
 		public uint[] PlayerMoveDirXArr;
 		public uint[] PlayerMoveDirYArr;
 		public uint[] PlayerLookDirXArr;
 		public uint[] PlayerLookDirYArr;
 		public ushort[] ButtonPressedArr;
 	}
-	public class S_BroadcastStartNewRound : BasePacket
+	public class S_BroadcastRoundEnd : BasePacket
 	{
-		public S_BroadcastStartNewRound()
+		public S_BroadcastRoundEnd()
+		{
+			Id = 0x1009;
+		}
+	}
+	public class S_BroadcastRoundClear : BasePacket
+	{
+		public S_BroadcastRoundClear()
 		{
 			Id = 0x100A;
 		}
-
-		public int WaitMilliseconds;
 	}
-	public class S_BroadcastEndGame : BasePacket
+	public class S_BroadcastRoundReset : BasePacket
 	{
-		public S_BroadcastEndGame()
+		public S_BroadcastRoundReset()
 		{
 			Id = 0x100B;
+		}
+	}
+	public class S_BroadcastMatchOver : BasePacket
+	{
+		public S_BroadcastMatchOver()
+		{
+			Id = 0x100C;
 		}
 	}
 }

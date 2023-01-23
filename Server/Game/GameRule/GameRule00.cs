@@ -35,6 +35,7 @@ namespace Server.Game.GameRule
 		public GameRule00()
 		{
 			MaxFrameCount = MAX_FRAME_COUNT;
+			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
 		}
 
 		public override TeamType GetTeamType(NetObject netObj)
@@ -62,12 +63,13 @@ namespace Server.Game.GameRule
 
 		public override void Update()
 		{
+			++CurrentRoundFrameCount;
+
 			if (Active is false)
 			{
 				return;
 			}
 
-			++CurrentRoundFrameCount;
 			if (_gameStarted is false)
 			{
 				HandleMatchStart();
@@ -95,14 +97,12 @@ namespace Server.Game.GameRule
 			}
 
 			_gameStarted = true;
-			CurrentRoundFrameCount = 0;
 			OnMatchStart?.Invoke();
 		}
 
 		private void HandleRoundStart()
 		{
 			OnRoundStart?.Invoke();
-			CurrentRoundFrameCount = 0;
 			BluePlayerDeadCount = 0;
 			RedPlayerDeadCount = 0;
 			_roundStarted = true;
@@ -151,6 +151,7 @@ namespace Server.Game.GameRule
 				Active = true;
 			});
 
+			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
 			OnRoundReset?.Invoke();
 		}
 

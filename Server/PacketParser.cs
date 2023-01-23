@@ -42,14 +42,15 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_SyncTime, arr => JsonSerializer.Deserialize<S_SyncTime>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_Login, arr => JsonSerializer.Deserialize<S_Login>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterLobby, arr => JsonSerializer.Deserialize<S_EnterLobby>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_GameReady, arr => JsonSerializer.Deserialize<S_GameReady>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_EnterGame, arr => JsonSerializer.Deserialize<S_EnterGame>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastSearchPlayer, arr => JsonSerializer.Deserialize<S_BroadcastSearchPlayer>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastFoundPlayer, arr => JsonSerializer.Deserialize<S_BroadcastFoundPlayer>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastEnterGame, arr => JsonSerializer.Deserialize<S_BroadcastEnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartGame, arr => JsonSerializer.Deserialize<S_BroadcastStartGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_GameFrameInfo, arr => JsonSerializer.Deserialize<S_GameFrameInfo>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartNewRound, arr => JsonSerializer.Deserialize<S_BroadcastStartNewRound>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastEndGame, arr => JsonSerializer.Deserialize<S_BroadcastEndGame>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundEnd, arr => JsonSerializer.Deserialize<S_BroadcastRoundEnd>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundClear, arr => JsonSerializer.Deserialize<S_BroadcastRoundClear>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundReset, arr => JsonSerializer.Deserialize<S_BroadcastRoundReset>(arr, _options));
+			_readDict.TryAdd((ushort)PacketId.S_BroadcastMatchOver, arr => JsonSerializer.Deserialize<S_BroadcastMatchOver>(arr, _options));
 		}
 
 		public static IEnumerator<float> ReadPacket(this RecvBuffer buffer, ClientSession session)
@@ -86,6 +87,7 @@ namespace Server
 #if DEBUG
 				var packet = func.Invoke(buffer.Read(size));
 				//_packetHandlerQueue.Push(() => PacketHandler.HandlePacket(packet, session));
+				Loggers.Recv.Information("Recv Packet {0}", JsonSerializer.Serialize(packet, packet.GetType(), _options));
 				PacketHandler.HandlePacket(packet, session);
 #else
 				var packet = func.Invoke(buffer.Read(size));

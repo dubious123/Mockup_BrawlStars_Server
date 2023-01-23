@@ -90,6 +90,7 @@ namespace Server
 		private static void C_PlayerInputHandle(BasePacket packet, ClientSession session)
 		{
 			var req = packet as C_PlayerInput;
+			var recvTime = DateTime.UtcNow.ToFileTimeUtc();
 			using GameDBContext db = new();
 			var player = PlayerMgr.GetPlayer(req.UserId);
 			if (player == null || player.CurrentGame == null)
@@ -102,6 +103,7 @@ namespace Server
 				MoveInput = new sVector3(sfloat.FromRaw(req.MoveDirX), (sfloat)0f, sfloat.FromRaw(req.MoveDirY)),
 				LookInput = new sVector3(sfloat.FromRaw(req.LookDirX), (sfloat)0f, sfloat.FromRaw(req.LookDirY)),
 				ButtonInput = req.ButtonPressed,
+				FrameNum = req.FrameNum,
 			};
 
 			player.CurrentGame.HandlePlayerInput(player, input);
