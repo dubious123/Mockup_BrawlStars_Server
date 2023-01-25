@@ -7,13 +7,6 @@ public partial class Enums
 		Team3vs3,
 	}
 
-	public enum GameState
-	{
-		Waiting,
-		Started,
-		Ended,
-	}
-
 	public enum CharacterType
 	{
 		None,

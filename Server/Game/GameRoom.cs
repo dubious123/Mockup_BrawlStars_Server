@@ -1,4 +1,5 @@
 ﻿using System.Net.WebSockets;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 using Server.Game.GameRule;
@@ -11,24 +12,25 @@ public class GameRoom
 	public ushort MapId { get; init; }
 	public bool GameStarted => _gameStarted;
 	public Player[] Players { get => _players; }
-	public GameState State { get; private set; }
+	public GameState State => _state;
 
 	private bool _gameStarted = false;
 	private readonly object _lock = new();
 	private readonly int _maxPlayerCount = Config.MAX_PLAYER_COUNT;
-	private readonly IEnumerator<float> _coGameLoop;
 	private readonly ConcurrentQueue<Player> _enterBuffer = new();
 	private Player[] _players;
 	private NetWorld _world;
 	private int _playerCount = 0;
+	private GameState _state;
+	private GameFrameInfo _frameInfo = new(Config.MAX_PLAYER_COUNT);
+	private S_GameFrameInfo _frameInfoPacket = new();
 
 	public GameRoom(int id, ushort mapId)
 	{
 		Id = id;
 		_players = new Player[_maxPlayerCount];
-		State = GameState.Waiting;
+		_state = GameState.Waiting;
 		MapId = mapId;
-		_coGameLoop = Co_ServerGameLoop();
 	}
 
 	~GameRoom()
@@ -60,47 +62,19 @@ public class GameRoom
 		}
 	}
 
-	public void HandlePlayerInput(Player player, InputData input)
+	public void HandleInput(Player player, in InputData data)
 	{
-		lock (_lock)
-		{
-			if (_gameStarted is false)
-			{
-				Loggers.Error.Error("game not started but trying to put input");
-				throw new Exception();
-			}
-
-			if (_world.GameRule.CurrentRoundFrameCount < input.FrameNum)
-			{
-				Loggers.Debug.Debug("Discard input {0} from player {1}", input.FrameNum, player.TeamId);
-				return;
-			}
-
-			player.InputBuffer.Enqueue(input);
-			foreach (var p in _players)
-			{
-				if (p.InputBuffer.IsEmpty)
-				{
-					return;
-				}
-			}
-
-			_coGameLoop.MoveNext();
-		}
+		Loggers.Debug.Information("Enqueueing {0} from player {1}", data.FrameNum, player.TeamId);
+		player.InputBuffer.Enqueue(data);
 	}
 
 	private void StartGame()
 	{
+		Loggers.Game.Information("---------------StartGame----------------");
 		_gameStarted = true;
-		State = GameState.Started;
-		var data = DataMgr.GetWorldData();
-		_world = new(data, new GameRule00()
+		_world = new(DataMgr.GetWorldData(), new GameRule00()
 		{
-			OnMatchStart = OnMatchStart,
-			OnRoundStart = OnRoundStart,
 			OnRoundEnd = OnRoundEnd,
-			OnRoundClear = OnRoundClear,
-			OnRoundReset = OnRoundReset,
 			OnMatchOver = OnMatchOver,
 			OnPlayerDead = OnPlayerDead,
 		});
@@ -111,6 +85,7 @@ public class GameRoom
 			player.TeamId = (short)i;
 			player.Character = _world.ObjectBuilder.GetNewObject(NetObjectType.Character_Shelly).GetComponent<NetCharacter>();
 			player.CurrentGame = this;
+			player.InputBuffer.Clear();
 			player.Session.OnClosed.AddListener("GameRoomExit", () =>
 			{
 				Exit(_players[player.TeamId]);
@@ -122,43 +97,101 @@ public class GameRoom
 		{
 			CharacterTypeArr = _players.Select(p => (ushort)(p.Character.NetObj.Tag)).ToArray(),
 		});
+
+		HandleMatchStart();
+		GameMgr.StartGame(this);
 	}
 
-	private IEnumerator<float> Co_ServerGameLoop()
+	public void Update()
 	{
-		_world.Reset();
-		GameFrameInfo frameInfo = new(_maxPlayerCount);
-		Loggers.Game.Information("---------------StartGame----------------");
-		while (State == GameState.Started)
+		Loggers.Game.Information("current State : {0}, Entering", Enum.GetName(_state));
+		if (_state == GameState.Started)
 		{
-			Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.CurrentRoundFrameCount);
-			S_GameFrameInfo packet = new();
-			foreach (var player in _players)
+			foreach (var player in Players)
 			{
-				if (player is null)
+				if (player.InputBuffer.IsEmpty)
 				{
-					continue;
+					return;
 				}
-
-				if (player.InputBuffer.TryDequeue(out var input) is false || _world.GameRule.CurrentRoundFrameCount != input.FrameNum)
-				{
-					throw new Exception();
-				}
-
-				frameInfo.Inputs[player.TeamId] = input;
-				packet.PlayerMoveDirXArr[player.TeamId] = input.MoveInput.x.RawValue;
-				packet.PlayerMoveDirYArr[player.TeamId] = input.MoveInput.z.RawValue;
-				packet.PlayerLookDirXArr[player.TeamId] = input.LookInput.x.RawValue;
-				packet.PlayerLookDirYArr[player.TeamId] = input.LookInput.z.RawValue;
-				packet.ButtonPressedArr[player.TeamId] = input.ButtonInput;
 			}
 
-			packet.FrameNum = _world.GameRule.CurrentRoundFrameCount;
-			_world.UpdateInputs(frameInfo);
-			_world.Update();
-			Broadcast(packet);
-			Loggers.Game.Information("------------------------------------------");
-			yield return 0f;
+			HandleOneFrame();
+		}
+		else if (_state == GameState.Waiting)
+		{
+			foreach (var player in Players)
+			{
+				while (player.InputBuffer.TryDequeue(out var input))
+				{
+					if (input.FrameNum != -Config.FRAME_BUFFER_COUNT)
+					{
+						continue;
+					}
+
+					if (player.InputBuffer.IsEmpty is false)
+					{
+						player.InputBuffer.TryPeek(out var invalid);
+						Loggers.Debug.Error("forward Input from player [{0}] of frameNum {1}", player.TeamId, invalid.FrameNum);
+						player.InputBuffer.Clear();
+					}
+
+					player.InputBuffer.Enqueue(input);
+					goto Continue;
+				}
+
+				return;
+			Continue:
+				continue;
+			}
+
+			HandleRoundStart();
+		}
+
+		Loggers.Game.Information("current State : {0}, Exiting", Enum.GetName(_state));
+	}
+
+	private void HandleOneFrame()
+	{
+		Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.CurrentRoundFrameCount);
+		foreach (var player in _players)
+		{
+			if (player is null)
+			{
+				continue;
+			}
+
+#if DEBUG
+			Debug.Assert(player.InputBuffer.TryDequeue(out var input) && _world.GameRule.CurrentRoundFrameCount == input.FrameNum);
+#elif RELEASE
+			if (_world.GameRule.CurrentRoundFrameCount != input.FrameNum)
+			{
+				Loggers.Error.Error("now : {0} but {1}", _world.GameRule.CurrentRoundFrameCount, input.FrameNum);
+			}
+#endif
+
+			_frameInfo.Inputs[player.TeamId] = input;
+			_frameInfoPacket.PlayerMoveDirXArr[player.TeamId] = input.MoveInput.x.RawValue;
+			_frameInfoPacket.PlayerMoveDirYArr[player.TeamId] = input.MoveInput.z.RawValue;
+			_frameInfoPacket.PlayerLookDirXArr[player.TeamId] = input.LookInput.x.RawValue;
+			_frameInfoPacket.PlayerLookDirYArr[player.TeamId] = input.LookInput.z.RawValue;
+			_frameInfoPacket.ButtonPressedArr[player.TeamId] = input.ButtonInput;
+		}
+
+		_frameInfoPacket.FrameNum = _world.GameRule.CurrentRoundFrameCount;
+		Broadcast(_frameInfoPacket);
+		_world.UpdateInputs(_frameInfo);
+		_world.Update();
+		foreach (var player in _world.CharacterSystem.ComponentDict)
+		{
+			Loggers.Game.Information("Player [{0}]", player.NetObj.ObjectId.InstanceId);
+			Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
+		}
+
+		Loggers.Game.Information("------------------------------------------");
+		if (_state == GameState.Waiting) //for logging
+		{
+			HandleRoundClear();
+			HandleRoundReset();
 		}
 	}
 
@@ -189,33 +222,39 @@ public class GameRoom
 		}
 	}
 
-	private void OnMatchStart()
+	private void HandleMatchStart()
 	{
 		Loggers.Game.Information("Match Start");
+		_world.Reset();
 	}
 
-	private void OnRoundStart()
+	private void HandleRoundStart()
 	{
 		Loggers.Game.Information("Round Start");
+		_state = GameState.Started;
 	}
 
 	private void OnRoundEnd(GameRule00.RoundResult result)
 	{
 		Loggers.Game.Information("Round End {0}", Enum.GetName(result));
+		_state = GameState.Waiting;
 	}
 
-	private void OnRoundClear()
+	private void HandleRoundClear()
 	{
 		Loggers.Game.Information("Round Clear");
+		_world.Clear();
 	}
 
-	private void OnRoundReset()
+	private void HandleRoundReset()
 	{
 		Loggers.Game.Information("Round Reset");
 		foreach (var player in _players)
 		{
 			player.InputBuffer.Clear();
 		}
+
+		_world.Reset();
 	}
 
 	private void OnMatchOver(GameRule00.MatchResult result)
@@ -231,8 +270,8 @@ public class GameRoom
 
 	private void EndGame()
 	{
-		State = GameState.Ended;
-		Broadcast(new S_BroadcastMatchOver());
+		_state = GameState.Ended;
+		//Broadcast(new S_BroadcastMatchOver());
 		foreach (var p in _players)
 		{
 			if (p is null)
@@ -245,7 +284,6 @@ public class GameRoom
 			p.CurrentGame = null;
 		}
 
-		Program.Update -= () => _coGameLoop.MoveNext();
 		GameMgr.EndGame(Id);
 	}
 }

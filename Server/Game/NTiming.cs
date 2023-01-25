@@ -53,25 +53,26 @@ namespace Server.Game
 
 			public bool MoveNext()
 			{
-				if (_current == 0)
+				if (_current > 0)
+				{
+					--_current;
+					return true;
+				}
+				else
 				{
 					var res = _coroutine.MoveNext();
 					_current = _coroutine.Current;
 					return res;
-				}
-				else
-				{
-					--_current;
-					return true;
 				}
 			}
 		}
 
 		public IEnumerator<int> BaseEnumerator(int delay, Action action = null)
 		{
-			yield return delay;
+			yield return --delay;
 			action?.Invoke();
 			yield break;
 		}
 	}
 }
+

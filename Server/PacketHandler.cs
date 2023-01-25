@@ -98,15 +98,14 @@ namespace Server
 				return;
 			}
 
-			var input = new InputData()
+			player.CurrentGame.HandleInput(player, new InputData()
 			{
 				MoveInput = new sVector3(sfloat.FromRaw(req.MoveDirX), (sfloat)0f, sfloat.FromRaw(req.MoveDirY)),
 				LookInput = new sVector3(sfloat.FromRaw(req.LookDirX), (sfloat)0f, sfloat.FromRaw(req.LookDirY)),
 				ButtonInput = req.ButtonPressed,
 				FrameNum = req.FrameNum,
-			};
+			});
 
-			player.CurrentGame.HandlePlayerInput(player, input);
 			return;
 		}
 

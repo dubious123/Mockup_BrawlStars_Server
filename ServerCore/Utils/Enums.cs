@@ -20,10 +20,7 @@ namespace ServerCore.Utils
 			S_BroadcastEnterGame = 0x1006,
 			S_BroadcastStartGame = 0x1007,
 			S_GameFrameInfo = 0x1008,
-			S_BroadcastRoundEnd = 0x1009,
-			S_BroadcastRoundClear = 0x100A,
-			S_BroadcastRoundReset = 0x100B,
-			S_BroadcastMatchOver = 0x100C,
+			S_BroadcastMatchOver = 0x1009,
 		}
 
 	}

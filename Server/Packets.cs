@@ -155,32 +155,11 @@ namespace Server
 		public uint[] PlayerLookDirYArr;
 		public ushort[] ButtonPressedArr;
 	}
-	public class S_BroadcastRoundEnd : BasePacket
-	{
-		public S_BroadcastRoundEnd()
-		{
-			Id = 0x1009;
-		}
-	}
-	public class S_BroadcastRoundClear : BasePacket
-	{
-		public S_BroadcastRoundClear()
-		{
-			Id = 0x100A;
-		}
-	}
-	public class S_BroadcastRoundReset : BasePacket
-	{
-		public S_BroadcastRoundReset()
-		{
-			Id = 0x100B;
-		}
-	}
 	public class S_BroadcastMatchOver : BasePacket
 	{
 		public S_BroadcastMatchOver()
 		{
-			Id = 0x100C;
+			Id = 0x1009;
 		}
 	}
 }

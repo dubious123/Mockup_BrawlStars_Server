@@ -21,8 +21,6 @@ namespace Server.Game
 				if (player.Active)
 				{
 					(player as INetUpdatable)?.Update();
-					Loggers.Game.Information("Player [{0}]", player.NetObj.ObjectId.InstanceId);
-					Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
 				}
 			}
 		}

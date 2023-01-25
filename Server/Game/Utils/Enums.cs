@@ -24,6 +24,13 @@ public static partial class Enums
 		#endregion
 	}
 
+	public enum GameState
+	{
+		Waiting,
+		Started,
+		Ended,
+	}
+
 	[Flags]
 	public enum CCFlags
 	{

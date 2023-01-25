@@ -42,6 +42,7 @@ namespace Server.Game
 			Team = World.GameRule.GetTeamType(NetObj);
 			KnockbackCoHandler = CoKnockback();
 			StunCoHandler = CoStun();
+			OnCharacterDead += () => World.GameRule.OnCharacterDead(this);
 			Reset();
 		}
 

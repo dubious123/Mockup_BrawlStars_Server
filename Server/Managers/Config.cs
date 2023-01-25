@@ -8,7 +8,7 @@ public class Config
 	public static string Id => _instance._configData.Id;
 	public static string Pw => _instance._configData.Pw;
 #endif
-	public static int FRAME_BUFFER_COUNT = 6;
+	public static int FRAME_BUFFER_COUNT => _instance._configData.FRAME_BUFFER_COUNT;
 	public static int MAX_PLAYER_COUNT => _instance._configData.MAX_PLAYER_COUNT;
 	public static int MAX_ROUND_COUNT => _instance._configData.MAX_ROUND_COUNT;
 	public static int TEAM_MEMBER_COUNT => _instance._configData.TEAM_MEMBER_COUNT;//3;
@@ -46,6 +46,7 @@ public class Config
 		public string Id;
 		public string Pw;
 #endif
+		public int FRAME_BUFFER_COUNT;
 		public int MAX_PLAYER_COUNT;
 		public int MAX_ROUND_COUNT;
 		public int TEAM_MEMBER_COUNT;

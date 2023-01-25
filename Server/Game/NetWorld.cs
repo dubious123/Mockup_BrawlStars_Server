@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 
 using Server.Game.Data;
@@ -21,9 +22,8 @@ namespace Server.Game
 		public NetCharacterSystem CharacterSystem { get; } = new();
 		public NetEnvSystem EnvSystem { get; } = new();
 		public NetProjectileSystem ProjectileSystem { get; } = new();
-		public NetCharacter[] NetCharacters = new NetCharacter[Config.MAX_PLAYER_COUNT];
+		public NetCharacter[] NetCharacters = new NetCharacter[6];
 		public bool Active { get; set; } = true;
-		public bool AllowInput { get; set; } = true;
 
 		private readonly WorldData _worldData;
 
@@ -47,9 +47,16 @@ namespace Server.Game
 			ProjectileSystem.SetActive(netObj, active);
 		}
 
+		public void Clear()
+		{
+			ProjectileSystem.Reset();
+			CharacterSystem.SetActiveAll(false);
+		}
+
 		public void Reset()
 		{
 			Active = true;
+			GameRule.Reset();
 			ColliderSystem.Reset();
 			CharacterSystem.Reset();
 			EnvSystem.Reset();
@@ -58,11 +65,6 @@ namespace Server.Game
 
 		public void UpdateInputs(GameFrameInfo inputInfo)
 		{
-			if (AllowInput is false)
-			{
-				inputInfo.Reset();
-			}
-
 			foreach (var player in CharacterSystem.ComponentDict)
 			{
 				player.UpdateInput(inputInfo.Inputs[player.NetObj.ObjectId.InstanceId]);
@@ -76,12 +78,12 @@ namespace Server.Game
 				return;
 			}
 
+			GameRule.Update();
 			NetTiming.Update();
 			ColliderSystem.Update();
 			CharacterSystem.Update();
 			EnvSystem.Update();
 			ProjectileSystem.Update();
-			GameRule.Update();
 		}
 
 		public void AddNewNetObject(NetObject obj)

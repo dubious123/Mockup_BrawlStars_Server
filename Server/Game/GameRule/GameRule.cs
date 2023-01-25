@@ -14,5 +14,7 @@ namespace Server.Game.GameRule
 		public abstract TeamType GetTeamType(NetObject netObj);
 		public abstract bool CanSendHit(NetBaseComponent from, NetBaseComponent to);
 		public abstract void Update();
+		public abstract void Reset();
+		public abstract void OnCharacterDead(NetCharacter character);
 	}
 }

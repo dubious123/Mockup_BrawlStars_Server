@@ -1,7 +1,6 @@
 ﻿using System;
 
 using static Enums;
-using static Server.Game.GameRule.GameRule00;
 
 namespace Server.Game.GameRule
 {
@@ -14,23 +13,14 @@ namespace Server.Game.GameRule
 		public int ROUND_CLEAR_WAIT_FRAMECOUNT = Config.ROUND_CLEAR_WAIT_FRAMECOUNT;
 		public int ROUND_RESET_WAIT_FRAMECOUNT = Config.ROUND_RESET_WAIT_FRAMECOUNT;
 		public int MAX_FRAME_COUNT = Config.MAX_FRAME_COUNT; //60 * 60 * 3;
-
-		//public NetCharacter[] NetCharacters => World.NetCharacters;
-		public Action OnMatchStart { private get; set; }
-		public Action OnRoundStart { private get; set; }
-		public Action<RoundResult> OnRoundEnd { private get; set; }
-		public Action OnRoundClear { private get; set; }
-		public Action OnRoundReset { private get; set; }
-		public Action<MatchResult> OnMatchOver { private get; set; }
-		public Action<NetCharacter> OnPlayerDead { private get; set; }
 		public int CurrentRound { get; private set; } //0,1,2
 		public int BlueWinCount { get; private set; }
 		public int RedWinCount { get; private set; }
 		public int BluePlayerDeadCount { get; private set; }
 		public int RedPlayerDeadCount { get; private set; }
-
-		private bool _gameStarted = false;
-		private bool _roundStarted = false;
+		public Action<RoundResult> OnRoundEnd { private get; set; }
+		public Action<MatchResult> OnMatchOver { private get; set; }
+		public Action<NetCharacter> OnPlayerDead { private get; set; }
 
 		public GameRule00()
 		{
@@ -63,23 +53,12 @@ namespace Server.Game.GameRule
 
 		public override void Update()
 		{
-			++CurrentRoundFrameCount;
-
 			if (Active is false)
 			{
 				return;
 			}
 
-			if (_gameStarted is false)
-			{
-				HandleMatchStart();
-			}
-
-			if (_roundStarted is false)
-			{
-				HandleRoundStart();
-			}
-
+			++CurrentRoundFrameCount;
 			var result = GetRoundResult();
 			if (result == RoundResult.None)
 			{
@@ -89,23 +68,27 @@ namespace Server.Game.GameRule
 			HandleRoundEnd(result);
 		}
 
-		private void HandleMatchStart()
+		public override void Reset()
 		{
-			foreach (var player in World.CharacterSystem.ComponentDict)
-			{
-				player.OnCharacterDead = () => HandlePlayerDead(player);
-			}
-
-			_gameStarted = true;
-			OnMatchStart?.Invoke();
-		}
-
-		private void HandleRoundStart()
-		{
-			OnRoundStart?.Invoke();
+			Active = true;
+			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
 			BluePlayerDeadCount = 0;
 			RedPlayerDeadCount = 0;
-			_roundStarted = true;
+		}
+
+		public override void OnCharacterDead(NetCharacter character)
+		{
+			OnPlayerDead?.Invoke(character);
+			character.Active = false;
+
+			if (character.Team == TeamType.Blue)
+			{
+				++BluePlayerDeadCount;
+			}
+			else
+			{
+				++RedPlayerDeadCount;
+			}
 		}
 
 		private void HandleRoundEnd(RoundResult roundResult)
@@ -121,60 +104,19 @@ namespace Server.Game.GameRule
 
 			++CurrentRound;
 			Active = false;
-			_roundStarted = false;
-			OnRoundEnd?.Invoke(roundResult);
-			World.AllowInput = false;
 			if (BlueWinCount >= REQUIRED_WIN_COUNT || RedWinCount >= REQUIRED_WIN_COUNT || CurrentRound >= MAX_ROUND_COUNT)
 			{
-				World.NetTiming.CallDelayed(ROUND_END_WAIT_FRAMECOUNT, HandleMatchOver);
+				HandleMatchOver();
 			}
 			else
 			{
-				World.NetTiming.CallDelayed(ROUND_END_WAIT_FRAMECOUNT, HandleRoundClear);
+				OnRoundEnd?.Invoke(roundResult);
 			}
-		}
-
-		private void HandleRoundClear()
-		{
-			World.ProjectileSystem.Reset();
-			World.CharacterSystem.SetActiveAll(false);
-			World.NetTiming.CallDelayed(ROUND_CLEAR_WAIT_FRAMECOUNT, HandleRoundReset);
-			OnRoundClear?.Invoke();
-		}
-
-		private void HandleRoundReset()
-		{
-			World.Reset();
-			World.NetTiming.CallDelayed(ROUND_RESET_WAIT_FRAMECOUNT, () =>
-			{
-				World.AllowInput = true;
-				Active = true;
-			});
-
-			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
-			OnRoundReset?.Invoke();
 		}
 
 		private void HandleMatchOver()
 		{
-			Active = false;
 			OnMatchOver?.Invoke(GetMatchResult());
-		}
-
-
-		private void HandlePlayerDead(NetCharacter character)
-		{
-			OnPlayerDead?.Invoke(character);
-			character.Active = false;
-
-			if (character.Team == TeamType.Blue)
-			{
-				++BluePlayerDeadCount;
-			}
-			else
-			{
-				++RedPlayerDeadCount;
-			}
 		}
 
 		private RoundResult GetRoundResult()

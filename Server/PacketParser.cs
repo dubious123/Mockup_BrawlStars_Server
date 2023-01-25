@@ -47,9 +47,6 @@ namespace Server
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastEnterGame, arr => JsonSerializer.Deserialize<S_BroadcastEnterGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastStartGame, arr => JsonSerializer.Deserialize<S_BroadcastStartGame>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_GameFrameInfo, arr => JsonSerializer.Deserialize<S_GameFrameInfo>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundEnd, arr => JsonSerializer.Deserialize<S_BroadcastRoundEnd>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundClear, arr => JsonSerializer.Deserialize<S_BroadcastRoundClear>(arr, _options));
-			_readDict.TryAdd((ushort)PacketId.S_BroadcastRoundReset, arr => JsonSerializer.Deserialize<S_BroadcastRoundReset>(arr, _options));
 			_readDict.TryAdd((ushort)PacketId.S_BroadcastMatchOver, arr => JsonSerializer.Deserialize<S_BroadcastMatchOver>(arr, _options));
 		}
 
