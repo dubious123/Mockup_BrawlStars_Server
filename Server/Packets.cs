@@ -16,11 +16,6 @@ namespace Server
 	public class C_Init : BasePacket
 	{
 	}
-	public class C_SyncTime : BasePacket
-	{
-
-		public long ClientLocalTime;
-	}
 	public class C_Login : BasePacket
 	{
 
@@ -44,6 +39,7 @@ namespace Server
 		public byte ButtonPressed;
 		public short TeamId;
 		public int FrameNum;
+		public long ClientSendTime;
 		public uint MoveDirX;
 		public uint MoveDirY;
 		public uint LookDirX;
@@ -56,20 +52,11 @@ namespace Server
 			Id = 0x1000;
 		}
 	}
-	public class S_SyncTime : BasePacket
-	{
-		public S_SyncTime()
-		{
-			Id = 0x1001;
-		}
-		public long ClientLocalTime;
-		public long ServerTime;
-	}
 	public class S_Login : BasePacket
 	{
 		public S_Login()
 		{
-			Id = 0x1002;
+			Id = 0x1001;
 		}
 		public bool result;
 		public int userId;
@@ -78,14 +65,14 @@ namespace Server
 	{
 		public S_EnterLobby()
 		{
-			Id = 0x1003;
+			Id = 0x1002;
 		}
 	}
 	public class S_EnterGame : BasePacket
 	{
 		public S_EnterGame(short teamId, Player player)
 		{
-			Id = 0x1004;
+			Id = 0x1003;
 			TeamId = teamId;
 			PlayerInfo = new PlayerInfoDto(player);
 		}
@@ -108,29 +95,17 @@ namespace Server
 	{
 		public S_BroadcastFoundPlayer(int foundPlayersCount)
 		{
-			Id = 0x1005;
+			Id = 0x1004;
 			FoundPlayersCount = foundPlayersCount;
 		}
 
 		public int FoundPlayersCount;
 	}
-	public class S_BroadcastEnterGame : BasePacket
-	{
-		public S_BroadcastEnterGame(ushort characterType, short teamId)
-		{
-			Id = 0x1006;
-			Charactertype = characterType;
-			TeamId = teamId;
-		}
-
-		public ushort Charactertype;
-		public short TeamId;
-	}
 	public class S_BroadcastStartGame : BasePacket
 	{
 		public S_BroadcastStartGame()
 		{
-			Id = 0x1007;
+			Id = 0x1005;
 			CharacterTypeArr = new ushort[6];
 		}
 
@@ -140,7 +115,8 @@ namespace Server
 	{
 		public S_GameFrameInfo()
 		{
-			Id = 0x1008;
+			Id = 0x1006;
+			C2STTime = new long[6];
 			PlayerMoveDirXArr = new uint[6];
 			PlayerMoveDirYArr = new uint[6];
 			PlayerLookDirXArr = new uint[6];
@@ -149,6 +125,8 @@ namespace Server
 		}
 
 		public int FrameNum;
+		public long ServerSendTime;
+		public long[] C2STTime;
 		public uint[] PlayerMoveDirXArr;
 		public uint[] PlayerMoveDirYArr;
 		public uint[] PlayerLookDirXArr;
@@ -159,7 +137,7 @@ namespace Server
 	{
 		public S_BroadcastMatchOver()
 		{
-			Id = 0x1009;
+			Id = 0x1007;
 		}
 	}
 }

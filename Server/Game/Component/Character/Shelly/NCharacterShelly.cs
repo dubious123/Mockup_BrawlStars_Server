@@ -1,10 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-
-using Server.Game;
-
-using static Enums;
-
 public class NCharacterShelly : NetCharacter
 {
 	public NetBaseSkill SuperShell { get; set; }
@@ -34,9 +27,9 @@ public class NCharacterShelly : NetCharacter
 
 	public override void Update()
 	{
-		base.Update();
 		BasicAttack.Update();
 		SuperShell.Update();
+		base.Update();
 	}
 
 	public override void UpdateInput(in InputData input)

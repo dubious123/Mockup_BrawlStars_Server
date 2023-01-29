@@ -1,17 +1,13 @@
-﻿using System;
-
-using static Enums;
-
-namespace Server.Game.GameRule
+﻿namespace Server.Game.GameRule
 {
 	public class GameRule00 : BaseGameRule
 	{
 		public int MAX_ROUND_COUNT = Config.MAX_ROUND_COUNT;
 		public int TEAM_MEMBER_COUNT = Config.TEAM_MEMBER_COUNT;
 		public int REQUIRED_WIN_COUNT = Config.REQUIRED_WIN_COUNT;
-		public int ROUND_END_WAIT_FRAMECOUNT = Config.ROUND_END_WAIT_FRAMECOUNT;
-		public int ROUND_CLEAR_WAIT_FRAMECOUNT = Config.ROUND_CLEAR_WAIT_FRAMECOUNT;
-		public int ROUND_RESET_WAIT_FRAMECOUNT = Config.ROUND_RESET_WAIT_FRAMECOUNT;
+		public int ROUND_END_WAIT_DELAY = Config.ROUND_END_WAIT_DELAY;
+		public int ROUND_CLEAR_WAIT_DELAY = Config.ROUND_CLEAR_WAIT_DELAY;
+		public int ROUND_RESET_WAIT_DELAY = Config.ROUND_RESET_WAIT_DELAY;
 		public int MAX_FRAME_COUNT = Config.MAX_FRAME_COUNT; //60 * 60 * 3;
 		public int CurrentRound { get; private set; } //0,1,2
 		public int BlueWinCount { get; private set; }
@@ -25,7 +21,7 @@ namespace Server.Game.GameRule
 		public GameRule00()
 		{
 			MaxFrameCount = MAX_FRAME_COUNT;
-			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
+			FrameNum = -Config.FRAME_BUFFER_COUNT;
 		}
 
 		public override TeamType GetTeamType(NetObject netObj)
@@ -53,12 +49,12 @@ namespace Server.Game.GameRule
 
 		public override void Update()
 		{
+			++FrameNum;
 			if (Active is false)
 			{
 				return;
 			}
 
-			++CurrentRoundFrameCount;
 			var result = GetRoundResult();
 			if (result == RoundResult.None)
 			{
@@ -71,7 +67,7 @@ namespace Server.Game.GameRule
 		public override void Reset()
 		{
 			Active = true;
-			CurrentRoundFrameCount = -Config.FRAME_BUFFER_COUNT;
+			FrameNum = -Config.FRAME_BUFFER_COUNT;
 			BluePlayerDeadCount = 0;
 			RedPlayerDeadCount = 0;
 		}
@@ -122,7 +118,7 @@ namespace Server.Game.GameRule
 		private RoundResult GetRoundResult()
 		{
 			RoundResult roundResult = RoundResult.None;
-			if (CurrentRoundFrameCount >= MAX_FRAME_COUNT)
+			if (FrameNum >= MAX_FRAME_COUNT)
 			{
 				return RoundResult.Draw;
 			}

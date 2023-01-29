@@ -1,9 +1,4 @@
-﻿using System.Net.WebSockets;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
-
-using Server.Game.GameRule;
-using Server.Logs;
+﻿using Server.Game.GameRule;
 
 namespace Server;
 public class GameRoom
@@ -64,7 +59,6 @@ public class GameRoom
 
 	public void HandleInput(Player player, in InputData data)
 	{
-		Loggers.Debug.Information("Enqueueing {0} from player {1}", data.FrameNum, player.TeamId);
 		player.InputBuffer.Enqueue(data);
 	}
 
@@ -104,7 +98,6 @@ public class GameRoom
 
 	public void Update()
 	{
-		Loggers.Game.Information("current State : {0}, Entering", Enum.GetName(_state));
 		if (_state == GameState.Started)
 		{
 			foreach (var player in Players)
@@ -146,13 +139,11 @@ public class GameRoom
 
 			HandleRoundStart();
 		}
-
-		Loggers.Game.Information("current State : {0}, Exiting", Enum.GetName(_state));
 	}
 
 	private void HandleOneFrame()
 	{
-		Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.CurrentRoundFrameCount);
+		Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.FrameNum);
 		foreach (var player in _players)
 		{
 			if (player is null)
@@ -161,15 +152,16 @@ public class GameRoom
 			}
 
 #if DEBUG
-			Debug.Assert(player.InputBuffer.TryDequeue(out var input) && _world.GameRule.CurrentRoundFrameCount == input.FrameNum);
+			Debug.Assert(player.InputBuffer.TryDequeue(out var input) && _world.GameRule.FrameNum == input.FrameNum);
 #elif RELEASE
-			if (_world.GameRule.CurrentRoundFrameCount != input.FrameNum)
+			player.InputBuffer.TryDequeue(out var input);
+			if (_world.GameRule.FrameNum != input.FrameNum)
 			{
-				Loggers.Error.Error("now : {0} but {1}", _world.GameRule.CurrentRoundFrameCount, input.FrameNum);
+				Loggers.Error.Error("from player [{0}] now : {1} but {2}", player.TeamId, _world.GameRule.FrameNum, input.FrameNum);
 			}
 #endif
-
 			_frameInfo.Inputs[player.TeamId] = input;
+			_frameInfoPacket.C2STTime[player.TeamId] = input.C2STTime;
 			_frameInfoPacket.PlayerMoveDirXArr[player.TeamId] = input.MoveInput.x.RawValue;
 			_frameInfoPacket.PlayerMoveDirYArr[player.TeamId] = input.MoveInput.z.RawValue;
 			_frameInfoPacket.PlayerLookDirXArr[player.TeamId] = input.LookInput.x.RawValue;
@@ -177,7 +169,7 @@ public class GameRoom
 			_frameInfoPacket.ButtonPressedArr[player.TeamId] = input.ButtonInput;
 		}
 
-		_frameInfoPacket.FrameNum = _world.GameRule.CurrentRoundFrameCount;
+		_frameInfoPacket.FrameNum = _world.GameRule.FrameNum;
 		Broadcast(_frameInfoPacket);
 		_world.UpdateInputs(_frameInfo);
 		_world.Update();

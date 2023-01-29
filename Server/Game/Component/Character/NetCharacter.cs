@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public abstract class NetCharacter : NetBaseComponent, INetUpdatable, ITakeHit, ISendHit
 	{
@@ -18,7 +10,6 @@ namespace Server.Game
 		public sVector3 TargetLookDir { get; set; }
 		public sVector3 Forward => NetObj.Rotation * sVector3.forward;
 		public Action OnCharacterDead { private get; set; }
-		public Action OnFrameStart { private get; set; }
 		public CCFlags CCFlag { get; protected set; }
 		public TeamType Team { get; set; }
 		public NetCollider2D Collider { get; protected set; }
@@ -59,7 +50,6 @@ namespace Server.Game
 
 		public virtual void Update()
 		{
-			OnFrameStart?.Invoke();
 			HandleCC();
 
 			if (CanControlMove && TargetMoveDir != sVector3.zero)

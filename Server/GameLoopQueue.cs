@@ -18,7 +18,7 @@ public class GameLoopQueue
 	private bool _isFull = false;
 	public GameLoopQueue()
 	{
-		_timer = new(1);
+		_timer = new(double.Epsilon);
 		_timer.Elapsed += Loop;
 		_timer.AutoReset = false;
 	}

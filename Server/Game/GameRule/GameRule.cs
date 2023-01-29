@@ -8,7 +8,7 @@ namespace Server.Game.GameRule
 	{
 		public NetWorld World { get; set; }
 		public bool Active { get; set; } = true;
-		public int CurrentRoundFrameCount { get; protected set; }
+		public int FrameNum { get; protected set; }
 		public int MaxFrameCount { get; protected set; }
 
 		public abstract TeamType GetTeamType(NetObject netObj);

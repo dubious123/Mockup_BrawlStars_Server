@@ -1,11 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-
-using Serilog;
-using Serilog.Sinks.File;
-using Serilog.Sinks.SystemConsole.Themes;
-
-using Server.Logs;
+﻿using System.Net;
 
 namespace Server;
 
@@ -27,7 +20,7 @@ public class Program
 		SessionMgr.Init();
 		#endregion
 		Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
-		var endPoint = GetNewEndPoint(7777);
+		var endPoint = new IPEndPoint(Config.CONNECT_ADDRESS, 7777);
 		listener.StartListen(endPoint);
 		Loggers.Console.Information("Listening to {0}", endPoint);
 		//var GameLoop = JobMgr.GetQueue(Define.GameQueueName);

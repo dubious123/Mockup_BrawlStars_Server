@@ -1,9 +1,10 @@
-﻿public struct InputData
+﻿public readonly struct InputData
 {
 	public readonly sVector3 MoveInput { get; init; }
 	public readonly sVector3 LookInput { get; init; }
 	public readonly ushort ButtonInput { get; init; }
 	public readonly int FrameNum { get; init; }
+	public readonly long C2STTime { get; init; }
 
 	//public static void Combine(in InputData left, in InputData right, out InputData res)
 	//{
