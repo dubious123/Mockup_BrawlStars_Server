@@ -55,9 +55,7 @@ public class NCharacterShelly : NetCharacter
 	public override void OnDead()
 	{
 		base.OnDead();
-		BasicAttack.Performing = false;
 		BasicAttack.Active = false;
-		SuperShell.Performing = false;
 		SuperShell.Active = false;
 	}
 

@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace Server;
+﻿namespace Server;
 
 public class Program
 {
@@ -20,9 +18,9 @@ public class Program
 		SessionMgr.Init();
 		#endregion
 		Listener listener = new(socket => SessionMgr.GenerateSession<ClientSession>(socket));
-		var endPoint = new IPEndPoint(Config.CONNECT_ADDRESS, 7777);
+		var endPoint = GetNewEndPoint(7777);
 		listener.StartListen(endPoint);
-		Loggers.Console.Information("Listening to {0}", endPoint);
+		Loggers.Console.Information("Listening to {0}", endPoint.Address.Address);
 		//var GameLoop = JobMgr.GetQueue(Define.GameQueueName);
 		//long nowTick = default;
 		//long delta = default;

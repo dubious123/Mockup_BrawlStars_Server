@@ -1,28 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-
-using Microsoft.VisualBasic;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class NTiming : INetUpdatable
 	{
 		private DetDictionary<int, NetCoroutine> _coDict = new();
 		private int index = 0;
 
-		public void RunCoroutine(IEnumerator<int> coroutine)
+		public int RunCoroutine(IEnumerator<int> coroutine)
 		{
 			_coDict.Add(index, new NetCoroutine(index, coroutine));
-			++index;
+			return index++;
 		}
 
-		public void CallDelayed(int delay, Action action)
+		public int CallDelayed(int delay, Action action)
 		{
-			RunCoroutine(BaseEnumerator(delay, action));
+			return RunCoroutine(BaseEnumerator(delay, action));
+		}
+
+		public void KillCoroutine(int index)
+		{
+			_coDict.Remove(index);
 		}
 
 		public void Update()
@@ -34,6 +30,12 @@ namespace Server.Game
 					_coDict.Remove(co.Index);
 				}
 			}
+		}
+
+		public void Reset()
+		{
+			_coDict.Clear();
+			index = 0;
 		}
 
 		private class NetCoroutine
@@ -75,4 +77,3 @@ namespace Server.Game
 		}
 	}
 }
-

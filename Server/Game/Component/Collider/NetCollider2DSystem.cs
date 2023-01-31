@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using ServerCore;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class NetCollider2DSystem : NetBaseComponentSystem<NetCollider2D>
 	{
@@ -145,7 +135,7 @@ namespace Server.Game
 			for (int i = _senders.Count() - 1; 0 <= i; --i)
 			{
 				var sender = _senders[i];
-				for (int j = i - 1; 0 <= j; --j)
+				for (int j = i - 1; 0 <= j && sender.Active; --j)
 				{
 					HandleCollision(sender, _senders[j]);
 				}
@@ -153,6 +143,10 @@ namespace Server.Game
 				foreach (var listener in _listeners)
 				{
 					HandleCollision(sender, listener);
+					if (sender.Active is false)
+					{
+						break;
+					}
 				}
 			}
 
@@ -192,14 +186,7 @@ namespace Server.Game
 		{
 			var leftId = left.NetObjId.GetRaw();
 			var rightId = right.NetObjId.GetRaw();
-			if (leftId > rightId)
-			{
-				return ((long)(leftId) << 32) | rightId;
-			}
-			else
-			{
-				return ((long)(rightId) << 32) | leftId;
-			}
+			return leftId > rightId ? ((long)(leftId) << 32) | rightId : ((long)(rightId) << 32) | leftId;
 		}
 	}
 }

@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-
-using Server.Game.Data;
+﻿using Server.Game.Data;
 using Server.Game.GameRule;
-
-using static Enums;
 
 namespace Server.Game
 {
@@ -49,6 +42,7 @@ namespace Server.Game
 
 		public void Clear()
 		{
+			NetTiming.Reset();
 			ProjectileSystem.Reset();
 			CharacterSystem.SetActiveAll(false);
 		}

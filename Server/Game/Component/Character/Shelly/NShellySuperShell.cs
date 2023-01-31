@@ -1,11 +1,4 @@
-using System.Collections.Generic;
-using System.Linq;
-
-using Server.Game;
-
-using static Enums;
-
-public class NShellySuperShell : NetBaseSkill
+public class NShellySuperShell : NetSpecialAttack
 {
 	public bool Holding { get; private set; }
 	public bool IsAttack { get; private set; }
@@ -14,19 +7,19 @@ public class NShellySuperShell : NetBaseSkill
 	public NetProjectile[] Pallets { get; private set; }
 
 	private IEnumerator<int> _coHandler;
-	private readonly NCharacterShelly _shelly;
 	private readonly HitInfo _hitInfo;
-	private int _palletCountPerShell, _reloadFrame, _currentReloadDeltaFrame,
-		_waitFrameBeforePerform, _waitFrameAfterPerform;
+	private int _palletCountPerShell, _waitFrameBeforePerform, _waitFrameAfterPerform;
 	private sfloat _bulletAngle;
 
 	private bool _nowPressed, _beforePressed;
 
 	public NShellySuperShell(NCharacterShelly character)
 	{
-		_shelly = character;
+		Character = character;
+		MaxPowerAmount = 200;
+		PowerUsagePerAttack = MaxPowerAmount;
+		CurrentPowerAmount = 0;
 		_palletCountPerShell = 9;
-		_reloadFrame = 60;
 		_waitFrameBeforePerform = 10;
 		_waitFrameAfterPerform = 10;
 		_bulletAngle = (sfloat)50f;
@@ -42,10 +35,12 @@ public class NShellySuperShell : NetBaseSkill
 		var degreeDelta = _bulletAngle / _palletCountPerShell;
 		for (int j = 0; j < _palletCountPerShell; ++j)
 		{
-			var obj = _shelly.ObjectBuilder.GetNewObject(NetObjectType.Projectile_Shelly_SuperShell);
-			Pallets[j] = obj.GetComponent<NetProjectile>()
+			var obj = Character.ObjectBuilder.GetNewObject(NetObjectType.Projectile_Shelly_SuperShell);
+			var pallet = obj.GetComponent<NetProjectile>()
 				.SetAngle((degreeOffset + degreeDelta * j) * sMathf.Deg2Rad);
+			obj.GetComponent<NetCollider2D>().OnCollisionEnter = target => OnHit(pallet, target);
 			obj.Active = false;
+			Pallets[j] = pallet;
 		}
 	}
 
@@ -57,11 +52,6 @@ public class NShellySuperShell : NetBaseSkill
 		}
 
 		HandleInputInternal();
-
-		if (_currentReloadDeltaFrame < _reloadFrame)
-		{
-			++_currentReloadDeltaFrame;
-		}
 	}
 
 	public override void HandleInput(in InputData input)
@@ -72,8 +62,8 @@ public class NShellySuperShell : NetBaseSkill
 
 	protected override IEnumerator<int> Co_Perform()
 	{
-		_shelly.CanControlMove = false;
-		_shelly.CanControlLook = false;
+		Character.CanControlMove = false;
+		Character.CanControlLook = false;
 		for (int i = 0; i < _waitFrameBeforePerform; i++)
 		{
 			yield return 0;
@@ -84,7 +74,7 @@ public class NShellySuperShell : NetBaseSkill
 		foreach (var pallet in Pallets)
 		{
 			pallet.Reset();
-			pallet.NetObj.SetPositionAndRotation(_shelly.Position, _shelly.Rotation);
+			pallet.NetObj.SetPositionAndRotation(Character.Position, Character.Rotation);
 			pallet.NetObj.Active = true;
 		}
 
@@ -96,10 +86,9 @@ public class NShellySuperShell : NetBaseSkill
 			yield return 0;
 		}
 
-		_shelly.CanControlMove = true;
-		_shelly.CanControlLook = true;
-		_shelly.SetActiveOtherSkills(this, true);
-		Performing = false;
+		Character.CanControlMove = true;
+		Character.CanControlLook = true;
+		Character.SetActiveOtherSkills(this, true);
 		yield break;
 	}
 
@@ -110,19 +99,19 @@ public class NShellySuperShell : NetBaseSkill
 
 	private void HandleInputInternal()
 	{
-		if (Performing is true)
-		{
-			_coHandler.MoveNext();
-			return;
-		}
+		//if (Performing is true)
+		//{
+		//	_coHandler.MoveNext();
+		//	return;
+		//}
 
 		Holding = _beforePressed is true && _nowPressed is true;
-		if (_beforePressed is true && _nowPressed is false && _currentReloadDeltaFrame > _reloadFrame)
-		{
-			_shelly.SetActiveOtherSkills(this, false);
-			Performing = true;
-			_coHandler = Co_Perform();
-		}
+		//if (_beforePressed is true && _nowPressed is false && CanAttack)
+		//{
+		//	Character.SetActiveOtherSkills(this, false);
+		//	Performing = true;
+		//	_coHandler = Co_Perform();
+		//}
 	}
 
 	private void OnHit(NetProjectile pallet, NetCollider2D target)
@@ -135,11 +124,16 @@ public class NShellySuperShell : NetBaseSkill
 		}
 
 		var character = target.GetComponent<NetCharacter>();
-		if (character is not null && _shelly.World.GameRule.CanSendHit(_shelly, character))
+		if (character is not null && Character.World.GameRule.CanSendHit(Character, character))
 		{
-			_shelly.SendHit(character, _hitInfo);
+			Character.SendHit(character, _hitInfo);
 			pallet.NetObj.Active = false;
 			return;
 		}
+	}
+
+	public override void Reset()
+	{
+		throw new NotImplementedException();
 	}
 }

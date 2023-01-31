@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public abstract class NetBasicAttack : NetBaseSkill
 	{
@@ -37,6 +31,11 @@ namespace Server.Game
 		public virtual void OnPerform()
 		{
 			--CurrentShellCount;
+		}
+
+		public override bool CanAttack()
+		{
+			return CurrentShellCount > 0;
 		}
 	}
 }
