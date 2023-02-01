@@ -14,10 +14,7 @@ public class NCharacterShelly : NetCharacter
 		base.Reset();
 		MaxHp = 100;
 		Hp = MaxHp;
-		if (BasicAttack is not null)
-		{
-			BasicAttack.Active = true;
-		}
+		BasicAttack?.Reset();
 
 		if (SuperShell is not null)
 		{

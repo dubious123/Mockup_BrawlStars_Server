@@ -1,8 +1,8 @@
-2023-02-01 01:44:49.089 +09:00 [INF] [server] connecting to 192.168.0.6:7112 completed
-2023-02-01 01:45:35.380 +09:00 [INF] Closing[1]
-2023-02-01 01:45:35.381 +09:00 [INF] Session [1] close started
-2023-02-01 01:45:35.383 +09:00 [INF] Session [1] shut down started
-2023-02-01 01:45:35.384 +09:00 [INF] Session [1] shut down completed
-2023-02-01 01:45:35.384 +09:00 [INF] Session [1] disconnect started
-2023-02-01 01:45:35.384 +09:00 [INF] Session [1] disconnect completed
-2023-02-01 01:45:35.387 +09:00 [INF] Session [1] close completed
+2023-02-01 18:03:57.055 +09:00 [INF] [server] connecting to 192.168.0.42:14647 completed
+2023-02-01 18:04:43.436 +09:00 [INF] Closing[1]
+2023-02-01 18:04:43.437 +09:00 [INF] Session [1] close started
+2023-02-01 18:04:43.438 +09:00 [INF] Session [1] shut down started
+2023-02-01 18:04:43.438 +09:00 [INF] Session [1] shut down completed
+2023-02-01 18:04:43.438 +09:00 [INF] Session [1] disconnect started
+2023-02-01 18:04:43.439 +09:00 [INF] Session [1] disconnect completed
+2023-02-01 18:04:43.442 +09:00 [INF] Session [1] close completed
