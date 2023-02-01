@@ -2,14 +2,16 @@
 {
 	public abstract class NetSpecialAttack : NetBaseSkill
 	{
+#if CLIENT
+		public bool Holding { get; protected set; }
+#endif
 		public int MaxPowerAmount { get; set; }
 		public int PowerUsagePerAttack { get; set; }
 		public int CurrentPowerAmount { get; set; }
-		public override bool CanAttack() => CurrentPowerAmount >= PowerUsagePerAttack;
 
-		public override void Update()
-		{
-		}
+		protected NetSpecialAttack(NetCharacter character) : base(character) { }
+
+		public override bool CanAttack() => CurrentPowerAmount >= PowerUsagePerAttack && Active;
 
 		public virtual void ChargePower(int amount)
 		{
@@ -18,6 +20,7 @@
 
 		protected virtual void OnPerform()
 		{
+			CurrentPowerAmount -= PowerUsagePerAttack;
 		}
 	}
 }

@@ -6,9 +6,9 @@
 		public int MaxShellCount { get; protected set; }
 		public int CurrentReloadDeltaFrame { get; protected set; }
 		public int ReloadFrame { get; protected set; }
-		public int WaitFrameBeforePerform { get; protected set; }
-		public int WaitFrameAfterPerform { get; protected set; }
-		public bool IsAttack { get; protected set; }
+
+		protected NetBasicAttack(NetCharacter character) : base(character) { }
+
 
 		public override void Update()
 		{
@@ -35,7 +35,7 @@
 
 		public override bool CanAttack()
 		{
-			return CurrentShellCount > 0;
+			return Active && CurrentShellCount > 0;
 		}
 	}
 }

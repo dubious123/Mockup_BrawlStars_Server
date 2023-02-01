@@ -1,27 +1,20 @@
 public class NShellySuperShell : NetSpecialAttack
 {
-	public bool Holding { get; private set; }
-	public bool IsAttack { get; private set; }
-	public int PalletsCountPerShot => _palletCountPerShell;
-	public sfloat BulletAngle => _bulletAngle;
-	public NetProjectile[] Pallets { get; private set; }
-
-	private IEnumerator<int> _coHandler;
+	private readonly int _palletCountPerShell;
+	private readonly sfloat _bulletAngle, _degreeOffset, _degreeDelta;
 	private readonly HitInfo _hitInfo;
-	private int _palletCountPerShell, _waitFrameBeforePerform, _waitFrameAfterPerform;
-	private sfloat _bulletAngle;
 
+	private int _coHandle, _currentDelay;
 	private bool _nowPressed, _beforePressed;
 
-	public NShellySuperShell(NCharacterShelly character)
+	public NShellySuperShell(NCharacterShelly character) : base(character)
 	{
-		Character = character;
-		MaxPowerAmount = 200;
-		PowerUsagePerAttack = MaxPowerAmount;
-		CurrentPowerAmount = 0;
 		_palletCountPerShell = 9;
-		_waitFrameBeforePerform = 10;
-		_waitFrameAfterPerform = 10;
+		WaitFrameBeforePerform = 2;
+		WaitFrameAfterPerform = 2;
+		DelayFrameBetweenAttack = 5;
+		PowerUsagePerAttack = 100;
+		MaxPowerAmount = 100;
 		_bulletAngle = (sfloat)50f;
 		_hitInfo = new HitInfo()
 		{
@@ -30,58 +23,75 @@ public class NShellySuperShell : NetSpecialAttack
 			KnockbackDistance = (sfloat)0.5f
 		};
 
-		Pallets = new NetProjectile[_palletCountPerShell];
-		var degreeOffset = 90 - _bulletAngle * 0.5f;
-		var degreeDelta = _bulletAngle / _palletCountPerShell;
-		for (int j = 0; j < _palletCountPerShell; ++j)
-		{
-			var obj = Character.ObjectBuilder.GetNewObject(NetObjectType.Projectile_Shelly_SuperShell);
-			var pallet = obj.GetComponent<NetProjectile>()
-				.SetAngle((degreeOffset + degreeDelta * j) * sMathf.Deg2Rad);
-			obj.GetComponent<NetCollider2D>().OnCollisionEnter = target => OnHit(pallet, target);
-			obj.Active = false;
-			Pallets[j] = pallet;
-		}
+		_degreeOffset = 90 - _bulletAngle * 0.5f;
+		_degreeDelta = _bulletAngle / _palletCountPerShell;
+		World.ProjectileSystem.Reserve(NetObjectType.Projectile_Shelly_SuperShell, _palletCountPerShell);
 	}
 
 	public override void Update()
 	{
-		if (Active is false)
-		{
-			return;
-		}
-
-		HandleInputInternal();
+		_currentDelay = Math.Min(_currentDelay + 1, DelayFrameBetweenAttack);
 	}
 
 	public override void HandleInput(in InputData input)
 	{
 		_beforePressed = _nowPressed;
-		_nowPressed = (input.ButtonInput & 2) == 1;
+		_nowPressed = (input.ButtonInput & 2) != 0;
+#if CLIENT
+		Holding = _beforePressed is true && _nowPressed is true && CanAttack();
+#endif
+		IsAttack = _beforePressed is true && _nowPressed is false && CanAttack();
+		if (IsAttack is false)
+		{
+			return;
+		}
+
+		_coHandle = World.NetTiming.RunCoroutine(Co_Perform());
 	}
 
-	protected override IEnumerator<int> Co_Perform()
+	public override bool CanAttack()
 	{
+		return base.CanAttack() && _currentDelay >= DelayFrameBetweenAttack;
+	}
+
+	public override void Cancel()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public override void Reset()
+	{
+		Active = true;
+		_beforePressed = _nowPressed = false;
+		_currentDelay = 0;
+		CurrentPowerAmount = 0;
+	}
+
+	protected override void OnPerform()
+	{
+		base.OnPerform();
+		_currentDelay = 0;
 		Character.CanControlMove = false;
 		Character.CanControlLook = false;
-		for (int i = 0; i < _waitFrameBeforePerform; i++)
+	}
+
+	private IEnumerator<int> Co_Perform()
+	{
+		OnPerform();
+		for (int i = 0; i < WaitFrameBeforePerform; i++)
 		{
 			yield return 0;
 		}
 
-		IsAttack = true;
-
-		foreach (var pallet in Pallets)
+		World.ProjectileSystem.Awake(NetObjectType.Projectile_Shelly_SuperShell, _palletCountPerShell, (count, pallet) =>
 		{
-			pallet.Reset();
 			pallet.NetObj.SetPositionAndRotation(Character.Position, Character.Rotation);
+			pallet.SetAngle((_degreeOffset + _degreeDelta * count) * sMathf.Deg2Rad).SetOwner(Character.NetObj);
+			pallet.Collider.OnCollisionEnter = (target) => OnHit(pallet, target);
 			pallet.NetObj.Active = true;
-		}
+		});
 
-		yield return 0;
-
-		IsAttack = false;
-		for (int i = 0; i < _waitFrameAfterPerform; i++)
+		for (int i = 0; i < WaitFrameAfterPerform; i++)
 		{
 			yield return 0;
 		}
@@ -92,48 +102,25 @@ public class NShellySuperShell : NetSpecialAttack
 		yield break;
 	}
 
-	public override void Cancel()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	private void HandleInputInternal()
-	{
-		//if (Performing is true)
-		//{
-		//	_coHandler.MoveNext();
-		//	return;
-		//}
-
-		Holding = _beforePressed is true && _nowPressed is true;
-		//if (_beforePressed is true && _nowPressed is false && CanAttack)
-		//{
-		//	Character.SetActiveOtherSkills(this, false);
-		//	Performing = true;
-		//	_coHandler = Co_Perform();
-		//}
-	}
-
 	private void OnHit(NetProjectile pallet, NetCollider2D target)
 	{
 		var wall = target.GetComponent<NetWall>();
 		if (wall is not null)
 		{
-			pallet.Active = false;
-			return;
+			goto Return;
 		}
 
 		var character = target.GetComponent<NetCharacter>();
-		if (character is not null && Character.World.GameRule.CanSendHit(Character, character))
+		if (character is not null && World.GameRule.CanSendHit(Character, character))
 		{
 			Character.SendHit(character, _hitInfo);
-			pallet.NetObj.Active = false;
-			return;
+			Character.SpecialAttack.ChargePower(PowerChargeAmount);
+			goto Return;
 		}
-	}
 
-	public override void Reset()
-	{
-		throw new NotImplementedException();
+		return;
+	Return:
+		pallet.Reset();
+		World.ProjectileSystem.Return(pallet);
 	}
 }

@@ -14,6 +14,7 @@
 		public TeamType Team { get; set; }
 		public NetCollider2D Collider { get; protected set; }
 		public NetBasicAttack BasicAttack { get; protected set; }
+		public NetSpecialAttack SpecialAttack { get; protected set; }
 		public int KnockbackDuration { get; protected set; }
 		public int StunDuration { get; protected set; }
 		public int MaxHp { get; protected set; }
