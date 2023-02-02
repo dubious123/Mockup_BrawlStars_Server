@@ -15,7 +15,7 @@ public class NShellySuperShell : NetSpecialAttack
 		DelayFrameBetweenAttack = 5;
 		PowerUsagePerAttack = 100;
 		MaxPowerAmount = 100;
-		_bulletAngle = (sfloat)50f;
+		_bulletAngle = (sfloat)40f;
 		_hitInfo = new HitInfo()
 		{
 			Damage = 25,

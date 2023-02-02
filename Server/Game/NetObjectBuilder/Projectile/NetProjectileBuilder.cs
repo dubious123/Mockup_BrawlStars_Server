@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class NetProjectileBuilder
 	{
@@ -16,8 +8,8 @@ namespace Server.Game
 			obj.AddComponent<NetCircleCollider2D>()
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.2f);
 			obj.AddComponent<NetProjectile>()
-				.SetSpeed((sfloat)10 / 48 * 60)
-				.SetMaxTravelTime(48);
+				.SetSpeed((sfloat)14)
+				.SetMaxTravelTime(35);
 			return obj;
 		}
 
@@ -27,8 +19,8 @@ namespace Server.Game
 			obj.AddComponent<NetCircleCollider2D>()
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.2f);
 			obj.AddComponent<NetProjectile>()
-				.SetSpeed((sfloat)12)
-				.SetMaxTravelTime(60);
+				.SetSpeed((sfloat)16)
+				.SetMaxTravelTime(40);
 			return obj;
 		}
 	}

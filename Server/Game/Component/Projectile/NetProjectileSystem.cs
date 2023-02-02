@@ -31,11 +31,12 @@
 		public void Awake(NetObjectType type, int count, Action<int, NetProjectile> initFunc = null)
 		{
 			Reserve(type, count - _reservePool[GetIndex(type)].Count);
-			var beforeCount = ActiveSet.Count;
+
 			for (int i = 0; i < count; ++i)
 			{
 				var projectile = _reservePool[GetIndex(type)].Pop();
 				initFunc?.Invoke(i, projectile);
+				ActiveSet.Add(projectile);
 			}
 		}
 
@@ -67,14 +68,6 @@
 			{
 				p.Reset();
 			}
-
-			RemoveInternal();
-			foreach (var p in ActiveSet)
-			{
-				Return(p);
-			}
-
-			RemoveInternal();
 		}
 
 		private void RemoveInternal()
