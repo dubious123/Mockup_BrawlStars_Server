@@ -3,7 +3,7 @@
 	public class NetProjectileSystem : NetBaseComponentSystem<NetProjectile>
 	{
 		public readonly HashSet<NetProjectile> ActiveSet = new(120);
-		private readonly Stack<NetProjectile>[] _reservePool = new Stack<NetProjectile>[2] { new(90), new(30) };
+		private readonly Stack<NetProjectile>[] _reservePool = new Stack<NetProjectile>[(int)NetObjectType.Projectile_Spike_StickAround - (int)NetObjectType.Projectile_Shelly_Buckshot + 1] { new(90), new(30), new(3 * Config.MAX_PLAYER_COUNT), new(18 * Config.MAX_PLAYER_COUNT), new(Config.MAX_PLAYER_COUNT) };
 		private readonly List<NetProjectile> _removeList = new(120);
 
 		public static int GetIndex(NetObjectType type)

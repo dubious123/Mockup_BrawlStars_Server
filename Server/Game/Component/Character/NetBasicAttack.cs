@@ -9,7 +9,6 @@
 
 		protected NetBasicAttack(NetCharacter character) : base(character) { }
 
-
 		public override void Update()
 		{
 			if (CurrentShellCount >= MaxShellCount)

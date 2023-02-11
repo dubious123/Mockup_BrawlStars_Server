@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public static class NetCharacterBuilder
 	{
@@ -15,8 +7,16 @@ namespace Server.Game
 			var obj = builder.GetRawObject(NetObjectType.Character_Shelly);
 			obj.AddComponent<NetCircleCollider2D>()
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.5f);
-
 			obj.AddComponent<NCharacterShelly>();
+			return obj;
+		}
+
+		public static NetObject CreateSpike(NetObjectBuilder builder)
+		{
+			var obj = builder.GetRawObject(NetObjectType.Character_Spike);
+			obj.AddComponent<NetCircleCollider2D>()
+				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.5f);
+			obj.AddComponent<NCharacterSpike>();
 			return obj;
 		}
 	}

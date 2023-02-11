@@ -12,7 +12,6 @@ public class NShellyBuckShot : NetBasicAttack
 	public NShellyBuckShot(NCharacterShelly character) : base(character)
 	{
 		MaxShellCount = 3;
-		PowerChargeAmount = 50;
 		CurrentShellCount = MaxShellCount;
 		ReloadFrame = 120;
 		_palletCountPerShell = 5;
@@ -22,6 +21,7 @@ public class NShellyBuckShot : NetBasicAttack
 		_hitInfo = new HitInfo()
 		{
 			Damage = 20,
+			PowerChargeAmount = 50,
 		};
 
 		World.ProjectileSystem.Reserve(NetObjectType.Projectile_Shelly_Buckshot, MaxShellCount * _palletCountPerShell);
@@ -84,7 +84,6 @@ public class NShellyBuckShot : NetBasicAttack
 		if (character is not null && World.GameRule.CanSendHit(Character, character))
 		{
 			Character.SendHit(character, _hitInfo);
-			Character.SpecialAttack.ChargePower(PowerChargeAmount);
 			goto Return;
 		}
 

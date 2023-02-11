@@ -6,5 +6,6 @@
 		public sfloat KnockbackDistance { get; init; }
 		public int KnockbackDuration { get; init; }
 		public int StunDuration { get; init; }
+		public int PowerChargeAmount { get; init; }
 	}
 }

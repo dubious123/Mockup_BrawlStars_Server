@@ -10,7 +10,6 @@
 		public int WaitFrameBeforePerform { get; protected set; }
 		public int WaitFrameAfterPerform { get; protected set; }
 		public int DelayFrameBetweenAttack { get; protected set; }
-		public int PowerChargeAmount { get; protected set; }
 
 		public NetBaseSkill(NetCharacter character)
 		{

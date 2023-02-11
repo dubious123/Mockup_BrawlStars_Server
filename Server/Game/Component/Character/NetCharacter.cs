@@ -40,7 +40,8 @@
 
 		public virtual void Reset()
 		{
-			MoveSpeed = (sfloat)6f;
+			BasicAttack?.Reset();
+			SpecialAttack?.Reset();
 			LookSpeed = (sfloat)360f;
 			MoveSmoothTime = (sfloat)0.01f;
 			CanControlMove = true;
@@ -63,6 +64,9 @@
 				var targetRotation = sQuaternion.LookRotation(TargetLookDir, sVector3.up);
 				NetObj.Rotation = sQuaternion.RotateTowards(NetObj.Rotation, targetRotation, Define.FixedDeltaTime * LookSpeed);
 			}
+
+			BasicAttack.Update();
+			SpecialAttack.Update();
 		}
 
 		public virtual void Move(sVector3 deltaPos)
@@ -79,6 +83,8 @@
 		{
 			TargetMoveDir = sVector3.SmoothDamp(TargetMoveDir, input.MoveInput, ref _smoothVelocity, MoveSmoothTime, sfloat.PositiveInfinity, Define.FixedDeltaTime);
 			TargetLookDir = input.LookInput;
+			BasicAttack.HandleInput(in input);
+			SpecialAttack.HandleInput(in input);
 		}
 
 		public virtual void SendHit(ITakeHit target, in HitInfo info)
@@ -98,6 +104,8 @@
 			{
 				target.TakeStun(info.StunDuration);
 			}
+
+			SpecialAttack.ChargePower(info.PowerChargeAmount);
 		}
 
 		public virtual bool CanBeHit()
@@ -152,10 +160,23 @@
 		{
 			CanControlMove = false;
 			CanControlLook = false;
+			BasicAttack.Active = false;
+			SpecialAttack.Active = false;
 			OnCharacterDead?.Invoke();
 		}
 
-		public abstract void SetActiveOtherSkills(NetBaseSkill from, bool Active);
+		public virtual void SetActiveOtherSkills(NetBaseSkill from, bool Active)
+		{
+			if (from != BasicAttack)
+			{
+				BasicAttack.Active = Active;
+			}
+
+			if (from != SpecialAttack)
+			{
+				SpecialAttack.Active = Active;
+			}
+		}
 
 		protected virtual IEnumerator<int> CoKnockback()
 		{
@@ -186,12 +207,18 @@
 		{
 			CanControlMove = false;
 			CanControlLook = false;
+			BasicAttack.Cancel();
+			BasicAttack.Active = false;
+			SpecialAttack.Cancel();
+			SpecialAttack.Active = false;
 		}
 
 		protected virtual void OnCCEnd()
 		{
 			CanControlMove = true;
 			CanControlLook = true;
+			BasicAttack.Active = true;
+			SpecialAttack.Active = true;
 		}
 	}
 }

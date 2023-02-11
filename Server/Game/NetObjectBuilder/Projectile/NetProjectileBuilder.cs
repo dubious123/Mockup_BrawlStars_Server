@@ -9,7 +9,7 @@
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.2f);
 			obj.AddComponent<NetProjectile>()
 				.SetSpeed((sfloat)14)
-				.SetMaxTravelTime(35);
+				.SetMaxDistance((sfloat)8.25f);
 			return obj;
 		}
 
@@ -20,7 +20,37 @@
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.2f);
 			obj.AddComponent<NetProjectile>()
 				.SetSpeed((sfloat)16)
-				.SetMaxTravelTime(40);
+				.SetMaxDistance((sfloat)10.5f);
+			return obj;
+		}
+
+		public static NetObject CreateProjectile_SpikeNeedleGranade(NetObjectBuilder builder)
+		{
+			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_NeedleGranade);
+			obj.AddComponent<NetCircleCollider2D>()
+				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.3f);
+			obj.AddComponent<NetProjectile>()
+				.SetSpeed((sfloat)14)
+				.SetMaxDistance((sfloat)14);
+			return obj;
+		}
+
+		public static NetObject CreateProjectile_SpikeNeedleGranade_Needle(NetObjectBuilder builder)
+		{
+			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_NeedleGranade_Needle);
+			obj.AddComponent<NetCircleCollider2D>()
+				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.3f);
+			obj.AddComponent<NetProjectile>()
+				.SetSpeed((sfloat)16)
+				.SetMaxDistance((sfloat)10.5f);
+			return obj;
+		}
+
+		public static NetObject CreateProjectile_Spike_StickAround(NetObjectBuilder builder)
+		{
+			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_StickAround);
+			obj.AddComponent<NetProjectile>()
+				.SetSpeed((sfloat)16);
 			return obj;
 		}
 	}

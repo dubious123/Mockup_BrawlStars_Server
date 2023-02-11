@@ -1,29 +1,24 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class NetObjectBuilder
 	{
 		public NetWorld World { get; init; }
 
-		private static readonly ConcurrentDictionary<NetObjectType, Func<NetObjectBuilder, NetObject>> _builderDict;
+		private static readonly Dictionary<NetObjectType, Func<NetObjectBuilder, NetObject>> _builderDict;
 		private readonly uint[] _instanceNumDict;
 
 		static NetObjectBuilder()
 		{
 			_builderDict = new();
-			_builderDict.TryAdd(NetObjectType.Env_Wall, (builder) => NetEnvBuilder.CreateWall(builder));
-			_builderDict.TryAdd(NetObjectType.Env_Tree, (builder) => NetEnvBuilder.CreateTree(builder));
-			_builderDict.TryAdd(NetObjectType.Character_Shelly, (builder) => NetCharacterBuilder.CreateShelly(builder));
-			_builderDict.TryAdd(NetObjectType.Projectile_Shelly_Buckshot, (builder) => NetProjectileBuilder.CreateProjectile_ShellyBuckshot(builder));
-			_builderDict.TryAdd(NetObjectType.Projectile_Shelly_SuperShell, (builder) => NetProjectileBuilder.CreateProjectile_ShellySuperShell(builder));
+			_builderDict.TryAdd(NetObjectType.Env_Wall, NetEnvBuilder.CreateWall);
+			_builderDict.TryAdd(NetObjectType.Env_Tree, NetEnvBuilder.CreateTree);
+			_builderDict.TryAdd(NetObjectType.Character_Shelly, NetCharacterBuilder.CreateShelly);
+			_builderDict.TryAdd(NetObjectType.Character_Spike, NetCharacterBuilder.CreateSpike);
+			_builderDict.TryAdd(NetObjectType.Projectile_Shelly_Buckshot, NetProjectileBuilder.CreateProjectile_ShellyBuckshot);
+			_builderDict.TryAdd(NetObjectType.Projectile_Shelly_SuperShell, NetProjectileBuilder.CreateProjectile_ShellySuperShell);
+			_builderDict.TryAdd(NetObjectType.Projectile_Spike_NeedleGranade, NetProjectileBuilder.CreateProjectile_SpikeNeedleGranade);
+			_builderDict.TryAdd(NetObjectType.Projectile_Spike_NeedleGranade_Needle, NetProjectileBuilder.CreateProjectile_SpikeNeedleGranade_Needle);
+			_builderDict.TryAdd(NetObjectType.Projectile_Spike_StickAround, NetProjectileBuilder.CreateProjectile_Spike_StickAround);
 		}
 
 		public NetObjectBuilder()
@@ -42,16 +37,13 @@ namespace Server.Game
 		public NetObject GetRawObject(NetObjectType type)
 		{
 			var instanceId = _instanceNumDict[(int)type]++;
-			if (instanceId > 0xffff)
-			{
-				throw new Exception("too many instances");
-			}
-
-			return new NetObject()
-			{
-				World = World,
-				ObjectId = NetObjectId.FromRaw((((uint)type) << 16) | instanceId),
-			};
+			return instanceId > 0xffff
+				? throw new Exception("too many instances")
+				: new NetObject()
+				{
+					World = World,
+					ObjectId = NetObjectId.FromRaw((((uint)type) << 16) | instanceId),
+				};
 		}
 
 		public void Reset()

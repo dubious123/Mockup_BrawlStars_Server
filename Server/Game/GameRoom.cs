@@ -77,7 +77,7 @@ public class GameRoom
 		{
 			_players[i] = player;
 			player.TeamId = (short)i;
-			player.Character = _world.ObjectBuilder.GetNewObject(NetObjectType.Character_Shelly).GetComponent<NetCharacter>();
+			player.Character = _world.ObjectBuilder.GetNewObject(player.CharacterType).GetComponent<NetCharacter>();
 			player.CurrentGame = this;
 			player.InputBuffer.Clear();
 			player.Session.OnClosed.AddListener("GameRoomExit", () =>

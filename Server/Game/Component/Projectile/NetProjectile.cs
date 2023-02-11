@@ -2,16 +2,21 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 {
 	public NetCollider2D Collider { get; private set; }
 	public NetObject Owner { get; private set; }
-	private sVector3 _moveDir;
-	private sfloat _speed;
+	public Action<NetProjectile> OnReachedMaxRadius { get; set; }
 
-	private int _maxTravelTime;
-	private int _currentTravelTime;
+	private sVector3 _moveDir;
+	private sfloat _speed, _maxDistance;
+	private int _currentTravelTime, _maxTravelTime;
 
 	public override void Start()
 	{
 		NetObj.Active = false;
 		Collider = this.GetComponent<NetCollider2D>();
+	}
+
+	public override void OnAwake()
+	{
+		_maxTravelTime = (int)(_maxDistance / _speed * 60);
 	}
 
 	public NetProjectile SetSpeed(sfloat speed)
@@ -20,9 +25,9 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 		return this;
 	}
 
-	public NetProjectile SetMaxTravelTime(int time)
+	public NetProjectile SetMaxDistance(sfloat distance)
 	{
-		_maxTravelTime = time;
+		_maxDistance = distance;
 		return this;
 	}
 
@@ -41,6 +46,7 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 	public void Reset()
 	{
 		_currentTravelTime = 0;
+		OnReachedMaxRadius = default;
 		NetObj.Active = false;
 	}
 
@@ -53,6 +59,7 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 
 		if (_currentTravelTime > _maxTravelTime)
 		{
+			OnReachedMaxRadius?.Invoke(this);
 			NetObj.Active = false;
 			_currentTravelTime = 0;
 			World.ProjectileSystem.Return(this);

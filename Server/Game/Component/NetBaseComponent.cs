@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public abstract class NetBaseComponent
 	{
@@ -17,9 +9,25 @@ namespace Server.Game
 		public sVector3 Position { get => NetObj.Position; set => NetObj.Position = value; }
 		public sQuaternion Rotation { get => NetObj.Rotation; set => NetObj.Rotation = value; }
 
-		public bool Active { get; set; } = true;
+		public bool Active
+		{
+			get => _active;
+			set
+			{
+				if (_active is false && value is true)
+				{
+					OnAwake();
+				}
+
+				_active = value;
+			}
+		}
+
+		private bool _active = true;
 
 		public virtual void Start() { }
+
+		public virtual void OnAwake() { }
 
 		public override int GetHashCode() => NetObjId.GetHashCode();
 	}

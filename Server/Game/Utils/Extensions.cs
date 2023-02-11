@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Markup;
-
-using static Server.Utils.Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public static partial class Extensions
 	{
@@ -48,7 +39,6 @@ namespace Server.Game
 		public static T AddComponent<T>(this NetObject netObj) where T : NetBaseComponent, new()
 		{
 			var inst = new T() { NetObj = netObj };
-			inst.Start();
 			var world = netObj.World;
 
 			switch (inst)
@@ -69,6 +59,7 @@ namespace Server.Game
 					throw new Exception($"invalid type {inst.GetType()}");
 			}
 
+			inst.Start();
 			return inst;
 		}
 	}
