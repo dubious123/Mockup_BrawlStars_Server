@@ -15,6 +15,7 @@
 		public NetCollider2D Collider { get; protected set; }
 		public NetBasicAttack BasicAttack { get; protected set; }
 		public NetSpecialAttack SpecialAttack { get; protected set; }
+		public int TeamId { get; protected set; }
 		public int KnockbackDuration { get; protected set; }
 		public int StunDuration { get; protected set; }
 		public int MaxHp { get; protected set; }
@@ -28,10 +29,15 @@
 
 		private sVector3 _smoothVelocity;
 
+		public void SetTeamId(int id)
+		{
+			TeamId = id;
+			Team = World.GameRule.GetTeamType(id);
+		}
+
 		public override void Start()
 		{
 			Collider = this.GetComponent<NetCollider2D>();
-			Team = World.GameRule.GetTeamType(NetObj);
 			KnockbackCoHandler = CoKnockback();
 			StunCoHandler = CoStun();
 			OnCharacterDead += () => World.GameRule.OnCharacterDead(this);
@@ -42,6 +48,7 @@
 		{
 			BasicAttack?.Reset();
 			SpecialAttack?.Reset();
+			MoveSpeed = (sfloat)6f;
 			LookSpeed = (sfloat)360f;
 			MoveSmoothTime = (sfloat)0.01f;
 			CanControlMove = true;

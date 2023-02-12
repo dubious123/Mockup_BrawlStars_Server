@@ -3,6 +3,9 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 	public NetCollider2D Collider { get; private set; }
 	public NetObject Owner { get; private set; }
 	public Action<NetProjectile> OnReachedMaxRadius { get; set; }
+#if CLIENT
+	public sVector3 MoveDir => _moveDir;
+#endif
 
 	private sVector3 _moveDir;
 	private sfloat _speed, _maxDistance;

@@ -1,8 +1,4 @@
-﻿using System;
-
-using static Enums;
-
-namespace Server.Game.GameRule
+﻿namespace Server.Game.GameRule
 {
 	public abstract class BaseGameRule
 	{
@@ -11,7 +7,7 @@ namespace Server.Game.GameRule
 		public int FrameNum { get; protected set; }
 		public int MaxFrameCount { get; protected set; }
 
-		public abstract TeamType GetTeamType(NetObject netObj);
+		public abstract TeamType GetTeamType(int id);
 		public abstract bool CanSendHit(NetBaseComponent from, NetBaseComponent to);
 		public abstract void Update();
 		public abstract void Reset();

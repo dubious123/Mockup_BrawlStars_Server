@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public class NetCharacterSystem : NetBaseComponentSystem<NetCharacter>
 	{
+		private int _characterCount = 0;
+
+		public override bool AddComponent(NetObjectId netObjectId, NetCharacter component)
+		{
+			component.SetTeamId(_characterCount++);
+			return base.AddComponent(netObjectId, component);
+		}
+
 		public override void Update()
 		{
 			if (Active is false)
@@ -30,7 +31,7 @@ namespace Server.Game
 			base.Reset();
 			foreach (var character in ComponentDict)
 			{
-				character.Position = World.Data.SpawnPoints[character.NetObjId.InstanceId];
+				character.Position = World.Data.SpawnPoints[character.TeamId];
 				character.Rotation = sQuaternion.identity;
 				character.Reset();
 			}

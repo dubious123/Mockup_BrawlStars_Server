@@ -24,12 +24,11 @@
 			FrameNum = -Config.FRAME_BUFFER_COUNT;
 		}
 
-		public override TeamType GetTeamType(NetObject netObj)
+		public override TeamType GetTeamType(int id)
 		{
-			var instanceId = netObj.ObjectId.InstanceId;
-			if (instanceId < 6)
+			if (id < Config.MAX_PLAYER_COUNT)
 			{
-				return instanceId % 2 == 0 ? TeamType.Blue : TeamType.Red;
+				return id % 2 == 0 ? TeamType.Blue : TeamType.Red;
 			}
 
 			Loggers.Error.Error("Something is wrong");

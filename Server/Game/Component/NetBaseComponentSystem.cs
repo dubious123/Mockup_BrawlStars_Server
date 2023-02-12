@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using static Enums;
-
-namespace Server.Game
+﻿namespace Server.Game
 {
 	public abstract class NetBaseComponentSystem<T> : INetUpdatable where T : NetBaseComponent
 	{
@@ -21,7 +13,7 @@ namespace Server.Game
 			World = world;
 		}
 
-		public bool AddComponent(NetObjectId netObjectId, T component)
+		public virtual bool AddComponent(NetObjectId netObjectId, T component)
 		{
 			return _componentDict.TryAdd(netObjectId, component);
 		}

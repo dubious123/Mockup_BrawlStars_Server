@@ -5,6 +5,7 @@
 		public readonly HashSet<NetProjectile> ActiveSet = new(120);
 		private readonly Stack<NetProjectile>[] _reservePool = new Stack<NetProjectile>[(int)NetObjectType.Projectile_Spike_StickAround - (int)NetObjectType.Projectile_Shelly_Buckshot + 1] { new(90), new(30), new(3 * Config.MAX_PLAYER_COUNT), new(18 * Config.MAX_PLAYER_COUNT), new(Config.MAX_PLAYER_COUNT) };
 		private readonly List<NetProjectile> _removeList = new(120);
+		private readonly List<NetProjectile> _addList = new(120);
 
 		public static int GetIndex(NetObjectType type)
 		{
@@ -25,7 +26,7 @@
 		{
 			var projectile = _reservePool[GetIndex(type)].Pop();
 			initFunc?.Invoke(projectile);
-			ActiveSet.Add(projectile);
+			_addList.Add(projectile);
 		}
 
 		public void Awake(NetObjectType type, int count, Action<int, NetProjectile> initFunc = null)
@@ -36,7 +37,7 @@
 			{
 				var projectile = _reservePool[GetIndex(type)].Pop();
 				initFunc?.Invoke(i, projectile);
-				ActiveSet.Add(projectile);
+				_addList.Add(projectile);
 			}
 		}
 
@@ -53,6 +54,7 @@
 				return;
 			}
 
+			AddInternal();
 			foreach (var p in ActiveSet)
 			{
 				p.Update();
@@ -68,6 +70,16 @@
 			{
 				p.Reset();
 			}
+		}
+
+		private void AddInternal()
+		{
+			foreach (var projectile in _addList)
+			{
+				ActiveSet.Add(projectile);
+			}
+
+			_addList.Clear();
 		}
 
 		private void RemoveInternal()

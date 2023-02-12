@@ -102,6 +102,7 @@ public class GameRoom
 		{
 			foreach (var player in Players)
 			{
+				//todo
 				if (player.InputBuffer.IsEmpty)
 				{
 					return;
@@ -175,7 +176,7 @@ public class GameRoom
 		_world.Update();
 		foreach (var player in _world.CharacterSystem.ComponentDict)
 		{
-			Loggers.Game.Information("Player [{0}]", player.NetObj.ObjectId.InstanceId);
+			Loggers.Game.Information("Player [{0}]", player.TeamId);
 			Loggers.Game.Information("Position [{0:x},{1:x},{2:x}]] : ", player.Position.x.RawValue, player.Position.y.RawValue, player.Position.z.RawValue);
 		}
 
@@ -257,7 +258,7 @@ public class GameRoom
 
 	private void OnPlayerDead(NetCharacter character)
 	{
-		Loggers.Game.Information("Player dead {0}", character.NetObjId.InstanceId);
+		Loggers.Game.Information("Player dead {0}", character.TeamId);
 	}
 
 	private void EndGame()

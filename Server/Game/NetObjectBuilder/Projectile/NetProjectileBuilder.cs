@@ -31,7 +31,7 @@
 				.SetOffsetAndRadius(sVector2.zero, (sfloat)0.3f);
 			obj.AddComponent<NetProjectile>()
 				.SetSpeed((sfloat)14)
-				.SetMaxDistance((sfloat)14);
+				.SetMaxDistance((sfloat)10f);
 			return obj;
 		}
 

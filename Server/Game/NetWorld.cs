@@ -61,7 +61,7 @@ namespace Server.Game
 		{
 			foreach (var player in CharacterSystem.ComponentDict)
 			{
-				player.UpdateInput(inputInfo.Inputs[player.NetObj.ObjectId.InstanceId]);
+				player.UpdateInput(inputInfo.Inputs[player.TeamId]);
 			}
 		}
 

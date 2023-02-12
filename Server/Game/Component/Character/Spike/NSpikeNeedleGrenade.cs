@@ -67,7 +67,7 @@
 		private void InitGranade(NetProjectile projectile)
 		{
 			projectile.NetObj.SetPositionAndRotation(Character.Position, Character.Rotation);
-			projectile.SetAngle(sfloat.Zero).SetOwner(Character.NetObj);
+			projectile.SetAngle((sfloat)90 * sMathf.Deg2Rad).SetOwner(Character.NetObj);
 			projectile.Collider.OnCollisionEnter = target => OnHit(projectile, target);
 			projectile.OnReachedMaxRadius = Explode;
 			projectile.NetObj.Active = true;
