@@ -94,6 +94,8 @@
 			projectile.NetObj.SetPositionAndRotation(Character.Position, sQuaternion.LookRotation(_targetDir, sVector3.up));
 			projectile.Collider.OnCollisionEnter = OnHit;
 			projectile.OnReachedMaxRadius = Explode;
+			projectile.NetObj.Active = true;
+			projectile.Collider.Active = false;
 		}
 
 		private void Explode(NetProjectile from)

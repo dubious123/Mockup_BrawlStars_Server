@@ -49,8 +49,11 @@
 		public static NetObject CreateProjectile_Spike_StickAround(NetObjectBuilder builder)
 		{
 			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_StickAround);
+			obj.AddComponent<NetCircleCollider2D>()
+				.SetOffsetAndRadius(sVector2.zero, (sfloat)2.5f);
 			obj.AddComponent<NetProjectile>()
-				.SetSpeed((sfloat)16);
+				.SetSpeed((sfloat)16)
+				.SetMaxDistance((sfloat)10f);
 			return obj;
 		}
 	}
