@@ -19,6 +19,8 @@
 			_builderDict.TryAdd(NetObjectType.Projectile_Spike_NeedleGranade, NetProjectileBuilder.CreateProjectile_SpikeNeedleGranade);
 			_builderDict.TryAdd(NetObjectType.Projectile_Spike_NeedleGranade_Needle, NetProjectileBuilder.CreateProjectile_SpikeNeedleGranade_Needle);
 			_builderDict.TryAdd(NetObjectType.Projectile_Spike_StickAround, NetProjectileBuilder.CreateProjectile_Spike_StickAround);
+			_builderDict.TryAdd(NetObjectType.Projectile_Spike_StickAround_Aoe, NetProjectileBuilder.CreateProjectile_Spike_StickAround_Aoe);
+
 		}
 
 		public NetObjectBuilder()

@@ -7,7 +7,7 @@
 			BasicAttack = new NSpikeNeedleGrenade(this);
 			SpecialAttack = new NSpikeStickAround(this);
 			base.Start();
-			SpecialAttack.CurrentPowerAmount = 1000000;
+			SpecialAttack.PowerUsagePerAttack = 0;
 		}
 
 		public override void Reset()

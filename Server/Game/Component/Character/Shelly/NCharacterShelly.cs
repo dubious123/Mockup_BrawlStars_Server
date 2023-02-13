@@ -5,6 +5,7 @@ public class NCharacterShelly : NetCharacter
 		BasicAttack = new NShellyBuckShot(this);
 		SpecialAttack = new NShellySuperShell(this);
 		base.Start();
+		SpecialAttack.PowerUsagePerAttack = 0;
 	}
 
 	public override void Reset()

@@ -3,13 +3,22 @@
 	public class NetProjectileSystem : NetBaseComponentSystem<NetProjectile>
 	{
 		public readonly HashSet<NetProjectile> ActiveSet = new(120);
-		private readonly Stack<NetProjectile>[] _reservePool = new Stack<NetProjectile>[(int)NetObjectType.Projectile_Spike_StickAround - (int)NetObjectType.Projectile_Shelly_Buckshot + 1] { new(90), new(30), new(3 * Config.MAX_PLAYER_COUNT), new(18 * Config.MAX_PLAYER_COUNT), new(Config.MAX_PLAYER_COUNT) };
+		private readonly Stack<NetProjectile>[] _reservePool =
+			new Stack<NetProjectile>[(int)NetObjectType.ProjectileEnd - (int)NetObjectType.ProjectileStart - 1];
 		private readonly List<NetProjectile> _removeList = new(120);
 		private readonly List<NetProjectile> _addList = new(120);
 
+		public NetProjectileSystem()
+		{
+			for (int i = 0; i < _reservePool.Length; ++i)
+			{
+				_reservePool[i] = new Stack<NetProjectile>();
+			}
+		}
+
 		public static int GetIndex(NetObjectType type)
 		{
-			return type - NetObjectType.Projectile_Shelly_Buckshot;
+			return type - NetObjectType.ProjectileStart - 1;
 		}
 
 		public void Reserve(NetObjectType type, int count)

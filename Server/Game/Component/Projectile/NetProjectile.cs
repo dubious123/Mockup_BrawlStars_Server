@@ -8,7 +8,6 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 	public int CurrentTravelTime => _currentTravelTime;
 	public int MaxTravelTime => _maxTravelTime;
 #endif
-
 	private sVector3 _moveDir;
 	private sfloat _speed, _maxDistance;
 	private int _currentTravelTime, _maxTravelTime;
@@ -21,7 +20,7 @@ public class NetProjectile : NetBaseComponent, INetUpdatable
 
 	public override void OnAwake()
 	{
-		_maxTravelTime = (int)(_maxDistance / _speed * 60);
+		_maxTravelTime = _speed == 0 ? int.MaxValue : (int)sMathf.ceilf(_maxDistance / _speed * 60);
 	}
 
 	public NetProjectile SetSpeed(sfloat speed)

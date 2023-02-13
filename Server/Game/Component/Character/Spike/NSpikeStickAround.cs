@@ -4,7 +4,7 @@
 	{
 		private readonly HitInfo _hitInfo;
 
-		private int _coHandle, _coExplodeHandle, _currentDelay, _attackCount, _attackInterval;
+		private int _coHandle, _coAoeHandle, _currentDelay, _attackCount, _attackInterval;
 		private bool _nowPressed, _beforePressed;
 		private sfloat _maxRadius;
 		private sVector3 _targetDir;
@@ -14,7 +14,7 @@
 			WaitFrameBeforePerform = 2;
 			WaitFrameAfterPerform = 2;
 			DelayFrameBetweenAttack = 5;
-			(_attackCount, _attackInterval) = (5, 60);
+			(_attackCount, _attackInterval) = (5, 30);
 			PowerUsagePerAttack = 100;
 			MaxPowerAmount = 100;
 			_maxRadius = (sfloat)7f;
@@ -25,6 +25,7 @@
 			};
 
 			World.ProjectileSystem.Reserve(NetObjectType.Projectile_Spike_StickAround, 1);
+			World.ProjectileSystem.Reserve(NetObjectType.Projectile_Spike_StickAround_Aoe, 1);
 		}
 
 		public override void Update()
@@ -39,7 +40,7 @@
 #if CLIENT
 		Holding = _beforePressed is true && _nowPressed is true && CanAttack();
 #endif
-			IsAttack = _beforePressed is true && _nowPressed is false && CanAttack() is false;
+			IsAttack = _beforePressed is true && _nowPressed is false && CanAttack();
 			if (IsAttack is false)
 			{
 				return;
@@ -90,20 +91,28 @@
 
 		private void InitGranade(NetProjectile projectile)
 		{
-			projectile.SetAngle((sfloat)90 * sMathf.Deg2Rad).SetOwner(Character.NetObj).SetMaxDistance(_targetDir.magnitude);
-			projectile.NetObj.SetPositionAndRotation(Character.Position, sQuaternion.LookRotation(_targetDir, sVector3.up));
-			projectile.Collider.OnCollisionEnter = OnHit;
+			projectile.SetAngle(sMathf.Atan2(_targetDir.z, _targetDir.x) * sMathf.Deg2Rad).SetOwner(Character.NetObj).SetMaxDistance(_targetDir.magnitude);
+			projectile.NetObj.SetPositionAndRotation(Character.Position, sQuaternion.identity);
 			projectile.OnReachedMaxRadius = Explode;
 			projectile.NetObj.Active = true;
-			projectile.Collider.Active = false;
 		}
 
 		private void Explode(NetProjectile from)
 		{
-			_coExplodeHandle = World.NetTiming.RunCoroutine(Co_Explode(from));
+			World.ProjectileSystem.Awake(NetObjectType.Projectile_Spike_StickAround_Aoe, (aoe) => InitAoe(aoe, from.Position));
 		}
 
-		private IEnumerator<int> Co_Explode(NetProjectile from)
+		private void InitAoe(NetProjectile aoe, sVector3 position)
+		{
+			aoe.NetObj.Position = position;
+			aoe.SetOwner(Character.NetObj);
+			aoe.Collider.OnCollisionEnter = OnHit;
+			aoe.Active = true;
+			aoe.Collider.Active = false;
+			_coAoeHandle = World.NetTiming.RunCoroutine(Co_Aoe(aoe));
+		}
+
+		private IEnumerator<int> Co_Aoe(NetProjectile from)
 		{
 			for (int i = 0; i < _attackCount; ++i)
 			{

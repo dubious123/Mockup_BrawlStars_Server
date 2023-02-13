@@ -49,11 +49,19 @@
 		public static NetObject CreateProjectile_Spike_StickAround(NetObjectBuilder builder)
 		{
 			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_StickAround);
-			obj.AddComponent<NetCircleCollider2D>()
-				.SetOffsetAndRadius(sVector2.zero, (sfloat)2.5f);
 			obj.AddComponent<NetProjectile>()
 				.SetSpeed((sfloat)8)
 				.SetMaxDistance((sfloat)10f);
+			return obj;
+		}
+
+		public static NetObject CreateProjectile_Spike_StickAround_Aoe(NetObjectBuilder builder)
+		{
+			var obj = builder.GetRawObject(NetObjectType.Projectile_Spike_StickAround_Aoe);
+			obj.AddComponent<NetCircleCollider2D>()
+				.SetOffsetAndRadius(sVector2.zero, (sfloat)2.25f);
+			obj.AddComponent<NetProjectile>()
+				.SetSpeed(sfloat.Zero);
 			return obj;
 		}
 	}
