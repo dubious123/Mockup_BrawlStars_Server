@@ -18,8 +18,8 @@ public class NShellySuperShell : NetSpecialAttack
 		_bulletAngle = (sfloat)40f;
 		_hitInfo = new HitInfo()
 		{
-			Damage = 25,
-			PowerChargeAmount = 20,
+			Damage = 320,
+			PowerChargeAmount = 9,
 			KnockbackDuration = 20,
 			KnockbackDistance = (sfloat)0.5f
 		};

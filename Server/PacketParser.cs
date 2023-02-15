@@ -1,5 +1,3 @@
-using Server.Logs;
-
 namespace Server
 {
 	public static class PacketParser

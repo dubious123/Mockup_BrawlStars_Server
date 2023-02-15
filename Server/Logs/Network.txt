@@ -1,16 +1,48 @@
-2023-02-14 02:13:06.946 +09:00 [INF] [server] connecting to 192.168.0.34:7840 completed
-2023-02-14 02:13:13.014 +09:00 [INF] [server] connecting to 192.168.0.34:7844 completed
-2023-02-14 02:14:07.815 +09:00 [INF] Closing[1]
-2023-02-14 02:14:07.816 +09:00 [INF] Session [1] close started
-2023-02-14 02:14:07.816 +09:00 [INF] Session [1] shut down started
-2023-02-14 02:14:07.817 +09:00 [INF] Session [1] shut down completed
-2023-02-14 02:14:07.817 +09:00 [INF] Session [1] disconnect started
-2023-02-14 02:14:07.818 +09:00 [INF] Session [1] disconnect completed
-2023-02-14 02:14:07.820 +09:00 [INF] Session [1] close completed
-2023-02-14 02:14:08.772 +09:00 [INF] Closing[2]
-2023-02-14 02:14:08.772 +09:00 [INF] Session [2] close started
-2023-02-14 02:14:08.772 +09:00 [INF] Session [2] shut down started
-2023-02-14 02:14:08.772 +09:00 [INF] Session [2] shut down completed
-2023-02-14 02:14:08.772 +09:00 [INF] Session [2] disconnect started
-2023-02-14 02:14:08.772 +09:00 [INF] Session [2] disconnect completed
-2023-02-14 02:14:08.775 +09:00 [INF] Session [2] close completed
+2023-02-15 16:24:40.702 +09:00 [INF] [server] connecting to 127.0.0.1:14110 completed
+2023-02-15 16:24:41.609 +09:00 [INF] [server] connecting to 127.0.0.1:14113 completed
+2023-02-15 16:24:42.511 +09:00 [INF] [server] connecting to 127.0.0.1:14116 completed
+2023-02-15 16:24:43.429 +09:00 [INF] [server] connecting to 127.0.0.1:14119 completed
+2023-02-15 16:24:44.359 +09:00 [INF] [server] connecting to 127.0.0.1:14122 completed
+2023-02-15 16:24:45.230 +09:00 [INF] [server] connecting to 127.0.0.1:14125 completed
+2023-02-15 16:25:39.559 +09:00 [INF] Closing[2]
+2023-02-15 16:25:39.559 +09:00 [INF] Session [2] close started
+2023-02-15 16:25:39.561 +09:00 [INF] Session [2] shut down started
+2023-02-15 16:25:39.561 +09:00 [INF] Session [2] shut down completed
+2023-02-15 16:25:39.562 +09:00 [INF] Session [2] disconnect started
+2023-02-15 16:25:39.562 +09:00 [INF] Session [2] disconnect completed
+2023-02-15 16:25:39.564 +09:00 [INF] Session [2] close completed
+2023-02-15 16:25:40.350 +09:00 [INF] Closing[1]
+2023-02-15 16:25:40.350 +09:00 [INF] Session [1] close started
+2023-02-15 16:25:40.350 +09:00 [INF] Session [1] shut down started
+2023-02-15 16:25:40.350 +09:00 [INF] Session [1] shut down completed
+2023-02-15 16:25:40.350 +09:00 [INF] Session [1] disconnect started
+2023-02-15 16:25:40.350 +09:00 [INF] Session [1] disconnect completed
+2023-02-15 16:25:40.352 +09:00 [INF] Session [1] close completed
+2023-02-15 16:25:41.697 +09:00 [INF] Closing[3]
+2023-02-15 16:25:41.697 +09:00 [INF] Session [3] close started
+2023-02-15 16:25:41.697 +09:00 [INF] Session [3] shut down started
+2023-02-15 16:25:41.697 +09:00 [INF] Session [3] shut down completed
+2023-02-15 16:25:41.697 +09:00 [INF] Session [3] disconnect started
+2023-02-15 16:25:41.697 +09:00 [INF] Session [3] disconnect completed
+2023-02-15 16:25:41.698 +09:00 [INF] Session [3] close completed
+2023-02-15 16:25:43.246 +09:00 [INF] Closing[6]
+2023-02-15 16:25:43.246 +09:00 [INF] Session [6] close started
+2023-02-15 16:25:43.246 +09:00 [INF] Session [6] shut down started
+2023-02-15 16:25:43.246 +09:00 [INF] Session [6] shut down completed
+2023-02-15 16:25:43.246 +09:00 [INF] Session [6] disconnect started
+2023-02-15 16:25:43.246 +09:00 [INF] Session [6] disconnect completed
+2023-02-15 16:25:43.248 +09:00 [INF] Session [6] close completed
+2023-02-15 16:25:44.063 +09:00 [INF] Closing[5]
+2023-02-15 16:25:44.063 +09:00 [INF] Session [5] close started
+2023-02-15 16:25:44.063 +09:00 [INF] Session [5] shut down started
+2023-02-15 16:25:44.063 +09:00 [INF] Session [5] shut down completed
+2023-02-15 16:25:44.063 +09:00 [INF] Session [5] disconnect started
+2023-02-15 16:25:44.063 +09:00 [INF] Session [5] disconnect completed
+2023-02-15 16:25:44.064 +09:00 [INF] Session [5] close completed
+2023-02-15 16:25:44.966 +09:00 [INF] Closing[4]
+2023-02-15 16:25:44.966 +09:00 [INF] Session [4] close started
+2023-02-15 16:25:44.966 +09:00 [INF] Session [4] shut down started
+2023-02-15 16:25:44.966 +09:00 [INF] Session [4] shut down completed
+2023-02-15 16:25:44.966 +09:00 [INF] Session [4] disconnect started
+2023-02-15 16:25:44.966 +09:00 [INF] Session [4] disconnect completed
+2023-02-15 16:25:44.968 +09:00 [INF] Session [4] close completed

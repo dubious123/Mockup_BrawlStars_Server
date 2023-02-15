@@ -7,7 +7,10 @@ public class JobMgr
 
 	private JobMgr() { }
 
-	public static void Init() { }
+	public static void Init()
+	{
+		CreatejobQueue(Define.PacketSendQueueName, true, double.Epsilon);
+	}
 
 	public static JobQueue CreatejobQueue(string name, bool startNow, double interval)
 	{

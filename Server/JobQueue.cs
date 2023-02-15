@@ -14,6 +14,7 @@ public class JobQueue
 		_name = name;
 		_timer = new System.Timers.Timer(interval);
 		_timer.Elapsed += Loop;
+		_timer.AutoReset = false;
 	}
 
 	public void Start()
@@ -38,5 +39,7 @@ public class JobQueue
 			if (_jobQueue.TryDequeue(out var action))
 				action.Invoke();
 		}
+
+		_timer.Start();
 	}
 }

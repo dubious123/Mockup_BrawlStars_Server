@@ -12,14 +12,14 @@
 			ReloadFrame = 120;
 			_granadeHitInfo = new HitInfo()
 			{
-				Damage = 50,
-				PowerChargeAmount = 50,
+				Damage = 500,
+				PowerChargeAmount = 15,
 			};
 
 			_spikeHitInfo = new HitInfo()
 			{
-				Damage = 12,
-				PowerChargeAmount = 15,
+				Damage = 560,
+				PowerChargeAmount = 10,
 			};
 
 			World.ProjectileSystem.Reserve(NetObjectType.Projectile_Spike_NeedleGranade, MaxShellCount);

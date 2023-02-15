@@ -111,6 +111,7 @@
 
 		private void HandleMatchOver()
 		{
+			World.CharacterSystem.Active = false;
 			OnMatchOver?.Invoke(GetMatchResult());
 		}
 

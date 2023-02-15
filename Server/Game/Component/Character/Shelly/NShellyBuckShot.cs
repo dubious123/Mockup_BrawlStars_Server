@@ -20,8 +20,8 @@ public class NShellyBuckShot : NetBasicAttack
 		_degreeDelta = _bulletAngle / _palletCountPerShell;
 		_hitInfo = new HitInfo()
 		{
-			Damage = 20,
-			PowerChargeAmount = 50,
+			Damage = 300,
+			PowerChargeAmount = 10,
 		};
 
 		World.ProjectileSystem.Reserve(NetObjectType.Projectile_Shelly_Buckshot, MaxShellCount * _palletCountPerShell);

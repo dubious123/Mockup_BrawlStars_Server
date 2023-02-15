@@ -18,7 +18,6 @@ public class GameRoom
 	private int _playerCount = 0;
 	private GameState _state;
 	private GameFrameInfo _frameInfo = new(Config.MAX_PLAYER_COUNT);
-	private S_GameFrameInfo _frameInfoPacket = new();
 
 	public GameRoom(int id, ushort mapId)
 	{
@@ -145,6 +144,8 @@ public class GameRoom
 	private void HandleOneFrame()
 	{
 		Loggers.Game.Information("---------------Frame [{0}]----------------", _world.GameRule.FrameNum);
+		//todo obj pooling
+		var packet = new S_GameFrameInfo();
 		foreach (var player in _players)
 		{
 			if (player is null)
@@ -162,16 +163,17 @@ public class GameRoom
 			}
 #endif
 			_frameInfo.Inputs[player.TeamId] = input;
-			_frameInfoPacket.C2STTime[player.TeamId] = input.C2STTime;
-			_frameInfoPacket.PlayerMoveDirXArr[player.TeamId] = input.MoveInput.x.RawValue;
-			_frameInfoPacket.PlayerMoveDirYArr[player.TeamId] = input.MoveInput.z.RawValue;
-			_frameInfoPacket.PlayerLookDirXArr[player.TeamId] = input.LookInput.x.RawValue;
-			_frameInfoPacket.PlayerLookDirYArr[player.TeamId] = input.LookInput.z.RawValue;
-			_frameInfoPacket.ButtonPressedArr[player.TeamId] = input.ButtonInput;
+			packet.C2STTime[player.TeamId] = input.C2STTime;
+			packet.PlayerMoveDirXArr[player.TeamId] = input.MoveInput.x.RawValue;
+			packet.PlayerMoveDirYArr[player.TeamId] = input.MoveInput.z.RawValue;
+			packet.PlayerLookDirXArr[player.TeamId] = input.LookInput.x.RawValue;
+			packet.PlayerLookDirYArr[player.TeamId] = input.LookInput.z.RawValue;
+			packet.ButtonPressedArr[player.TeamId] = input.ButtonInput;
 		}
 
-		_frameInfoPacket.FrameNum = _world.GameRule.FrameNum;
-		Broadcast(_frameInfoPacket);
+		packet.FrameNum = _world.GameRule.FrameNum;
+		packet.ServerSendTime = DateTime.UtcNow.ToFileTimeUtc();
+		Broadcast(packet);
 		_world.UpdateInputs(_frameInfo);
 		_world.Update();
 		foreach (var player in _world.CharacterSystem.ComponentDict)

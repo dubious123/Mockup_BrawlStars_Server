@@ -80,6 +80,15 @@
 			{
 				p.Reset();
 			}
+
+			AddInternal();
+			foreach (var p in ActiveSet)
+			{
+				Return(p);
+			}
+
+			ActiveSet.Clear();
+			RemoveInternal();
 		}
 
 		private void AddInternal()

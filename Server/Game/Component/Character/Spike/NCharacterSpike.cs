@@ -7,13 +7,12 @@
 			BasicAttack = new NSpikeNeedleGrenade(this);
 			SpecialAttack = new NSpikeStickAround(this);
 			base.Start();
-			SpecialAttack.PowerUsagePerAttack = 0;
 		}
 
 		public override void Reset()
 		{
 			base.Reset();
-			MaxHp = 250;
+			MaxHp = 2400;
 			Hp = MaxHp;
 			MoveSpeed = (sfloat)6f;
 		}
